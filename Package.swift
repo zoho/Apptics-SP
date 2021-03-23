@@ -17,7 +17,10 @@ let package = Package(
         ),
         .target(
             name: "scripts",
-            path:"scripts"
-        )
+            path:"scripts",
+            exclude:["Apptics.xcframework"]
+        ),
+        
     ]
 )
+
