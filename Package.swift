@@ -8,18 +8,19 @@ let package = Package(
     products: [
         .library(
             name: "Apptics",
-            targets: ["Apptics"]),
+            targets: ["Apptics"]
+        )
     ],
     targets: [
         .binaryTarget(
             name: "Apptics",
             path: "Apptics.xcframework"
-        ),
-        .target(
-            name: "scripts",
-            path:"scripts",
-            exclude:["Apptics.xcframework"]
-        ),
+        )
+//        ,
+//        .target(
+//            name: "scripts",
+//            path:"scripts"
+//        ),
         
     ]
 )
