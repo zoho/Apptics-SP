@@ -281,7 +281,7 @@
 		</data>
 		<key>Headers/APBundle.h</key>
 		<data>
-		iyQA2QqWziqhvzXeSkaJJhb/+1Q=
+		x9eE7rSseW7YzSM7JRn/irWDRJs=
 		</data>
 		<key>Headers/APCustomHandler.h</key>
 		<data>
@@ -313,11 +313,11 @@
 		</data>
 		<key>Headers/Analytics.h</key>
 		<data>
-		SHjX7ojgEByQHg/1cjbGXNgDQQ4=
+		s3KutelXTw3J95OUwPnMwRI2B2o=
 		</data>
 		<key>Headers/Apptics.h</key>
 		<data>
-		ltkYsCbpKzRT3QZSTkj8kmmje1c=
+		smPOwfw/VI+bFt6V7zRU2YdRdpo=
 		</data>
 		<key>Headers/AppticsConfig.h</key>
 		<data>
@@ -437,7 +437,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EOSJJVVcGaqdeIJf2Z/5+exkn/0=
+		lMfKb52seSnOAd/E7x/UtVEhyEE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -889,11 +889,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iyQA2QqWziqhvzXeSkaJJhb/+1Q=
+			x9eE7rSseW7YzSM7JRn/irWDRJs=
 			</data>
 			<key>hash2</key>
 			<data>
-			yOK/13ffIEVulvQZwhE76eRtkmcYG+h7C3BCa2m5XiI=
+			JTF3ecWad6tjuYMiv+ZVIkoJ2c2854/v749DzqKPc+Y=
 			</data>
 		</dict>
 		<key>Headers/APCustomHandler.h</key>
@@ -977,22 +977,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SHjX7ojgEByQHg/1cjbGXNgDQQ4=
+			s3KutelXTw3J95OUwPnMwRI2B2o=
 			</data>
 			<key>hash2</key>
 			<data>
-			G2yOogPrLm51VT/u8hjKbklYJ7cc0igMghSAYs5kHFw=
+			q8IhSrdn4vW+o9aTbQLIVVqySQ3ZF5FanRNNc1EoLz8=
 			</data>
 		</dict>
 		<key>Headers/Apptics.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ltkYsCbpKzRT3QZSTkj8kmmje1c=
+			smPOwfw/VI+bFt6V7zRU2YdRdpo=
 			</data>
 			<key>hash2</key>
 			<data>
-			mE0ALzxDM83+0lNbaeU++GD0uZpYfQnA5fpTMt9/B38=
+			DSxmzRKpgQvZubFbpzNyEYk35hz4V3UhvvSSKe8761Y=
 			</data>
 		</dict>
 		<key>Headers/AppticsConfig.h</key>

@@ -224,8 +224,6 @@ typedef void (^internbgNonFatalRequestSuccessBlock)(void);
 - (NSString *_Nonnull) getMamForRequest;
 
 - (NSString *) getCurrentUserId;
-
-- (APPrivacyStatus) getPrivacyStatus;
     
 - (void) showPrivacyConsent : (id _Nullable) viewController;
 

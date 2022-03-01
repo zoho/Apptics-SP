@@ -48,9 +48,9 @@
 
 #define __FILENAME__ (strrchr(__FILE__, '/') ? strrchr(__FILE__, '/') + 1 : __FILE__)
 
-#define APTrackError(args) AP_TrackError(__FILENAME__,__LINE__,__func__,"error",args);
+#define trackError(args) APTrackError(__FILENAME__,__LINE__,__func__,"error",args);
 
-#define APTrackException(args) AP_TrackException(__FILENAME__,__LINE__,__func__,"exception",args);
+#define trackException(args) APTrackException(__FILENAME__,__LINE__,__func__,"exception",args);
 
 FOUNDATION_EXPORT double AppticsVersionNumber;
 
@@ -179,12 +179,6 @@ NS_EXTENSION_UNAVAILABLE("don't use this method in your extensions")
 #pragma mark - Device consent
 
 /**
- *  Get privacy status
- */
-
-+(APPrivacyStatus) getPrivacyStatus;
-
-/**
  *  Show privacy concent
  */
 + (void) showPrivacyConsent;
@@ -217,7 +211,7 @@ NS_EXTENSION_UNAVAILABLE("don't use this method in your extensions")
  @param error Error.
  */
 
-void AP_TrackError(const char *file, int lineNumber, const char *functionName,const char *type, NSError *error,...);
+void APTrackError(const char *file, int lineNumber, const char *functionName,const char *type, NSError *error,...);
 
 /**
  Tracks Non-fatal and handled exceptions
@@ -225,7 +219,7 @@ void AP_TrackError(const char *file, int lineNumber, const char *functionName,co
  @param exception A handled exception
  */
 
-void AP_TrackException(const char *file, int lineNumber, const char *functionName,const char *type, NSException *exception,...);
+void APTrackException(const char *file, int lineNumber, const char *functionName,const char *type, NSException *exception,...);
 
 #pragma mark — User apis
 
