@@ -5,37 +5,52 @@ Apptics is a library that enables your app to send in-app usage reports and data
 
 The minimum support is for iOS 9.0, macOS 10.9, tvOS 9.0 and watchOS 3.0. 
 Supported Swift version - 4.0.
-Supported devices - iPhone, iPod, iPad, Mac, Apple watch and Apple tv.
-min Pod version - 1.5.3 
+Supported devices - iPhone, iPod, iPad, Mac, Apple watch and Apple tv. 
 min Xcode version 9.0
  
 ## Getting Started
 
-* All you need to do is create a project in the Apptics console using this link [link](https://apptics.zoho.com/ac/admin/setup).
+* All you need to do is create a project in the Apptics console using this link [link](https://apptics.zoho.com/ac/admin/setup) 
 
-* You can use cocoapods to install Apptics in your project. 
+### Installation Option 1: Swift Package Manager
 
-* Your Podfile should look something like this.
+* Use Swift Package Manager to integrate Apptics in your project.
+    * Add a package by selecting File → Add Packages… in Xcode’s menu bar.
     
-          target '[TARGET NAME]' do
-            pod 'Apptics'
-          end
+    * Enter the package URL of Apptics-SP repository.
+                        
+            https://github.com/zoho/Apptics-SP
+    
+    * Next, set the Dependency Rule to be Up to Next Major Version.
+    * Then, select Add Package.    
+    * Choose the package of Apptics that you want installed. 
+    
+### “Run Script” Build Phases
+* Click on the project, then on the main target, then on the “Build Phases” tab. 
+* Click the + at the top left to create a new build phase; choose “New Run Script Phase”.
+* Triple-click on “Run Script” to select it, and type “Apptics pre build”.
+* Drag the new phase as close to the top of the list as possible. I’d prefer to put it at the very top, but Xcode reserves the topmost position for “Target Dependencies.”
+* Click the triangle next to your build phase title to expand the phase. Make sure Shell is set to /bin/sh and “Run script only when installing” is not checked.
+* Click into the black script box and paste in the following script. 
 
-          post_install do |installer|
-            puts system("sh ./Pods/Apptics/native/scripts/postinstaller --prefix=\"AP\" --target-name=\"[MAIN TARGET NAME STRING]\"")    
-          end
-          
-     Parameters:
-     * `--project-name`       String - Provide the name of the project
-     * `--target-name`         String - Provide the name of the target
-     * `--project-file`            String - Provide the path of the xcproject file
-     * `--prefix`                    String - **AppticsExtension.* will be prefixed by this value
-     * `--use-swift`              Void - Generate class for swift
-     * `--help`                      Show help banner of specified command
-     
-     The script `postinstaller` will add **AppticsExtension file(s) to your project, the class will have the events meta data.  
-     
-* Run `pod install` and make sure you are connected to the Zoho-corp lan or wifi to access the Git repo. 
+        #Pre build script will register the app version, upload dSYM file to the server and add apptics specific information to the main info.plist which will be used by the SDK.
+        sh "${BUILD_DIR%Build/*}SourcePackages/checkouts/Apptics-SP/scripts/run" --upload-symbols-for-configurations="Release, Appstore" 
+
+    Usage:
+
+        run --upload-symbols-for-configurations="Release, Appstore" --config-file-path="YOUR_PATH/apptics-config.plist" --app-group-identifier="group.com.company.application [Optional]"
+        
+    Parameters:
+
+   * `--upload-symbols-for-configurations` String - Provide the configurations separated by comma for which the dSYM files should be uploaded.
+   * `--config-file-path` String - Provide the path of apptics-config.plist file if to any sub directory instead of root.
+   * `--app-group-identifier` String - App group identifier to support app extensions.
+
+### Installation Option 2: CocoaPods
+
+* Please visit [Apptics Github repo](https://github.com/zoho/Apptics) and follow the steps.
+
+## Next 
 
 * Create a new application or select an existing application from the quickstart page to download  the `apptics-config.plist`. Move the `apptics-config.plist` to the root of your Xcode project and add it to the necessary targets.
 
@@ -57,24 +72,6 @@ To get proper symbolicated crashes, make sure your build settings have the follo
 * Strip Style - **Debugging Symbols**
 * Debug information format - **Dwarf with dSYM file**
 
-Create a run script 
-* Add these lines to your Podfile 
-
-        target '[TARGET NAME]' do
-            
-            pod 'Apptics' 
-            
-            script_phase :name => 'Apptics pre build', :script => 'sh "./Pods/Apptics-SDK/scripts/regappversion" --debug-mode=[DEBUG MODE INT] --target-name="[TARGET NAME STRING]"', :execution_position => :before_compile  
-            
-            script_phase :name => 'Apptics post build', :script => 'bash "./Pods/Apptics-SDK/scripts/run" --upload-symbols=[STATUS BOOL] --release-configurations="[CONFIGURATIONS COMMA SEPARATED STRING]"', :execution_position => :after_compile
-            
-        end        
-
-* `--debug-mode` 0 for development / 1 for production / 2 for testing 
-* `--upload-symbols` based on this parameter we decide to upload dsym to the server. 
-* `--release-configurations` is a optional param, pass your configuration name Debug, Release or your custom name with comma separated for which the dSYMs will be uploaded without any prompt during App store submission process via CI, CT and CD.
-
-
 # Features
 
 ## Session Tracking:
@@ -87,7 +84,7 @@ In-app event is tracking the post-install activities using the custom events.
 
 ## Screen Tracking: 
 
-Screens are automatically tracked and the time spent on each screen is noted in iOS and tvOS. You can track screens manually using our [apis](https://prezoho.zohocorp.com/apptics/resources/iOS/screens.html)    
+Screens are automatically tracked and the time spent on each screen is noted in iOS and tvOS. You can track screens manually using our [apis](https://prezoho.zohocorp.com/apptics/resources/SDK/iOS/screens.html)    
 ***Note: Viewcontrollers aren't tracked properly if you use third party containment controllers like DDMenuController, IIViewdeckController etc. To ensure to get a proper tracking of viewcontroller override `viewDidAppear` and `viewWillDisappear` in all your viewcontrollers.***
 
 ## Crash Reporting: 
@@ -129,22 +126,33 @@ You can use our protocols to customize the Analytics Settings, App updates and F
 
 ## Callbacks 
 
-Get callbacks for all the events at a single point by extending `ZACustomHandler`. It deals with user consent , crash consent, feedback, and ratings & reviews.
+Get callbacks for all the events at a single point by extending `APCustomHandler`. It deals with user consent , crash consent, feedback, and ratings & reviews.
 
 ## Feedback and BugReporting
 
-A seperate module that does "Shake to Feedback", please check if it suits your needs [here](https://prezoho.zohocorp.com/apptics/resources/iOS/inapp-feedback.html).
+A seperate module that does "Shake to Feedback", please check if it suits your needs [here](https://prezoho.zohocorp.com/apptics/resources/SDK/iOS/in_app_feedback.html).
         
 ## App Updates 
 
 Now you can prompt user to update to the latest version of your app from the App Store.  
 
-Please check our  guide before you start [here](https://prezoho.zohocorp.com/apptics/resources/iOS/inapp-updates.html).
+Please check our  guide before you start [here](https://prezoho.zohocorp.com/apptics/resources/SDK/iOS/in_app_updates.html).
 
 ## Ratings and Reviews
 
 Engage with your users and learn about their experience. Promopt them to rate your app after they have fulfilled the configured criteria.
 
-Check how to configure automatic ratings [here](https://prezoho.zohocorp.com/apptics/resources/iOS/inapp-ratings.html).
+Check how to configure automatic ratings [here](https://prezoho.zohocorp.com/apptics/resources/SDK/iOS/in_app_ratings.html).
+
+    
+## To know more!
+
+For more information about how Apptics works, checkout the below links.    
+
+* [Getting Started](https://prezoho.zohocorp.com/apptics/resources/user-guide/getting-started.html)
+* [iOS user guide](https://prezoho.zohocorp.com/apptics/resources/SDK/iOS/integration.html) 
+* [Sample app](https://github.com/zoho/Apptics/tree/master/AppticsDemo)
+
+For any assistance, contact Apptics at [support@zohoapptics.com](support@zohoapptics.com)
 
     
