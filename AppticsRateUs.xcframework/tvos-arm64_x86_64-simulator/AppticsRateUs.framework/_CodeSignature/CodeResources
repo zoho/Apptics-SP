@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/AppticsRateUs.h</key>
 		<data>
-		rxvCLQjnWQHV1XKj5m1xuMbN4qc=
+		PdZdBcymQCEatxMXNJHTVgwiYNU=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -61,11 +61,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rxvCLQjnWQHV1XKj5m1xuMbN4qc=
+			PdZdBcymQCEatxMXNJHTVgwiYNU=
 			</data>
 			<key>hash2</key>
 			<data>
-			hR85iVtg2yN0yzSWA78ZUTVe3zpMGemp0b3RmKm1WsE=
+			d/lNHeofL1OwUa2bcH21ZSKboXX7ApARdOUo1OLKIUY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
