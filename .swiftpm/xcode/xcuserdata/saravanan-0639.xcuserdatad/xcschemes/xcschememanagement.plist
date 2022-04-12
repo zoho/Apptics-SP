@@ -55,5 +55,53 @@
 			<integer>9</integer>
 		</dict>
 	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>Apptics</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AppticsApiTracker</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AppticsCrashKit</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AppticsEventTracker</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AppticsFeedbackKit</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AppticsInAppUpdate</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AppticsRateUs</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AppticsRemoteConfig</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AppticsScreenTracker</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>
