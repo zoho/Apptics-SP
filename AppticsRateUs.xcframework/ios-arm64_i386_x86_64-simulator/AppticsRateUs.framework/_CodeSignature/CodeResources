@@ -8,13 +8,17 @@
 		<data>
 		YOAbUqhPe7A9fb3z+yg2UVdEuiA=
 		</data>
+		<key>Headers/ARCustomHandler.h</key>
+		<data>
+		93kPa3iZbTZvCVULNyHmVV3i+jk=
+		</data>
 		<key>Headers/AppticsRateUs.h</key>
 		<data>
 		3hDHQpvdhTmpcf2dJMM5+hKJnOQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		q14Z1Uxe6Wj+lQuk3rUC7uQIDHo=
+		2k7rgZzKe9BHwnpHugg+cKHAppo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -32,6 +36,17 @@
 			<key>hash2</key>
 			<data>
 			LUmtUf2kfzmUjjKIXOHyCQ8o5QPhmsk9wK0X1jYwo/o=
+			</data>
+		</dict>
+		<key>Headers/ARCustomHandler.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			93kPa3iZbTZvCVULNyHmVV3i+jk=
+			</data>
+			<key>hash2</key>
+			<data>
+			G8+UaL9CIxH7kkCJEjK3Fju4MAKykXcrhQm0mAhxefY=
 			</data>
 		</dict>
 		<key>Headers/AppticsRateUs.h</key>

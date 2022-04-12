@@ -8,79 +8,78 @@ let package = Package(
     platforms: [.macOS(.v10_10), .iOS(.v9), .tvOS(.v9), .watchOS(.v2)],
     products: [
         .library(
-            name: "AppticsAnalytics",
-            targets: ["AppticsAnalyticsTarget"]
+            name: "Apptics",
+            targets: ["Apptics"]
         ),
         .library(
             name: "AppticsEventTracker",
-            targets: ["AppticsEventTrackerTarget"]
+            targets: ["AppticsEventTracker"]
         ),
         .library(
             name: "AppticsScreenTracker",
-            targets: ["AppticsScreenTrackerTarget"]
+            targets: ["AppticsScreenTracker"]
         ),
         .library(
             name: "AppticsCrashKit",
-            targets: ["AppticsCrashKitTarget"]
+            targets: ["AppticsCrashKit"]
         ),
         .library(
             name: "AppticsFeedbackKit",
-            targets: ["AppticsFeedbackKitTarget"]
+            targets: ["AppticsFeedbackKit"]
         ),
         .library(
             name: "AppticsInAppUpdate",
-            targets: ["AppticsInAppUpdateTarget"]
+            targets: ["AppticsInAppUpdate"]
         ),
         .library(
             name: "AppticsRateUs",
-            targets: ["AppticsRateUsTarget"]
+            targets: ["AppticsRateUs"]
         ),
         .library(
             name: "AppticsRemoteConfig",
-            targets: ["AppticsRemoteConfigTarget"]
+            targets: ["AppticsRemoteConfig"]
         ),
         .library(
             name: "AppticsApiTracker",
-            targets: ["AppticsApiTrackerTarget"]
+            targets: ["AppticsApiTracker"]
         )
     ],
     targets: [
         .binaryTarget(
-            name: "AppticsAnalyticsTarget",
+            name: "Apptics",
             path: "Apptics.xcframework"
         ),
         .binaryTarget(
-            name: "AppticsEventTrackerTarget",
+            name: "AppticsEventTracker",
             path: "AppticsEventTracker.xcframework"
         ),
         .binaryTarget(
-            name: "AppticsScreenTrackerTarget",
+            name: "AppticsScreenTracker",
             path: "AppticsScreenTracker.xcframework"
         ),
         .binaryTarget(
-            name: "AppticsCrashKitTarget",
+            name: "AppticsCrashKit",
             path: "AppticsCrashKit.xcframework"
         ),
         .binaryTarget(
-            name: "AppticsFeedbackKitTarget",
+            name: "AppticsFeedbackKit",
             path: "AppticsFeedbackKit.xcframework"
         ),
         .binaryTarget(
-            name: "AppticsInAppUpdateTarget",
+            name: "AppticsInAppUpdate",
             path: "AppticsInAppUpdate.xcframework"
         ),
         .binaryTarget(
-            name: "AppticsRateUsTarget",
+            name: "AppticsRateUs",
             path: "AppticsRateUs.xcframework"
         ),
         .binaryTarget(
-            name: "AppticsRemoteConfigTarget",
+            name: "AppticsRemoteConfig",
             path: "AppticsRemoteConfig.xcframework"
         ),
         .binaryTarget(
-            name: "AppticsApiTrackerTarget",
+            name: "AppticsApiTracker",
             path: "AppticsApiTracker.xcframework"
         )
     ]
 )
-

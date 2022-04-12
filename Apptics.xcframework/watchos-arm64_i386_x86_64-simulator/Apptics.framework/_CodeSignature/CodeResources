@@ -19,11 +19,11 @@
 		</data>
 		<key>AppticsResources_watchOS.bundle/Info.plist</key>
 		<data>
-		lE/6SGuXB647NyuUm09ge2nK4wE=
+		Jewej53dJaT+eXTJpYN0TxOb6H8=
 		</data>
 		<key>AppticsResources_watchOS.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		/ligF42mVjYLrTLuIBAV4FPmyKE=
+		s+e+DbdvK1ZuxSXnA9rRsKPMVB8=
 		</data>
 		<key>AppticsResources_watchOS.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -31,7 +31,7 @@
 		</data>
 		<key>AppticsResources_watchOS.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		yiHlsNTIIFugMJ45lXgLBx0lZ8s=
+		/xcHZhoX9a1dae8Lc97MravYfrM=
 		</data>
 		<key>AppticsResources_watchOS.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -313,7 +313,7 @@
 		</data>
 		<key>Headers/Analytics.h</key>
 		<data>
-		SHjX7ojgEByQHg/1cjbGXNgDQQ4=
+		cL4M8fbLhPkHgICepiwzJGXCnls=
 		</data>
 		<key>Headers/Apptics.h</key>
 		<data>
@@ -341,7 +341,7 @@
 		</data>
 		<key>Headers/ZAAESCrypto.h</key>
 		<data>
-		AoM8N6eB0PjmQ7h3Yyrjuc50SiA=
+		L/wfFX1kRNGsH1RjPuv72qBE81E=
 		</data>
 		<key>Headers/ZAAlertStyle.h</key>
 		<data>
@@ -353,7 +353,7 @@
 		</data>
 		<key>Headers/ZAConstants.h</key>
 		<data>
-		QyZPYvJjxuJ7zwdZ55GIaZ/tEKc=
+		q1yQ0Fez5GPuEIWiSJPKMeNQSFc=
 		</data>
 		<key>Headers/ZAEngagementsUploadOperation.h</key>
 		<data>
@@ -377,7 +377,7 @@
 		</data>
 		<key>Headers/ZAGlobalQueue.h</key>
 		<data>
-		IQFNy297TfUf+muGHaKPIWY53F4=
+		0gAY+Q4+oDzskvITkZIWINVH6NQ=
 		</data>
 		<key>Headers/ZAJSONString.h</key>
 		<data>
@@ -409,7 +409,7 @@
 		</data>
 		<key>Headers/ZAPIIManager.h</key>
 		<data>
-		vtVteoZWCIGxUJHP52sjo0oyIK0=
+		tjSeCRqTOI4hjrfCdcod4AcMZZQ=
 		</data>
 		<key>Headers/ZAPIManager.h</key>
 		<data>
@@ -437,7 +437,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		TzJIeXgUjx4mRN/u9NUgqSD6eQ0=
+		urvZ4rEJ0srWE3F23kf45W1cMec=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -474,22 +474,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lE/6SGuXB647NyuUm09ge2nK4wE=
+			Jewej53dJaT+eXTJpYN0TxOb6H8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Kn6Q8qXrA7FzmdLE5enMVQNfV4U7tO6ErMbXEfxU0Gs=
+			Uy1tIFReB8S3ksozOgfHdG+zzXz+2NRv+OxGgq/WX3E=
 			</data>
 		</dict>
 		<key>AppticsResources_watchOS.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/ligF42mVjYLrTLuIBAV4FPmyKE=
+			s+e+DbdvK1ZuxSXnA9rRsKPMVB8=
 			</data>
 			<key>hash2</key>
 			<data>
-			0XZXPyLOnrBS4U+ZPWUBes3+KEzS8QGI32KkLkbFRO8=
+			Tt4CFVKQ9PSAjH7zUADONET5eMFUKykfPUqDFHXmlps=
 			</data>
 		</dict>
 		<key>AppticsResources_watchOS.bundle/_CodeSignature/CodeRequirements</key>
@@ -507,11 +507,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yiHlsNTIIFugMJ45lXgLBx0lZ8s=
+			/xcHZhoX9a1dae8Lc97MravYfrM=
 			</data>
 			<key>hash2</key>
 			<data>
-			7wVwky3VRtkoNmc/+/gaqY3VvQHFVtSRYZIsodK/VoA=
+			guUao3pz5+7us5zS0gBTNLGMXTXrDvknJNiHYn4MyVc=
 			</data>
 		</dict>
 		<key>AppticsResources_watchOS.bundle/_CodeSignature/CodeResources</key>
@@ -977,11 +977,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SHjX7ojgEByQHg/1cjbGXNgDQQ4=
+			cL4M8fbLhPkHgICepiwzJGXCnls=
 			</data>
 			<key>hash2</key>
 			<data>
-			G2yOogPrLm51VT/u8hjKbklYJ7cc0igMghSAYs5kHFw=
+			PqLFAHGQojsuni/PTTQFq4ry21hNheK7YwBs84WcjR8=
 			</data>
 		</dict>
 		<key>Headers/Apptics.h</key>
@@ -1054,11 +1054,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AoM8N6eB0PjmQ7h3Yyrjuc50SiA=
+			L/wfFX1kRNGsH1RjPuv72qBE81E=
 			</data>
 			<key>hash2</key>
 			<data>
-			8E4si5OqKsnDHWr9+5atdPoNI5sNSsWsGYa0vMDo+Ic=
+			L7Ov+XvkI5eBcB3fX2rdo+eLT84j1gifKFk3v0c0fy8=
 			</data>
 		</dict>
 		<key>Headers/ZAAlertStyle.h</key>
@@ -1087,11 +1087,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QyZPYvJjxuJ7zwdZ55GIaZ/tEKc=
+			q1yQ0Fez5GPuEIWiSJPKMeNQSFc=
 			</data>
 			<key>hash2</key>
 			<data>
-			StDEBT56tlwWbU3YAWZLTOXZ6rLZ2WQpE353+WqkqME=
+			0ecGnh1R9hldy/lLomRTuPowocvbIYyzoOkgchT/G8k=
 			</data>
 		</dict>
 		<key>Headers/ZAEngagementsUploadOperation.h</key>
@@ -1153,11 +1153,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IQFNy297TfUf+muGHaKPIWY53F4=
+			0gAY+Q4+oDzskvITkZIWINVH6NQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			AiTnG+0I/ZsdfPbzVoprVqAJ70PFnKwwph4hUOevdyc=
+			rRLzGjDvej/2Zwp816BtDuyyoZiLT4AplWFHmGTJ7S8=
 			</data>
 		</dict>
 		<key>Headers/ZAJSONString.h</key>
@@ -1241,11 +1241,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vtVteoZWCIGxUJHP52sjo0oyIK0=
+			tjSeCRqTOI4hjrfCdcod4AcMZZQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			7nMWylCgXPhg2tzfu5a6Bj0Eae9TlMkUSY2UWkktxjA=
+			2DVK2P0lAMhRDnVXi7TgMLS1WyhASNakNaKAqMUtkes=
 			</data>
 		</dict>
 		<key>Headers/ZAPIManager.h</key>

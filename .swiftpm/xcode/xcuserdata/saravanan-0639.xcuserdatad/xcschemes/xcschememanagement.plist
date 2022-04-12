@@ -12,16 +12,6 @@
 		<key>Apptics.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
-		</dict>
-		<key>AppticsAnalyt.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>6</integer>
-		</dict>
-		<key>AppticsAnalytics.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
 		<key>AppticsApiTracker.xcscheme_^#shared#^_</key>
@@ -33,11 +23,6 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
-		</dict>
-		<key>AppticsCrossPromotion.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
 		</dict>
 		<key>AppticsEventTracker.xcscheme_^#shared#^_</key>
 		<dict>
@@ -68,84 +53,6 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>9</integer>
-		</dict>
-	</dict>
-	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>Apptics</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AppticsAnalytics</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AppticsApiTracker</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AppticsCrashKit</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AppticsCrossPromotion</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AppticsCrossPromotionTarget</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AppticsEventTracker</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AppticsFeedbackKit</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AppticsInAppUpdate</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AppticsRateUs</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AppticsRemoteConfig</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AppticsScreenTracker</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>Apptics_AppticsCrossPromotionTarget</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>Apptics_Apptics_SwiftResources</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>Apptics_SwiftResources</key>
-		<dict>
-			<key>primary</key>
-			<true/>
 		</dict>
 	</dict>
 </dict>
