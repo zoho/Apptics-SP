@@ -10,11 +10,11 @@
 		</data>
 		<key>AppticsResources_tvOS.bundle/Info.plist</key>
 		<data>
-		62GfBF3J38SA0E+3NpXfd5hoGZ8=
+		Q1t0JgowQpuM8Ngy9Oh8D1JtPa4=
 		</data>
 		<key>AppticsResources_tvOS.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		2/atcvz3HXzDlT+LECvhLjuqJ8I=
+		4rdepzUVddL8qzcQEmWvM+B6MNU=
 		</data>
 		<key>AppticsResources_tvOS.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>AppticsResources_tvOS.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		LFu27mtLIHpzg44tW4lOquvAY7g=
+		BR/HEtE134sb12krfvNCylFFSh4=
 		</data>
 		<key>AppticsResources_tvOS.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -352,7 +352,7 @@
 		</data>
 		<key>Headers/ZAEnums.h</key>
 		<data>
-		+pYp36athrritkCGpBR5btwg7ZY=
+		SkIO0E76Z3he54IyZQ4L/6LLMiM=
 		</data>
 		<key>Headers/ZAEvent.h</key>
 		<data>
@@ -388,7 +388,7 @@
 		</data>
 		<key>Headers/ZANetworking.h</key>
 		<data>
-		cWWJh/nvpunbN7Ei7AeMkSRkcmA=
+		p8QEMW2Tzj7Jl1Z+d8UQ1rTbL4Q=
 		</data>
 		<key>Headers/ZANonFatalsUploadOperation.h</key>
 		<data>
@@ -432,7 +432,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		w645ZnJtFbVW7B3IKhCw+D+VwWo=
+		magKnudinXsCyC3hMbHXwPJeb5s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -456,22 +456,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			62GfBF3J38SA0E+3NpXfd5hoGZ8=
+			Q1t0JgowQpuM8Ngy9Oh8D1JtPa4=
 			</data>
 			<key>hash2</key>
 			<data>
-			kurGeyVcIWg70u2NFnfoVLjl4w8K8MTfbaFNeWqSuEY=
+			HZ+Upuce+dlEIlEhkAhg1AK6u2GNT1eAx2jXPFGKyvI=
 			</data>
 		</dict>
 		<key>AppticsResources_tvOS.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2/atcvz3HXzDlT+LECvhLjuqJ8I=
+			4rdepzUVddL8qzcQEmWvM+B6MNU=
 			</data>
 			<key>hash2</key>
 			<data>
-			tsDsWCQXOCHufBmZeg4vgLhYJK3iVYn+uJSc4+fiH+k=
+			4iFlh7SEYiUrHmJkOBuqrgFAp0VXlu9lGpFDl11wht8=
 			</data>
 		</dict>
 		<key>AppticsResources_tvOS.bundle/_CodeSignature/CodeRequirements</key>
@@ -489,11 +489,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LFu27mtLIHpzg44tW4lOquvAY7g=
+			BR/HEtE134sb12krfvNCylFFSh4=
 			</data>
 			<key>hash2</key>
 			<data>
-			LXkOIzhXZJAQOhCDwRm8J6aslDPapbf4zk83KZNx6M4=
+			47Oy7l/yPsw4o0H/deyK1skIXhowNqifO5s7c/zxY2U=
 			</data>
 		</dict>
 		<key>AppticsResources_tvOS.bundle/_CodeSignature/CodeResources</key>
@@ -1091,11 +1091,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+pYp36athrritkCGpBR5btwg7ZY=
+			SkIO0E76Z3he54IyZQ4L/6LLMiM=
 			</data>
 			<key>hash2</key>
 			<data>
-			MEMHvQ3+CK/nB9I3DY+srDltVNKirrSy0XtSQz0lpJs=
+			rWuXLuJ8O2MdO8hmz3YW9XK3Hm93RigEpiLYTgIe5a8=
 			</data>
 		</dict>
 		<key>Headers/ZAEvent.h</key>
@@ -1190,11 +1190,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cWWJh/nvpunbN7Ei7AeMkSRkcmA=
+			p8QEMW2Tzj7Jl1Z+d8UQ1rTbL4Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			poqZiBex+4LHn5MpUltwz4a870a+MSFuol+iUyxgKNc=
+			Xsu18pk+REvoRJQKITDKEfti+OxGMhyJYy+WslgyKZE=
 			</data>
 		</dict>
 		<key>Headers/ZANonFatalsUploadOperation.h</key>

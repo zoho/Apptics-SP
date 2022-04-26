@@ -23,7 +23,7 @@
 		</data>
 		<key>AppticsResources.bundle/Info.plist</key>
 		<data>
-		p7/Fjlvd+W7H0VsFHwB8Jezb5gw=
+		Jb+RX/GQ28BPYMTnnUOTHer2ATg=
 		</data>
 		<key>AppticsResources.bundle/ZAAppUpdateAlert.nib</key>
 		<data>
@@ -67,7 +67,7 @@
 		</data>
 		<key>AppticsResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		lnB8bsEedfd1o7Szb0qO3TAnRTI=
+		9UVai8BW2gFRsCYR8TNsS5REQx0=
 		</data>
 		<key>AppticsResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -75,7 +75,7 @@
 		</data>
 		<key>AppticsResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		A5xZ28icMQqHszjJ+fp95wK85og=
+		OsKg7oB+x8q7aYY5syQ4yIV3R0o=
 		</data>
 		<key>AppticsResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -592,7 +592,7 @@
 		</data>
 		<key>Headers/ZAEnums.h</key>
 		<data>
-		+pYp36athrritkCGpBR5btwg7ZY=
+		SkIO0E76Z3he54IyZQ4L/6LLMiM=
 		</data>
 		<key>Headers/ZAEvent.h</key>
 		<data>
@@ -632,7 +632,7 @@
 		</data>
 		<key>Headers/ZANetworking.h</key>
 		<data>
-		cWWJh/nvpunbN7Ei7AeMkSRkcmA=
+		p8QEMW2Tzj7Jl1Z+d8UQ1rTbL4Q=
 		</data>
 		<key>Headers/ZANonFatalsUploadOperation.h</key>
 		<data>
@@ -684,7 +684,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kRTxnmM5jzzBNgTSon95JGckdQ4=
+		OTwSAsqktiQnGJpRRYWlBaOK050=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -732,11 +732,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			p7/Fjlvd+W7H0VsFHwB8Jezb5gw=
+			Jb+RX/GQ28BPYMTnnUOTHer2ATg=
 			</data>
 			<key>hash2</key>
 			<data>
-			9izwnsZycH8Ryuh7sWy4p6FU2Usz5GRAbd1DvPyyIfY=
+			MF50I/ntQUCeXdhKZV5gU1XW9VyZ/QcZZ+n8dAJuBiM=
 			</data>
 		</dict>
 		<key>AppticsResources.bundle/ZAAppUpdateAlert.nib</key>
@@ -853,11 +853,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lnB8bsEedfd1o7Szb0qO3TAnRTI=
+			9UVai8BW2gFRsCYR8TNsS5REQx0=
 			</data>
 			<key>hash2</key>
 			<data>
-			EVYUDewJiwo9ZzMtuj56rjXk2eMoJjPXXYeanaL7alE=
+			pQFrFMQrMI+pdl/jVItv6d36dUDgDqkoASthnT9M8Zw=
 			</data>
 		</dict>
 		<key>AppticsResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -875,11 +875,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			A5xZ28icMQqHszjJ+fp95wK85og=
+			OsKg7oB+x8q7aYY5syQ4yIV3R0o=
 			</data>
 			<key>hash2</key>
 			<data>
-			hTwz+EVbMtsLF21aEX3WUEhTC+bBhpiZMfps8FBW+kg=
+			A3B8FxgtSbT3ZhKgcBDeV9nBodnIZtr9rv22FtqKMuA=
 			</data>
 		</dict>
 		<key>AppticsResources.bundle/_CodeSignature/CodeResources</key>
@@ -1862,11 +1862,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+pYp36athrritkCGpBR5btwg7ZY=
+			SkIO0E76Z3he54IyZQ4L/6LLMiM=
 			</data>
 			<key>hash2</key>
 			<data>
-			MEMHvQ3+CK/nB9I3DY+srDltVNKirrSy0XtSQz0lpJs=
+			rWuXLuJ8O2MdO8hmz3YW9XK3Hm93RigEpiLYTgIe5a8=
 			</data>
 		</dict>
 		<key>Headers/ZAEvent.h</key>
@@ -1972,11 +1972,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cWWJh/nvpunbN7Ei7AeMkSRkcmA=
+			p8QEMW2Tzj7Jl1Z+d8UQ1rTbL4Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			poqZiBex+4LHn5MpUltwz4a870a+MSFuol+iUyxgKNc=
+			Xsu18pk+REvoRJQKITDKEfti+OxGMhyJYy+WslgyKZE=
 			</data>
 		</dict>
 		<key>Headers/ZANonFatalsUploadOperation.h</key>

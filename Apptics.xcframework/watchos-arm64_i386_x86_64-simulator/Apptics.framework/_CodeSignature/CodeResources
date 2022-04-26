@@ -361,7 +361,7 @@
 		</data>
 		<key>Headers/ZAEnums.h</key>
 		<data>
-		+pYp36athrritkCGpBR5btwg7ZY=
+		SkIO0E76Z3he54IyZQ4L/6LLMiM=
 		</data>
 		<key>Headers/ZAEvent.h</key>
 		<data>
@@ -397,7 +397,7 @@
 		</data>
 		<key>Headers/ZANetworking.h</key>
 		<data>
-		cWWJh/nvpunbN7Ei7AeMkSRkcmA=
+		p8QEMW2Tzj7Jl1Z+d8UQ1rTbL4Q=
 		</data>
 		<key>Headers/ZANonFatalsUploadOperation.h</key>
 		<data>
@@ -437,7 +437,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		urvZ4rEJ0srWE3F23kf45W1cMec=
+		UIMthMFoTnivif3pyS8lHsOJVHs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1109,11 +1109,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+pYp36athrritkCGpBR5btwg7ZY=
+			SkIO0E76Z3he54IyZQ4L/6LLMiM=
 			</data>
 			<key>hash2</key>
 			<data>
-			MEMHvQ3+CK/nB9I3DY+srDltVNKirrSy0XtSQz0lpJs=
+			rWuXLuJ8O2MdO8hmz3YW9XK3Hm93RigEpiLYTgIe5a8=
 			</data>
 		</dict>
 		<key>Headers/ZAEvent.h</key>
@@ -1208,11 +1208,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cWWJh/nvpunbN7Ei7AeMkSRkcmA=
+			p8QEMW2Tzj7Jl1Z+d8UQ1rTbL4Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			poqZiBex+4LHn5MpUltwz4a870a+MSFuol+iUyxgKNc=
+			Xsu18pk+REvoRJQKITDKEfti+OxGMhyJYy+WslgyKZE=
 			</data>
 		</dict>
 		<key>Headers/ZANonFatalsUploadOperation.h</key>
