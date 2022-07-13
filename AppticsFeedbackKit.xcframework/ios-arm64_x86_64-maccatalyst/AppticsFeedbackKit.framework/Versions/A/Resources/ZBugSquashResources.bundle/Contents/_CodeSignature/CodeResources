@@ -10,7 +10,7 @@
 		</data>
 		<key>Resources/BSDiagnosticInfoViewController.nib</key>
 		<data>
-		3ClnRC+OqtG9hC7T1BCQujO5/dc=
+		hPJMObGD6t9NXBGbqm4ZK20Ev2o=
 		</data>
 		<key>Resources/Base.lproj/NewBugViewController.strings</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Resources/FeedbackDataTableViewCell.nib</key>
 		<data>
-		laYObsvFBAFNsOx8PRx8vS1b2gk=
+		J9R+Bt6i5jTcD5OH0YAXTcCtXUc=
 		</data>
 		<key>Resources/FeedbackKit.storyboardc/FeedbackDataController.nib</key>
 		<data>
-		2VmKQZ3J9y5RlyVIcspaI/HwnrY=
+		o0UTgb6ZsMxDPqxc1dHHsOdbIP8=
 		</data>
 		<key>Resources/FeedbackKit.storyboardc/Info.plist</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Resources/FeedbackKit.storyboardc/njx-Nt-Bnw-view-g8R-bb-haf.nib</key>
 		<data>
-		5qdwHzUTQmaMMFpXbtOnSOTnxJ4=
+		T2T96Y7/aj87QO0T0bsKTX2+ttE=
 		</data>
 		<key>Resources/NewBugViewController.nib</key>
 		<data>
-		4kOMpD+W74zqcHrepwUOVCYKJIw=
+		xK/AM6kDs6WCYuxfEBBcipydC+k=
 		</data>
 		<key>Resources/Screenshot-app.ttf</key>
 		<data>
@@ -46,47 +46,47 @@
 		</data>
 		<key>Resources/ZAAddImage.nib</key>
 		<data>
-		hd/AM301uoxb5xRHfgFnMBLmOyM=
+		1XRXPCfoq9pQ+n1rdJqoJl2veAM=
 		</data>
 		<key>Resources/ZADiagnosticInfoCell.nib</key>
 		<data>
-		RfFcNPjXzvbKJus4VhxmG41ROjw=
+		mqqpmMyV/Lxt48Pu6SYy4lYvqac=
 		</data>
 		<key>Resources/ZADiagnosticInfoViewController.nib</key>
 		<data>
-		2DAPNUJrBfD9tRVjlWjziKfY4pc=
+		MlaUzdMf7OjjLVaRo9W5uJsaC0M=
 		</data>
 		<key>Resources/ZAImageEditorCell.nib</key>
 		<data>
-		vTp7wF6NObXcKyAiHydyBDo9U/Y=
+		5JAq7EknVCgPDtZEYCWRMiAE6q0=
 		</data>
 		<key>Resources/ZAImageListViewCell.nib</key>
 		<data>
-		J9A86clfnF06HBQZjWn1zH/ZDkw=
+		PwLuyF5sTXPeOS6wzbQcsg03KTo=
 		</data>
 		<key>Resources/ZAImagePicker.nib</key>
 		<data>
-		GlFV/ucLg9wzgZbNB0xPdzkihts=
+		GYEt6v8vxIC3YKT+L4FHNjHI3HY=
 		</data>
 		<key>Resources/ZAImagePickerCell.nib</key>
 		<data>
-		RorxEfT6O4PRBLKO77l1jXb9Mms=
+		5E0gWK7qXxgKBzN8DwRlISjtN6Q=
 		</data>
 		<key>Resources/ZAIncludeLogConsent.nib</key>
 		<data>
-		IDZG1MMTj/aMsQXJzAZlQKY+Q/E=
+		LRkXAereB60ET4tl+jv3tqGKxNQ=
 		</data>
 		<key>Resources/ZASectionHeaderView.nib</key>
 		<data>
-		bH+JeOOnPYm6RvjQEpXSYmMnP80=
+		MiEnH81Hgyp0scmC7eO4+/Op8WY=
 		</data>
 		<key>Resources/ZASystemLogListViewController.nib</key>
 		<data>
-		1NU15p4mMOAXcdPEM21A4KKxkew=
+		qijY5flqns1s6KsEh454G3YFoCs=
 		</data>
 		<key>Resources/ZASystemLogsViewController.nib</key>
 		<data>
-		T56Pur3k/58sn8Upj068uKSQNDc=
+		o7WaCDDDc9DDKcS/tHNXzAqKCL0=
 		</data>
 		<key>Resources/ar.lproj/NewBugViewController.strings</key>
 		<dict>
@@ -196,17 +196,41 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/done.tiff</key>
+		<key>Resources/done.png</key>
 		<data>
-		bN4jF1FoVNqsoetaBPXX74SSdqc=
+		8TfULlkMVMr3ZTvGMcu2gQKAYxw=
 		</data>
-		<key>Resources/drop_down_dark.tiff</key>
+		<key>Resources/done@2x.png</key>
 		<data>
-		xulybq9jmJmWHjCVbp7qk+/tVDQ=
+		IBWDHDHv2yPmqSVuMaFv5ek90Kg=
 		</data>
-		<key>Resources/drop_down_light.tiff</key>
+		<key>Resources/done@3x.png</key>
 		<data>
-		3nMhSYA3Gp8n828PFTuqnmWptW4=
+		XXBCVJEG4kZeyt2eW6+8OZ44Jf4=
+		</data>
+		<key>Resources/drop_down_dark.png</key>
+		<data>
+		a3j0WP6w75zvNslw9ZEO1FF0IvY=
+		</data>
+		<key>Resources/drop_down_dark@2x.png</key>
+		<data>
+		DmBTvANDOHzs81+Vzq8fg3mssgE=
+		</data>
+		<key>Resources/drop_down_dark@3x.png</key>
+		<data>
+		3/FYSyz7bUcYFt7KNpZHkVd96eM=
+		</data>
+		<key>Resources/drop_down_light.png</key>
+		<data>
+		O6qoVOgR5i6qURR2u2xzXyzwUk0=
+		</data>
+		<key>Resources/drop_down_light@2x.png</key>
+		<data>
+		9kOK0rv0jREs+n80G0tHCjE8E4A=
+		</data>
+		<key>Resources/drop_down_light@3x.png</key>
+		<data>
+		N7DZz8WoviFKj8+AfjY2ygAOtqk=
 		</data>
 		<key>Resources/el.lproj/NewBugViewController.strings</key>
 		<dict>
@@ -784,11 +808,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3ClnRC+OqtG9hC7T1BCQujO5/dc=
+			hPJMObGD6t9NXBGbqm4ZK20Ev2o=
 			</data>
 			<key>hash2</key>
 			<data>
-			S0KGEO2XK5XVQGyh5QJ3syigDkyWWORoC8xYMQ143GA=
+			W89T+3987k3y1x1BTk1tpuehEKWEnVbQWIi/EkMxg3s=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/NewBugViewController.strings</key>
@@ -817,22 +841,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			laYObsvFBAFNsOx8PRx8vS1b2gk=
+			J9R+Bt6i5jTcD5OH0YAXTcCtXUc=
 			</data>
 			<key>hash2</key>
 			<data>
-			19HX5qzacaI2huB5ox30E5pqJhlCrSj88aY5R//Rgqk=
+			62PqNj4Fv/bg+RyZLn3NP5OUZxJWBeAZffU+LbzfP30=
 			</data>
 		</dict>
 		<key>Resources/FeedbackKit.storyboardc/FeedbackDataController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2VmKQZ3J9y5RlyVIcspaI/HwnrY=
+			o0UTgb6ZsMxDPqxc1dHHsOdbIP8=
 			</data>
 			<key>hash2</key>
 			<data>
-			xHF3UHDxI8B5LIZd6jQHxMl9Ii4aGUEfLdTVYcLhLcc=
+			jjO9CIm6yOykSZdoh7XvcU/h7Cx2Qz0V+0MafHwZmMQ=
 			</data>
 		</dict>
 		<key>Resources/FeedbackKit.storyboardc/Info.plist</key>
@@ -850,22 +874,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5qdwHzUTQmaMMFpXbtOnSOTnxJ4=
+			T2T96Y7/aj87QO0T0bsKTX2+ttE=
 			</data>
 			<key>hash2</key>
 			<data>
-			2gVzoCIrJd95O02PZTt0igWcjKesUi/GdceBRL+DWdo=
+			VVgSiRfwBZ8mt3KwQizToHkunMlmhEvXkoFcMacHcF0=
 			</data>
 		</dict>
 		<key>Resources/NewBugViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4kOMpD+W74zqcHrepwUOVCYKJIw=
+			xK/AM6kDs6WCYuxfEBBcipydC+k=
 			</data>
 			<key>hash2</key>
 			<data>
-			2up0SG6M+xMnhzztIIuLMMMFyswn8pnnDVXStmQrTWE=
+			xZB384c6UrcKhwF80rcA3IAvC4HVJJb6jJF/ruF/Qu4=
 			</data>
 		</dict>
 		<key>Resources/Screenshot-app.ttf</key>
@@ -883,121 +907,121 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hd/AM301uoxb5xRHfgFnMBLmOyM=
+			1XRXPCfoq9pQ+n1rdJqoJl2veAM=
 			</data>
 			<key>hash2</key>
 			<data>
-			hXz08N8FSOsY/tu/oHnkw4j1anomKp8WyzvyvI21Vvo=
+			urPFc7iqlHmRP9ag5mWyM0sbvVneVrCp83PQzqTq3ps=
 			</data>
 		</dict>
 		<key>Resources/ZADiagnosticInfoCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RfFcNPjXzvbKJus4VhxmG41ROjw=
+			mqqpmMyV/Lxt48Pu6SYy4lYvqac=
 			</data>
 			<key>hash2</key>
 			<data>
-			3ybBltvIG1nXUb07GbaFmPdLbJJe6lX9Xv9ZNOotshc=
+			mgy3EQgIyJSqUjJJzW2v4pz8rxlXsFQ7g7gHIYdZGzU=
 			</data>
 		</dict>
 		<key>Resources/ZADiagnosticInfoViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2DAPNUJrBfD9tRVjlWjziKfY4pc=
+			MlaUzdMf7OjjLVaRo9W5uJsaC0M=
 			</data>
 			<key>hash2</key>
 			<data>
-			hZ+k77pxhqywlCXumzQ2MYPErOx0cl1eZ9NmKMFf9xA=
+			XD02UDfEBtd4pZFHGWwWfnPzpFdiEcLkusLXQPPpUAo=
 			</data>
 		</dict>
 		<key>Resources/ZAImageEditorCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vTp7wF6NObXcKyAiHydyBDo9U/Y=
+			5JAq7EknVCgPDtZEYCWRMiAE6q0=
 			</data>
 			<key>hash2</key>
 			<data>
-			XAbMDsY0iKu1zxesChZWMzF/0m1ag6UnM6XukEYn+YE=
+			7BHWMyD2SmhCpFgNKxO9YhvYXVD1eLAGobYXZP4WdvQ=
 			</data>
 		</dict>
 		<key>Resources/ZAImageListViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			J9A86clfnF06HBQZjWn1zH/ZDkw=
+			PwLuyF5sTXPeOS6wzbQcsg03KTo=
 			</data>
 			<key>hash2</key>
 			<data>
-			f+qwnk0Q4pjHBinswCY53qm+jxVc/OhjeZcWlbgaMYg=
+			s1IitzKXUK7xwCAD89UJi9ljtS4fJOEagNdQ+n2OZog=
 			</data>
 		</dict>
 		<key>Resources/ZAImagePicker.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GlFV/ucLg9wzgZbNB0xPdzkihts=
+			GYEt6v8vxIC3YKT+L4FHNjHI3HY=
 			</data>
 			<key>hash2</key>
 			<data>
-			W3mng4PhDVXagSdWct1a/ddjIMSx3Ft//1qhzRcpBrs=
+			tVFMuYq4rEfc5uhcBq0iQOCAIzIxylzOjy1czRMvoJI=
 			</data>
 		</dict>
 		<key>Resources/ZAImagePickerCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RorxEfT6O4PRBLKO77l1jXb9Mms=
+			5E0gWK7qXxgKBzN8DwRlISjtN6Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			N64pdg/NN2b55TGl1/Mw/YA88nPM6YGFBDYYeb2oupU=
+			Dju8g5LWaTojx3RThSpKM1hy9ab6kt786YQnJQfhL4E=
 			</data>
 		</dict>
 		<key>Resources/ZAIncludeLogConsent.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IDZG1MMTj/aMsQXJzAZlQKY+Q/E=
+			LRkXAereB60ET4tl+jv3tqGKxNQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			orWQTDGuvXCD/2KuZKN29usS4qrCQOS8eLso0xE2Jpg=
+			m9q98G5/vIj2GQme2ndAL7LJAsPD7ge+KXNi6PDg3Kc=
 			</data>
 		</dict>
 		<key>Resources/ZASectionHeaderView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bH+JeOOnPYm6RvjQEpXSYmMnP80=
+			MiEnH81Hgyp0scmC7eO4+/Op8WY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ihVg+xzK2ZMF1fb1M9+v4OyfxBCwfY0wcQZIIUVAUCg=
+			72d9eFcwefxcSD9klqfsliKiBcZ1CVA57mt4QP9J7EU=
 			</data>
 		</dict>
 		<key>Resources/ZASystemLogListViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1NU15p4mMOAXcdPEM21A4KKxkew=
+			qijY5flqns1s6KsEh454G3YFoCs=
 			</data>
 			<key>hash2</key>
 			<data>
-			It6uwU+lAj7SJvQeLuawi0sXIUqAsbSz1aSNorERpAA=
+			yhLL+tJRBbrlPpNVQM0IsCdTC3ATUeUkmMAB6w3cB+0=
 			</data>
 		</dict>
 		<key>Resources/ZASystemLogsViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			T56Pur3k/58sn8Upj068uKSQNDc=
+			o7WaCDDDc9DDKcS/tHNXzAqKCL0=
 			</data>
 			<key>hash2</key>
 			<data>
-			mqvChalgRz0dE1r1MaueEAddCPkq6iHx3+jWthhxBTA=
+			9B+WYzWBja/7LLooU0BiDTjjsCJVF0g+C5648p1goh0=
 			</data>
 		</dict>
 		<key>Resources/ar.lproj/NewBugViewController.strings</key>
@@ -1156,37 +1180,103 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/done.tiff</key>
+		<key>Resources/done.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bN4jF1FoVNqsoetaBPXX74SSdqc=
+			8TfULlkMVMr3ZTvGMcu2gQKAYxw=
 			</data>
 			<key>hash2</key>
 			<data>
-			VLM9je3D4i9kuVMx6NrGIVs8yjG+sFQi+1o+XdxLfQ8=
+			YPdBNPmMZJOjTiKHODvM1mtDL78xDgjeEYfSPHFI4vE=
 			</data>
 		</dict>
-		<key>Resources/drop_down_dark.tiff</key>
+		<key>Resources/done@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xulybq9jmJmWHjCVbp7qk+/tVDQ=
+			IBWDHDHv2yPmqSVuMaFv5ek90Kg=
 			</data>
 			<key>hash2</key>
 			<data>
-			W2tnoe5O7Wzsv1nZyXOR247rPkOjvmnmtQj3ad8LjNQ=
+			qrWkRowO0GnJfADWQ/NqwYlNO7nl0qaPn1sEu95A43U=
 			</data>
 		</dict>
-		<key>Resources/drop_down_light.tiff</key>
+		<key>Resources/done@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3nMhSYA3Gp8n828PFTuqnmWptW4=
+			XXBCVJEG4kZeyt2eW6+8OZ44Jf4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gi9aLGA0mU/xFOjZXN4YT36oyVbYCJ0vPaxiKmtu/mI=
+			fDFdfh/hPSyUmdnqYhPis5+Jrs+WIVcpiIyBPH1Ed+M=
+			</data>
+		</dict>
+		<key>Resources/drop_down_dark.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			a3j0WP6w75zvNslw9ZEO1FF0IvY=
+			</data>
+			<key>hash2</key>
+			<data>
+			eLGdEAQSD9eJktasaV8CwdHfrIQ0QgVBcFghoNC03k4=
+			</data>
+		</dict>
+		<key>Resources/drop_down_dark@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DmBTvANDOHzs81+Vzq8fg3mssgE=
+			</data>
+			<key>hash2</key>
+			<data>
+			1/4wE4NQaJubNOMMGwQz05g05G98MxoXWjsuFlt+wFo=
+			</data>
+		</dict>
+		<key>Resources/drop_down_dark@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3/FYSyz7bUcYFt7KNpZHkVd96eM=
+			</data>
+			<key>hash2</key>
+			<data>
+			g4KaOWnlpy1jCJKrpXfwZwsziKz/7ejXsZ86Jj1qlp8=
+			</data>
+		</dict>
+		<key>Resources/drop_down_light.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			O6qoVOgR5i6qURR2u2xzXyzwUk0=
+			</data>
+			<key>hash2</key>
+			<data>
+			lc9OHMrUNbzFjCzDLBCx9DL1EJ51kioNyWfoM6zjO9k=
+			</data>
+		</dict>
+		<key>Resources/drop_down_light@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9kOK0rv0jREs+n80G0tHCjE8E4A=
+			</data>
+			<key>hash2</key>
+			<data>
+			AccaoRYR4TZrHxHUY2hsogvuK8Em+7QiaY5/GmQcCJU=
+			</data>
+		</dict>
+		<key>Resources/drop_down_light@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			N7DZz8WoviFKj8+AfjY2ygAOtqk=
+			</data>
+			<key>hash2</key>
+			<data>
+			jgPHQi33rPKdtOD4V8bM688BuB9Jp/rKWZYJkGxNv7s=
 			</data>
 		</dict>
 		<key>Resources/el.lproj/NewBugViewController.strings</key>

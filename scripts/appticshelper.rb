@@ -33,11 +33,11 @@ class AppticsModerator
 #    return generated_group
 #  end
   
-  def self.main(projectName, selectedTargetName, targetgroup, projectRootDir, lang, prefix)
+  def self.main(projectName, selectedTargetName, targetgroup, projectRootDir, lang, prefix, metafilename)
     $prefix=prefix
     $fileName=$prefix+$fileName
     $apiClassName=$prefix+$apiClassName
-    data_hash = JSON.parse(File.read('/tmp/AppticsMeta.json'))
+    data_hash = JSON.parse(File.read("/tmp/#{metafilename}"))
     
     if data_hash == nil || data_hash["result"] != "success"
       puts "Response : #{data_hash}"
@@ -364,7 +364,7 @@ class AppticsModerator
           flag2 = false
           
           swiftc_fc_enum.concat("@objc public enum APEventType : Int {\n")
-          swiftc_fc_cc.concat("\t\tlet event_str = \"\\(group)_\\(event)\"\n\n\t\t")
+          swiftc_fc_cc.concat("\t\tlet event_str = \"\\(group)_\\(event)\".lowercased()\n\n\t\t")
           event_hash.map do | group, groupInfo|
             group = group.strip.gsub(/[^0-9A-Za-z]/, '_')
             groupID = groupInfo["groupid"]
@@ -383,7 +383,7 @@ class AppticsModerator
                 swiftc_fc_ap_ext_f01.concat("\t\t\tgroupID=\"#{groupID}\"\n")
                 swiftc_fc_ap_ext_f01.concat("\t\t\tbreak\n")
                 
-                swiftc_fc_cc.concat("if (event_str == \"#{group}_#{name}\") {\n")
+                swiftc_fc_cc.concat("if (event_str == \"#{group.downcase}_#{name.downcase}\") {\n")
                 swiftc_fc_cc.concat("\t\t\treturn APPrivateObject(\"#{id}\", andGroupId:\"#{groupID}\")\n")
                 swiftc_fc_cc.concat("\t\t}else ")
                 
