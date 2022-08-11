@@ -24,8 +24,12 @@ min Xcode version 9.0
     * Next, set the Dependency Rule to be Up to Next Major Version.
     * Then, select Add Package.    
     * Choose the package of Apptics that you want installed. 
+
+### Install Apptics scripts using cocoapods 
+
+          pod 'Apptics-SDK/Scripts'
     
-### “Run Script” Build Phases
+### Add “Run Script” to your Build Phases
 * Click on the project, then on the main target, then on the “Build Phases” tab. 
 * Click the + at the top left to create a new build phase; choose “New Run Script Phase”.
 * Triple-click on “Run Script” to select it, and type “Apptics pre build”.
@@ -34,7 +38,7 @@ min Xcode version 9.0
 * Click into the black script box and paste in the following script. 
 
         #Pre build script will register the app version, upload dSYM file to the server and add apptics specific information to the main info.plist which will be used by the SDK.
-        sh "${BUILD_DIR%Build/*}SourcePackages/checkouts/Apptics-SP/scripts/run" --upload-symbols-for-configurations="Release, Appstore" 
+        sh "./Pods/Apptics-SDK/scripts/run" --upload-symbols-for-configurations="Release, Appstore" 
 
     Usage:
 
