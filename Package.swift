@@ -1,7 +1,7 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let version = "1.0.6"
+let version = "1.0.8"
 let package = Package(
     name: "Apptics",
     defaultLocalization: "en",
@@ -10,6 +10,10 @@ let package = Package(
         .library(
             name: "Apptics",
             targets: ["Apptics"]
+        ),
+        .library(
+            name: "JWT",
+            targets: ["JWT"]
         ),
         .library(
             name: "AppticsEventTracker",
@@ -22,6 +26,10 @@ let package = Package(
         .library(
             name: "AppticsCrashKit",
             targets: ["AppticsCrashKit"]
+        ),
+        .library(
+            name: "KSCrash",
+            targets: ["KSCrash"]
         ),
         .library(
             name: "AppticsFeedbackKit",
@@ -50,6 +58,10 @@ let package = Package(
             path: "Apptics.xcframework"
         ),
         .binaryTarget(
+            name: "JWT",
+            path: "JWT.xcframework"
+        ),
+        .binaryTarget(
             name: "AppticsEventTracker",
             path: "AppticsEventTracker.xcframework"
         ),
@@ -60,6 +72,10 @@ let package = Package(
         .binaryTarget(
             name: "AppticsCrashKit",
             path: "AppticsCrashKit.xcframework"
+        ),
+        .binaryTarget(
+            name: "KSCrash",
+            path: "KSCrash.xcframework"
         ),
         .binaryTarget(
             name: "AppticsFeedbackKit",
