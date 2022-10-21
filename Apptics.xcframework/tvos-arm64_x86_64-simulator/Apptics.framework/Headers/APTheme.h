@@ -31,8 +31,13 @@ typedef enum : NSInteger {
 @end
 
 @protocol APSettingsTheme <APTheme>
+
+
 #if !TARGET_OS_OSX
 @optional
+#if !TARGET_OS_WATCH
+-(UITableViewStyle)tableViewStyle;
+#endif
 -(UIColor *_Nullable)viewBGColor;
 -(UIColor *_Nullable)cellBGColor;
 -(UIColor *_Nullable)cellTextColor;
@@ -50,6 +55,7 @@ typedef enum : NSInteger {
 -(UIButton *_Nullable)backButton;
 #endif
 -(CGFloat) lineSpacing;
+-(CGFloat) cellVerticalPadding;
 -(CGSize) preferredContentSize;
 
 - (void)za_traitCollectionDidChange:(UITraitCollection *)previousTraitCollection;
@@ -205,6 +211,20 @@ typedef enum : NSInteger {
 @end
 
 @interface APDefaultTheme : NSObject <APTheme>
+////-(UIColor *_Nullable)tintColor;
+//@property (nonatomic, retain) UIColor *_Nullable tintColor;
+////-(UIColor *_Nullable)barTintColor;
+//@property (nonatomic, retain) UIColor *_Nullable barTintColor;
+////-(UINavigationBarAppearance *)standardAppearance API_AVAILABLE(ios(13.0), tvos(13.0));
+//@property (nonatomic, retain) UINavigationBarAppearance * standardAppearance API_AVAILABLE(ios(13.0), tvos(13.0));
+////-(BOOL) translucent;
+//@property (nonatomic) BOOL translucent;
+////-(NSDictionary *_Nullable)titleTextAttributes;
+//@property (nonatomic, retain) NSDictionary * _Nullable titleTextAttributes;
+////-(NSDictionary *_Nullable)barButtontitleTextAttributes;
+//@property (nonatomic, retain) NSDictionary * _Nullable barButtontitleTextAttributes;
+////- (void)za_traitCollectionDidChange:(UITraitCollection *)previousTraitCollection;
+
 @end
 
 @interface APDefaultSettingsTheme : NSObject <APSettingsTheme>

@@ -50,6 +50,10 @@ let package = Package(
         .library(
             name: "AppticsApiTracker",
             targets: ["AppticsApiTracker"]
+        ),
+        .library(
+            name: "AppticsExtension",
+            targets: ["AppticsExtension"]
         )
     ],
     targets: [
@@ -96,6 +100,10 @@ let package = Package(
         .binaryTarget(
             name: "AppticsApiTracker",
             path: "AppticsApiTracker.xcframework"
+        ),
+        .target(
+            name: "AppticsExtension",
+            path: "SwiftFiles/AppExtension"
         )
     ]
 )

@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/FeedbackKit.h</key>
 		<data>
-		cbuIms0f0xxYU05bjRCH4IM6EXg=
+		3+VWM4sGCp6WTWTfjoWqIFMRDks=
 		</data>
 		<key>Headers/ZAPresenter.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3i/yfhzHG/h5ZxaGo4n4+Zz5zs0=
+		Kkkv3mgkK5ZdWDQDwgKQYtCtH9Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -84,7 +84,7 @@
 		</data>
 		<key>ZBugSquashResources.bundle/Info.plist</key>
 		<data>
-		2P6misSIDEc+QwkjrRCjqa6baR4=
+		YoNnsW519C1/yOUzTKQVmUwqdsc=
 		</data>
 		<key>ZBugSquashResources.bundle/NewBugViewController.nib/objects-11.0+.nib</key>
 		<data>
@@ -168,7 +168,7 @@
 		</data>
 		<key>ZBugSquashResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		DCAgLTe6CFOEjozWj6l3H6MG7ks=
+		yzqfP2GuvZD9Ke5atZilBmdqI+s=
 		</data>
 		<key>ZBugSquashResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -176,11 +176,11 @@
 		</data>
 		<key>ZBugSquashResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		zomIpPGIaM7b1iAQpE0hHuZjzuY=
+		koR/DQ8nfoZgkUAKbmaOc4WQjUE=
 		</data>
 		<key>ZBugSquashResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		DUZ3te4BoSPzGB0g+ARnVFe03Ww=
+		AThty54iXuc797iNE3OBk7Y3ZKw=
 		</data>
 		<key>ZBugSquashResources.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -294,17 +294,41 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ZBugSquashResources.bundle/done.tiff</key>
+		<key>ZBugSquashResources.bundle/done.png</key>
 		<data>
-		bN4jF1FoVNqsoetaBPXX74SSdqc=
+		R/ghMyXbYfAB0Inw27DxvGMYKCA=
 		</data>
-		<key>ZBugSquashResources.bundle/drop_down_dark.tiff</key>
+		<key>ZBugSquashResources.bundle/done@2x.png</key>
 		<data>
-		xulybq9jmJmWHjCVbp7qk+/tVDQ=
+		FMkJjUJN9wzEXipZlAgmKSw29Rg=
 		</data>
-		<key>ZBugSquashResources.bundle/drop_down_light.tiff</key>
+		<key>ZBugSquashResources.bundle/done@3x.png</key>
 		<data>
-		3nMhSYA3Gp8n828PFTuqnmWptW4=
+		cj5X/wiv6AJRo9U2gmDAMOT8jh0=
+		</data>
+		<key>ZBugSquashResources.bundle/drop_down_dark.png</key>
+		<data>
+		oc88N6Apl3uUj8U5CcJT6nxl2IE=
+		</data>
+		<key>ZBugSquashResources.bundle/drop_down_dark@2x.png</key>
+		<data>
+		gHscJlWViYtPjhHbTN/ZGMbqhKA=
+		</data>
+		<key>ZBugSquashResources.bundle/drop_down_dark@3x.png</key>
+		<data>
+		BTfGM12hN9+2MHHS2dFO9mYwa4c=
+		</data>
+		<key>ZBugSquashResources.bundle/drop_down_light.png</key>
+		<data>
+		hWyebCDauobpMIA73CU31BlAVbY=
+		</data>
+		<key>ZBugSquashResources.bundle/drop_down_light@2x.png</key>
+		<data>
+		qEWW5ZqaSrGtNvs9ttw0MI8MuvU=
+		</data>
+		<key>ZBugSquashResources.bundle/drop_down_light@3x.png</key>
+		<data>
+		/mrYRRJ5+Q1MYlCMWISeUfWOlLc=
 		</data>
 		<key>ZBugSquashResources.bundle/el.lproj/NewBugViewController.strings</key>
 		<dict>
@@ -893,11 +917,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cbuIms0f0xxYU05bjRCH4IM6EXg=
+			3+VWM4sGCp6WTWTfjoWqIFMRDks=
 			</data>
 			<key>hash2</key>
 			<data>
-			TCqsqRu2MMkG0gZLLmemUkmM5I6AUHTjUF1v0ee4H9w=
+			s5Hn0kYo5etHXkrltAhjtK6BmwdaXK7oiTLwRfG5+HI=
 			</data>
 		</dict>
 		<key>Headers/ZAPresenter.h</key>
@@ -1051,11 +1075,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2P6misSIDEc+QwkjrRCjqa6baR4=
+			YoNnsW519C1/yOUzTKQVmUwqdsc=
 			</data>
 			<key>hash2</key>
 			<data>
-			toMFU1LwQcNnfi72Cnqik/sTZrf4AajhSrQ+Vol/bl0=
+			vPRgk4RDLLSZzdiYAn2+LRLnVDzhTSnEBwJ+PXF/tEk=
 			</data>
 		</dict>
 		<key>ZBugSquashResources.bundle/NewBugViewController.nib/objects-11.0+.nib</key>
@@ -1282,11 +1306,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DCAgLTe6CFOEjozWj6l3H6MG7ks=
+			yzqfP2GuvZD9Ke5atZilBmdqI+s=
 			</data>
 			<key>hash2</key>
 			<data>
-			AVrLAkyvtsANADl0LhVzLWgcZQMI8o1DewxrnSFZZLE=
+			fiRFeM131ImFQQzVymX4s3C3gPDwgqz+1HE949s0HSI=
 			</data>
 		</dict>
 		<key>ZBugSquashResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -1304,22 +1328,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zomIpPGIaM7b1iAQpE0hHuZjzuY=
+			koR/DQ8nfoZgkUAKbmaOc4WQjUE=
 			</data>
 			<key>hash2</key>
 			<data>
-			6sZSY8atmp8glWLEiqNUZxkcnVERRl93upsKUt9R6RE=
+			iX4V4XpArXF7YOJFqJiq3GysrPAxqAzjWPiO+i9czv8=
 			</data>
 		</dict>
 		<key>ZBugSquashResources.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DUZ3te4BoSPzGB0g+ARnVFe03Ww=
+			AThty54iXuc797iNE3OBk7Y3ZKw=
 			</data>
 			<key>hash2</key>
 			<data>
-			4gAfwV5+fSANNBSlcZbhoxql8MEf9Z7CQ18Xt3iXAP8=
+			jlbeXpnlgtySKgxZINm5ujOBQHzSk2ykAMZeCPKyuQY=
 			</data>
 		</dict>
 		<key>ZBugSquashResources.bundle/_CodeSignature/CodeSignature</key>
@@ -1489,37 +1513,103 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ZBugSquashResources.bundle/done.tiff</key>
+		<key>ZBugSquashResources.bundle/done.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bN4jF1FoVNqsoetaBPXX74SSdqc=
+			R/ghMyXbYfAB0Inw27DxvGMYKCA=
 			</data>
 			<key>hash2</key>
 			<data>
-			VLM9je3D4i9kuVMx6NrGIVs8yjG+sFQi+1o+XdxLfQ8=
+			XDILK917qiw1tn4V6rtkLO57qypJYIzLCTgbAEiihGc=
 			</data>
 		</dict>
-		<key>ZBugSquashResources.bundle/drop_down_dark.tiff</key>
+		<key>ZBugSquashResources.bundle/done@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xulybq9jmJmWHjCVbp7qk+/tVDQ=
+			FMkJjUJN9wzEXipZlAgmKSw29Rg=
 			</data>
 			<key>hash2</key>
 			<data>
-			W2tnoe5O7Wzsv1nZyXOR247rPkOjvmnmtQj3ad8LjNQ=
+			hzcGgRmrA83nQODwai+z6+cOE28dZSHgyVGOPnccHjY=
 			</data>
 		</dict>
-		<key>ZBugSquashResources.bundle/drop_down_light.tiff</key>
+		<key>ZBugSquashResources.bundle/done@3x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3nMhSYA3Gp8n828PFTuqnmWptW4=
+			cj5X/wiv6AJRo9U2gmDAMOT8jh0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gi9aLGA0mU/xFOjZXN4YT36oyVbYCJ0vPaxiKmtu/mI=
+			RaXy635K7lnt2ApF986fZTUc0S5vHbOWRdrp4FAGhIs=
+			</data>
+		</dict>
+		<key>ZBugSquashResources.bundle/drop_down_dark.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oc88N6Apl3uUj8U5CcJT6nxl2IE=
+			</data>
+			<key>hash2</key>
+			<data>
+			q3hpo0BcPVyl8CIKcuNjl8YJPMKcsPozNgp6swhLtsI=
+			</data>
+		</dict>
+		<key>ZBugSquashResources.bundle/drop_down_dark@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gHscJlWViYtPjhHbTN/ZGMbqhKA=
+			</data>
+			<key>hash2</key>
+			<data>
+			LPE0ZHrXXq9GTOJowETPQex5Fkywci1VHtz1Xnyvn0Q=
+			</data>
+		</dict>
+		<key>ZBugSquashResources.bundle/drop_down_dark@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BTfGM12hN9+2MHHS2dFO9mYwa4c=
+			</data>
+			<key>hash2</key>
+			<data>
+			xHi6Xku/idtSLRcfMTPP0l+FbWSVqZW3nnDy59yz1Ac=
+			</data>
+		</dict>
+		<key>ZBugSquashResources.bundle/drop_down_light.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hWyebCDauobpMIA73CU31BlAVbY=
+			</data>
+			<key>hash2</key>
+			<data>
+			4jLTx92bH3+2oYuB82Si6nEsq9bgFTPLHUNV+kyW0ts=
+			</data>
+		</dict>
+		<key>ZBugSquashResources.bundle/drop_down_light@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qEWW5ZqaSrGtNvs9ttw0MI8MuvU=
+			</data>
+			<key>hash2</key>
+			<data>
+			w0oU675UPWyF/splC5O0atEV0IhrMN1GfirV69dZZ4Y=
+			</data>
+		</dict>
+		<key>ZBugSquashResources.bundle/drop_down_light@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/mrYRRJ5+Q1MYlCMWISeUfWOlLc=
+			</data>
+			<key>hash2</key>
+			<data>
+			hsYpkL0OpqVPhzwrIkSoNs1kb45fAxMTUCZZfFQ1PnM=
 			</data>
 		</dict>
 		<key>ZBugSquashResources.bundle/el.lproj/NewBugViewController.strings</key>

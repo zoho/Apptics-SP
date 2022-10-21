@@ -19,11 +19,11 @@
 		</data>
 		<key>AppticsResources_watchOS.bundle/Info.plist</key>
 		<data>
-		FlOWFerwWmPbvZeJ75qfeDK7uOU=
+		Xp2Mfjn257l7Wo6uSUAiiLViMxY=
 		</data>
 		<key>AppticsResources_watchOS.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		MrqDr52R+UEcEEFuSu+g0eawmEw=
+		cznIJranGWtViZBks1R01uMbXLM=
 		</data>
 		<key>AppticsResources_watchOS.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -31,7 +31,7 @@
 		</data>
 		<key>AppticsResources_watchOS.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		eLmM0VtBzhgbrXZ78YISrY6SJkY=
+		2Tpc+XiSQ+yS+okuPS38VmalAhM=
 		</data>
 		<key>AppticsResources_watchOS.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -309,15 +309,15 @@
 		</data>
 		<key>Headers/APTheme.h</key>
 		<data>
-		u6Kl6zbi7clyHzMFEp7M/DKSVg4=
+		Fs9uvG1E9y9VBspAeN5ejpWPMQ4=
 		</data>
 		<key>Headers/Analytics.h</key>
 		<data>
-		vrCU1Nlt2o2hnXZuYEprtaluVYg=
+		OSUr4/gSUrF29C1k6p0NmQRc9YI=
 		</data>
 		<key>Headers/Apptics.h</key>
 		<data>
-		99GfIrgt/vhGsXyP4oTaJMYbh9E=
+		SwyuNRFHykreCEPXiC/Uy4a0HZ4=
 		</data>
 		<key>Headers/AppticsConfig.h</key>
 		<data>
@@ -437,7 +437,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		uAGRCgWtm88h4EzfGytIj2Ea5dw=
+		qrV2Yr5U7j1FXyldT2iphyAovrg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -474,22 +474,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FlOWFerwWmPbvZeJ75qfeDK7uOU=
+			Xp2Mfjn257l7Wo6uSUAiiLViMxY=
 			</data>
 			<key>hash2</key>
 			<data>
-			WgqaH8tinDjY3szHr88xT4snFDmULHXj0G2oFps7Mpo=
+			YPgPNpNxAyNqrAExqlY+h1XJLLJnx9MeHlz2c3Nna4k=
 			</data>
 		</dict>
 		<key>AppticsResources_watchOS.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MrqDr52R+UEcEEFuSu+g0eawmEw=
+			cznIJranGWtViZBks1R01uMbXLM=
 			</data>
 			<key>hash2</key>
 			<data>
-			tVnCj+hoyMzAlLyHczKYarc5O0DVMJJPovxXdxacSDM=
+			+cHMamWMFf/ey62hRgzh6MtM0Kut5sGoTlrl/2Kk5zc=
 			</data>
 		</dict>
 		<key>AppticsResources_watchOS.bundle/_CodeSignature/CodeRequirements</key>
@@ -507,11 +507,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eLmM0VtBzhgbrXZ78YISrY6SJkY=
+			2Tpc+XiSQ+yS+okuPS38VmalAhM=
 			</data>
 			<key>hash2</key>
 			<data>
-			4GEp4reFDpXCoEJiAm+pwtjqKTjfDaVTPIxgF276s5k=
+			FugoyNQVkn5iktv82Tu1jXNJSbD7101ggz0r0xjEeVs=
 			</data>
 		</dict>
 		<key>AppticsResources_watchOS.bundle/_CodeSignature/CodeResources</key>
@@ -966,33 +966,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			u6Kl6zbi7clyHzMFEp7M/DKSVg4=
+			Fs9uvG1E9y9VBspAeN5ejpWPMQ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			1bX+rMjOWT0OYnZh6TiSgI7sPad9CCxRMd0CFjFlaxw=
+			bRef4tWy/dcTIaLxWILLAQrTX6qGSGogY1hvaFIMr54=
 			</data>
 		</dict>
 		<key>Headers/Analytics.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vrCU1Nlt2o2hnXZuYEprtaluVYg=
+			OSUr4/gSUrF29C1k6p0NmQRc9YI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Bj1JMb6mnwrOnDejfXE5t8nWc+6Ykov18NoTUBryA3Q=
+			OfntTmRIi2O1p9oYPZeeRdh57/4gNuVslpMiCaQfp+0=
 			</data>
 		</dict>
 		<key>Headers/Apptics.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			99GfIrgt/vhGsXyP4oTaJMYbh9E=
+			SwyuNRFHykreCEPXiC/Uy4a0HZ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			dAiBFVdgJsoDMB8TNMxLn06hB2oFYqzq5LxalQZAzJU=
+			hFtGEOSR/nDJ3XXLmM4q8FOrp+4N9mWUtYx9dPQbb4E=
 			</data>
 		</dict>
 		<key>Headers/AppticsConfig.h</key>

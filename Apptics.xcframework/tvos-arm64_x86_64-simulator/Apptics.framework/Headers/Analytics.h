@@ -172,7 +172,14 @@ typedef void (^internbgConsoleLogsRequestSuccessBlock)(void);
 
 - (void) trackLogOut:(NSString* _Nullable)userID groupId : (NSString*_Nullable)groupid;
 
+/**
+ *  Clears all user info from the app.
+ *  
+ *  - Warning:
+ *  Don't call this method in production
+ */
 
+-(void) resetConsentPreference;
 
 /**
  *  Clears all stored data, without sending info to the server.
