@@ -1,7 +1,7 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let version = "1.0.8"
+let version = "1.0.9"
 let package = Package(
     name: "Apptics",
     defaultLocalization: "en",
@@ -54,6 +54,14 @@ let package = Package(
         .library(
             name: "AppticsExtension",
             targets: ["AppticsExtension"]
+        ),
+        .library(
+            name: "AppticsSwift",
+            targets: ["AppticsSwift"]
+        ),
+        .library(
+            name: "AppticsCrossPromotion",
+            targets: ["AppticsCrossPromotion"]
         )
     ],
     targets: [
@@ -104,6 +112,14 @@ let package = Package(
         .target(
             name: "AppticsExtension",
             path: "SwiftFiles/AppExtension"
+        ),
+        .target(
+            name: "AppticsSwift",
+            path: "SwiftFiles/Apptics"
+        ),
+        .target(
+            name: "AppticsCrossPromotion",
+            path: "SwiftFiles/CrossPromoApps"
         )
     ]
 )
