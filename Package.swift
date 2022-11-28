@@ -1,28 +1,12 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let version = "1.0.9.1"
+let version = "1.1.0"
 let package = Package(
     name: "Apptics",
     defaultLocalization: "en",
     platforms: [.macOS(.v10_10), .iOS(.v9), .tvOS(.v9), .watchOS(.v2)],
-    products: [
-        .library(
-            name: "Apptics",
-            targets: ["Apptics"]
-        ),
-        .library(
-            name: "AppticsEventTracker",
-            targets: ["AppticsEventTracker"]
-        ),
-        .library(
-            name: "AppticsScreenTracker",
-            targets: ["AppticsScreenTracker"]
-        ),
-        .library(
-            name: "AppticsCrashKit",
-            targets: ["AppticsCrashKit"]
-        ),
+    products: [        
         .library(
             name: "AppticsFeedbackKit",
             targets: ["AppticsFeedbackKit"]
@@ -48,8 +32,8 @@ let package = Package(
             targets: ["AppticsExtension"]
         ),
         .library(
-            name: "AppticsSwift",
-            targets: ["AppticsSwift"]
+            name: "AppticsAnalytics",
+            targets: ["AppticsAnalytics"]
         ),
         .library(
             name: "AppticsCrossPromotion",
@@ -106,12 +90,12 @@ let package = Package(
             path: "SwiftFiles/AppExtension"
         ),
         .target(
-            name: "AppticsSwift",
+            name: "AppticsAnalytics",
             dependencies: ["Apptics", "JWT", "AppticsEventTracker", "AppticsScreenTracker", "AppticsCrashKit", "KSCrash"], path: "SwiftFiles/Apptics"
         ),
         .target(
             name: "AppticsCrossPromotion",
-            dependencies: ["AppticsSwift"],
+            dependencies: ["AppticsAnalytics"],
             path: "SwiftFiles/CrossPromoApps"
         )
     ]
