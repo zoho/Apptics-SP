@@ -1,7 +1,7 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let version = "1.1.0"
+let version = "1.1.1"
 let package = Package(
     name: "Apptics",
     defaultLocalization: "en",
@@ -91,7 +91,7 @@ let package = Package(
         ),
         .target(
             name: "AppticsAnalytics",
-            dependencies: ["Apptics", "JWT", "AppticsEventTracker", "AppticsScreenTracker", "AppticsCrashKit", "KSCrash"], path: "SwiftFiles/Apptics"
+            dependencies: ["Apptics", "JWT", "AppticsEventTracker", "AppticsScreenTracker", "AppticsCrashKit", "KSCrash"], path: "SwiftFiles/Analytics"
         ),
         .target(
             name: "AppticsCrossPromotion",
