@@ -1,0 +1,43 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+apptics_version = '1.0.6' #debug version
+source_url = 'https://github.com/zoho/Apptics.git' #build source url.
+
+#apptics_version = '1.0.7' #use non debug version for your Release build.
+#source_url = 'https://github.com/CocoaPods/Specs.git' #build source url.
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'AppticsDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+# Pods for Apptics, either one is required based on your requirement.
+
+#pod 'AppticsAnalytics/Apptics', apptics_version , :source => source_url
+#pod 'AppticsAnalytics/KSCrash', apptics_version , :source => source_url
+
+## Apptics for Objc
+#pod 'Apptics-Swift/Extension', apptics_version , :source => source_url
+# Apptics-SDK for Objc
+pod 'Apptics-SDK/Scripts', apptics_version , :source => source_url
+# Apptics for Swift
+
+  script_phase :name => 'Apptics pre build', :script => 'sh "./Pods/Apptics-SDK/scripts/run" --upload-symbols-for-configurations="Release, AppStore"', :execution_position => :before_compile
+  
+  target 'AppticsDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'AppticsDemoUITests' do
+    # Pods for testing
+  end
+  
+end
+
+target 'AppticsWidgetExtension' do
+  use_frameworks!
+#  pod 'AppticsExtension',  apptics_version , :source => source_url
+end

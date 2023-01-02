@@ -730,18 +730,6 @@
 		<data>
 		rrmNYjIcD065qnDrQAUD6ylYZ5k=
 		</data>
-		<key>apptics_event_sync.rb</key>
-		<data>
-		c8gqVgcqOi1+uHq4oJEFHKAZwY8=
-		</data>
-		<key>apptics_utils.rb</key>
-		<data>
-		Xy/s8VyHwpKraTabEhiSFS3BtqU=
-		</data>
-		<key>postinstaller</key>
-		<data>
-		O/wnSG2E21/jP8xJIognBWe1L0o=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -2282,39 +2270,6 @@
 			<key>hash2</key>
 			<data>
 			h5d2C+aAE/WU6RMo5GTB10zTR3VY7wxAYQHJpX/ZZho=
-			</data>
-		</dict>
-		<key>apptics_event_sync.rb</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			c8gqVgcqOi1+uHq4oJEFHKAZwY8=
-			</data>
-			<key>hash2</key>
-			<data>
-			qewaubHsxqbuLYr6d8QUYXmYDfWQxv7qPWTxS90K7CY=
-			</data>
-		</dict>
-		<key>apptics_utils.rb</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Xy/s8VyHwpKraTabEhiSFS3BtqU=
-			</data>
-			<key>hash2</key>
-			<data>
-			hjsry83BvE1g5ualvOK+37i3EsWVQ7ZrqGRuR33XNUk=
-			</data>
-		</dict>
-		<key>postinstaller</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			O/wnSG2E21/jP8xJIognBWe1L0o=
-			</data>
-			<key>hash2</key>
-			<data>
-			K1gnR5Mp9VIS2/5kDOgDm/hOmkUj/finpTrJNzG4uZY=
 			</data>
 		</dict>
 	</dict>

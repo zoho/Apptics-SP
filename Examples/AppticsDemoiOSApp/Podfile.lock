@@ -1,0 +1,16 @@
+PODS:
+  - Apptics-SDK/Scripts (1.0.6)
+
+DEPENDENCIES:
+  - Apptics-SDK/Scripts (= 1.0.6)
+
+SPEC REPOS:
+  https://github.com/zoho/Apptics.git:
+    - Apptics-SDK
+
+SPEC CHECKSUMS:
+  Apptics-SDK: 9e17a12a8a4b423cf15736ec68cb2e8b3ef9b0e4
+
+PODFILE CHECKSUM: 02eb996fb7025f18cd71ab7b3d7e8af0704ddf34
+
+COCOAPODS: 1.11.3
