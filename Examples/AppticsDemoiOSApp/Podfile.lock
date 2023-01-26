@@ -1,16 +1,24 @@
 PODS:
-  - Apptics-SDK/Scripts (1.0.6)
+  - AppticsAnalytics/Apptics (1.1.4):
+    - AppticsAnalytics/JWT
+  - AppticsAnalytics/JWT (1.1.4)
+  - AppticsFeedbackKit (1.1.4):
+    - AppticsFeedbackKit/FeedbackKit (= 1.1.4)
+  - AppticsFeedbackKit/FeedbackKit (1.1.4):
+    - AppticsAnalytics/Apptics (= 1.1.4)
 
 DEPENDENCIES:
-  - Apptics-SDK/Scripts (= 1.0.6)
+  - AppticsFeedbackKit (= 1.1.4)
 
 SPEC REPOS:
-  https://github.com/zoho/Apptics.git:
-    - Apptics-SDK
+  "ssh://git@git.csez.zohocorpin.com:2222/ssaravanan/apptics-sp.git":
+    - AppticsAnalytics
+    - AppticsFeedbackKit
 
 SPEC CHECKSUMS:
-  Apptics-SDK: 9e17a12a8a4b423cf15736ec68cb2e8b3ef9b0e4
+  AppticsAnalytics: ecb0323e7266f1369489a73a2523b18758110ea0
+  AppticsFeedbackKit: 0329a0c573f4ddc4dc9cfd60d74a429f6b101d85
 
-PODFILE CHECKSUM: 02eb996fb7025f18cd71ab7b3d7e8af0704ddf34
+PODFILE CHECKSUM: 0d3dafc6b17496d927ec08429df927d395b7f1ff
 
 COCOAPODS: 1.11.3

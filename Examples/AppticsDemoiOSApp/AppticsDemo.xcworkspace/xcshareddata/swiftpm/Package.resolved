@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/zoho/apptics-SP",
       "state" : {
-        "revision" : "2d828f00dace8b3e1c9a1cd4c1566d301bdc2c54",
-        "version" : "1.1.1"
+        "revision" : "81f0427eea8ab726dc58a2bf9c46226b97b98468",
+        "version" : "1.1.3"
       }
     }
   ],
