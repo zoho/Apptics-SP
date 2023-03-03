@@ -23,7 +23,7 @@
 		</data>
 		<key>AppticsResources.bundle/Info.plist</key>
 		<data>
-		XFRm8oEzrYhLgb+t9g1bWqEKTsw=
+		uxhrn5/6KZT1EDM+MWLSuktF7jg=
 		</data>
 		<key>AppticsResources.bundle/ZAAppUpdateAlert.nib</key>
 		<data>
@@ -67,7 +67,7 @@
 		</data>
 		<key>AppticsResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		BtIF3j/XzCqVvcLxeTIWXl5Y97E=
+		tqrS8zX/xqggqFTuUfBQ80br8mM=
 		</data>
 		<key>AppticsResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -75,7 +75,7 @@
 		</data>
 		<key>AppticsResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		a/3yEH7t+jCSEpKq5QXHPoNww88=
+		j1flZiLsrvIncXUS74gdlwKi+Fg=
 		</data>
 		<key>AppticsResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -688,7 +688,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		BdE+Jf1jE2vicSgKQrWvT90jlnY=
+		gklm7e4u6W7+x6IpqprhzjTZLo0=
 		</data>
 		<key>Modules/Apptics.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -772,11 +772,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XFRm8oEzrYhLgb+t9g1bWqEKTsw=
+			uxhrn5/6KZT1EDM+MWLSuktF7jg=
 			</data>
 			<key>hash2</key>
 			<data>
-			w6Kt/390zn6k68ZTY+x9+iTGpUTTPrdD7ELQoqPS2tE=
+			hHG5QVzD0lAD/2eDujf2qgtP/Wn0v4JHfb42xXiKpxc=
 			</data>
 		</dict>
 		<key>AppticsResources.bundle/ZAAppUpdateAlert.nib</key>
@@ -893,11 +893,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BtIF3j/XzCqVvcLxeTIWXl5Y97E=
+			tqrS8zX/xqggqFTuUfBQ80br8mM=
 			</data>
 			<key>hash2</key>
 			<data>
-			oNqQFVjcvGwsgrVyVbFnOMfcyASOgQSEHzU++jFVeco=
+			t8mzzTRNQiSjNSWM1M35KrKPjSoczf5PiHcRobYV9bE=
 			</data>
 		</dict>
 		<key>AppticsResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -915,11 +915,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			a/3yEH7t+jCSEpKq5QXHPoNww88=
+			j1flZiLsrvIncXUS74gdlwKi+Fg=
 			</data>
 			<key>hash2</key>
 			<data>
-			5jRgOfDaM9HrnDFNqndk1DHuepap+TbJWOoj7AFM5UQ=
+			DFd6nGeyqeG7RPxpoygDXiS30vrB9xoJQ58R6t3yNIo=
 			</data>
 		</dict>
 		<key>AppticsResources.bundle/_CodeSignature/CodeResources</key>
