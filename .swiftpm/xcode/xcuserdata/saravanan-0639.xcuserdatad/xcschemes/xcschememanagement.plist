@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Apptics-SP-Package.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>Apptics.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -88,6 +93,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>Apptics</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>Apptics-SP</key>
 		<dict>
 			<key>primary</key>
 			<true/>
