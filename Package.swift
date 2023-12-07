@@ -38,6 +38,10 @@ let package = Package(
         .library(
             name: "AppticsCrossPromotion",
             targets: ["AppticsCrossPromotion"]
+        ),
+        .library(
+            name: "AppticsFeedbackKitSwift",
+            targets: ["AppticsFeedbackKitSwift"]
         )
     ],
     targets: [
@@ -97,6 +101,11 @@ let package = Package(
             name: "AppticsCrossPromotion",
             dependencies: ["AppticsAnalytics"],
             path: "SwiftFiles/CrossPromoApps"
+        ),
+        .target(
+            name: "AppticsFeedbackKitSwift",
+            dependencies: ["AppticsFeedbackKit"],
+            path: "SwiftFiles/AppticsFeedbackKit"
         )
     ]
 )
