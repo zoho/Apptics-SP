@@ -23,7 +23,7 @@
 		</data>
 		<key>AppticsResources.bundle/Info.plist</key>
 		<data>
-		pkOYk4Fd+u1XyAirNS2u/9I86Zk=
+		QsQTx4STkE2Tlfsh3K7xx2x0Wuk=
 		</data>
 		<key>AppticsResources.bundle/ZAAppUpdateAlert.nib</key>
 		<data>
@@ -67,7 +67,7 @@
 		</data>
 		<key>AppticsResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		+2oJMJAZ9i/juEPT0bPUmqXAYCw=
+		UwNdhTVc2+fqzbpdcjKGzyBQ/vk=
 		</data>
 		<key>AppticsResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -75,7 +75,7 @@
 		</data>
 		<key>AppticsResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		ci0bh0InYeMTMuhFB/GxFMfDiK8=
+		tdL80cdiTpObXiKb4HTClx6uGj0=
 		</data>
 		<key>AppticsResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -532,7 +532,7 @@
 		</data>
 		<key>Headers/Analytics.h</key>
 		<data>
-		CkTnRZEiY7h3jA+oqUnApo+QB78=
+		hn6GHdV7ANPdZwNinAdz3rNfkyY=
 		</data>
 		<key>Headers/Apptics-Swift.h</key>
 		<data>
@@ -596,7 +596,7 @@
 		</data>
 		<key>Headers/ZAEnums.h</key>
 		<data>
-		2BdmTZZwn5yx/x3eSFceZmdO2tg=
+		MPR7zT1ggFLLt0i6LVy9Ij/4FeY=
 		</data>
 		<key>Headers/ZAEvent.h</key>
 		<data>
@@ -688,7 +688,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		aPnGcBDmk4r9JHfUNuzfvjeKJTc=
+		htBcKFO7xnDs+mdL9dNfTJ+zOco=
 		</data>
 		<key>Modules/Apptics.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -700,7 +700,7 @@
 		</data>
 		<key>Modules/Apptics.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		JLKe6x0u5mkGHZ2b/kx3kTCd0/0=
+		I39rdr2GcDfK71DgHCACfU2/j5o=
 		</data>
 		<key>Modules/Apptics.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -712,7 +712,7 @@
 		</data>
 		<key>Modules/Apptics.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GNRD1tGW2Ff2ok3xjPNi43RKJw4=
+		ydZ4fjQ5ju7TTltdek/7KRUm5+Y=
 		</data>
 		<key>Modules/Apptics.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -724,7 +724,7 @@
 		</data>
 		<key>Modules/Apptics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		i1aHztpRzidFTxcFgKDDgB/V6vg=
+		GwgCasIQS02wTsgjJxRm0FFqfS4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -772,11 +772,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pkOYk4Fd+u1XyAirNS2u/9I86Zk=
+			QsQTx4STkE2Tlfsh3K7xx2x0Wuk=
 			</data>
 			<key>hash2</key>
 			<data>
-			SYs95jIwO3sOtVAWtbGGNxVzYaQAFGjBEB773But1tE=
+			UXsll+oWxtI856z3JVWVRi3Qdt/Z33UTP6OhILLfnhI=
 			</data>
 		</dict>
 		<key>AppticsResources.bundle/ZAAppUpdateAlert.nib</key>
@@ -893,11 +893,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+2oJMJAZ9i/juEPT0bPUmqXAYCw=
+			UwNdhTVc2+fqzbpdcjKGzyBQ/vk=
 			</data>
 			<key>hash2</key>
 			<data>
-			AxKGxxKrne49aC/OG7RIYg3maLwm+jv/0YJ9HKHjCtE=
+			D7umsS1SsGoRZj2u5E4d0mVbiarrhtnPFtl2H0lIHTY=
 			</data>
 		</dict>
 		<key>AppticsResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -915,11 +915,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ci0bh0InYeMTMuhFB/GxFMfDiK8=
+			tdL80cdiTpObXiKb4HTClx6uGj0=
 			</data>
 			<key>hash2</key>
 			<data>
-			DBgJGvwFS4S+ZwQA/y0Ojh7jV6v0gT8A1zwEwtC5xLY=
+			brOdlbJ40JBKRaOU1laug7zxUOH9XiKrHj3AthuoqLE=
 			</data>
 		</dict>
 		<key>AppticsResources.bundle/_CodeSignature/CodeResources</key>
@@ -1737,11 +1737,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CkTnRZEiY7h3jA+oqUnApo+QB78=
+			hn6GHdV7ANPdZwNinAdz3rNfkyY=
 			</data>
 			<key>hash2</key>
 			<data>
-			BHcT0XbvsA5203+SDAlfAmNDiaFqdIqtykHrtt0ZPBM=
+			sAsQSFzgnZQ27sQmNMn5CZoEBMJ/m7dZ4ss/yLgseQI=
 			</data>
 		</dict>
 		<key>Headers/Apptics-Swift.h</key>
@@ -1913,11 +1913,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2BdmTZZwn5yx/x3eSFceZmdO2tg=
+			MPR7zT1ggFLLt0i6LVy9Ij/4FeY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Mnr4RPipX456EskTbrDShzVigdLYANMNz2UfuxR97Zs=
+			Y6y+Dk15kbiGkjZSNtRKATPL6SHj1e/agWQ/t29SHcU=
 			</data>
 		</dict>
 		<key>Headers/ZAEvent.h</key>
@@ -2188,11 +2188,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JLKe6x0u5mkGHZ2b/kx3kTCd0/0=
+			I39rdr2GcDfK71DgHCACfU2/j5o=
 			</data>
 			<key>hash2</key>
 			<data>
-			pfs7lBmeVSf2X8JVPwkJ1x6c9SBBBoCCnBnpv1Cx1eo=
+			u3yJz/TRTK064WsE7LpiwSWM3Pe8SMdU+tK2WidYiMs=
 			</data>
 		</dict>
 		<key>Modules/Apptics.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -2221,11 +2221,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GNRD1tGW2Ff2ok3xjPNi43RKJw4=
+			ydZ4fjQ5ju7TTltdek/7KRUm5+Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			IZRxxagv7/gKF2+L12MQoiKWDvrYyu1AJ49Cx4VM3G8=
+			vUGUPWZFe9x2k3vamh8OHGs31pxxrTUmcbXdPjYu23E=
 			</data>
 		</dict>
 		<key>Modules/Apptics.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -2254,11 +2254,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			i1aHztpRzidFTxcFgKDDgB/V6vg=
+			GwgCasIQS02wTsgjJxRm0FFqfS4=
 			</data>
 			<key>hash2</key>
 			<data>
-			UMrIL/zJO2nAmrWCQb9QbsEcrNw3q+6EUcHLKtJTqM8=
+			iWN1vVGL2pIbv0+kGrIvHoZYaARiZSpjEQXo9yWTLaA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
