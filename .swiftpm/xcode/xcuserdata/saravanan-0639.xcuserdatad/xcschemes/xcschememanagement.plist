@@ -12,7 +12,7 @@
 		<key>Apptics-SP-Package.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>10</integer>
 		</dict>
 		<key>Apptics.xcscheme_^#shared#^_</key>
 		<dict>
@@ -54,20 +54,25 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
-		<key>AppticsInAppUpdate.xcscheme_^#shared#^_</key>
+		<key>AppticsFeedbackKitSwift.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
-		<key>AppticsRateUs.xcscheme_^#shared#^_</key>
+		<key>AppticsInAppUpdate.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
-		<key>AppticsRemoteConfig.xcscheme_^#shared#^_</key>
+		<key>AppticsRateUs.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>8</integer>
+		</dict>
+		<key>AppticsRemoteConfig.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
 		</dict>
 		<key>AppticsScreenTracker.xcscheme_^#shared#^_</key>
 		<dict>
@@ -133,6 +138,11 @@
 			<true/>
 		</dict>
 		<key>AppticsFeedbackKit</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AppticsFeedbackKitSwift</key>
 		<dict>
 			<key>primary</key>
 			<true/>

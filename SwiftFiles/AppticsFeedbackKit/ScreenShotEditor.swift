@@ -156,6 +156,7 @@ public class FloatScreenshotEditor:UIViewController,UIGestureRecognizerDelegate{
                 loadpaintView(setImage: image)
             }
         }
+        checkTheme()
     }
     
     //MARK: Get image from obj c feedback kit image picker controller
@@ -195,21 +196,21 @@ public class FloatScreenshotEditor:UIViewController,UIGestureRecognizerDelegate{
     //MARK: change theme based on traits
     
     func checkTheme(){
-        guard let textcolor = APThemeManager.sharedFeedbackThemeManager().textFieldTextColor?() else { return
-        }
-        FeedbackTheme.sharedInstance.textColor = textcolor
-        btnArrow.setTitleColor(FeedbackTheme.sharedInstance.textColor, for: .normal)
-        btncolorpen.setTitleColor(FeedbackTheme.sharedInstance.textColor, for: .normal)
-        bttnBlur.setTitleColor(FeedbackTheme.sharedInstance.textColor, for: .normal)
-        bttnBlur.setTitleColor(FeedbackTheme.sharedInstance.textColor, for: .normal)
-        btnClear.setTitleColor(FeedbackTheme.sharedInstance.textColor, for: .normal)
-        btnfullBlur.setTitleColor(FeedbackTheme.sharedInstance.textColor, for: .normal)
-        floatview.doneBttn.setTitleColor(FeedbackTheme.sharedInstance.textColor, for: .normal)
-        floatview.closeBttn.setTitleColor(FeedbackTheme.sharedInstance.textColor, for: .normal)
+        
+        FeedbackKit.listener().refreshTheme()
+        
+        setTitleTextAttributesInButtons(textAttributes: FeedbackTheme.sharedInstance.barButtontitleTextAttributes)
         
     }
     
-    
+    func setTitleTextAttributesInButtons(textAttributes:NSDictionary){
+        btnArrow.setAttributedText(attributes: textAttributes as! [NSAttributedString.Key : Any])
+        btncolorpen.setAttributedText(attributes: textAttributes as! [NSAttributedString.Key : Any])
+        bttnBlur.setAttributedText(attributes: textAttributes as! [NSAttributedString.Key : Any])
+        btnClear.setAttributedText(attributes: textAttributes as! [NSAttributedString.Key : Any])
+        btnfullBlur.setAttributedText(attributes: textAttributes as! [NSAttributedString.Key : Any])
+        floatview.doneBttn.setAttributedText(attributes: textAttributes as! [NSAttributedString.Key : Any])
+        floatview.closeBttn.setAttributedText(attributes: textAttributes as! [NSAttributedString.Key : Any])    }
     
     //MARK: Done Button Click Action
     @objc func donebuttonClicked() {
@@ -235,8 +236,13 @@ public class FloatScreenshotEditor:UIViewController,UIGestureRecognizerDelegate{
                 }
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.95) {
                     if #available(iOS 13.0, *) {
-                        let keyedWindow = UIApplication.shared.currentUIWindow()
-                        keyedWindow?.dismissWindow()
+                        if let _ = self.view.window?.windowScene?.delegate{
+                            let keyedWindow = UIApplication.shared.currentUIWindow()
+                            keyedWindow?.dismissWindow()
+                        }
+                        else{
+                            self.window.isHidden = true
+                        }
                     } else {
                         self.window.isHidden = true
                     }
@@ -258,8 +264,13 @@ public class FloatScreenshotEditor:UIViewController,UIGestureRecognizerDelegate{
             }
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.95) {
                 if #available(iOS 13.0, *) {
-                    let keyedWindow = UIApplication.shared.currentUIWindow()
-                    keyedWindow?.dismissWindow()
+                    if let _ = self.view.window?.windowScene?.delegate{
+                        let keyedWindow = UIApplication.shared.currentUIWindow()
+                        keyedWindow?.dismissWindow()
+                    }
+                    else{
+                        self.window.isHidden = true
+                    }
                 } else {
                     self.window.isHidden = true
                 }
@@ -283,8 +294,13 @@ public class FloatScreenshotEditor:UIViewController,UIGestureRecognizerDelegate{
             }, completion: nil)
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
                 if #available(iOS 13.0, *) {
-                    let keyedWindow = UIApplication.shared.currentUIWindow()
-                    keyedWindow?.dismissWindow()
+                    if let _ = self.view.window?.windowScene?.delegate{
+                        let keyedWindow = UIApplication.shared.currentUIWindow()
+                        keyedWindow?.dismissWindow()
+                    }
+                    else{
+                        self.window.isHidden = true
+                    }
                 } else {
                     self.window.isHidden = true
                 }
@@ -300,8 +316,13 @@ public class FloatScreenshotEditor:UIViewController,UIGestureRecognizerDelegate{
             
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.95) {
                 if #available(iOS 13.0, *) {
-                    let keyedWindow = UIApplication.shared.currentUIWindow()
-                    keyedWindow?.dismissWindow()
+                    if let _ = self.view.window?.windowScene?.delegate{
+                        let keyedWindow = UIApplication.shared.currentUIWindow()
+                        keyedWindow?.dismissWindow()
+                    }
+                    else{
+                        self.window.isHidden = true
+                    }
                 } else {
                     self.window.isHidden = true
                 }
@@ -427,8 +448,14 @@ public class FloatScreenshotEditor:UIViewController,UIGestureRecognizerDelegate{
         floatview.commoninit(color: color)
         floatview.cardView.backgroundColor = .clear
         floatview.mainview.backgroundColor = .clear
-        floatview.doneBttn.setTitleColor(FeedbackTheme.sharedInstance.textColor, for: .normal)
-        floatview.closeBttn.setTitleColor(FeedbackTheme.sharedInstance.textColor, for: .normal)
+        setTitleTextAttributesInButtons(textAttributes: FeedbackTheme.sharedInstance.barButtontitleTextAttributes)
+        
+//            floatview.doneBttn.setTitleColor(FeedbackTheme.sharedInstance.tintColor, for: .normal)
+//            floatview.closeBttn.setTitleColor(FeedbackTheme.sharedInstance.tintColor, for: .normal)
+        
+        floatview.doneBttn.setAttributedText(attributes: FeedbackTheme.sharedInstance.barButtontitleTextAttributes as! [NSAttributedString.Key : Any])
+        floatview.closeBttn.setAttributedText(attributes: FeedbackTheme.sharedInstance.barButtontitleTextAttributes as! [NSAttributedString.Key : Any])
+        
     }
      
     //MARK: save image after edit
@@ -558,7 +585,8 @@ public class FloatScreenshotEditor:UIViewController,UIGestureRecognizerDelegate{
         
         btnArrow.translatesAutoresizingMaskIntoConstraints = false
         btnArrow.layer.cornerRadius = 20
-        btnArrow.setTitleColor(FeedbackTheme.sharedInstance.textColor, for: .normal)
+//        btnArrow.setTitleColor(FeedbackTheme.sharedInstance.tintColor, for: .normal)
+        btnArrow.setAttributedText(attributes: FeedbackTheme.sharedInstance.barButtontitleTextAttributes as! [NSAttributedString.Key : Any])
         btnArrow.addTarget(self, action: #selector(drawArrowView), for: .touchUpInside)
         
         setFontForButton(button: btnArrow, fontName: appticsFontName, title: FontIconText.arrowIcon, size: appFontsize)
@@ -566,7 +594,8 @@ public class FloatScreenshotEditor:UIViewController,UIGestureRecognizerDelegate{
         
         btncolorpen.translatesAutoresizingMaskIntoConstraints = false
         btncolorpen.layer.cornerRadius = 20
-        btncolorpen.setTitleColor(FeedbackTheme.sharedInstance.textColor, for: .normal)
+//        btncolorpen.setTitleColor(FeedbackTheme.sharedInstance.tintColor, for: .normal)
+        btncolorpen.setAttributedText(attributes: FeedbackTheme.sharedInstance.barButtontitleTextAttributes as! [NSAttributedString.Key : Any])
         btncolorpen.addTarget(self, action: #selector(colorbuttonClicked), for: .touchUpInside)
         
         setFontForButton(button: btncolorpen, fontName: appticsFontName, title: FontIconText.pencilDraw, size: appFontsize)
@@ -575,7 +604,8 @@ public class FloatScreenshotEditor:UIViewController,UIGestureRecognizerDelegate{
         
         bttnBlur.translatesAutoresizingMaskIntoConstraints = false
         bttnBlur.layer.cornerRadius = 20
-        bttnBlur.setTitleColor(FeedbackTheme.sharedInstance.textColor, for: .normal)
+//        bttnBlur.setTitleColor(FeedbackTheme.sharedInstance.tintColor, for: .normal)
+        bttnBlur.setAttributedText(attributes: FeedbackTheme.sharedInstance.barButtontitleTextAttributes as! [NSAttributedString.Key : Any])
         setFontForButton(button: bttnBlur, fontName: appticsFontName, title: FontIconText.blurIcon, size: appFontsize)
         bttnBlur.addTarget(self, action: #selector(blurbuttonclicked), for: .touchUpInside)
         drawOptionsView.addSubview(bttnBlur)
@@ -595,13 +625,15 @@ public class FloatScreenshotEditor:UIViewController,UIGestureRecognizerDelegate{
         
         btnClear.translatesAutoresizingMaskIntoConstraints = false
         setFontForButton(button: btnClear, fontName: appticsFontName, title: FontIconText.clearIcon, size: appFontsize)
-        btnClear.setTitleColor(FeedbackTheme.sharedInstance.textColor, for: .normal)
+//        btnClear.setTitleColor(FeedbackTheme.sharedInstance.tintColor, for: .normal)
+        btnClear.setAttributedText(attributes: FeedbackTheme.sharedInstance.barButtontitleTextAttributes as! [NSAttributedString.Key : Any])
         btnClear.addTarget(self, action: #selector(clearAll), for: .touchUpInside)
         drawOptionsView.addSubview(btnClear)
         
         btnfullBlur.translatesAutoresizingMaskIntoConstraints = false
         btnfullBlur.layer.cornerRadius = 20
-        btnfullBlur.setTitleColor(FeedbackTheme.sharedInstance.textColor, for: .normal)
+//        btnfullBlur.setTitleColor(FeedbackTheme.sharedInstance.tintColor, for: .normal)
+        btnfullBlur.setAttributedText(attributes: FeedbackTheme.sharedInstance.barButtontitleTextAttributes as! [NSAttributedString.Key : Any])
         setFontForButton(button: btnfullBlur, fontName: appticsFontName, title: FontIconText.imageMask, size: appFontsize)
         btnfullBlur.addTarget(self, action: #selector(fullBlurClicked), for: .touchUpInside)
         drawOptionsView.addSubview(btnfullBlur)
@@ -663,11 +695,11 @@ public class FloatScreenshotEditor:UIViewController,UIGestureRecognizerDelegate{
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                 self.openImageRequest()
             }
-            buttonSelectedStatus(pencolor: UIColor.clear, blurpenColor: UIColor.clear, arrow: UIColor.clear, masking: FeedbackTheme.sharedInstance.textColor.withAlphaComponent(0.4))
+            buttonSelectedStatus(pencolor: UIColor.clear, blurpenColor: UIColor.clear, arrow: UIColor.clear, masking: FeedbackTheme.sharedInstance.maskColor.withAlphaComponent(0.4))
             btnfullBlur.setTitle(FontIconText.maskSelected, for: .normal)
         }
         else{
-            btncolorpen.backgroundColor = FeedbackTheme.sharedInstance.textColor.withAlphaComponent(0.4)
+            btncolorpen.backgroundColor = FeedbackTheme.sharedInstance.maskColor.withAlphaComponent(0.4)
             checkselectedBtn = "pencilDraw"
             selectedBtn = btncolorpen
             btnfullBlur.isSelected = true
@@ -1064,7 +1096,7 @@ public class FloatScreenshotEditor:UIViewController,UIGestureRecognizerDelegate{
         bttnBlur.isSelected = false
         btnClear.isSelected = false
         self.imagevw.isUserInteractionEnabled = false
-        buttonSelectedStatus(pencolor: FeedbackTheme.sharedInstance.textColor.withAlphaComponent(0.4), blurpenColor: UIColor.clear, arrow: UIColor.clear, masking: UIColor.clear)
+        buttonSelectedStatus(pencolor: FeedbackTheme.sharedInstance.maskColor.withAlphaComponent(0.4), blurpenColor: UIColor.clear, arrow: UIColor.clear, masking: UIColor.clear)
     }
     
     //MARK: button color status change
@@ -1089,7 +1121,7 @@ public class FloatScreenshotEditor:UIViewController,UIGestureRecognizerDelegate{
         checkselectedBtn = "arrowBttn"
         self.imagevw.isUserInteractionEnabled = true
         buttonSelectedStatus(pencolor: UIColor.clear, blurpenColor: UIColor.clear,
-                             arrow: FeedbackTheme.sharedInstance.textColor.withAlphaComponent(0.4), masking: UIColor.clear)
+                             arrow: FeedbackTheme.sharedInstance.maskColor.withAlphaComponent(0.4), masking: UIColor.clear)
         canvasArrow.isUserInteractionEnabled = true
         self.canvasArrow.frame = CGRect(x: 0, y: 0, width: self.imagevw.frame.width, height: self.imagevw.frame.height)
         blurViewUnselect()
@@ -1107,7 +1139,7 @@ public class FloatScreenshotEditor:UIViewController,UIGestureRecognizerDelegate{
         iscolorOn = true
         self.imagevw.isUserInteractionEnabled = true
         buttonSelectedStatus(pencolor: UIColor.clear,
-                             blurpenColor: FeedbackTheme.sharedInstance.textColor.withAlphaComponent(0.4), arrow: UIColor.clear,
+                             blurpenColor: FeedbackTheme.sharedInstance.maskColor.withAlphaComponent(0.4), arrow: UIColor.clear,
                              masking: UIColor.clear)
         let blurViewDimension:Float = Float(min(imagevw.frame.size.width, imagevw.frame.size.height) * 50.0 / 100.0)
         let blurViewRect:CGRect
@@ -1196,7 +1228,7 @@ public class FloatScreenshotEditor:UIViewController,UIGestureRecognizerDelegate{
         if sender.isSelected {
             sender.isSelected = false
             self.openImageRequest()
-            buttonSelectedStatus(pencolor: UIColor.clear, blurpenColor: UIColor.clear, arrow: UIColor.clear, masking: FeedbackTheme.sharedInstance.textColor.withAlphaComponent(0.4))
+            buttonSelectedStatus(pencolor: UIColor.clear, blurpenColor: UIColor.clear, arrow: UIColor.clear, masking: FeedbackTheme.sharedInstance.maskColor.withAlphaComponent(0.4))
             btnfullBlur.setTitle(FontIconText.maskSelected, for: .normal)
             
         } else {
@@ -1232,7 +1264,7 @@ public class FloatScreenshotEditor:UIViewController,UIGestureRecognizerDelegate{
             imagevw.image = image
         }
         selectedBtn = btncolorpen
-        btncolorpen.backgroundColor = FeedbackTheme.sharedInstance.textColor.withAlphaComponent(0.4)
+        btncolorpen.backgroundColor = FeedbackTheme.sharedInstance.maskColor.withAlphaComponent(0.4)
         bttnBlur.backgroundColor = UIColor.clear
         btnfullBlur.backgroundColor = UIColor.clear
         pencilSketchDraw()

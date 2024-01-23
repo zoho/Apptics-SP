@@ -171,6 +171,9 @@ public class FeedbackTheme{
     public static let sharedInstance = FeedbackTheme()
     init()
     {}
+    public var maskColor = UIColor.lightGray
+    public var tintColor = (UINavigationBar.appearance().tintColor != nil) ? UINavigationBar.appearance().tintColor! : UIColor.systemBlue
+    public var barButtontitleTextAttributes : NSDictionary = ((UIBarButtonItem.appearance().titleTextAttributes(for: .normal)) != nil) ? UIBarButtonItem.appearance().titleTextAttributes(for: .normal)! as NSDictionary : [NSAttributedString.Key.foregroundColor : (UINavigationBar.appearance().tintColor != nil) ? UINavigationBar.appearance().tintColor! : UIColor.systemBlue]
     public var textColor = UIColor.black
     public var ViewColor = UIColor.lightGray
     public var arrowcolor = UIColor(red: 160.0/255.0, green: 50.0/255.0, blue: 105.0/255.0, alpha: 1.0)
@@ -203,9 +206,19 @@ extension CGImagePropertyOrientation {
 
 extension UIWindow {
     func dismissWindow() {
-        isHidden = true
-        if #available(iOS 13, *) {
-            windowScene = nil
+        if ((self as? FloatingscreenshotWindow) != nil) {
+            isHidden = true
+            if #available(iOS 13, *) {                                
+                    windowScene = nil
+            }
+        }
+        if #available(iOS 11.0, *) {
+            if ((self.rootViewController as? FloatScreenshotEditor) != nil) {
+                isHidden = true
+                if #available(iOS 13, *) {
+                        windowScene = nil
+                }
+            }
         }
     }
 }
@@ -323,6 +336,13 @@ public extension UIButton {
             self.isUserInteractionEnabled = true
         }
     }
+    
+    func setAttributedText(attributes: [NSAttributedString.Key: Any]) {
+        if let text = self.titleLabel?.text{
+            let attributedText = NSAttributedString(string: text, attributes: attributes)
+            self.setAttributedTitle(attributedText, for: .normal)
+        }
+    }
 }
 
 
@@ -394,6 +414,7 @@ extension UILabel {
         self.text = text + trailingContent.text
         self.highlight(trailingContent.text, color: highledcolor)
     }
+
 }
 
 extension UITextView {
