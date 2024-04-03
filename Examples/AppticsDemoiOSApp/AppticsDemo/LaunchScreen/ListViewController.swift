@@ -2,6 +2,9 @@
 import UIKit
 import Apptics
 import AppticsCrossPromotion
+import AppticsFeedbackKit
+import AppticsFeedbackKitSwift
+import AppticsInAppUpdate
 
 class ListViewController: UITableViewController {
     override func viewDidLoad() {
@@ -65,7 +68,7 @@ extension ListViewController {
             Apptics.openAnalyticSettingsController()
             break
         case .Crosspromotion:
-            PromotedAppsKit.presentPromotedAppsController(sectionHeader1: "Related apps", sectionHeader2: "More apps")
+//            PromotedAppsKit.presentPromotedAppsController(sectionHeader1: "Related apps", sectionHeader2: "More apps")
             break
         }
         

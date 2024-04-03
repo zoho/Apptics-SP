@@ -30,7 +30,7 @@ class NonFatalMasterSwift: NSObject {
             let str = try String(contentsOfFile: filename ?? "")
             
         } catch let error{
-            APTrackError(error as NSError)
+//            APTrackError(error as NSError)
         }
     }
 }

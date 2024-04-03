@@ -1,24 +1,16 @@
 PODS:
-  - AppticsAnalytics/Apptics (1.1.4):
-    - AppticsAnalytics/JWT
-  - AppticsAnalytics/JWT (1.1.4)
-  - AppticsFeedbackKit (1.1.4):
-    - AppticsFeedbackKit/FeedbackKit (= 1.1.4)
-  - AppticsFeedbackKit/FeedbackKit (1.1.4):
-    - AppticsAnalytics/Apptics (= 1.1.4)
+  - Apptics-SDK/Scripts (2.0)
 
 DEPENDENCIES:
-  - AppticsFeedbackKit (= 1.1.4)
+  - Apptics-SDK/Scripts (= 2.0)
 
 SPEC REPOS:
-  "ssh://git@git.csez.zohocorpin.com:2222/ssaravanan/apptics-sp.git":
-    - AppticsAnalytics
-    - AppticsFeedbackKit
+  https://github.com/CocoaPods/Specs.git:
+    - Apptics-SDK
 
 SPEC CHECKSUMS:
-  AppticsAnalytics: ecb0323e7266f1369489a73a2523b18758110ea0
-  AppticsFeedbackKit: 0329a0c573f4ddc4dc9cfd60d74a429f6b101d85
+  Apptics-SDK: 4eaec042edc09ca9c7fb0ae41f1535df67275b6b
 
-PODFILE CHECKSUM: 0d3dafc6b17496d927ec08429df927d395b7f1ff
+PODFILE CHECKSUM: 37eb8dbba437154ceda1fd8e2051cbd737b44d0c
 
 COCOAPODS: 1.11.3

@@ -176,19 +176,13 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "AppStore" ]]; then
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AppticsAnalytics/Apptics/Apptics.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AppticsAnalytics/JWT/JWT.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AppticsFeedbackKit/FeedbackKit/AppticsFeedbackKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Apptics-SDK/Apptics_SDK.framework"
 fi
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AppticsAnalytics/Apptics/Apptics.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AppticsAnalytics/JWT/JWT.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AppticsFeedbackKit/FeedbackKit/AppticsFeedbackKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Apptics-SDK/Apptics_SDK.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AppticsAnalytics/Apptics/Apptics.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AppticsAnalytics/JWT/JWT.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AppticsFeedbackKit/FeedbackKit/AppticsFeedbackKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Apptics-SDK/Apptics_SDK.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

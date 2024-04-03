@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,7 +11,6 @@
 		6B8B170310F57010F1D8B2A0 /* Pods_AppticsWidgetExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9729B44161FE5704BC1E785 /* Pods_AppticsWidgetExtension.framework */; };
 		7AE276EE2FA438AD79010C5D /* Pods_AppticsDemo_AppticsDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CFF7F3AAB67E32972A067B /* Pods_AppticsDemo_AppticsDemoUITests.framework */; };
 		8E63463BB6982812A1115120 /* Pods_AppticsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9CE485B731CFB819EE847A /* Pods_AppticsDemo.framework */; };
-		A224239028C6062A00C042D3 /* apptics-config-eu.plist in Resources */ = {isa = PBXBuildFile; fileRef = A224238F28C6062A00C042D3 /* apptics-config-eu.plist */; };
 		A23C922228D475E00014FCBA /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22DE1FC2762212200FF7A21 /* WidgetKit.framework */; };
 		A23C922328D475E00014FCBA /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22DE1FE2762212200FF7A21 /* SwiftUI.framework */; };
 		A23C922628D475E00014FCBA /* AppticsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23C922528D475E00014FCBA /* AppticsWidget.swift */; };
@@ -29,7 +28,6 @@
 		A25BD378273B454E00FA196D /* AppticsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25BD377273B454E00FA196D /* AppticsDemoTests.swift */; };
 		A25BD383273B454E00FA196D /* AppticsDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25BD382273B454E00FA196D /* AppticsDemoUITests.swift */; };
 		A25BD62E27426C2E00FA196D /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = A25BD62D27426C2E00FA196D /* Test.m */; };
-		A25BD63227426D4B00FA196D /* apptics-config-us.plist in Resources */ = {isa = PBXBuildFile; fileRef = A25BD63127426D4B00FA196D /* apptics-config-us.plist */; };
 		A27C2856279935B900EA16CF /* TableList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27C2853279935B500EA16CF /* TableList.swift */; };
 		A27C2857279935B900EA16CF /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27C2854279935B700EA16CF /* ListCell.swift */; };
 		A27C2858279935B900EA16CF /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27C2855279935B900EA16CF /* ListViewController.swift */; };
@@ -50,13 +48,6 @@
 		A27C287E27997F3200EA16CF /* APIListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27C287B27997F3200EA16CF /* APIListViewController.swift */; };
 		A27C287F27997F3200EA16CF /* APIListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27C287C27997F3200EA16CF /* APIListCell.swift */; };
 		A27C288027997F3200EA16CF /* APITableList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27C287D27997F3200EA16CF /* APITableList.swift */; };
-		A2E88FD9295BF55D0047CFC3 /* AppticsAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = A2E88FD8295BF55D0047CFC3 /* AppticsAnalytics */; };
-		A2E88FDB295BF55D0047CFC3 /* AppticsApiTracker in Frameworks */ = {isa = PBXBuildFile; productRef = A2E88FDA295BF55D0047CFC3 /* AppticsApiTracker */; };
-		A2E88FDD295BF55D0047CFC3 /* AppticsCrossPromotion in Frameworks */ = {isa = PBXBuildFile; productRef = A2E88FDC295BF55D0047CFC3 /* AppticsCrossPromotion */; };
-		A2E88FDF295BF55D0047CFC3 /* AppticsFeedbackKit in Frameworks */ = {isa = PBXBuildFile; productRef = A2E88FDE295BF55D0047CFC3 /* AppticsFeedbackKit */; };
-		A2E88FE1295BF55D0047CFC3 /* AppticsInAppUpdate in Frameworks */ = {isa = PBXBuildFile; productRef = A2E88FE0295BF55D0047CFC3 /* AppticsInAppUpdate */; };
-		A2E88FE3295BF55D0047CFC3 /* AppticsRateUs in Frameworks */ = {isa = PBXBuildFile; productRef = A2E88FE2295BF55D0047CFC3 /* AppticsRateUs */; };
-		A2E88FE5295BF55D0047CFC3 /* AppticsRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = A2E88FE4295BF55D0047CFC3 /* AppticsRemoteConfig */; };
 		ADB94474DA08D225B0BAAB45 /* APAppticsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF315A3ADC5FF9E536810E9 /* APAppticsExtension.swift */; };
 /* End PBXBuildFile section */
 
@@ -110,10 +101,10 @@
 		726EBA67C8E13BFA6797894E /* Pods-AppticsDemoTests.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppticsDemoTests.appstore.xcconfig"; path = "Target Support Files/Pods-AppticsDemoTests/Pods-AppticsDemoTests.appstore.xcconfig"; sourceTree = "<group>"; };
 		7643966BCD4823677B03A20F /* ZAAppticsExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZAAppticsExtension.m; sourceTree = "<group>"; };
 		82D49E8CE21A9ABF6F2E76CB /* Pods-AppticsWidgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppticsWidgetExtension.debug.xcconfig"; path = "Target Support Files/Pods-AppticsWidgetExtension/Pods-AppticsWidgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		849C9C612BBD325A003A438A /* Apptics-SP */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "Apptics-SP"; path = ../..; sourceTree = "<group>"; };
 		8F1BD77762BC1FAC61F8947E /* APAppticsExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = APAppticsExtension.h; sourceTree = "<group>"; };
 		947170A205C75B5EA11D18AD /* Pods-AppticsDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppticsDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-AppticsDemoTests/Pods-AppticsDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9BDED2F61E913B1A75C5B20F /* Pods-AppticsWidgetExtension.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppticsWidgetExtension.appstore.xcconfig"; path = "Target Support Files/Pods-AppticsWidgetExtension/Pods-AppticsWidgetExtension.appstore.xcconfig"; sourceTree = "<group>"; };
-		A224238F28C6062A00C042D3 /* apptics-config-eu.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "apptics-config-eu.plist"; sourceTree = SOURCE_ROOT; };
 		A22DE1FC2762212200FF7A21 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		A22DE1FE2762212200FF7A21 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		A23C4DCC275DD56F0020D210 /* AppticsDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppticsDemo.entitlements; sourceTree = "<group>"; };
@@ -142,7 +133,6 @@
 		A25BD62B27426C2E00FA196D /* AppticsDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppticsDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		A25BD62C27426C2E00FA196D /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		A25BD62D27426C2E00FA196D /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
-		A25BD63127426D4B00FA196D /* apptics-config-us.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "apptics-config-us.plist"; sourceTree = SOURCE_ROOT; };
 		A27C2853279935B500EA16CF /* TableList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableList.swift; sourceTree = "<group>"; };
 		A27C2854279935B700EA16CF /* ListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
 		A27C2855279935B900EA16CF /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
@@ -189,13 +179,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2E88FDB295BF55D0047CFC3 /* AppticsApiTracker in Frameworks */,
-				A2E88FE5295BF55D0047CFC3 /* AppticsRemoteConfig in Frameworks */,
-				A2E88FE1295BF55D0047CFC3 /* AppticsInAppUpdate in Frameworks */,
-				A2E88FD9295BF55D0047CFC3 /* AppticsAnalytics in Frameworks */,
-				A2E88FDD295BF55D0047CFC3 /* AppticsCrossPromotion in Frameworks */,
-				A2E88FDF295BF55D0047CFC3 /* AppticsFeedbackKit in Frameworks */,
-				A2E88FE3295BF55D0047CFC3 /* AppticsRateUs in Frameworks */,
 				8E63463BB6982812A1115120 /* Pods_AppticsDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +232,14 @@
 			name = Apptics;
 			sourceTree = "<group>";
 		};
+		849C9C3A2BBD26F2003A438A /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				849C9C612BBD325A003A438A /* Apptics-SP */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 		A23C922428D475E00014FCBA /* AppticsWidget */ = {
 			isa = PBXGroup;
 			children = (
@@ -263,6 +254,7 @@
 		A25BD351273B454B00FA196D = {
 			isa = PBXGroup;
 			children = (
+				849C9C3A2BBD26F2003A438A /* Packages */,
 				A23C923028D475E10014FCBA /* AppticsWidgetExtension.entitlements */,
 				A23C921828D45A4F0014FCBA /* WidgetExtension.entitlements */,
 				A25BD35C273B454B00FA196D /* AppticsDemo */,
@@ -291,9 +283,7 @@
 			isa = PBXGroup;
 			children = (
 				A23C4DCC275DD56F0020D210 /* AppticsDemo.entitlements */,
-				A25BD63127426D4B00FA196D /* apptics-config-us.plist */,
 				A23C923728D484FB0014FCBA /* apptics-config.plist */,
-				A224238F28C6062A00C042D3 /* apptics-config-eu.plist */,
 				A27C287A27997EFE00EA16CF /* APITracking */,
 				A27C2876279978FD00EA16CF /* ThemeManager */,
 				A27C286B2799718200EA16CF /* NonFatals */,
@@ -469,13 +459,6 @@
 			);
 			name = AppticsDemo;
 			packageProductDependencies = (
-				A2E88FD8295BF55D0047CFC3 /* AppticsAnalytics */,
-				A2E88FDA295BF55D0047CFC3 /* AppticsApiTracker */,
-				A2E88FDC295BF55D0047CFC3 /* AppticsCrossPromotion */,
-				A2E88FDE295BF55D0047CFC3 /* AppticsFeedbackKit */,
-				A2E88FE0295BF55D0047CFC3 /* AppticsInAppUpdate */,
-				A2E88FE2295BF55D0047CFC3 /* AppticsRateUs */,
-				A2E88FE4295BF55D0047CFC3 /* AppticsRemoteConfig */,
 			);
 			productName = AppticsDemo;
 			productReference = A25BD35A273B454B00FA196D /* AppticsDemo.app */;
@@ -557,7 +540,6 @@
 			);
 			mainGroup = A25BD351273B454B00FA196D;
 			packageReferences = (
-				A2E88FD7295BF55D0047CFC3 /* XCRemoteSwiftPackageReference "apptics-SP" */,
 			);
 			productRefGroup = A25BD35B273B454B00FA196D /* Products */;
 			projectDirPath = "";
@@ -585,11 +567,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A25BD36D273B454E00FA196D /* LaunchScreen.storyboard in Resources */,
-				A25BD63227426D4B00FA196D /* apptics-config-us.plist in Resources */,
 				A25BD36A273B454E00FA196D /* Assets.xcassets in Resources */,
 				A25BD365273B454B00FA196D /* Main.storyboard in Resources */,
 				A23C923828D484FB0014FCBA /* apptics-config.plist in Resources */,
-				A224239028C6062A00C042D3 /* apptics-config-eu.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1423,55 +1403,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		A2E88FD7295BF55D0047CFC3 /* XCRemoteSwiftPackageReference "apptics-SP" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/zoho/apptics-SP";
-			requirement = {
-				kind = exactVersion;
-				version = 1.1.3;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		A2E88FD8295BF55D0047CFC3 /* AppticsAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A2E88FD7295BF55D0047CFC3 /* XCRemoteSwiftPackageReference "apptics-SP" */;
-			productName = AppticsAnalytics;
-		};
-		A2E88FDA295BF55D0047CFC3 /* AppticsApiTracker */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A2E88FD7295BF55D0047CFC3 /* XCRemoteSwiftPackageReference "apptics-SP" */;
-			productName = AppticsApiTracker;
-		};
-		A2E88FDC295BF55D0047CFC3 /* AppticsCrossPromotion */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A2E88FD7295BF55D0047CFC3 /* XCRemoteSwiftPackageReference "apptics-SP" */;
-			productName = AppticsCrossPromotion;
-		};
-		A2E88FDE295BF55D0047CFC3 /* AppticsFeedbackKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A2E88FD7295BF55D0047CFC3 /* XCRemoteSwiftPackageReference "apptics-SP" */;
-			productName = AppticsFeedbackKit;
-		};
-		A2E88FE0295BF55D0047CFC3 /* AppticsInAppUpdate */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A2E88FD7295BF55D0047CFC3 /* XCRemoteSwiftPackageReference "apptics-SP" */;
-			productName = AppticsInAppUpdate;
-		};
-		A2E88FE2295BF55D0047CFC3 /* AppticsRateUs */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A2E88FD7295BF55D0047CFC3 /* XCRemoteSwiftPackageReference "apptics-SP" */;
-			productName = AppticsRateUs;
-		};
-		A2E88FE4295BF55D0047CFC3 /* AppticsRemoteConfig */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A2E88FD7295BF55D0047CFC3 /* XCRemoteSwiftPackageReference "apptics-SP" */;
-			productName = AppticsRemoteConfig;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		A25BD366273B454B00FA196D /* AppticsDemo.xcdatamodeld */ = {

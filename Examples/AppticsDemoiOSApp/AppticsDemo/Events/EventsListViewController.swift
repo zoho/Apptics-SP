@@ -1,6 +1,7 @@
 
 import UIKit
 import AppticsEventTracker
+import Apptics
 
 class EventsListViewController: UITableViewController {
 }
