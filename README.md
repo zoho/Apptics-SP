@@ -71,9 +71,6 @@ min Xcode version 9.0
 ## **Important**:
 To get proper symbolicated crashes, make sure your build settings have the following when you ship your app.
  
-* Strip Build Symbols During Copy - **NO**
-* Strip Linked Product - **NO**
-* Strip Style - **Debugging Symbols**
 * Debug information format - **Dwarf with dSYM file**
 
 # Features
