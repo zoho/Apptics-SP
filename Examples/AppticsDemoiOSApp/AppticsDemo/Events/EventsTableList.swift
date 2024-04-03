@@ -9,14 +9,14 @@ struct EventsTableList {
 
 extension EventsTableList {
     static var eventData = [
-        EventsTableList(type: ._bill_transaction_pdf_click),
+        EventsTableList(type: ._purchase_add_purchase),
         EventsTableList(type: ._bill_country_code),
-        EventsTableList(type: ._bill_mobile_number_change),
-        EventsTableList(type: ._bill_share_click),
-        EventsTableList(type: ._bill_country_code_change),
-        EventsTableList(type: ._bill_menu_click),
-        EventsTableList(type: ._bill_transaction_link_click),
-        EventsTableList(type: ._Bills_transaction_rejected)
+        EventsTableList(type: ._purchase_update_purchase),
+        EventsTableList(type: ._purchase_delete_purchase),
+        EventsTableList(type: ._students_studied),
+        EventsTableList(type: ._students_logging),
+        EventsTableList(type: ._employee_studied),
+        EventsTableList(type: ._sell_refund)
     ]
 }
 

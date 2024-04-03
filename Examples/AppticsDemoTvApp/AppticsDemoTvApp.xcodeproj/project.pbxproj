@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,11 @@
 		24EF1BCB286D797200490D90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EF1BCA286D797200490D90 /* main.m */; };
 		24EF1BDC286D7A5C00490D90 /* apptics-config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24EF1BDB286D7A5C00490D90 /* apptics-config.plist */; };
 		67DE07448E732E834F63E7A0 /* Pods_AppticsDemoTvApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7CFA846268B96AEC9B494E9 /* Pods_AppticsDemoTvApp.framework */; };
+		849C9C812BBD4EE1003A438A /* AppticsAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 849C9C802BBD4EE1003A438A /* AppticsAnalytics */; };
+		849C9C832BBD4EE1003A438A /* AppticsApiTracker in Frameworks */ = {isa = PBXBuildFile; productRef = 849C9C822BBD4EE1003A438A /* AppticsApiTracker */; };
+		849C9C852BBD4EE1003A438A /* AppticsExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 849C9C842BBD4EE1003A438A /* AppticsExtension */; };
+		849C9C872BBD4EE1003A438A /* AppticsRateUs in Frameworks */ = {isa = PBXBuildFile; productRef = 849C9C862BBD4EE1003A438A /* AppticsRateUs */; };
+		849C9C892BBD4EE1003A438A /* AppticsRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 849C9C882BBD4EE1003A438A /* AppticsRemoteConfig */; };
 		A2791E86287E8BDE0047A3FF /* APAppticsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2791E84287E8BDC0047A3FF /* APAppticsExtension.swift */; };
 		A2791E87287E8BDE0047A3FF /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2791E85287E8BDE0047A3FF /* NewViewController.swift */; };
 /* End PBXBuildFile section */
@@ -44,6 +49,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849C9C832BBD4EE1003A438A /* AppticsApiTracker in Frameworks */,
+				849C9C852BBD4EE1003A438A /* AppticsExtension in Frameworks */,
+				849C9C872BBD4EE1003A438A /* AppticsRateUs in Frameworks */,
+				849C9C892BBD4EE1003A438A /* AppticsRemoteConfig in Frameworks */,
+				849C9C812BBD4EE1003A438A /* AppticsAnalytics in Frameworks */,
 				67DE07448E732E834F63E7A0 /* Pods_AppticsDemoTvApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -125,6 +135,13 @@
 			dependencies = (
 			);
 			name = AppticsDemoTvApp;
+			packageProductDependencies = (
+				849C9C802BBD4EE1003A438A /* AppticsAnalytics */,
+				849C9C822BBD4EE1003A438A /* AppticsApiTracker */,
+				849C9C842BBD4EE1003A438A /* AppticsExtension */,
+				849C9C862BBD4EE1003A438A /* AppticsRateUs */,
+				849C9C882BBD4EE1003A438A /* AppticsRemoteConfig */,
+			);
 			productName = AppticsDemoTvApp;
 			productReference = 24EF1BB8286D796800490D90 /* AppticsDemoTvApp.app */;
 			productType = "com.apple.product-type.application";
@@ -152,6 +169,9 @@
 				Base,
 			);
 			mainGroup = 24EF1BAF286D796800490D90;
+			packageReferences = (
+				849C9C7F2BBD4EE1003A438A /* XCRemoteSwiftPackageReference "apptics-SP" */,
+			);
 			productRefGroup = 24EF1BB9286D796800490D90 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -201,7 +221,7 @@
 			name = "[CP-User] Apptics pre build";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "sh \"./Pods/Apptics-SDK/scripts/run\" --upload-symbols-for-configurations=\"Release, AppStore\"";
+			shellScript = "sh \"./Pods/Apptics-SDK/scripts/run\" --upload-symbols-for-configurations=\"Release, AppStore\"\n";
 		};
 		F9B3D51A321995042D684A40 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -443,6 +463,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		849C9C7F2BBD4EE1003A438A /* XCRemoteSwiftPackageReference "apptics-SP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zoho/apptics-SP.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		849C9C802BBD4EE1003A438A /* AppticsAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 849C9C7F2BBD4EE1003A438A /* XCRemoteSwiftPackageReference "apptics-SP" */;
+			productName = AppticsAnalytics;
+		};
+		849C9C822BBD4EE1003A438A /* AppticsApiTracker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 849C9C7F2BBD4EE1003A438A /* XCRemoteSwiftPackageReference "apptics-SP" */;
+			productName = AppticsApiTracker;
+		};
+		849C9C842BBD4EE1003A438A /* AppticsExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 849C9C7F2BBD4EE1003A438A /* XCRemoteSwiftPackageReference "apptics-SP" */;
+			productName = AppticsExtension;
+		};
+		849C9C862BBD4EE1003A438A /* AppticsRateUs */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 849C9C7F2BBD4EE1003A438A /* XCRemoteSwiftPackageReference "apptics-SP" */;
+			productName = AppticsRateUs;
+		};
+		849C9C882BBD4EE1003A438A /* AppticsRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 849C9C7F2BBD4EE1003A438A /* XCRemoteSwiftPackageReference "apptics-SP" */;
+			productName = AppticsRemoteConfig;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 24EF1BB0286D796800490D90 /* Project object */;
 }

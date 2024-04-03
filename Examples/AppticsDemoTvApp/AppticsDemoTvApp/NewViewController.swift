@@ -41,13 +41,14 @@ class NewViewController : UIViewController{
           if (status == .statusSuccess || status == .statusUpToDate){
               APRemoteConfig.shared().activateFetched()
           }
-          print(APRemoteConfig.shared()["feedback_module"].stringValue)
-          print(APRemoteConfig.shared().configValue(forKey: "secondary_color").stringValue )
+          print(APRemoteConfig.shared()["feedback_module"]?.stringValue)
+          print(APRemoteConfig.shared().configValue(forKey: "secondary_color")?.stringValue )
       }
       
     }
     
     @objc @IBAction func trackEvent(_ sender: Any) {
         APEvent.trackEvent(withType: APEventType._bill_country_code)
+        APEvent.trackEvent("iOS_Login", andGroupName: "Applifecycle", withProperties: ["age1":28])
     }
 }

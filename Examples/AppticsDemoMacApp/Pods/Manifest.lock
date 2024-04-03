@@ -1,38 +1,16 @@
 PODS:
-  - Apptics-SDK (1.0.8):
-    - Apptics-SDK/Analytics (= 1.0.8)
-  - Apptics-SDK/Analytics (1.0.8):
-    - Apptics-SDK/Scripts
-    - AppticsAnalytics (= 1.0.8)
-  - Apptics-SDK/Scripts (1.0.8)
-  - AppticsAnalytics (1.0.8):
-    - AppticsAnalytics/Core (= 1.0.8)
-  - AppticsAnalytics/Apptics (1.0.8):
-    - AppticsAnalytics/JWT
-  - AppticsAnalytics/Core (1.0.8):
-    - AppticsAnalytics/Apptics
-    - AppticsAnalytics/CrashKit
-    - AppticsAnalytics/EventTracker
-    - AppticsAnalytics/ScreenTracker
-  - AppticsAnalytics/CrashKit (1.0.8):
-    - AppticsAnalytics/KSCrash
-  - AppticsAnalytics/EventTracker (1.0.8)
-  - AppticsAnalytics/JWT (1.0.8)
-  - AppticsAnalytics/KSCrash (1.0.8)
-  - AppticsAnalytics/ScreenTracker (1.0.8)
+  - Apptics-SDK/Scripts (2.0)
 
 DEPENDENCIES:
-  - Apptics-SDK (= 1.0.8)
+  - Apptics-SDK/Scripts (= 2.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Apptics-SDK
-    - AppticsAnalytics
 
 SPEC CHECKSUMS:
-  Apptics-SDK: a0b907b81f03b706b1f19e514d0015ec009dfe3e
-  AppticsAnalytics: 3400155b939b147ba42b7f5b3f2dd448cdc68d90
+  Apptics-SDK: 4eaec042edc09ca9c7fb0ae41f1535df67275b6b
 
-PODFILE CHECKSUM: ae7b7b905d37eedc3466ceb157892f93765ba374
+PODFILE CHECKSUM: 9fbb72074bda44a16b837d4702935aa57cb47bfb
 
 COCOAPODS: 1.11.3

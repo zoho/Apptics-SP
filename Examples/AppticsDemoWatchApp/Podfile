@@ -1,13 +1,19 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-apptics_version = '1.0.8' #debug version
-source_url = 'https://github.com/zoho/Apptics.git' #build source url.
+apptics_version = '2.0' #debug version
+#source_url = 'https://github.com/zoho/Apptics.git' #build source url.
+source_url = 'https://github.com/CocoaPods/Specs.git' #build source url.
+
+source 'https://cdn.cocoapods.org/'
+
 
 target 'AppticsDemoWatchApp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod 'Apptics-Swift/Extension', '1.0.8', :source=>'https://github.com/zoho/Apptics.git'
+#  pod 'Apptics-Swift/Extension', apptics_version, :source=>source_url
+#  pod 'Apptics-SDK/Scripts', apptics_version, :source => source_url
+
 #  # Apptics for Swift
 #  pod 'Apptics-Swift', apptics_version , :source => source_url
 #  # Apptics RemoteConfig
@@ -22,13 +28,15 @@ target 'AppticsDemoWatchApp WatchKit App' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
+  pod 'Apptics-SDK/Scripts', apptics_version, :source => source_url
+
   # Pods for AppticsDemoWatchApp WatchKit App
   # Apptics for Swift
-#  pod 'Apptics-Swift', apptics_version , :source => source_url
-#  # Apptics RemoteConfig
-#  pod 'AppticsRemoteConfig', apptics_version , :source => source_url
+  pod 'Apptics-Swift', apptics_version , :source => source_url
+  # Apptics RemoteConfig
+  pod 'AppticsRemoteConfig', apptics_version , :source => source_url
   
-#  script_phase :name => 'Apptics pre build', :script => 'sh "./Pods/Apptics-SDK/scripts/run" --upload-symbols-for-configurations="Release, AppStore" --config-file-path="apptics-config-watch.plist"', :execution_position => :before_compile
+  script_phase :name => 'Apptics pre build', :script => 'sh "./Pods/Apptics-SDK/scripts/run" --upload-symbols-for-configurations="Release, AppStore" --config-file-path="apptics-config.plist"', :execution_position => :before_compile
 
 end
 
@@ -36,8 +44,10 @@ target 'AppticsDemoWatchApp WatchKit Extension' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   # Apptics for Swift
-#  pod 'Apptics-Swift', apptics_version , :source => source_url
-#  # Apptics RemoteConfig
+  pod 'Apptics-SDK', apptics_version, :source => source_url
+
+  pod 'Apptics-Swift', apptics_version , :source => source_url
+  # Apptics RemoteConfig
 #  pod 'AppticsRemoteConfig', apptics_version , :source => source_url
 
     

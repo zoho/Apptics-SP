@@ -1,7 +1,7 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-apptics_version = '1.0.8' #debug version
+apptics_version = '2.0' #debug version
 #source_url = 'https://github.com/zoho/Apptics.git' #build source url.
 source_url = 'https://github.com/CocoaPods/Specs.git' #build source url.
 
@@ -11,7 +11,7 @@ target 'AppticsDemoMacApp' do
 
   # Pods for AppticsDemoMacApp
 ## Apptics for Objc
-pod 'Apptics-SDK', apptics_version , :source => source_url
+pod 'Apptics-SDK/Scripts', apptics_version , :source => source_url
 #pod 'Apptics', '1.0.5', :source => source_url
 # Apptics for Swift
 #pod 'Apptics-Swift', apptics_version , :source => source_url

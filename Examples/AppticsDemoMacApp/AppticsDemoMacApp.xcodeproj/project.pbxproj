@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,10 @@
 		24EF1B9A286D61A500490D90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EF1B99286D61A500490D90 /* main.m */; };
 		24EF1BAB286D654800490D90 /* apptics-config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24EF1BAA286D654800490D90 /* apptics-config.plist */; };
 		8375FF805DE30028D3C089FA /* Pods_AppticsDemoMacApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639D8792723EFBD36BFF8D0B /* Pods_AppticsDemoMacApp.framework */; };
+		849C9C782BBD3BFB003A438A /* AppticsAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 849C9C772BBD3BFB003A438A /* AppticsAnalytics */; };
+		849C9C7A2BBD3BFB003A438A /* AppticsApiTracker in Frameworks */ = {isa = PBXBuildFile; productRef = 849C9C792BBD3BFB003A438A /* AppticsApiTracker */; };
+		849C9C7C2BBD3BFB003A438A /* AppticsExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 849C9C7B2BBD3BFB003A438A /* AppticsExtension */; };
+		849C9C7E2BBD3BFB003A438A /* AppticsRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 849C9C7D2BBD3BFB003A438A /* AppticsRemoteConfig */; };
 		A2791E80287E88F30047A3FF /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2791E7F287E88F20047A3FF /* NewViewController.swift */; };
 		A2791E82287E89A70047A3FF /* APAppticsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2791E81287E89A70047A3FF /* APAppticsExtension.swift */; };
 /* End PBXBuildFile section */
@@ -43,6 +47,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849C9C7A2BBD3BFB003A438A /* AppticsApiTracker in Frameworks */,
+				849C9C7C2BBD3BFB003A438A /* AppticsExtension in Frameworks */,
+				849C9C7E2BBD3BFB003A438A /* AppticsRemoteConfig in Frameworks */,
+				849C9C782BBD3BFB003A438A /* AppticsAnalytics in Frameworks */,
 				8375FF805DE30028D3C089FA /* Pods_AppticsDemoMacApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -124,6 +132,12 @@
 			dependencies = (
 			);
 			name = AppticsDemoMacApp;
+			packageProductDependencies = (
+				849C9C772BBD3BFB003A438A /* AppticsAnalytics */,
+				849C9C792BBD3BFB003A438A /* AppticsApiTracker */,
+				849C9C7B2BBD3BFB003A438A /* AppticsExtension */,
+				849C9C7D2BBD3BFB003A438A /* AppticsRemoteConfig */,
+			);
 			productName = AppticsDemoMacApp;
 			productReference = 24EF1B8A286D61A400490D90 /* AppticsDemoMacApp.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +165,9 @@
 				Base,
 			);
 			mainGroup = 24EF1B81286D61A400490D90;
+			packageReferences = (
+				849C9C762BBD3BFB003A438A /* XCRemoteSwiftPackageReference "apptics-SP" */,
+			);
 			productRefGroup = 24EF1B8B286D61A400490D90 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -199,7 +216,7 @@
 			name = "[CP-User] Apptics pre build";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "sh \"./Pods/Apptics-SDK/scripts/run\" --upload-symbols-for-configurations=\"Release, AppStore\"";
+			shellScript = "sh \"./Pods/Apptics-SDK/scripts/run\" --upload-symbols-for-configurations=\"Release, AppStore\"\n";
 		};
 		C831B8CF7C8C68A60E6C9406 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -438,6 +455,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		849C9C762BBD3BFB003A438A /* XCRemoteSwiftPackageReference "apptics-SP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zoho/apptics-SP.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		849C9C772BBD3BFB003A438A /* AppticsAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 849C9C762BBD3BFB003A438A /* XCRemoteSwiftPackageReference "apptics-SP" */;
+			productName = AppticsAnalytics;
+		};
+		849C9C792BBD3BFB003A438A /* AppticsApiTracker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 849C9C762BBD3BFB003A438A /* XCRemoteSwiftPackageReference "apptics-SP" */;
+			productName = AppticsApiTracker;
+		};
+		849C9C7B2BBD3BFB003A438A /* AppticsExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 849C9C762BBD3BFB003A438A /* XCRemoteSwiftPackageReference "apptics-SP" */;
+			productName = AppticsExtension;
+		};
+		849C9C7D2BBD3BFB003A438A /* AppticsRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 849C9C762BBD3BFB003A438A /* XCRemoteSwiftPackageReference "apptics-SP" */;
+			productName = AppticsRemoteConfig;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 24EF1B82286D61A400490D90 /* Project object */;
 }
