@@ -80,71 +80,144 @@ To get proper symbolicated crashes, make sure your build settings have the follo
 
 ## Session Tracking:
 
-A session is considered when the app goes from foreground to background.  
+A session is a single period of user interaction with your app. For example, when a user opens the app for the first time and the app goes to the background, that is considered a session.
 
-## In-app Event Tracking: 
+Sessions are automatically tracked in Apptics, once you have integrated our SDK and called the initialization method.
 
-In-app event is tracking the post-install activities using the custom events.
+## In-app Event Tracking:
 
-## Screen Tracking: 
+Events help you track all the user actions within your app. For example, sign up, purchase made, feedback given, and so on. Events analytics and the associated data help you understand your users. \
+\
+**Event types**
 
-Screens are automatically tracked and the time spent on each screen is noted in iOS and tvOS. You can track screens manually using our [apis](https://prezoho.zohocorp.com/apptics/resources/SDK/iOS/screens.html)    
-***Note: Viewcontrollers aren't tracked properly if you use third party containment controllers like DDMenuController, IIViewdeckController etc. To ensure to get a proper tracking of viewcontroller override `viewDidAppear` and `viewWillDisappear` in all your viewcontrollers.***
+Zoho Apptics provides two types of event analytics; **Defined events and Custom events.** 
 
-## Crash Reporting: 
+**Defined events**: These are the default events that are available for your use once you have integrated our SDK.
 
-Crashes are automatically tracked and symbolicated. To get proper symbolicated reports please make sure to configure your build settings correctly. 
+**Custom events**: These are the events that you want to capture using our SDK.
 
-The crashes will not be captured if the debugger is attached at the launch, please follow the below steps. 
+### Logging custom events
 
-  * Run your app from Xcode and install it on your simulator or device.
-  * Quit the app using the stop button.
-  * Launch the app from home screen and try to crash the app by invoking our readymade method `Apptics.crash()`.
-  * Run the app again in order to push the crash to the server and get symbolicated.
+**\
+Objective C**
+
+```plaintext
+[APEvent trackEvent:<#(nonnull NSString *)#> andGroupName:<#(nonnull NSString *)#>]
+```
+
+**Swift**
+
+```plaintext
+APEvent.trackEvent(<#T##eventName: String##String#>, withGroupName: <#T##String#>)
+```
+
+Make sure that **the event name and group name** follow the below norms, or else the event won't be logged within the SDK.
+
+* should not be more than 100 characters.
+* should start with an alphabet.
+* should not contain any space or special characters apart from underscore (_).
+* cannot start with 'ap_' or 'AP_'. These are reserved for the defined events.
+
+An example of a valid event name: 'helloworld', 'Hello_world', 'helloWorld'\
+An example of an invalid event name: '_helloworld', '1hello', \`Hello World\`, 'ap_helloworld\`\
+\
+For more details, please visit our SDK guide for [In-App-Events](https://www.zoho.com/apptics/resources/SDK/iOS/in_app_events.html)
+
+## Screen Tracking:
+
+Screens are content that your users view in your app. Using Zoho Apptics' screen tracking, you can measure the screen views and associate the screen data with events. This helps you to understand user engagement and behavior. 
+
+* Make sure that you have integrated Apptics with your app. Refer to the [integration guide](https://www.zoho.com/apptics/resources/SDK/iOS/integration.html) for detailed steps.
+* Once the integration is done, you can track the screens either manually or automatically.
+
+### Manual screen tracking
+
+* You can track the screens manually and also provide custom screen names using Apptics. 
+* Use the below method to view the controller class that you want to track.\
+  \
+  To track the entry of the view, call the method viewDidAppear.\
+  \
+  **Objective C**
+
+  ```plaintext
+  [APScreentracker trackViewEnter:<#(nonnull NSString *)#>];
+  ```
+
+  **Swift**
+
+  ```plaintext
+  APScreentracker.trackViewEnter(<#T##screenName: String##String#>)
+  ```
+
+  To track the exit of the view, call the method viewWillDisappear.\
+  \
+  **Objective C**
+
+  ```plaintext
+  [APScreentracker trackViewExit:<#(nonnull NSString *)#>];
+  ```
+
+  **Swift**
+
+  ```plaintext
+  APScreentracker.trackViewExit(<#T##screenName: String##String#>)
+  ```
+
+\
+**NOTE:** Make sure that **the screen name** follows the below norms, or else the event won't be logged within the SDK.
+
+* screen name is mandatory and cannot be nil or empty.
+* screen name should not be more than 250 characters.
+* should start with an alphabet.
+* only numbers, spaces, dots, and underscore are allowed after the first letter.
+* cannot start with 'ap_' or 'AP_'. These are reserved for the defined events.
+
+### Crash Reporting:
+
+Crashes are automatically tracked and symbolicated by Apptics. To get proper symbolicated reports please make sure to configure your build settings correctly.
+
+The crashes will not be captured if the debugger is attached at the launch, please follow the below steps.
+
+* Run your app from Xcode and install it on your simulator or device.
+* Quit the app using the stop button.
+* Launch the app from the home screen and try to crash the app by invoking our ready-made method `Apptics.crash()`.
+* Run the app again in order to push the crash to the server and get symbolicated.
 
 Check the web console, you should find the crash listed in the console.
 
-#### Missing a dSYM? 
+#### Missing a dSYM?
 
-Apptics includes a script to upload your project's dSYM automatically. The script is executed through the run-script in your projects build phases during the on-boarding process. There are some cases where dSYM upload fails because of network interruptions or if you have enabled bit code in your project. Missing dSYMs can be uploaded by following the below steps. 
+Apptics includes a script to upload your project's dSYM automatically. The script is executed through the run-script in your project build phases during the onboarding process. There are some cases where dSYM upload fails because of network interruptions or improper configuration of the run script. Missing dSYMs can be uploaded by following the below steps.
 
-#### Finding your dSYM 
+#### Finding your dSYM
 
-While archiving your project build dSYMs are placed inside the xarchive directory. To view, open Xcode organizer window, ctrl+click or right click on the list to go to the dir in Finder. ctrl+click to view its content, inside the content you will find a dir called "dSYMs" which will contain dSYMs files, also that is the location where dSYMs are placed when you hit "download dSYM" in Xcode organizer. 
+While archiving your project, build dSYMs are placed inside the xarchive directory. To view, open the Xcode organizer window, ctrl+click, or right-click on the list to go to the directory in Finder. ctrl+click to view its content, Inside the content, you will find a directory called "dSYMs" which will contain dSYMs files. Also, that is the location where dSYMs are placed when you hit "download dSYM" in the Xcode organizer.
 
-For Bitcode enabled applications the first step would be to check in iTunes connect whether you have enabled bit-code for your application. For bit-code enabled builds Apple generates new dSYMs. You will have to download the dsyms from ituneconnect or from the Xcode's organizer and upload to Apptics server. 
+#### Uploading dSYMs
 
-#### To download the dSYM files from iTunes Connect: 
-* Log in to Apple [iTunes Connect](https://itunesconnect.apple.com/login).
-* Select My Apps > (selected app) > Activity.
-* From the list of builds for your application, select the build number you need for the dSYM.
-* Select Download dSYM.
+On the "Manage dSYM page" (Left menu -> Quality -> dSYM), upload the dSYMs.zip that you have downloaded from the iTunes connect for bitcode enabled or the one you find in xarchive directory.
 
-#### Uploading dSYMs 
+## Theme
 
-On "Manage dSYM page" (Left menu -> Quality -> dSYM), upload the dSYMs .zip that you have downloaded from the iTunes connect for bitcode enabled or the one you find in xarchive directory.
+You can use our protocols to customize the Analytics Settings, App updates and Feedback screens. Just create a swift/Obj class in the name of ThemeManager and extend those protocols to implement the required methods [link](https://prezoho.zohocorp.com/apptics/resources/SDK/iOS/customtheme.html).
 
-## Theme 
-
-You can use our protocols to customize the Analytics Settings, App updates and Feedback screens. Just create a swift/Obj class in the name of ThemeManager and extend those protocols to implement required methods [link]().
-
-## Callbacks 
+## Callbacks
 
 Get callbacks for all the events at a single point by extending `APCustomHandler`. It deals with user consent , crash consent, feedback, and ratings & reviews.
 
 ## Feedback and BugReporting
 
-A seperate module that does "Shake to Feedback", please check if it suits your needs [here](https://prezoho.zohocorp.com/apptics/resources/SDK/iOS/in_app_feedback.html).
-        
-## App Updates 
+A separate module that does "Shake to Feedback", Please check if it suits your needs [here](https://prezoho.zohocorp.com/apptics/resources/SDK/iOS/in_app_feedback.html).
 
-Now you can prompt user to update to the latest version of your app from the App Store.  
+## App Updates
 
-Please check our  guide before you start [here](https://prezoho.zohocorp.com/apptics/resources/SDK/iOS/in_app_updates.html).
+Now you can prompt users to update to the latest version of your app from the App Store.
+
+Please check our guide before you start [here](https://prezoho.zohocorp.com/apptics/resources/SDK/iOS/in_app_updates.html).
 
 ## Ratings and Reviews
 
-Engage with your users and learn about their experience. Promopt them to rate your app after they have fulfilled the configured criteria.
+Engage with your users and learn about their experience. Promote them to rate your app after they have fulfilled the configured criteria.
 
 Check how to configure automatic ratings [here](https://prezoho.zohocorp.com/apptics/resources/SDK/iOS/in_app_ratings.html).
 
