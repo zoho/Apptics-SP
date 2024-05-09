@@ -1,12 +1,12 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let version = "2.0.400"
+let version = "2.0.500"
 let package = Package(
     name: "Apptics",
     defaultLocalization: "en",
     platforms: [.macOS(.v10_10), .iOS(.v9), .tvOS(.v9), .watchOS(.v2)],
-    products: [        
+    products: [
         .library(
             name: "AppticsFeedbackKit",
             targets: ["AppticsFeedbackKit"]
@@ -83,7 +83,9 @@ let package = Package(
         ),
         .target(
             name: "AppticsExtension",
-            path: "SwiftFiles/AppExtension"
+            path: "SwiftFiles/AppExtension",
+            resources: [
+                .copy("SwiftFiles/AppExtension/PrivacyInfo.xcprivacy")]
         ),
         .target(
             name: "AppticsAnalytics",
@@ -92,12 +94,16 @@ let package = Package(
         .target(
             name: "AppticsCrossPromotion",
             dependencies: ["AppticsAnalytics"],
-            path: "SwiftFiles/CrossPromoApps"
+            path: "SwiftFiles/CrossPromoApps",
+            resources: [
+                .copy("SwiftFiles/CrossPromoApps/PrivacyInfo.xcprivacy")]
         ),
         .target(
             name: "AppticsFeedbackKitSwift",
             dependencies: ["AppticsFeedbackKit"],
-            path: "SwiftFiles/AppticsFeedbackKit"
+            path: "SwiftFiles/AppticsFeedbackKit",
+            resources: [
+                .copy("SwiftFiles/AppticsFeedbackKi/PrivacyInfo.xcprivacy")]
         )
     ]
 )

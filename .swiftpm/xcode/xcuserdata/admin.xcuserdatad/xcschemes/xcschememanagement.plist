@@ -167,6 +167,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>Apptics_AppticsExtension</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>Apptics_AppticsFeedbackKitSwift</key>
 		<dict>
 			<key>primary</key>
