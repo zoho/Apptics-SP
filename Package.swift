@@ -85,7 +85,7 @@ let package = Package(
             name: "AppticsExtension",
             path: "SwiftFiles/AppExtension",
             resources: [
-                .copy("SwiftFiles/AppExtension/PrivacyInfo.xcprivacy")]
+                .copy("PrivacyInfo.xcprivacy")]
         ),
         .target(
             name: "AppticsAnalytics",
@@ -96,14 +96,14 @@ let package = Package(
             dependencies: ["AppticsAnalytics"],
             path: "SwiftFiles/CrossPromoApps",
             resources: [
-                .copy("SwiftFiles/CrossPromoApps/PrivacyInfo.xcprivacy")]
+                .copy("PrivacyInfo.xcprivacy")]
         ),
         .target(
             name: "AppticsFeedbackKitSwift",
             dependencies: ["AppticsFeedbackKit"],
             path: "SwiftFiles/AppticsFeedbackKit",
             resources: [
-                .copy("SwiftFiles/AppticsFeedbackKi/PrivacyInfo.xcprivacy")]
+                .copy("PrivacyInfo.xcprivacy")]
         )
     ]
 )
