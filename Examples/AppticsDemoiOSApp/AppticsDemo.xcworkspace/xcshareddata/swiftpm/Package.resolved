@@ -5,17 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/zoho/apptics-SP.git",
       "state" : {
-        "revision" : "e717eff0fb19b4be05d8f30a57565fb6c1f66cad",
-        "version" : "2.0.500"
-      }
-    },
-    {
-      "identity" : "mixpanel-swift",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/mixpanel/mixpanel-swift.git",
-      "state" : {
-        "revision" : "7f73084879cf6f8c50ab93e34ab0aae2569b04a8",
-        "version" : "4.2.7"
+        "revision" : "114b43a19f27af99db8e1ad02b888fa15f3d6e97",
+        "version" : "2.0.501"
       }
     }
   ],
