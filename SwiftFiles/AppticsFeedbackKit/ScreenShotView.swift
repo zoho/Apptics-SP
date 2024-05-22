@@ -50,11 +50,21 @@ public class ScreenShotView: UIView,UICollectionViewDelegate,UICollectionViewDat
 //        mainView.backgroundColor = color
 //        addSubview(mainView)
         
+       
+        
+        
         let bundle = Bundle.module
-        mainView = UINib(nibName: "ScreenShotView", bundle: bundle)
+        let nib = UINib(nibName: "ScreenShotView", bundle: bundle)
+        guard let view = nib.instantiate(withOwner: self, options: nil).first as? UIView else {
+            return
+        }
+        view.frame = self.bounds
+        addSubview(view)
+        mainView = view
         mainView.frame = frame
         mainView.backgroundColor = color
-        addSubview(mainView)
+        
+        
         setBlurTheme()
         setFontForButton(button: deleteBttn, fontName: appticsFontName, title: FontIconText.deleteIcon, size: appFontsize)
         if UIDevice.current.userInterfaceIdiom == .phone {
