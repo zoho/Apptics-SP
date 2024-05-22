@@ -28,7 +28,7 @@ class ScreenShotEditorView: UIView {
     }
     
     func commoninit(color:UIColor){
-        let bundles = bundles
+//        let bundles = bundles
 //        let view = bundles.loadNibNamed("ScreenShotEditorView", owner: self, options: nil)! [0] as! UIView
 //        view.frame = self.bounds
 //        view.backgroundColor = .clear
