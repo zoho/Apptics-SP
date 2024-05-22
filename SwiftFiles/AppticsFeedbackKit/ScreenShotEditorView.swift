@@ -29,10 +29,21 @@ class ScreenShotEditorView: UIView {
     
     func commoninit(color:UIColor){
         let bundles = bundles
-        let view = bundles.loadNibNamed("ScreenShotEditorView", owner: self, options: nil)! [0] as! UIView
+//        let view = bundles.loadNibNamed("ScreenShotEditorView", owner: self, options: nil)! [0] as! UIView
+//        view.frame = self.bounds
+//        view.backgroundColor = .clear
+//        addSubview(view)
+        
+        let bundle = Bundle.module
+        let nib = UINib(nibName: "ScreenShotEditorView", bundle: bundle)
+        guard let view = nib.instantiate(withOwner: self, options: nil).first as? UIView else {
+            return
+        }
         view.frame = self.bounds
-        view.backgroundColor = .clear
         addSubview(view)
+                
+        
+        
         if DEVICE_SIZE!.height < 670{
             clobttnTopConst.constant = 20
             doneBttnTopConst.constant = 20

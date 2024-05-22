@@ -33,10 +33,22 @@ class FloatingView: UIView {
     }
     
     func commoninit(){
-        let bundles = bundles
-        let view = bundles.loadNibNamed("FloatingView", owner: self, options: nil)! [0] as! UIView
+//        let bundles = bundles
+//        let view = bundles.loadNibNamed("FloatingView", owner: self, options: nil)! [0] as! UIView
+//        view.frame = self.bounds
+//        addSubview(view)
+        
+        
+
+        let bundle = Bundle.module
+        let nib = UINib(nibName: "FloatingView", bundle: bundle)
+        guard let view = nib.instantiate(withOwner: self, options: nil).first as? UIView else {
+            return
+        }
         view.frame = self.bounds
         addSubview(view)
+
+        
         if UIDevice.current.userInterfaceIdiom == .phone {
             appFontsize = 30.0
             cornerRadius = 9

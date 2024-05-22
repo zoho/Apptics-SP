@@ -43,7 +43,15 @@ public class ScreenShotView: UIView,UICollectionViewDelegate,UICollectionViewDat
     }
         
     func commoninit(color:UIColor,frame:CGRect){
-        mainView = bundles.loadNibNamed("ScreenShotView", owner: self, options: nil)! [0] as! UIView
+        
+        
+//        mainView = bundles.loadNibNamed("ScreenShotView", owner: self, options: nil)! [0] as! UIView
+//        mainView.frame = frame
+//        mainView.backgroundColor = color
+//        addSubview(mainView)
+        
+        let bundle = Bundle.module
+        mainView = UINib(nibName: "ScreenShotView", bundle: bundle)
         mainView.frame = frame
         mainView.backgroundColor = color
         addSubview(mainView)

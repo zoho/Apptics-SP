@@ -1,7 +1,7 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let version = "2.0.600"
+let version = "2.0.605"
 let package = Package(
     name: "Apptics",
     defaultLocalization: "en",
@@ -103,7 +103,13 @@ let package = Package(
             dependencies: ["AppticsFeedbackKit"],
             path: "SwiftFiles/AppticsFeedbackKit",
             resources: [
-                .copy("PrivacyInfo.xcprivacy")]
+                .copy("PrivacyInfo.xcprivacy"),
+                .copy("AppticsSdkIcons.ttf"),
+                .copy("FloatingView.xib"),
+                .copy("ScreenShotEditorView.xib"),
+                .copy("ScreenShotView.xib"),
+                .copy("ScreenshotViewerCollectionViewCell.xib"),
+            ]
         )
     ]
 )
