@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E2F91F22-68C0-462B-8A9E-946AAD16816D"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29F879C3-FA38-40BD-AD30-6A285DEB0597"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Library/Developer/Xcode/DerivedData/AppticsDemo-erznvqrtbyguhhgszwqqtdhaqtfb/SourcePackages/checkouts/apptics-SP/SwiftFiles/AppticsFeedbackKit/FloatingView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "commoninit()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "35F6EB31-2087-4A8F-B2A8-16D0894D956E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Library/Developer/Xcode/DerivedData/AppticsDemo-erznvqrtbyguhhgszwqqtdhaqtfb/SourcePackages/checkouts/apptics-SP/SwiftFiles/AppticsFeedbackKit/FloatingView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "commoninit()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "93CE1899-1AE4-4C47-BD53-F21A42F75985"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppticsDemo/LaunchScreen/ListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "93CE1899-1AE4-4C47-BD53-F21A42F75985 - c52ae7147587f691"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppticsDemo.ListViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "AppticsDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/GitHub/Apptics-SP/Examples/AppticsDemoiOSApp/AppticsDemo/LaunchScreen/ListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "801">
+               </Location>
+               <Location
+                  uuid = "93CE1899-1AE4-4C47-BD53-F21A42F75985 - c52ae7147587f691"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppticsDemo.ListViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "AppticsDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/GitHub/Apptics-SP/Examples/AppticsDemoiOSApp/AppticsDemo/LaunchScreen/ListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "1048">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2406ECF-4BF8-4A54-960C-B90028078499"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Library/Developer/Xcode/DerivedData/AppticsDemo-erznvqrtbyguhhgszwqqtdhaqtfb/SourcePackages/checkouts/apptics-SP/SwiftFiles/AppticsFeedbackKit/FloatingView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "commoninit()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F2406ECF-4BF8-4A54-960C-B90028078499 - e9d23e6129300225"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppticsFeedbackKitSwift.FloatingView.commoninit() -&gt; ()"
+                  moduleName = "AppticsDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Library/Developer/Xcode/DerivedData/AppticsDemo-erznvqrtbyguhhgszwqqtdhaqtfb/SourcePackages/checkouts/apptics-SP/SwiftFiles/AppticsFeedbackKit/FloatingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "F2406ECF-4BF8-4A54-960C-B90028078499 - e9d23e6129300225"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppticsFeedbackKitSwift.FloatingView.commoninit() -&gt; ()"
+                  moduleName = "AppticsDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Library/Developer/Xcode/DerivedData/AppticsDemo-erznvqrtbyguhhgszwqqtdhaqtfb/SourcePackages/checkouts/apptics-SP/SwiftFiles/AppticsFeedbackKit/FloatingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "302">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6E572F1-DDEE-4346-BF89-4E00CA09B341"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Library/Developer/Xcode/DerivedData/AppticsDemo-erznvqrtbyguhhgszwqqtdhaqtfb/SourcePackages/checkouts/apptics-SP/SwiftFiles/AppticsFeedbackKit/FloatingView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "commoninit()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
