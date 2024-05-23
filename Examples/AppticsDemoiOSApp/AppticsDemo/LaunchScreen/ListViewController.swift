@@ -9,6 +9,8 @@ import AppticsInAppUpdate
 class ListViewController: UITableViewController {
     override func viewDidLoad() {
         self.navigationItem.title = "Apptics Demo"
+        AppticsFeedbackKitSwift.FeedbackTheme.sharedInstance.ViewColor = .green
+        
     }
 }
 

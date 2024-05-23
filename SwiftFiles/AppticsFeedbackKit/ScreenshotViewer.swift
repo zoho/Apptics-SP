@@ -129,6 +129,10 @@ public class FloatScrollview:UIViewController{
 //MARK: floating view setup
     public func addFloatingView() {
         ScreenshotsView = ScreenShotView(frame: CGRect(x: 0, y: 0, width:view.frame.size.width , height: view.frame.size.height))
+        DispatchQueue.main.async {
+            self.ScreenshotsView.cardView.layer.borderColor = FeedbackTheme.sharedInstance.ViewColor.cgColor
+            self.ScreenshotsView.cardView.layer.borderWidth = 2.0
+}
         changeScreenshotViewColor(color: FeedbackTheme.sharedInstance.ViewColor)
         ScreenshotsView.doneBttn.addTarget(self, action:#selector(self.donebuttonClicked), for: .touchUpInside)
         ScreenshotsView.hideBttn.addTarget(self, action:#selector(self.cancellbuttonClicked), for: .touchUpInside)
