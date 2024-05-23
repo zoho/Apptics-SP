@@ -109,9 +109,13 @@ enum TargetDevice {
 
 public func loadFontForCPResourceBundle() {
     
-    guard let url = bundles.url(forResource: appticsFontName, withExtension: "ttf") else {
-        return
+    guard let url = Bundle.module.url(forResource: appticsFontName, withExtension: "ttf")else{
+           return
     }
+    
+//    guard let url = bundles.url(forResource: appticsFontName, withExtension: "ttf") else {
+//        return
+//    }
     guard let fontDataProvider = CGDataProvider(url: url as CFURL) else {
         return
     }

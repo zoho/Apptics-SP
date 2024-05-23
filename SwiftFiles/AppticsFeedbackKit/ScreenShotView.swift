@@ -159,7 +159,10 @@ public class ScreenShotView: UIView,UICollectionViewDelegate,UICollectionViewDat
 //MARK: collection view nib setup
     
     func collectionViewSetup(){
-        let nib=UINib(nibName: "ScreenshotViewerCollectionViewCell", bundle: bundles)
+        
+        let bundle = Bundle.module
+        let nib = UINib(nibName: "ScreenshotViewerCollectionViewCell", bundle: bundle)        
+//        let nib=UINib(nibName: "ScreenshotViewerCollectionViewCell", bundle: bundles)
         screenshotCollectionView?.register(nib, forCellWithReuseIdentifier: "cell")
         screenshotCollectionView.delegate = self
         screenshotCollectionView.dataSource = self
