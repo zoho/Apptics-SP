@@ -6,6 +6,7 @@
 //
 
 import UIKit
+
 @objcMembers
 class ScreenShotEditorView: UIView {
 

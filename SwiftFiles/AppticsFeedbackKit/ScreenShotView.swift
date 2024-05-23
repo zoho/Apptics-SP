@@ -160,10 +160,15 @@ public class ScreenShotView: UIView,UICollectionViewDelegate,UICollectionViewDat
     
     func collectionViewSetup(){
         
-        let bundle = Bundle.module
-        let nib = UINib(nibName: "ScreenshotViewerCollectionViewCell", bundle: bundle)        
+      
+//        screenshotCollectionView.register( UINib(nibName: "ScreenshotViewerCollectionViewCell", bundle: .module), forCellWithReuseIdentifier: "cell")
+        
+
+        screenshotCollectionView.register(TestCollectionViewCell.self, forCellWithReuseIdentifier: "cell")
+        
+        
 //        let nib=UINib(nibName: "ScreenshotViewerCollectionViewCell", bundle: bundles)
-        screenshotCollectionView?.register(nib, forCellWithReuseIdentifier: "cell")
+//        screenshotCollectionView?.register(nib, forCellWithReuseIdentifier: "cell")
         screenshotCollectionView.delegate = self
         screenshotCollectionView.dataSource = self
         screenshotCollectionView.isPagingEnabled = false
@@ -285,7 +290,13 @@ public class ScreenShotView: UIView,UICollectionViewDelegate,UICollectionViewDat
     }
     
     public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = screenshotCollectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath as IndexPath) as! ScreenshotViewerCollectionViewCell
+//        let cell = screenshotCollectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath as IndexPath) as! ScreenshotViewerCollectionViewCell
+        
+        
+
+        
+        let cell = screenshotCollectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! TestCollectionViewCell
+
         let image = UIImage(contentsOfFile: fileArray[indexPath.row].path)
         DispatchQueue.main.async {
             cell.imageview.image = image
