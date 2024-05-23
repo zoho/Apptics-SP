@@ -61,6 +61,7 @@ extension ListViewController {
             self.navigationController?.pushViewController(apiListController, animated: true)
             break
         case .Login:
+            Apptics.showPrivacyConsent()
             break
         case .Logout:
             break

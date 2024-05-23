@@ -43,16 +43,7 @@ public class ScreenShotView: UIView,UICollectionViewDelegate,UICollectionViewDat
     }
         
     func commoninit(color:UIColor,frame:CGRect){
-        
-        
-//        mainView = bundles.loadNibNamed("ScreenShotView", owner: self, options: nil)! [0] as! UIView
-//        mainView.frame = frame
-//        mainView.backgroundColor = color
-//        addSubview(mainView)
-        
-       
-        
-        
+               
         let bundle = Bundle.module
         let nib = UINib(nibName: "ScreenShotView", bundle: bundle)
         guard let view = nib.instantiate(withOwner: self, options: nil).first as? UIView else {
@@ -63,8 +54,6 @@ public class ScreenShotView: UIView,UICollectionViewDelegate,UICollectionViewDat
         mainView = view
         mainView.frame = frame
         mainView.backgroundColor = color
-        
-        
         setBlurTheme()
         setFontForButton(button: deleteBttn, fontName: appticsFontName, title: FontIconText.deleteIcon, size: appFontsize)
         if UIDevice.current.userInterfaceIdiom == .phone {
@@ -121,7 +110,7 @@ public class ScreenShotView: UIView,UICollectionViewDelegate,UICollectionViewDat
     @objc func screenshotsLoad() {
         getallImages(index:FeedbackTheme.sharedInstance.index_Value)
         let indexPath = IndexPath(item: self.filesIndexvalue, section: 0)
-        guard let cell = self.screenshotCollectionView.cellForItem(at: indexPath) as? ScreenshotViewerCollectionViewCell else {
+        guard let cell = self.screenshotCollectionView.cellForItem(at: indexPath) as? ScreenShotEditCollectionViewCell else {
             return
         }
         if TargetDevice.currentDevice == .iPhone {
@@ -159,16 +148,7 @@ public class ScreenShotView: UIView,UICollectionViewDelegate,UICollectionViewDat
 //MARK: collection view nib setup
     
     func collectionViewSetup(){
-        
-      
-//        screenshotCollectionView.register( UINib(nibName: "ScreenshotViewerCollectionViewCell", bundle: .module), forCellWithReuseIdentifier: "cell")
-        
-
-        screenshotCollectionView.register(TestCollectionViewCell.self, forCellWithReuseIdentifier: "cell")
-        
-        
-//        let nib=UINib(nibName: "ScreenshotViewerCollectionViewCell", bundle: bundles)
-//        screenshotCollectionView?.register(nib, forCellWithReuseIdentifier: "cell")
+        screenshotCollectionView.register(ScreenShotEditCollectionViewCell.self, forCellWithReuseIdentifier: "cell")
         screenshotCollectionView.delegate = self
         screenshotCollectionView.dataSource = self
         screenshotCollectionView.isPagingEnabled = false
@@ -290,27 +270,17 @@ public class ScreenShotView: UIView,UICollectionViewDelegate,UICollectionViewDat
     }
     
     public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-//        let cell = screenshotCollectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath as IndexPath) as! ScreenshotViewerCollectionViewCell
-        
-        
-
-        
-        let cell = screenshotCollectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! TestCollectionViewCell
+        let cell = screenshotCollectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! ScreenShotEditCollectionViewCell
 
         let image = UIImage(contentsOfFile: fileArray[indexPath.row].path)
+
         DispatchQueue.main.async {
-            cell.imageview.image = image
+        cell.configure(with: image!)
         }
         deleteBttn.tag = indexPath.row
         cell.imageview.clipsToBounds = false
-        cell.backgroundColor = .clear
         cell.imageview.backgroundColor = .clear
-        if TargetDevice.currentDevice == .iPhone {
-            cell.imageview.contentMode = .scaleAspectFit
-        }
-        else{
-            cell.imageview.contentMode = .scaleToFill
-        }
+        cell.backgroundColor = .clear
         return cell
     }
     
