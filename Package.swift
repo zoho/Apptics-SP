@@ -1,7 +1,7 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let version = "2.0.601"
+let version = "2.0.503"
 let package = Package(
     name: "Apptics",
     defaultLocalization: "en",
@@ -62,6 +62,14 @@ let package = Package(
             path: "AppticsScreenTracker.xcframework"
         ),
         .binaryTarget(
+            name: "AppticsCrashKit",
+            path: "AppticsCrashKit.xcframework"
+        ),
+        .binaryTarget(
+            name: "KSCrash",
+            path: "KSCrash.xcframework"
+        ),
+        .binaryTarget(
             name: "AppticsFeedbackKit",
             path: "AppticsFeedbackKit.xcframework"
         ),
@@ -89,7 +97,7 @@ let package = Package(
         ),
         .target(
             name: "AppticsAnalytics",
-            dependencies: ["Apptics", "JWT", "AppticsEventTracker", "AppticsScreenTracker"], path: "SwiftFiles/Analytics"
+            dependencies: ["Apptics", "JWT", "AppticsEventTracker", "AppticsScreenTracker", "AppticsCrashKit", "KSCrash"], path: "SwiftFiles/Analytics"
         ),
         .target(
             name: "AppticsCrossPromotion",
@@ -107,8 +115,7 @@ let package = Package(
                 .copy("AppticsSdkIcons.ttf"),
                 .copy("FloatingView.xib"),
                 .copy("ScreenShotEditorView.xib"),
-                .copy("ScreenShotView.xib"),
-                .copy("ScreenshotViewerCollectionViewCell.xib"),
+                .copy("ScreenShotView.xib")
             ]
         )
     ]
