@@ -1,7 +1,7 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let version = "2.0.600"
+let version = "2.0.601"
 let package = Package(
     name: "Apptics",
     defaultLocalization: "en",
