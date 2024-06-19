@@ -7,8 +7,6 @@
 
 import UIKit
 @objcMembers
-
-
 class ScreenShotEditCollectionViewCell: UICollectionViewCell {
 
     let imageview: UIImageView = {

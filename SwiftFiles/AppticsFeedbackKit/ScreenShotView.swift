@@ -44,7 +44,7 @@ public class ScreenShotView: UIView,UICollectionViewDelegate,UICollectionViewDat
         
     func commoninit(color:UIColor,frame:CGRect){
                
-        let bundle = Bundle.module
+        let bundle = bundles
         let nib = UINib(nibName: "ScreenShotView", bundle: bundle)
         guard let view = nib.instantiate(withOwner: self, options: nil).first as? UIView else {
             return
@@ -56,6 +56,9 @@ public class ScreenShotView: UIView,UICollectionViewDelegate,UICollectionViewDat
         mainView.backgroundColor = color
         setBlurTheme()
         setFontForButton(button: deleteBttn, fontName: appticsFontName, title: FontIconText.deleteIcon, size: appFontsize)
+#if SWIFT_PACKAGE
+        cardView.layer.borderColor = UIColor.clear.cgColor
+#endif
         if UIDevice.current.userInterfaceIdiom == .phone {
             appFontsize = 30.0
         }
@@ -305,6 +308,7 @@ public class ScreenShotView: UIView,UICollectionViewDelegate,UICollectionViewDat
     
     
 }
+
 
 
 
