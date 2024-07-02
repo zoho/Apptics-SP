@@ -279,6 +279,10 @@
 		<data>
 		EOhSf3tqb/NanEBnKCKnCKHpPdw=
 		</data>
+		<key>Headers/APArchiverUtil.h</key>
+		<data>
+		opeTwVn0DVrqEgb+Y4mFwCTDJow=
+		</data>
 		<key>Headers/APBundle.h</key>
 		<data>
 		YIBugnREVkmXnb+C9xWhQEIWRZM=
@@ -437,7 +441,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rugX08NmVxlWARBitxWSd714OdM=
+		hZwK8WxGr5npDglJJ4YKTzScH94=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -887,6 +891,17 @@
 			<key>hash2</key>
 			<data>
 			tqJFKui/m0EkR16vEhX14F+VPGXuv4eXCD/msRCjWlM=
+			</data>
+		</dict>
+		<key>Headers/APArchiverUtil.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			opeTwVn0DVrqEgb+Y4mFwCTDJow=
+			</data>
+			<key>hash2</key>
+			<data>
+			HUnzFoPcPtCqjiurv/eWpTxnR//vYvNtHaysRY2ePkM=
 			</data>
 		</dict>
 		<key>Headers/APBundle.h</key>

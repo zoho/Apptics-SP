@@ -23,7 +23,7 @@
 		</data>
 		<key>AppticsResources.bundle/Info.plist</key>
 		<data>
-		PptF/TwoRn36RJrmleApfX/mvuk=
+		CqgBodZVWLzlIbg2mITi4ibROGQ=
 		</data>
 		<key>AppticsResources.bundle/ZAAppUpdateAlert.nib</key>
 		<data>
@@ -67,7 +67,7 @@
 		</data>
 		<key>AppticsResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		IS4h/wgJFFMorv8jiBCb3FS33Yc=
+		vvuAuj60FfLwXu8DrR51NGggPxg=
 		</data>
 		<key>AppticsResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -75,7 +75,7 @@
 		</data>
 		<key>AppticsResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		ZIS0UJrbTcBOli082R6ov1DIMZM=
+		xRWaz24KT/BXDiKF1Y2PdWUaLsk=
 		</data>
 		<key>AppticsResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -674,6 +674,10 @@
 		<data>
 		EOhSf3tqb/NanEBnKCKnCKHpPdw=
 		</data>
+		<key>Headers/APArchiverUtil.h</key>
+		<data>
+		opeTwVn0DVrqEgb+Y4mFwCTDJow=
+		</data>
 		<key>Headers/APBundle.h</key>
 		<data>
 		YIBugnREVkmXnb+C9xWhQEIWRZM=
@@ -868,7 +872,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KUrjFrY0odkSDt+J1FhdnD20APo=
+		EQ/CVDqmBm/UQRkU7SioUbEXC6c=
 		</data>
 		<key>Modules/Apptics.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -960,11 +964,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PptF/TwoRn36RJrmleApfX/mvuk=
+			CqgBodZVWLzlIbg2mITi4ibROGQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			4VAQ52mB7C9Ly3jCxKxEBEFOaNkABvL7TJiRg7PVmJo=
+			DixBdFW6TluSk0WAyPf0N6jpVI9o6F1UnWMDbyrCA3A=
 			</data>
 		</dict>
 		<key>AppticsResources.bundle/ZAAppUpdateAlert.nib</key>
@@ -1081,11 +1085,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IS4h/wgJFFMorv8jiBCb3FS33Yc=
+			vvuAuj60FfLwXu8DrR51NGggPxg=
 			</data>
 			<key>hash2</key>
 			<data>
-			3GIQvShzEGPXddmiOTv8ZiN+XKS7zovx/GtSYxC1GHw=
+			pcwtBrFc4B75Hko+PRF8qs0GDuOXprYpjpmddmOAXk8=
 			</data>
 		</dict>
 		<key>AppticsResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -1103,11 +1107,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZIS0UJrbTcBOli082R6ov1DIMZM=
+			xRWaz24KT/BXDiKF1Y2PdWUaLsk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ubIFPyfRB3g3fzzcfBJ/YUeCFGPrn+JFZhbABSiY1kM=
+			iGf41XzABvrPBHebaQp/OgCLPuYVt5L3buV6jKgiapM=
 			</data>
 		</dict>
 		<key>AppticsResources.bundle/_CodeSignature/CodeResources</key>
@@ -2080,6 +2084,17 @@
 			<key>hash2</key>
 			<data>
 			tqJFKui/m0EkR16vEhX14F+VPGXuv4eXCD/msRCjWlM=
+			</data>
+		</dict>
+		<key>Headers/APArchiverUtil.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			opeTwVn0DVrqEgb+Y4mFwCTDJow=
+			</data>
+			<key>hash2</key>
+			<data>
+			HUnzFoPcPtCqjiurv/eWpTxnR//vYvNtHaysRY2ePkM=
 			</data>
 		</dict>
 		<key>Headers/APBundle.h</key>

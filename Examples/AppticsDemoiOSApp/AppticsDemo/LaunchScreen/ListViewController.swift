@@ -5,11 +5,34 @@ import AppticsCrossPromotion
 import AppticsFeedbackKit
 import AppticsFeedbackKitSwift
 import AppticsInAppUpdate
+import AppticsPrivacyShield
 
 class ListViewController: UITableViewController {
+    lazy var screenshotPreventView = APSecureView(contentView: tableView)
+
     override func viewDidLoad() {
         self.navigationItem.title = "Apptics Demo"
         AppticsFeedbackKitSwift.FeedbackTheme.sharedInstance.ViewColor = .green
+//        view.addSubview(screenshotPreventView)
+        
+        
+//        NSLayoutConstraint.activate([
+//                            screenshotPreventView.leadingAnchor.constraint(equalTo:    view.safeAreaLayoutGuide.leadingAnchor),
+//                            screenshotPreventView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor),
+//                            screenshotPreventView.topAnchor.constraint(equalTo: view.topAnchor),
+//                            screenshotPreventView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
+//          ])
+//
+        
+        var label = APSecureLabel()
+        label.frame = CGRect(x: 0, y: 0, width: 200, height: 30)
+//            frame: CGRect(x: 0, y: 0, width: 200, height: 21))
+           label.center = CGPoint(x: 160, y: 285)
+//        label.label.textAlignment = .center
+           label.text = "I'm a test label"
+           label.backgroundColor = .green
+        label.label.textColor = .black
+           self.view.addSubview(label)
         
     }
 }
@@ -26,8 +49,8 @@ extension ListViewController {
             fatalError("Unable to dequeue ReminderCell")
         }
         let list = TableList.testData[indexPath.row]
-        
         cell.titleLabel.text = list.title
+        
         cell.accessoryType = .disclosureIndicator
         return cell
     }
