@@ -24,16 +24,7 @@ class ListViewController: UITableViewController {
 //          ])
 //
         
-        var label = APSecureLabel()
-        label.frame = CGRect(x: 0, y: 0, width: 200, height: 30)
-//            frame: CGRect(x: 0, y: 0, width: 200, height: 21))
-           label.center = CGPoint(x: 160, y: 285)
-//        label.label.textAlignment = .center
-           label.text = "I'm a test label"
-           label.backgroundColor = .green
-        label.label.textColor = .black
-           self.view.addSubview(label)
-        
+     
     }
 }
 
@@ -77,9 +68,11 @@ extension ListViewController {
             FeedbackKit.showFeedback()
             break
         case .Appupdate:
-            APAppUpdateManager.check { info in
-                 print("update info \(info)")
-            }
+//            APAppUpdateManager.check { info in
+//                 print("update info \(info)")
+//            }
+            
+            APAppUpdateManager.checkForAppUpdates()
             break
         case .Apitracking:
             let apiListController = storyboard.instantiateViewController(withIdentifier: "APIListViewController")

@@ -253,11 +253,14 @@ using UInt = size_t;
 
 #if defined(__OBJC__)
 @class NSString;
+@class NSNumber;
 
 SWIFT_CLASS("_TtC7Apptics23AppticsExtensionManager")
 @interface AppticsExtensionManager : NSObject
 + (void)trackEventWithGroupname:(NSString * _Nonnull)groupname eventName:(NSString * _Nonnull)eventName property:(NSDictionary<NSString *, id> * _Nonnull)property appGroup:(NSString * _Nonnull)appGroup;
 + (void)trackEventWithPropertyWithGroupname:(NSString * _Nonnull)groupname eventName:(NSString * _Nonnull)eventName appGroup:(NSString * _Nonnull)appGroup;
++ (NSNumber * _Nonnull)startTimedEventWithGroupname:(NSString * _Nonnull)groupname eventName:(NSString * _Nonnull)eventName property:(NSDictionary<NSString *, id> * _Nonnull)property appGroup:(NSString * _Nonnull)appGroup SWIFT_WARN_UNUSED_RESULT;
++ (void)endTimedEventWithStartTime:(NSNumber * _Nonnull)startTime groupname:(NSString * _Nonnull)groupname eventName:(NSString * _Nonnull)eventName appGroup:(NSString * _Nonnull)appGroup;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -524,11 +527,14 @@ using UInt = size_t;
 
 #if defined(__OBJC__)
 @class NSString;
+@class NSNumber;
 
 SWIFT_CLASS("_TtC7Apptics23AppticsExtensionManager")
 @interface AppticsExtensionManager : NSObject
 + (void)trackEventWithGroupname:(NSString * _Nonnull)groupname eventName:(NSString * _Nonnull)eventName property:(NSDictionary<NSString *, id> * _Nonnull)property appGroup:(NSString * _Nonnull)appGroup;
 + (void)trackEventWithPropertyWithGroupname:(NSString * _Nonnull)groupname eventName:(NSString * _Nonnull)eventName appGroup:(NSString * _Nonnull)appGroup;
++ (NSNumber * _Nonnull)startTimedEventWithGroupname:(NSString * _Nonnull)groupname eventName:(NSString * _Nonnull)eventName property:(NSDictionary<NSString *, id> * _Nonnull)property appGroup:(NSString * _Nonnull)appGroup SWIFT_WARN_UNUSED_RESULT;
++ (void)endTimedEventWithStartTime:(NSNumber * _Nonnull)startTime groupname:(NSString * _Nonnull)groupname eventName:(NSString * _Nonnull)eventName appGroup:(NSString * _Nonnull)appGroup;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
