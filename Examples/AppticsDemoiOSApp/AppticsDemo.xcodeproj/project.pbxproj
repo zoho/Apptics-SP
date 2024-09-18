@@ -10,11 +10,18 @@
 		3875EEC6DBC62C9DDD7266B2 /* Pods_AppticsDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F6A2637AAEE8CB2ECEA282D /* Pods_AppticsDemoTests.framework */; };
 		6B8B170310F57010F1D8B2A0 /* Pods_AppticsWidgetExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9729B44161FE5704BC1E785 /* Pods_AppticsWidgetExtension.framework */; };
 		7AE276EE2FA438AD79010C5D /* Pods_AppticsDemo_AppticsDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CFF7F3AAB67E32972A067B /* Pods_AppticsDemo_AppticsDemoUITests.framework */; };
-		843045382C80558C00889A87 /* AppticsAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 843045372C80558C00889A87 /* AppticsAnalytics */; };
-		8430453A2C80558C00889A87 /* AppticsCrossPromotion in Frameworks */ = {isa = PBXBuildFile; productRef = 843045392C80558C00889A87 /* AppticsCrossPromotion */; };
-		8430453C2C80558C00889A87 /* AppticsExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 8430453B2C80558C00889A87 /* AppticsExtension */; };
-		8430453E2C80558C00889A87 /* AppticsFeedbackKitSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8430453D2C80558C00889A87 /* AppticsFeedbackKitSwift */; };
 		849C9C752BBD36A0003A438A /* APAppticsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049309A06726AF690C80B45 /* APAppticsExtension.swift */; };
+		84D5E7E52C9AD76C001BAA82 /* AppticsAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 84D5E7E42C9AD76C001BAA82 /* AppticsAnalytics */; };
+		84D5E7E72C9AD76C001BAA82 /* AppticsApiTracker in Frameworks */ = {isa = PBXBuildFile; productRef = 84D5E7E62C9AD76C001BAA82 /* AppticsApiTracker */; };
+		84D5E7E92C9AD76C001BAA82 /* AppticsCrossPromotion in Frameworks */ = {isa = PBXBuildFile; productRef = 84D5E7E82C9AD76C001BAA82 /* AppticsCrossPromotion */; };
+		84D5E7EB2C9AD76C001BAA82 /* AppticsExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 84D5E7EA2C9AD76C001BAA82 /* AppticsExtension */; };
+		84D5E7ED2C9AD76C001BAA82 /* AppticsFeedbackKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84D5E7EC2C9AD76C001BAA82 /* AppticsFeedbackKit */; };
+		84D5E7EF2C9AD76C001BAA82 /* AppticsFeedbackKitSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 84D5E7EE2C9AD76C001BAA82 /* AppticsFeedbackKitSwift */; };
+		84D5E7F12C9AD76C001BAA82 /* AppticsInAppUpdate in Frameworks */ = {isa = PBXBuildFile; productRef = 84D5E7F02C9AD76C001BAA82 /* AppticsInAppUpdate */; };
+		84D5E7F32C9AD76C001BAA82 /* AppticsMXCrashKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84D5E7F22C9AD76C001BAA82 /* AppticsMXCrashKit */; };
+		84D5E7F52C9AD76C001BAA82 /* AppticsPrivacyShield in Frameworks */ = {isa = PBXBuildFile; productRef = 84D5E7F42C9AD76C001BAA82 /* AppticsPrivacyShield */; };
+		84D5E7F72C9AD76C001BAA82 /* AppticsRateUs in Frameworks */ = {isa = PBXBuildFile; productRef = 84D5E7F62C9AD76C001BAA82 /* AppticsRateUs */; };
+		84D5E7F92C9AD76C001BAA82 /* AppticsRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 84D5E7F82C9AD76C001BAA82 /* AppticsRemoteConfig */; };
 		84FDDE362C3423B60064B7D9 /* AppticsApiTracker.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FDDE102C33F3200064B7D9 /* AppticsApiTracker.xcframework */; };
 		84FDDE372C3423B60064B7D9 /* AppticsApiTracker.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84FDDE102C33F3200064B7D9 /* AppticsApiTracker.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		84FDDE382C3423B60064B7D9 /* AppticsCrashKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FDDE262C33F7D80064B7D9 /* AppticsCrashKit.xcframework */; };
@@ -129,7 +136,6 @@
 		6C3F6639753519F40FAF9F40 /* Pods-AppticsDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppticsDemoTests.release.xcconfig"; path = "Target Support Files/Pods-AppticsDemoTests/Pods-AppticsDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		726EBA67C8E13BFA6797894E /* Pods-AppticsDemoTests.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppticsDemoTests.appstore.xcconfig"; path = "Target Support Files/Pods-AppticsDemoTests/Pods-AppticsDemoTests.appstore.xcconfig"; sourceTree = "<group>"; };
 		82D49E8CE21A9ABF6F2E76CB /* Pods-AppticsWidgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppticsWidgetExtension.debug.xcconfig"; path = "Target Support Files/Pods-AppticsWidgetExtension/Pods-AppticsWidgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
-		843045362C80553100889A87 /* Apptics-SP */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "Apptics-SP"; path = ../..; sourceTree = "<group>"; };
 		84FDDE092C33F2CC0064B7D9 /* AppticsInAppUpdate.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AppticsInAppUpdate.xcframework; path = ../../AppticsInAppUpdate.xcframework; sourceTree = "<group>"; };
 		84FDDE0D2C33F2D00064B7D9 /* AppticsPrivacyShield.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AppticsPrivacyShield.xcframework; path = ../../AppticsPrivacyShield.xcframework; sourceTree = "<group>"; };
 		84FDDE102C33F3200064B7D9 /* AppticsApiTracker.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AppticsApiTracker.xcframework; path = ../../AppticsApiTracker.xcframework; sourceTree = "<group>"; };
@@ -210,16 +216,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D5E7ED2C9AD76C001BAA82 /* AppticsFeedbackKit in Frameworks */,
+				84D5E7EF2C9AD76C001BAA82 /* AppticsFeedbackKitSwift in Frameworks */,
+				84D5E7E92C9AD76C001BAA82 /* AppticsCrossPromotion in Frameworks */,
+				84D5E7F92C9AD76C001BAA82 /* AppticsRemoteConfig in Frameworks */,
 				84FDDE362C3423B60064B7D9 /* AppticsApiTracker.xcframework in Frameworks */,
+				84D5E7F12C9AD76C001BAA82 /* AppticsInAppUpdate in Frameworks */,
+				84D5E7F72C9AD76C001BAA82 /* AppticsRateUs in Frameworks */,
 				84FDDE402C3423B70064B7D9 /* KSCrash.xcframework in Frameworks */,
-				8430453C2C80558C00889A87 /* AppticsExtension in Frameworks */,
-				8430453A2C80558C00889A87 /* AppticsCrossPromotion in Frameworks */,
-				843045382C80558C00889A87 /* AppticsAnalytics in Frameworks */,
+				84D5E7E52C9AD76C001BAA82 /* AppticsAnalytics in Frameworks */,
+				84D5E7E72C9AD76C001BAA82 /* AppticsApiTracker in Frameworks */,
 				84FDDE3E2C3423B70064B7D9 /* AppticsPrivacyShield.xcframework in Frameworks */,
 				84FDDE382C3423B60064B7D9 /* AppticsCrashKit.xcframework in Frameworks */,
+				84D5E7F52C9AD76C001BAA82 /* AppticsPrivacyShield in Frameworks */,
+				84D5E7EB2C9AD76C001BAA82 /* AppticsExtension in Frameworks */,
 				84FDDE3A2C3423B70064B7D9 /* AppticsInAppUpdate.xcframework in Frameworks */,
 				8E63463BB6982812A1115120 /* Pods_AppticsDemo.framework in Frameworks */,
-				8430453E2C80558C00889A87 /* AppticsFeedbackKitSwift in Frameworks */,
+				84D5E7F32C9AD76C001BAA82 /* AppticsMXCrashKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,14 +282,6 @@
 			name = Apptics;
 			sourceTree = "<group>";
 		};
-		843045352C80553100889A87 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				843045362C80553100889A87 /* Apptics-SP */,
-			);
-			name = Packages;
-			sourceTree = "<group>";
-		};
 		A23C922428D475E00014FCBA /* AppticsWidget */ = {
 			isa = PBXGroup;
 			children = (
@@ -291,7 +296,6 @@
 		A25BD351273B454B00FA196D = {
 			isa = PBXGroup;
 			children = (
-				843045352C80553100889A87 /* Packages */,
 				A23C923028D475E10014FCBA /* AppticsWidgetExtension.entitlements */,
 				A23C921828D45A4F0014FCBA /* WidgetExtension.entitlements */,
 				A25BD35C273B454B00FA196D /* AppticsDemo */,
@@ -494,10 +498,17 @@
 			);
 			name = AppticsDemo;
 			packageProductDependencies = (
-				843045372C80558C00889A87 /* AppticsAnalytics */,
-				843045392C80558C00889A87 /* AppticsCrossPromotion */,
-				8430453B2C80558C00889A87 /* AppticsExtension */,
-				8430453D2C80558C00889A87 /* AppticsFeedbackKitSwift */,
+				84D5E7E42C9AD76C001BAA82 /* AppticsAnalytics */,
+				84D5E7E62C9AD76C001BAA82 /* AppticsApiTracker */,
+				84D5E7E82C9AD76C001BAA82 /* AppticsCrossPromotion */,
+				84D5E7EA2C9AD76C001BAA82 /* AppticsExtension */,
+				84D5E7EC2C9AD76C001BAA82 /* AppticsFeedbackKit */,
+				84D5E7EE2C9AD76C001BAA82 /* AppticsFeedbackKitSwift */,
+				84D5E7F02C9AD76C001BAA82 /* AppticsInAppUpdate */,
+				84D5E7F22C9AD76C001BAA82 /* AppticsMXCrashKit */,
+				84D5E7F42C9AD76C001BAA82 /* AppticsPrivacyShield */,
+				84D5E7F62C9AD76C001BAA82 /* AppticsRateUs */,
+				84D5E7F82C9AD76C001BAA82 /* AppticsRemoteConfig */,
 			);
 			productName = AppticsDemo;
 			productReference = A25BD35A273B454B00FA196D /* AppticsDemo.app */;
@@ -579,6 +590,7 @@
 			);
 			mainGroup = A25BD351273B454B00FA196D;
 			packageReferences = (
+				84D5E7E32C9AD76C001BAA82 /* XCRemoteSwiftPackageReference "apptics-SP" */,
 			);
 			productRefGroup = A25BD35B273B454B00FA196D /* Products */;
 			projectDirPath = "";
@@ -1443,22 +1455,72 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		84D5E7E32C9AD76C001BAA82 /* XCRemoteSwiftPackageReference "apptics-SP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zoho/apptics-SP.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		843045372C80558C00889A87 /* AppticsAnalytics */ = {
+		84D5E7E42C9AD76C001BAA82 /* AppticsAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 84D5E7E32C9AD76C001BAA82 /* XCRemoteSwiftPackageReference "apptics-SP" */;
 			productName = AppticsAnalytics;
 		};
-		843045392C80558C00889A87 /* AppticsCrossPromotion */ = {
+		84D5E7E62C9AD76C001BAA82 /* AppticsApiTracker */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 84D5E7E32C9AD76C001BAA82 /* XCRemoteSwiftPackageReference "apptics-SP" */;
+			productName = AppticsApiTracker;
+		};
+		84D5E7E82C9AD76C001BAA82 /* AppticsCrossPromotion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84D5E7E32C9AD76C001BAA82 /* XCRemoteSwiftPackageReference "apptics-SP" */;
 			productName = AppticsCrossPromotion;
 		};
-		8430453B2C80558C00889A87 /* AppticsExtension */ = {
+		84D5E7EA2C9AD76C001BAA82 /* AppticsExtension */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 84D5E7E32C9AD76C001BAA82 /* XCRemoteSwiftPackageReference "apptics-SP" */;
 			productName = AppticsExtension;
 		};
-		8430453D2C80558C00889A87 /* AppticsFeedbackKitSwift */ = {
+		84D5E7EC2C9AD76C001BAA82 /* AppticsFeedbackKit */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 84D5E7E32C9AD76C001BAA82 /* XCRemoteSwiftPackageReference "apptics-SP" */;
+			productName = AppticsFeedbackKit;
+		};
+		84D5E7EE2C9AD76C001BAA82 /* AppticsFeedbackKitSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84D5E7E32C9AD76C001BAA82 /* XCRemoteSwiftPackageReference "apptics-SP" */;
 			productName = AppticsFeedbackKitSwift;
+		};
+		84D5E7F02C9AD76C001BAA82 /* AppticsInAppUpdate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84D5E7E32C9AD76C001BAA82 /* XCRemoteSwiftPackageReference "apptics-SP" */;
+			productName = AppticsInAppUpdate;
+		};
+		84D5E7F22C9AD76C001BAA82 /* AppticsMXCrashKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84D5E7E32C9AD76C001BAA82 /* XCRemoteSwiftPackageReference "apptics-SP" */;
+			productName = AppticsMXCrashKit;
+		};
+		84D5E7F42C9AD76C001BAA82 /* AppticsPrivacyShield */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84D5E7E32C9AD76C001BAA82 /* XCRemoteSwiftPackageReference "apptics-SP" */;
+			productName = AppticsPrivacyShield;
+		};
+		84D5E7F62C9AD76C001BAA82 /* AppticsRateUs */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84D5E7E32C9AD76C001BAA82 /* XCRemoteSwiftPackageReference "apptics-SP" */;
+			productName = AppticsRateUs;
+		};
+		84D5E7F82C9AD76C001BAA82 /* AppticsRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84D5E7E32C9AD76C001BAA82 /* XCRemoteSwiftPackageReference "apptics-SP" */;
+			productName = AppticsRemoteConfig;
 		};
 /* End XCSwiftPackageProductDependency section */
 

@@ -46,10 +46,6 @@
          .library(
              name: "AppticsPrivacyShield",
              targets: ["AppticsPrivacyShield"]
-         ),
-         .library(
-             name: "AppticsMXCrashKit",
-             targets: ["AppticsMXCrashKit"]
          )
      ],
      targets: [
@@ -100,10 +96,6 @@
          .binaryTarget(
              name: "AppticsPrivacyShield",
              path: "AppticsPrivacyShield.xcframework"
-         ),
-         .binaryTarget(
-             name: "AppticsMXCrashKit",
-             path: "AppticsMXCrashKit.xcframework"
          ),
          .target(
              name: "AppticsExtension",
