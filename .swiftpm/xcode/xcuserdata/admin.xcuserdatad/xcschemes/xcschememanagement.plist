@@ -64,20 +64,25 @@
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
+		<key>AppticsMessaging.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>AppticsPrivacyShield.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>10</integer>
 		</dict>
 		<key>AppticsRateUs.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>11</integer>
 		</dict>
 		<key>AppticsRemoteConfig.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>12</integer>
 		</dict>
 		<key>AppticsScreenTracker.xcscheme_^#shared#^_</key>
 		<dict>
@@ -153,6 +158,11 @@
 			<true/>
 		</dict>
 		<key>AppticsMXCrashKit</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AppticsNotificationServiceExtension</key>
 		<dict>
 			<key>primary</key>
 			<true/>

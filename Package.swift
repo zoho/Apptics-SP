@@ -1,6 +1,6 @@
 // swift-tools-version:5.3
  import PackageDescription
- let version = "2.1.2"
+ let version = "2.1.3"
  let package = Package(
      name: "Apptics",
      defaultLocalization: "en",
@@ -46,6 +46,14 @@
          .library(
              name: "AppticsPrivacyShield",
              targets: ["AppticsPrivacyShield"]
+         ),
+         .library(
+             name: "AppticsMessaging",
+             targets: ["AppticsMessaging"]
+         ),
+         .library(
+             name: "AppticsNotificationServiceExtension",
+             targets: ["AppticsNotificationServiceExtension"]
          )
      ],
      targets: [
@@ -97,6 +105,14 @@
              name: "AppticsPrivacyShield",
              path: "AppticsPrivacyShield.xcframework"
          ),
+         .binaryTarget(
+             name: "AppticsMessaging",
+             path: "AppticsMessaging.xcframework"
+         ),
+         .binaryTarget(
+             name: "AppticsNotificationServiceExtension",
+             path: "AppticsNotificationServiceExtension.xcframework"
+         ),
          .target(
              name: "AppticsExtension",
              path: "SwiftFiles/AppExtension",
@@ -115,7 +131,8 @@
              resources: [
                  .copy("PrivacyInfo.xcprivacy"),
                  .process("PromotedAppsController.xib"),
-                 .process("PromotedAppViewCell.xib")
+                 .process("PromotedAppViewCell.xib"),
+                 .copy("Fonts/Apptics-CP.ttf")
              ]
          ),
          .target(
