@@ -23,7 +23,7 @@
 		</data>
 		<key>AppticsResources.bundle/Info.plist</key>
 		<data>
-		2Se8Zj+qcBJzkC6yu0ZSbTB2/vg=
+		XARqgriey9oe+VEeOUvUPV3V0zk=
 		</data>
 		<key>AppticsResources.bundle/ZAAppUpdateAlert.nib</key>
 		<data>
@@ -67,7 +67,7 @@
 		</data>
 		<key>AppticsResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		2farjL2P/BDGCQU1qh2hk+x6agM=
+		K6GzozvSuw/ZT4l1byYd0U3xJoI=
 		</data>
 		<key>AppticsResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -75,7 +75,7 @@
 		</data>
 		<key>AppticsResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		kv1fDFNr9sXvrnCh7QRw8insf50=
+		N6Dymts7qTGnUkSEVTmMc+VM1cI=
 		</data>
 		<key>AppticsResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -672,7 +672,7 @@
 		</dict>
 		<key>Headers/APAAAUtil.h</key>
 		<data>
-		WlXlw+Z3RwXsICG+EUIEOOZ5QHM=
+		0jE86bDOckzlZY17xyg4m28eyE0=
 		</data>
 		<key>Headers/APArchiverUtil.h</key>
 		<data>
@@ -696,7 +696,7 @@
 		</data>
 		<key>Headers/APLog.h</key>
 		<data>
-		SteL6aEIirtPAdeWqklrmwD6jvQ=
+		K0oiBlJ5KxjqDphx4Ucm3dmuUHo=
 		</data>
 		<key>Headers/APRateusObject.h</key>
 		<data>
@@ -716,15 +716,15 @@
 		</data>
 		<key>Headers/Analytics.h</key>
 		<data>
-		Fg/nPhEKYKjK1GGcvdJZNACuhrw=
+		SBn8EM+j2lKZ3/w1bUK9PQhBSPE=
 		</data>
 		<key>Headers/Apptics-Swift.h</key>
 		<data>
-		vMNTLwaUf6jxj01kczIapOGwwxY=
+		1xamOF35mlsx2pilxZi2KV54CyE=
 		</data>
 		<key>Headers/Apptics.h</key>
 		<data>
-		w04U7SOuDBQtOawqReWEZwbEQpA=
+		UsOLWOVfD/1DAUgwEymDHbI4RdQ=
 		</data>
 		<key>Headers/AppticsConfig.h</key>
 		<data>
@@ -820,7 +820,7 @@
 		</data>
 		<key>Headers/ZANetworking.h</key>
 		<data>
-		mmLb/P5Nbm0eQtgWY4k/Oj8unKA=
+		1/f3+K9gybxGOe0jPIxgum03Dpo=
 		</data>
 		<key>Headers/ZANonFatalsUploadOperation.h</key>
 		<data>
@@ -832,11 +832,11 @@
 		</data>
 		<key>Headers/ZAPIIManager.h</key>
 		<data>
-		iwxkDuF9AEYzNaBo+hIlEBKkiDs=
+		FFELqSdtcbcsceC9KfIBPSWK8ts=
 		</data>
 		<key>Headers/ZAPIManager.h</key>
 		<data>
-		KhJe5iTlpyBAKeEurQVNBy9V43A=
+		RJDZltbXJfgO7KFBCKts/y7yZsk=
 		</data>
 		<key>Headers/ZAPrivate.h</key>
 		<data>
@@ -848,15 +848,15 @@
 		</data>
 		<key>Headers/ZASession.h</key>
 		<data>
-		VZNVuOGJrzVXrwzKKhgJ/g7XKiI=
+		KrH9/w+BpSSsbfcN5ioaFdxDpUE=
 		</data>
 		<key>Headers/ZASystemInfo.h</key>
 		<data>
-		WlqHv67DOpSw/hEWNzrNTWl2pW4=
+		WPtl3ElDNw35nO+cU0enLjv5yXc=
 		</data>
 		<key>Headers/ZASystemProperties.h</key>
 		<data>
-		83fUXtmwxzzdvWep0PxTMLYVh34=
+		6goCcQ3DK1uC87/E9CRGUM56XGY=
 		</data>
 		<key>Headers/ZAUserConsentAlert.h</key>
 		<data>
@@ -872,15 +872,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gplcDBGeDebQWQ34Z5+b2Jz33WU=
+		ipVlGLi5vXnRol1u8M/4KmGrZfc=
 		</data>
 		<key>Modules/Apptics.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ZTzQrlfYZXtoMZrBfsJ5kl/Lmio=
+		dalcaLr/JWs+7ROklYZ59j0Kjuk=
 		</data>
 		<key>Modules/Apptics.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		pH1+DfHA6TaE9TE/LTmtVI/AYRo=
+		kHs+iGUVRf7nzQnMdWMReAxEECQ=
 		</data>
 		<key>Modules/Apptics.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -888,19 +888,19 @@
 		</data>
 		<key>Modules/Apptics.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		pH1+DfHA6TaE9TE/LTmtVI/AYRo=
+		kHs+iGUVRf7nzQnMdWMReAxEECQ=
 		</data>
 		<key>Modules/Apptics.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rs8Y9aoZR+DsH7WY7tg7g2eFMNQ=
+		R7t6209x9/tvBGTnCgizD9IVB5w=
 		</data>
 		<key>Modules/Apptics.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ZTzQrlfYZXtoMZrBfsJ5kl/Lmio=
+		dalcaLr/JWs+7ROklYZ59j0Kjuk=
 		</data>
 		<key>Modules/Apptics.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		sEFp9UEBiMx9hG79x1hcgBuODcs=
+		FDtHKINQZR7jSx/o/xyu7jk94uY=
 		</data>
 		<key>Modules/Apptics.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -908,11 +908,11 @@
 		</data>
 		<key>Modules/Apptics.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		sEFp9UEBiMx9hG79x1hcgBuODcs=
+		FDtHKINQZR7jSx/o/xyu7jk94uY=
 		</data>
 		<key>Modules/Apptics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9Gojp9dAMUzZBIeXGIPwlQNeuX8=
+		kIV4f8RNXjhRj82XY9qJZRHA0Z0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -921,6 +921,10 @@
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
 		cl5C9XI0dGK5oiqjbyJFIC3sCV4=
+		</data>
+		<key>sdkProp_info.plist</key>
+		<data>
+		1tgpknSVUaFFdGo7pIGjKg8tReU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -964,11 +968,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2Se8Zj+qcBJzkC6yu0ZSbTB2/vg=
+			XARqgriey9oe+VEeOUvUPV3V0zk=
 			</data>
 			<key>hash2</key>
 			<data>
-			5ESsEazMfO8110hU+i5MMaa25M6/mLtKRDfPKd7WlVc=
+			NeoQBgR/3/XEh7L/qNXp4vFdtlKfiar8VHaxFPPrJd0=
 			</data>
 		</dict>
 		<key>AppticsResources.bundle/ZAAppUpdateAlert.nib</key>
@@ -1085,11 +1089,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2farjL2P/BDGCQU1qh2hk+x6agM=
+			K6GzozvSuw/ZT4l1byYd0U3xJoI=
 			</data>
 			<key>hash2</key>
 			<data>
-			IcyuIQkpWhzYCEiiEyKWJbOV9XS6ynK7VVm9znYsIjQ=
+			A43dzdATPTrHVHKjUqR/vGHF7eWsV0yZjNGhTVJ/62E=
 			</data>
 		</dict>
 		<key>AppticsResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -1107,11 +1111,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kv1fDFNr9sXvrnCh7QRw8insf50=
+			N6Dymts7qTGnUkSEVTmMc+VM1cI=
 			</data>
 			<key>hash2</key>
 			<data>
-			4vPxTByQebQtDUcSSSmM/AHDP/Wxy8cIv1fTUd62dYg=
+			z+9gOSc71iQhffkzJFBF7ZcK4sAziw00yGnHygQmYZM=
 			</data>
 		</dict>
 		<key>AppticsResources.bundle/_CodeSignature/CodeResources</key>
@@ -2079,11 +2083,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WlXlw+Z3RwXsICG+EUIEOOZ5QHM=
+			0jE86bDOckzlZY17xyg4m28eyE0=
 			</data>
 			<key>hash2</key>
 			<data>
-			54ExDT75wBN8ve0Oryt9SdKb1lhJEiq3le91lgSZCMk=
+			1HtiZObUVMRyIHEQAUKncyVbTyY4xVunfM8Snlys+bU=
 			</data>
 		</dict>
 		<key>Headers/APArchiverUtil.h</key>
@@ -2145,11 +2149,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SteL6aEIirtPAdeWqklrmwD6jvQ=
+			K0oiBlJ5KxjqDphx4Ucm3dmuUHo=
 			</data>
 			<key>hash2</key>
 			<data>
-			FToGkOgYPAKkf8r0OqAtutX9gCv52i0EtBcQJLmBFgE=
+			huRm68fQWTTRSzICUDOGwWsxw6VxEI04+naqKWQ9GK4=
 			</data>
 		</dict>
 		<key>Headers/APRateusObject.h</key>
@@ -2200,33 +2204,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Fg/nPhEKYKjK1GGcvdJZNACuhrw=
+			SBn8EM+j2lKZ3/w1bUK9PQhBSPE=
 			</data>
 			<key>hash2</key>
 			<data>
-			XwvgEjTCPh6TuzU++O1cgrRS1Fm21QnBkW1HCSX+XMU=
+			FhzLefQJYt7wwvZ8whQi6VD5R0J83kgjq/DiYGMeUOs=
 			</data>
 		</dict>
 		<key>Headers/Apptics-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vMNTLwaUf6jxj01kczIapOGwwxY=
+			1xamOF35mlsx2pilxZi2KV54CyE=
 			</data>
 			<key>hash2</key>
 			<data>
-			siMO9zO6xj1aliJf4vPkMLQ7ZVCtQRcyCnV0ppQyRjs=
+			vNjjI7wCTJQwgz6ofcsi+Z67nDOzaRcEganF7xckXHs=
 			</data>
 		</dict>
 		<key>Headers/Apptics.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			w04U7SOuDBQtOawqReWEZwbEQpA=
+			UsOLWOVfD/1DAUgwEymDHbI4RdQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			/9XuajqXsOFPerrdKxV0FtyCzMmYRaNZC1WD5HlLmJY=
+			PJeH1KUoIYb1NE3K+AL9wfXQKqfDyrXg2yLG7vKlJXQ=
 			</data>
 		</dict>
 		<key>Headers/AppticsConfig.h</key>
@@ -2486,11 +2490,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mmLb/P5Nbm0eQtgWY4k/Oj8unKA=
+			1/f3+K9gybxGOe0jPIxgum03Dpo=
 			</data>
 			<key>hash2</key>
 			<data>
-			8kd7FcoK6AOl/YwtfG3QGR8inY7I8XF+LscWLm/RGD8=
+			y+DxyhA4Tr/nhTW7wmooPrMtsXwNHeF+/bbmX9XSafc=
 			</data>
 		</dict>
 		<key>Headers/ZANonFatalsUploadOperation.h</key>
@@ -2519,22 +2523,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iwxkDuF9AEYzNaBo+hIlEBKkiDs=
+			FFELqSdtcbcsceC9KfIBPSWK8ts=
 			</data>
 			<key>hash2</key>
 			<data>
-			7o8EhHYYQg9E49qhGrbgChqwmvX7lop9zzUxAcFcj3Q=
+			1uXdoenAMIe2GpqdaWdhwg+J4jKYlUiljkAlxrvjcPE=
 			</data>
 		</dict>
 		<key>Headers/ZAPIManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KhJe5iTlpyBAKeEurQVNBy9V43A=
+			RJDZltbXJfgO7KFBCKts/y7yZsk=
 			</data>
 			<key>hash2</key>
 			<data>
-			I+1eWy5c/e1BHdnWdyoxvV0rVZPaLu1q2puctf0gomk=
+			eqjeZNUMNQUJmi1ipOn3Rw1z1MG/I5HyjAt/5k4Cngg=
 			</data>
 		</dict>
 		<key>Headers/ZAPrivate.h</key>
@@ -2563,33 +2567,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VZNVuOGJrzVXrwzKKhgJ/g7XKiI=
+			KrH9/w+BpSSsbfcN5ioaFdxDpUE=
 			</data>
 			<key>hash2</key>
 			<data>
-			M6NFOQOR8aFNyZVMYjsBecT4ID2b4UoGVPGIHLy/RlI=
+			tvMYEkHV/3TiSw9h7VMtp2NyDn6Gg15uHbP9KeLQaFE=
 			</data>
 		</dict>
 		<key>Headers/ZASystemInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WlqHv67DOpSw/hEWNzrNTWl2pW4=
+			WPtl3ElDNw35nO+cU0enLjv5yXc=
 			</data>
 			<key>hash2</key>
 			<data>
-			9veYs1u9JrwUcKk7kOjMhQZ2iVBwot5V50auKVsa5/M=
+			l5GnDD7dGypbj14O+lv8Ep7+G3w1ckXQSZAvLbaY50U=
 			</data>
 		</dict>
 		<key>Headers/ZASystemProperties.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			83fUXtmwxzzdvWep0PxTMLYVh34=
+			6goCcQ3DK1uC87/E9CRGUM56XGY=
 			</data>
 			<key>hash2</key>
 			<data>
-			rC6j+87odGJNijv1BRssFmLLBNnPBbhpay67WThnXrs=
+			dDYJQJfTcM7ZmBHBTSiUEld+DalJGznVMJDb0nmDEgI=
 			</data>
 		</dict>
 		<key>Headers/ZAUserConsentAlert.h</key>
@@ -2629,22 +2633,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZTzQrlfYZXtoMZrBfsJ5kl/Lmio=
+			dalcaLr/JWs+7ROklYZ59j0Kjuk=
 			</data>
 			<key>hash2</key>
 			<data>
-			gKCBQCVWNnadoEJ+5gHGj9A/S5RV1fvLsFck+RgTabA=
+			0nNi0dny8GFj/TR8UmWIo5MNLDpgrvm8RrZ3hXjLWkc=
 			</data>
 		</dict>
 		<key>Modules/Apptics.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pH1+DfHA6TaE9TE/LTmtVI/AYRo=
+			kHs+iGUVRf7nzQnMdWMReAxEECQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			hQfOd75CLp8J7PGY2jT5C2O+5OPSrO9epbHPKybSa+8=
+			kLkOpfuCPpbTf75ELJSNTVekSgWOGPyYlFOyuR6iGp8=
 			</data>
 		</dict>
 		<key>Modules/Apptics.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -2662,44 +2666,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pH1+DfHA6TaE9TE/LTmtVI/AYRo=
+			kHs+iGUVRf7nzQnMdWMReAxEECQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			hQfOd75CLp8J7PGY2jT5C2O+5OPSrO9epbHPKybSa+8=
+			kLkOpfuCPpbTf75ELJSNTVekSgWOGPyYlFOyuR6iGp8=
 			</data>
 		</dict>
 		<key>Modules/Apptics.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rs8Y9aoZR+DsH7WY7tg7g2eFMNQ=
+			R7t6209x9/tvBGTnCgizD9IVB5w=
 			</data>
 			<key>hash2</key>
 			<data>
-			TJmEJNl2wMjM2no3q/zJkgj3Ds/XR2vf06BHxwYunq0=
+			cLnMYaux0ALoo4NfTbmIKXn4aaqPQE0dg5XazAHWv8A=
 			</data>
 		</dict>
 		<key>Modules/Apptics.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZTzQrlfYZXtoMZrBfsJ5kl/Lmio=
+			dalcaLr/JWs+7ROklYZ59j0Kjuk=
 			</data>
 			<key>hash2</key>
 			<data>
-			gKCBQCVWNnadoEJ+5gHGj9A/S5RV1fvLsFck+RgTabA=
+			0nNi0dny8GFj/TR8UmWIo5MNLDpgrvm8RrZ3hXjLWkc=
 			</data>
 		</dict>
 		<key>Modules/Apptics.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sEFp9UEBiMx9hG79x1hcgBuODcs=
+			FDtHKINQZR7jSx/o/xyu7jk94uY=
 			</data>
 			<key>hash2</key>
 			<data>
-			CMSmSBCqEzidZaUsIqeKLopFzQz5hbyTe0b49BsBYL8=
+			+kvkySEPONGicfxFDSJptc2ybNe7gOnxfYj+P9Ms8Fw=
 			</data>
 		</dict>
 		<key>Modules/Apptics.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -2717,22 +2721,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sEFp9UEBiMx9hG79x1hcgBuODcs=
+			FDtHKINQZR7jSx/o/xyu7jk94uY=
 			</data>
 			<key>hash2</key>
 			<data>
-			CMSmSBCqEzidZaUsIqeKLopFzQz5hbyTe0b49BsBYL8=
+			+kvkySEPONGicfxFDSJptc2ybNe7gOnxfYj+P9Ms8Fw=
 			</data>
 		</dict>
 		<key>Modules/Apptics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9Gojp9dAMUzZBIeXGIPwlQNeuX8=
+			kIV4f8RNXjhRj82XY9qJZRHA0Z0=
 			</data>
 			<key>hash2</key>
 			<data>
-			LO0aQERZftvENydmw8eUz8Lv2a1Y8u3vItoB3ANP+IQ=
+			fOFYBtlCDRyYw2fOB+MnALTd1Apu7rfCCWQFTailJn0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -2755,6 +2759,17 @@
 			<key>hash2</key>
 			<data>
 			7Abj29BKhiz8bFZbe/Iw3CNg7SORJLWdcXrFRbYKRZw=
+			</data>
+		</dict>
+		<key>sdkProp_info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1tgpknSVUaFFdGo7pIGjKg8tReU=
+			</data>
+			<key>hash2</key>
+			<data>
+			WdYmCwrdWbFHGKvXAWcLDZpCpmNA6k6v0ho4huHygkQ=
 			</data>
 		</dict>
 	</dict>

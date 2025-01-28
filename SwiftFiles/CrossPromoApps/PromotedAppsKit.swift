@@ -80,10 +80,6 @@ import Apptics
         Analytics.getInstance().ap_openURL(with: url)
     }
     
-    
-    
-    
-    
     func getcurrentBundle() -> Bundle {
         var bundleName = "Apptics_SwiftResources"
 #if SWIFT_PACKAGE
@@ -92,6 +88,7 @@ import Apptics
         
 #else
         let bundle = Bundle(for: GradientBttn.self)
+        
 #endif
         if let url = bundle.url(forResource: bundleName, withExtension: "bundle") {
             if let bundl = Bundle.init(url: url) {
@@ -153,7 +150,6 @@ extension PromotedAppsKit{
         return vc
     }
 }
-
 
 
 @objcMembers

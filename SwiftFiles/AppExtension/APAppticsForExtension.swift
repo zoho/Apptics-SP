@@ -8,6 +8,69 @@
 
 import Foundation
 
+import WatchConnectivity
+
+class WatchWCSessionManager: NSObject, WCSessionDelegate {
+  
+#if os(iOS)
+   func sessionDidBecomeInactive(_ session: WCSession) {
+       print("sessionDidBecomeInactive")
+   }
+
+   func sessionDidDeactivate(_ session: WCSession) {
+       print("sessionDidDeactivate")
+   }
+#endif
+    
+
+    static let shared = WatchWCSessionManager()
+
+    override private init() {
+        super.init()
+        if WCSession.isSupported() {
+            let session = WCSession.default
+            session.delegate = self
+            session.activate()
+        }
+    }
+
+    @available(iOS 9.3, *)
+    @available(watchOSApplicationExtension 2.2, *)
+    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
+        if let error = error {
+            print("WCSession activation failed with error: \(error.localizedDescription)")
+        } else {
+            print("WCSession activated with state: \(activationState)")
+        }
+    }
+
+    func sessionReachabilityDidChange(_ session: WCSession) {
+        if session.isReachable {
+            print("iPhone is reachable via WCSession")
+        } else {
+            print("iPhone is not reachable via WCSession")
+        }
+    }
+
+    func sendMessageToiPhone(groupname:String,eventName:String,property:[String : Any]) {
+        let exampleDict: [String: Any] = [
+            "eventname": eventName,
+            "group": groupname,
+            "properties": property,
+        ]
+        if WCSession.default.isReachable {
+            let message = ["event": exampleDict]
+            WCSession.default.sendMessage(message, replyHandler: nil) { error in
+                print("Error sending message to iPhone: \(error.localizedDescription)")
+            }
+        } else {
+            print("iPhone is not reachable via WCSession")
+        }
+        
+    }
+}
+
+
 @objcMembers
 class APExtensionEventList: NSObject, NSCoding {
     
@@ -88,7 +151,7 @@ var ExtensionEventKeyTimed = "TimedEventApp"
         
         var tasks = retrievedata(appGroup: appGroup)
         tasks.append(task.jsonify())
-        if #available(iOS 11.0, watchOS 4.0, *) {
+        if #available(iOS 11.0, *) {
             if let savedData = try? NSKeyedArchiver.archivedData(withRootObject: tasks, requiringSecureCoding: false) {
                 print(savedData)
                 UserDefaults(suiteName: appGroup)?.set(savedData, forKey: ExtensionEventKey)
@@ -132,6 +195,24 @@ var ExtensionEventKeyTimed = "TimedEventApp"
         AppticsExtensionManager.saveEvent(E,appGroup: appGroup)
     }
     
+    @objc public class func trackWatchEvent(groupname:String,eventName:String,property:[String : Any]){
+        var groupname = groupname
+        if groupname.isEmpty {
+            groupname = "uncategorized"
+        }
+        _ = WatchWCSessionManager.shared
+        DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(100)) {
+            if WCSession.default.isReachable {
+                WatchWCSessionManager.shared.sendMessageToiPhone(groupname: groupname, eventName: eventName, property: property)
+            }
+        }
+        
+    }
+    
+    
+    
+    
+    
     
     
     @objc public class func startTimedEvent(groupname:String,eventName:String,property:[String : Any],appGroup:String) -> NSNumber
@@ -154,7 +235,6 @@ var ExtensionEventKeyTimed = "TimedEventApp"
             let dictionary: [NSNumber: [String: Any]] = [
                 keyStartTime: value
             ]
-            
             let timedEvent = APExtensionTimedEventList(events: dictionary)
             saveTimedEvent(timedEvent, appGroup: appGroup)
             
@@ -192,7 +272,7 @@ var ExtensionEventKeyTimed = "TimedEventApp"
     class func removeTimestamp(_ timestamp: NSNumber, appGroup: String) {
         var tasks = retrieveTimeddata(appGroup: appGroup)
         tasks.removeValue(forKey: timestamp)
-        if #available(iOS 11.0, watchOS 4.0, *) {
+        if #available(iOS 11.0, *) {
             if let savedData = try? NSKeyedArchiver.archivedData(withRootObject: tasks, requiringSecureCoding: false) {
                 UserDefaults(suiteName: appGroup)?.set(savedData, forKey: ExtensionEventKeyTimed)
             }
@@ -208,7 +288,7 @@ var ExtensionEventKeyTimed = "TimedEventApp"
         for (key, value) in task.jsonify() {
             tasks[key] = value
         }
-        if #available(iOS 11.0, watchOS 4.0, *) {
+        if #available(iOS 11.0, *) {
             if let savedData = try? NSKeyedArchiver.archivedData(withRootObject: tasks, requiringSecureCoding: false) {
                 print(savedData)
                 UserDefaults(suiteName: appGroup)?.set(savedData, forKey: ExtensionEventKeyTimed)
@@ -274,6 +354,5 @@ class APExtensionTimedEventList: NSObject, NSCoding {
         return events
     }
 }
-
 
 

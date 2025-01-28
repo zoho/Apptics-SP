@@ -197,6 +197,10 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>sdkProp_info.plist</key>
+		<data>
+		euff43Kwjh3EprjIMSfyfdbJpjc=
+		</data>
 		<key>sv.lproj/ZAnalyticsLocalizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -528,6 +532,17 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>sdkProp_info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			euff43Kwjh3EprjIMSfyfdbJpjc=
+			</data>
+			<key>hash2</key>
+			<data>
+			2OEvNfx2q/8dv0fqbOA5WQ4aQbNDc8K/InSJ2cK+FX4=
+			</data>
 		</dict>
 		<key>sv.lproj/ZAnalyticsLocalizable.strings</key>
 		<dict>

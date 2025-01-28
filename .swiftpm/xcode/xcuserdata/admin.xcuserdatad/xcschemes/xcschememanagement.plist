@@ -67,7 +67,12 @@
 		<key>AppticsMessaging.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>8</integer>
+		</dict>
+		<key>AppticsNotificationServiceExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
 		</dict>
 		<key>AppticsPrivacyShield.xcscheme_^#shared#^_</key>
 		<dict>
@@ -158,6 +163,11 @@
 			<true/>
 		</dict>
 		<key>AppticsMXCrashKit</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AppticsMessaging</key>
 		<dict>
 			<key>primary</key>
 			<true/>
