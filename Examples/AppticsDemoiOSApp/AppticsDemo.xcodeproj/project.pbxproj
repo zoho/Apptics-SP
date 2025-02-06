@@ -12,7 +12,6 @@
 		7AE276EE2FA438AD79010C5D /* Pods_AppticsDemo_AppticsDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CFF7F3AAB67E32972A067B /* Pods_AppticsDemo_AppticsDemoUITests.framework */; };
 		842F9A582D537C9A006281F5 /* AppticsAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 842F9A572D537C9A006281F5 /* AppticsAnalytics */; };
 		842F9A5A2D537C9A006281F5 /* AppticsCrossPromotion in Frameworks */ = {isa = PBXBuildFile; productRef = 842F9A592D537C9A006281F5 /* AppticsCrossPromotion */; };
-		842F9A5C2D537C9A006281F5 /* AppticsExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 842F9A5B2D537C9A006281F5 /* AppticsExtension */; };
 		842F9A5E2D537C9A006281F5 /* AppticsFeedbackKitSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 842F9A5D2D537C9A006281F5 /* AppticsFeedbackKitSwift */; };
 		849C9C752BBD36A0003A438A /* APAppticsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049309A06726AF690C80B45 /* APAppticsExtension.swift */; };
 		84FC0A3D2D198170006FA610 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC0A3C2D198170006FA610 /* NotificationService.swift */; };
@@ -141,7 +140,6 @@
 		6C3F6639753519F40FAF9F40 /* Pods-AppticsDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppticsDemoTests.release.xcconfig"; path = "Target Support Files/Pods-AppticsDemoTests/Pods-AppticsDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		726EBA67C8E13BFA6797894E /* Pods-AppticsDemoTests.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppticsDemoTests.appstore.xcconfig"; path = "Target Support Files/Pods-AppticsDemoTests/Pods-AppticsDemoTests.appstore.xcconfig"; sourceTree = "<group>"; };
 		82D49E8CE21A9ABF6F2E76CB /* Pods-AppticsWidgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppticsWidgetExtension.debug.xcconfig"; path = "Target Support Files/Pods-AppticsWidgetExtension/Pods-AppticsWidgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
-		842F9A562D537C47006281F5 /* Apptics-sp */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "Apptics-sp"; path = ../..; sourceTree = "<group>"; };
 		84FC0A202D1970A3006FA610 /* AppticsMessaging.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AppticsMessaging.xcframework; path = ../../AppticsMessaging.xcframework; sourceTree = "<group>"; };
 		84FC0A222D1970B5006FA610 /* AppticsNotificationServiceExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AppticsNotificationServiceExtension.xcframework; path = ../../AppticsNotificationServiceExtension.xcframework; sourceTree = "<group>"; };
 		84FC0A352D198135006FA610 /* AppticsDemoAppStore.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppticsDemoAppStore.entitlements; sourceTree = "<group>"; };
@@ -239,7 +237,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				84FC0A792D1AE641006FA610 /* AppticsApiTracker.xcframework in Frameworks */,
-				842F9A5C2D537C9A006281F5 /* AppticsExtension in Frameworks */,
 				84FC0A722D1AE5F1006FA610 /* AppticsMessaging.xcframework in Frameworks */,
 				84FC0A772D1AE62F006FA610 /* AppticsPrivacyShield.xcframework in Frameworks */,
 				8E63463BB6982812A1115120 /* Pods_AppticsDemo.framework in Frameworks */,
@@ -296,14 +293,6 @@
 			name = Apptics;
 			sourceTree = "<group>";
 		};
-		842F9A552D537C47006281F5 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				842F9A562D537C47006281F5 /* Apptics-sp */,
-			);
-			name = Packages;
-			sourceTree = "<group>";
-		};
 		84FC0A3B2D198170006FA610 /* Appticsnotificationservice */ = {
 			isa = PBXGroup;
 			children = (
@@ -328,7 +317,6 @@
 		A25BD351273B454B00FA196D = {
 			isa = PBXGroup;
 			children = (
-				842F9A552D537C47006281F5 /* Packages */,
 				A23C923028D475E10014FCBA /* AppticsWidgetExtension.entitlements */,
 				A23C921828D45A4F0014FCBA /* WidgetExtension.entitlements */,
 				A25BD35C273B454B00FA196D /* AppticsDemo */,
@@ -557,7 +545,6 @@
 			packageProductDependencies = (
 				842F9A572D537C9A006281F5 /* AppticsAnalytics */,
 				842F9A592D537C9A006281F5 /* AppticsCrossPromotion */,
-				842F9A5B2D537C9A006281F5 /* AppticsExtension */,
 				842F9A5D2D537C9A006281F5 /* AppticsFeedbackKitSwift */,
 			);
 			productName = AppticsDemo;
@@ -643,6 +630,7 @@
 			);
 			mainGroup = A25BD351273B454B00FA196D;
 			packageReferences = (
+				842F9A7A2D54BD87006281F5 /* XCRemoteSwiftPackageReference "apptics-SP" */,
 			);
 			productRefGroup = A25BD35B273B454B00FA196D /* Products */;
 			projectDirPath = "";
@@ -1279,7 +1267,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1.2;
+				CURRENT_PROJECT_VERSION = 1.4;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 7VPXG96P25;
@@ -1295,7 +1283,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.4;
 				OTHER_CODE_SIGN_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jambav.appticsapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1324,7 +1312,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1.2;
+				CURRENT_PROJECT_VERSION = 1.4;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 7VPXG96P25;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1339,7 +1327,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.4;
 				OTHER_CODE_SIGN_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jambav.appticsapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1514,7 +1502,7 @@
 				CODE_SIGN_ENTITLEMENTS = AppticsDemo/AppticsDemoAppStore.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.2;
+				CURRENT_PROJECT_VERSION = 1.4;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = TZ824L8Y37;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -1529,7 +1517,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.4;
 				OTHER_CODE_SIGN_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apptics.demo.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1650,6 +1638,17 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		842F9A7A2D54BD87006281F5 /* XCRemoteSwiftPackageReference "apptics-SP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zoho/apptics-SP.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		842F9A572D537C9A006281F5 /* AppticsAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -1658,10 +1657,6 @@
 		842F9A592D537C9A006281F5 /* AppticsCrossPromotion */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = AppticsCrossPromotion;
-		};
-		842F9A5B2D537C9A006281F5 /* AppticsExtension */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = AppticsExtension;
 		};
 		842F9A5D2D537C9A006281F5 /* AppticsFeedbackKitSwift */ = {
 			isa = XCSwiftPackageProductDependency;
