@@ -10,11 +10,11 @@
 		</data>
 		<key>AppticsResources_tvOS.bundle/Info.plist</key>
 		<data>
-		v7vcKXnIbi1tyY7m+L9r7yaIKmQ=
+		NhOAjEhn6SbyYp6fdP1qG/tkpio=
 		</data>
 		<key>AppticsResources_tvOS.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		ccOU6/YNtz9iBDtkwyTDJD1FTAg=
+		nwS1WyvNArvrv8dJmlz8Hr10Rlo=
 		</data>
 		<key>AppticsResources_tvOS.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>AppticsResources_tvOS.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		N1VDvutMMUgHtx2EAH4vurfvZXk=
+		/KVZFH/3zgQQxL9wMRZRIdQpFls=
 		</data>
 		<key>AppticsResources_tvOS.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		5cumaaY8bhBKOOrL6GCAZhUvmz0=
+		upgF7Bh00ca+B8zube/sYuNqPwQ=
 		</data>
 		<key>AppticsResources_tvOS.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			99L8aKu4ZruxgRn60UqLrGrnJ28=
+			M3AsWDOfC2g9R1Q/U0CtuaHndAc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -221,10 +221,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>AppticsResources_tvOS.bundle/sdkProp_info.plist</key>
-		<data>
-		e/OTV/F0Pr0TQLbMsP68ukjRlP8=
-		</data>
 		<key>AppticsResources_tvOS.bundle/sv.lproj/ZAnalyticsLocalizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -440,7 +436,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		J/izbuibLJHOhLx7SwT2sfzA6q4=
+		LQSC3TjVQfm1CJB1fJ4VKe3O+ic=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -452,7 +448,7 @@
 		</data>
 		<key>sdkProp_info.plist</key>
 		<data>
-		e/OTV/F0Pr0TQLbMsP68ukjRlP8=
+		deZACWncYw0AZHvPXU00Jbxrvv4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -472,22 +468,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			v7vcKXnIbi1tyY7m+L9r7yaIKmQ=
+			NhOAjEhn6SbyYp6fdP1qG/tkpio=
 			</data>
 			<key>hash2</key>
 			<data>
-			4MRKvSBYfkQsHeyh8GyygPIdlJiKmKtgrHJC6XoH1d8=
+			4johDwcGyzg41ksV2GR/vBFLKL8cHkBk1iRsSGyOiRA=
 			</data>
 		</dict>
 		<key>AppticsResources_tvOS.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ccOU6/YNtz9iBDtkwyTDJD1FTAg=
+			nwS1WyvNArvrv8dJmlz8Hr10Rlo=
 			</data>
 			<key>hash2</key>
 			<data>
-			cFzbaYZtbpX7zR8OTNa2tWhLcZj/I/VTWc/urUnrPwY=
+			BO+Qr+4esWQma/3M3/k2C4D4tbejFmACh7lilkoOOiY=
 			</data>
 		</dict>
 		<key>AppticsResources_tvOS.bundle/_CodeSignature/CodeRequirements</key>
@@ -505,22 +501,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			N1VDvutMMUgHtx2EAH4vurfvZXk=
+			/KVZFH/3zgQQxL9wMRZRIdQpFls=
 			</data>
 			<key>hash2</key>
 			<data>
-			2tCe1yGSqYODFpcSsp3ENCw4rJxJt0rUxzcKESoyoso=
+			xCZQRnwTomnuegSIzqaxQHxeek+Sm3uCLXdyp6HJ4uk=
 			</data>
 		</dict>
 		<key>AppticsResources_tvOS.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5cumaaY8bhBKOOrL6GCAZhUvmz0=
+			upgF7Bh00ca+B8zube/sYuNqPwQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			n4oQsNOniK16s3OMzoqFsD6NXBhjZ6Y0yJYuU+qiRKw=
+			6i5/Pxg7uDd6/e9sosehwreaRqkNwMiVkAqx1V/s3oU=
 			</data>
 		</dict>
 		<key>AppticsResources_tvOS.bundle/_CodeSignature/CodeSignature</key>
@@ -603,11 +599,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			99L8aKu4ZruxgRn60UqLrGrnJ28=
+			M3AsWDOfC2g9R1Q/U0CtuaHndAc=
 			</data>
 			<key>hash2</key>
 			<data>
-			D8px95D5LvsYrtUBDul+BgDAtwZvpKEUk0g2UmtcH1k=
+			YBkGch7hk1sBpOqt2T8NDhkCrF3jNFOwm1riOad5Txo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -806,17 +802,6 @@
 			</data>
 			<key>optional</key>
 			<true/>
-		</dict>
-		<key>AppticsResources_tvOS.bundle/sdkProp_info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			e/OTV/F0Pr0TQLbMsP68ukjRlP8=
-			</data>
-			<key>hash2</key>
-			<data>
-			94bQ1mdOHWTx95MHI3+Y/Wfd76UT++csLPpvuEKTEz0=
-			</data>
 		</dict>
 		<key>AppticsResources_tvOS.bundle/sv.lproj/ZAnalyticsLocalizable.strings</key>
 		<dict>
@@ -1371,11 +1356,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			e/OTV/F0Pr0TQLbMsP68ukjRlP8=
+			deZACWncYw0AZHvPXU00Jbxrvv4=
 			</data>
 			<key>hash2</key>
 			<data>
-			94bQ1mdOHWTx95MHI3+Y/Wfd76UT++csLPpvuEKTEz0=
+			/VAYO2kZxwc2D5otigRuIv33K5nLr9q9F7cDq/ROc6A=
 			</data>
 		</dict>
 	</dict>

@@ -174,7 +174,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			99L8aKu4ZruxgRn60UqLrGrnJ28=
+			M3AsWDOfC2g9R1Q/U0CtuaHndAc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -485,6 +485,10 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>sdkProp_info.plist</key>
+		<data>
+		ffMVI7wm0xQG9v0UAFNkG6aDw8Q=
+		</data>
 		<key>sl.lproj/ZAnalyticsLocalizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -987,11 +991,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			99L8aKu4ZruxgRn60UqLrGrnJ28=
+			M3AsWDOfC2g9R1Q/U0CtuaHndAc=
 			</data>
 			<key>hash2</key>
 			<data>
-			D8px95D5LvsYrtUBDul+BgDAtwZvpKEUk0g2UmtcH1k=
+			YBkGch7hk1sBpOqt2T8NDhkCrF3jNFOwm1riOad5Txo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1437,6 +1441,17 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>sdkProp_info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ffMVI7wm0xQG9v0UAFNkG6aDw8Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			spNNFXacq61rdyrzw9+rCWfTs+u2TUdyAtpaK7GCWd4=
+			</data>
 		</dict>
 		<key>sl.lproj/ZAnalyticsLocalizable.strings</key>
 		<dict>
