@@ -61,11 +61,11 @@
 
 +(int) launchesSinceLastCrash;
 
-+ (NSInteger) reportCount;
-
-+ (NSArray*) allReports;
-
-+ (void) deleteAllReports;
+//+ (NSInteger) reportCount;
+//
+//+ (NSArray*) allReports;
+//
+//+ (void) deleteAllReports;
 
 #if PLCR_PRIVATE
 + (void) disableMachExceptionHandler;
