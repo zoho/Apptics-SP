@@ -15,6 +15,7 @@ import AppticsFeedbackKitSwift
 import AppticsEventTracker
 import UserNotifications
 import AppticsMessaging
+import AppticsExtension
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {

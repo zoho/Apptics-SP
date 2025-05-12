@@ -72,7 +72,7 @@ extension ListViewController {
 //                 print("update info \(info)")
 //            }
             
-            APAppUpdateManager.checkForAppUpdates()
+//            APAppUpdateManager.checkForAppUpdates()
             break
         case .Apitracking:
             let apiListController = storyboard.instantiateViewController(withIdentifier: "APIListViewController")

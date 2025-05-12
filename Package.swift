@@ -1,10 +1,10 @@
 // swift-tools-version:5.3
  import PackageDescription
- let version = "2.2.6003"
+ let version = "3.0.0"
  let package = Package(
      name: "Apptics",
      defaultLocalization: "en",
-     platforms: [.macOS(.v10_10), .iOS(.v9), .tvOS(.v9), .watchOS(.v2)],
+     platforms: [.macOS(.v10_10), .iOS(.v13), .tvOS(.v9), .watchOS(.v2)],
      products: [
          .library(
              name: "AppticsFeedbackKit",
@@ -33,6 +33,10 @@
          ),
          .library(
              name: "AppticsAnalytics",
+             targets: ["AppticsAnalytics"]
+         ),
+         .library(
+             name: "AppticsAnalyticscoreWithKSCrash",
              targets: ["AppticsAnalytics"]
          ),
          .library(
@@ -72,6 +76,14 @@
          .binaryTarget(
              name: "AppticsScreenTracker",
              path: "AppticsScreenTracker.xcframework"
+         ),
+         .binaryTarget(
+             name: "AppticsCrashKit",
+             path: "AppticsCrashKit.xcframework"
+         ),
+         .binaryTarget(
+             name: "KSCrash",
+             path: "KSCrash.xcframework"
          ),
          .binaryTarget(
              name: "AppticsMXCrashKit",
@@ -119,6 +131,11 @@
              
              name: "AppticsAnalytics",
              dependencies: ["Apptics", "JWT", "AppticsEventTracker", "AppticsScreenTracker",  "AppticsMXCrashKit"], path: "SwiftFiles/Analytics"
+         ),
+         .target(
+             
+             name: "AppticsAnalyticscoreWithKSCrash",
+             dependencies: ["Apptics", "JWT", "AppticsEventTracker", "AppticsScreenTracker", "AppticsCrashKit", "KSCrash"], path: "SwiftFiles/AnalyticswithkSCrash"
          ),
          .target(
              name: "AppticsCrossPromotion",
