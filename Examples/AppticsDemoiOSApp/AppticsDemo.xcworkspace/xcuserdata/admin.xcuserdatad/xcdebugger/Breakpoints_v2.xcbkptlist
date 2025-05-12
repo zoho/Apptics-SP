@@ -20,7 +20,7 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "B52C4D8D-158D-450B-AE7B-763F8B52615C - ab4ca97e073474fb"
+                  uuid = "B52C4D8D-158D-450B-AE7B-763F8B52615C - ab4ca97e073474d8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -30,12 +30,12 @@
                   urlString = "file:///Users/admin/Documents/GitHub/Apptics-sp/Examples/AppticsDemoiOSApp/AppticsDemo/AppDelegate.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "345"
-                  endingLineNumber = "345"
+                  startingLineNumber = "346"
+                  endingLineNumber = "346"
                   offsetFromSymbolStart = "67">
                </Location>
                <Location
-                  uuid = "B52C4D8D-158D-450B-AE7B-763F8B52615C - 11d778e3006c1fb1"
+                  uuid = "B52C4D8D-158D-450B-AE7B-763F8B52615C - 11d778e3006c1f92"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -45,8 +45,8 @@
                   urlString = "file:///Users/admin/Documents/GitHub/Apptics-sp/Examples/AppticsDemoiOSApp/AppticsDemo/AppDelegate.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "345"
-                  endingLineNumber = "345"
+                  startingLineNumber = "346"
+                  endingLineNumber = "346"
                   offsetFromSymbolStart = "28">
                </Location>
             </Locations>

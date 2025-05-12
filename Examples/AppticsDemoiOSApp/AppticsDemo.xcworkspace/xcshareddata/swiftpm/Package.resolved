@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "apptics-sp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zoho/apptics-SP.git",
+      "state" : {
+        "revision" : "620a9fdeb7226c13c855f3c1d3b424144bf2fb81",
+        "version" : "3.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}

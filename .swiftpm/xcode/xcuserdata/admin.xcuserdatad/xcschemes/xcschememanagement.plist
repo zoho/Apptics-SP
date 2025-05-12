@@ -127,6 +127,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>AppticsAnalyticscoreWithKSCrash</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>AppticsApiTracker</key>
 		<dict>
 			<key>primary</key>
