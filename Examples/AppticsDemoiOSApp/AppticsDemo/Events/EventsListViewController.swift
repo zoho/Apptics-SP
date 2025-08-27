@@ -30,19 +30,35 @@ extension EventsListViewController {
         APEvent.trackEvent(withType: list.type, andProperties: ["age1":28])
         let event_name = APEvent.event(forType: list.type)
         
+        APEvent.trackEvent("testAppStatus", withGroupName: "Applifecycle")
         
         let screentimestamp = APScreentracker.trackViewEnter(withScreenName: "\(event_name!)")
         
         let timestamp = APEvent.startTimedEvent(withEventName: "Test", group: "debugGroup", andProperties: [:])
         
-        for i in 0...50{
-            print(i)
-        }
+       
         
         
         APEvent.endTimedEvent(withEventName: "Test", group: "debugGroup", andstartTime: timestamp)
         
         APScreentracker.trackViewExit(withTimestamp: screentimestamp)
+        
+        let crashCases: [[String: Any]] = [
+                       ["date": Date()],
+                       ["data": "hello".data(using: .utf8)!],
+                       ["custom": NSObject()],
+                       ["nestedArray": ["a", "b"]],
+                       ["nestedDict": ["k": "v"]],
+                       ["null": NSNull()]
+                   ]
+
+                   for caseProps in crashCases {
+                       
+                       print("caseProps : \(caseProps)")
+
+                       
+                       APEvent.trackEvent("iOS_Login123", andGroupName: "AppLifecycle", withProperties: caseProps)
+                   }
         
         
 //        Toast.show(message: "Event '\(event_name)' tracked!", controller: self)

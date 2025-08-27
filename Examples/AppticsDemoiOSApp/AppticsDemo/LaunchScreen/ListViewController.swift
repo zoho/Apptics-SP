@@ -12,7 +12,6 @@ class ListViewController: UITableViewController {
 
     override func viewDidLoad() {
         self.navigationItem.title = "Apptics Demo"
-        AppticsFeedbackKitSwift.FeedbackTheme.sharedInstance.ViewColor = .green
 //        view.addSubview(screenshotPreventView)
         
         
@@ -68,11 +67,17 @@ extension ListViewController {
             FeedbackKit.showFeedback()
             break
         case .Appupdate:
+            APAppUpdateManager.checkAndShowVersionAlert(nil)
 //            APAppUpdateManager.check { info in
 //                 print("update info \(info)")
 //            }
             
 //            APAppUpdateManager.checkForAppUpdates()
+            
+//            FeedbackKit().start_ScreenRecord()
+            
+//            Apptics.flush()
+            
             break
         case .Apitracking:
             let apiListController = storyboard.instantiateViewController(withIdentifier: "APIListViewController")

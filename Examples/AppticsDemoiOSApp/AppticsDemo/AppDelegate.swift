@@ -11,7 +11,6 @@ import CoreData
 import Apptics
 //import MetricKit
 import AppticsFeedbackKit
-import AppticsFeedbackKitSwift
 import AppticsEventTracker
 import UserNotifications
 import AppticsMessaging
