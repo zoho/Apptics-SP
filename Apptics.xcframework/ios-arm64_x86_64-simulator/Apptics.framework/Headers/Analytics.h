@@ -69,6 +69,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property BOOL enableAnonymousTracking;
 
+@property BOOL resetOnDCSwitch;
+
+
 @property (nonatomic) APAnonymousType anonymousType;
 
 //@property BOOL enableRateUs;

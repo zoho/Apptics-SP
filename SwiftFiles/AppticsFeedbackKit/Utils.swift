@@ -107,20 +107,57 @@ enum TargetDevice {
 
 //MARK: load font from bundle
 
+//public func loadFontForCPResourceBundle() {
+//    
+//    guard let url = bundles1.url(forResource: appticsFontName, withExtension: "ttf") else {
+//        return
+//    }
+//    guard let fontDataProvider = CGDataProvider(url: url as CFURL) else {
+//        return
+//    }
+//    guard let font = CGFont(fontDataProvider) else {
+//        return
+//    }
+//    var error: Unmanaged<CFError>?
+//    if !CTFontManagerRegisterGraphicsFont(font, &error) {
+//        print(error!.takeUnretainedValue())
+//    }
+//}
+
 public func loadFontForCPResourceBundle() {
-    
-    guard let url = bundles.url(forResource: appticsFontName, withExtension: "ttf") else {
+    struct Static {
+        static var didLoadFont: Bool = false
+    }
+    guard !Static.didLoadFont else { return }
+    Static.didLoadFont = true
+    guard let url = bundles.url(forResource: appticsFontName, withExtension: "ttf"),
+          let fontDataProvider = CGDataProvider(url: url as CFURL),
+          
+          let font = CGFont(fontDataProvider) else {
         return
     }
-    guard let fontDataProvider = CGDataProvider(url: url as CFURL) else {
-        return
-    }
-    guard let font = CGFont(fontDataProvider) else {
-        return
-    }
+     
     var error: Unmanaged<CFError>?
-    if !CTFontManagerRegisterGraphicsFont(font, &error) {
-        print(error!.takeUnretainedValue())
+       if !CTFontManagerRegisterGraphicsFont(font, &error) {
+           if let cfError = error?.takeUnretainedValue() {
+               let nsError = cfError as Error
+               print("❌ Font registration failed: \(nsError.localizedDescription)")
+           } else {
+               print("❌ Font registration failed: Unknown error")
+           }
+       } else {
+           let postScriptName = font.postScriptName as String? ?? "unknown"
+           print("✅ Font '\(postScriptName)' loaded successfully.")
+       }
+}
+
+public func printAllLoadedFonts() {
+    for family in UIFont.familyNames.sorted() {
+        print("Family: \(family)")
+        let fontNames = UIFont.fontNames(forFamilyName: family).sorted()
+        for name in fontNames {
+            print("  Font: \(name)")
+        }
     }
 }
 
@@ -163,7 +200,7 @@ public struct FontIconText {
 #if SWIFT_PACKAGE
 public let bundles = Bundle.module
 #else
-//public let bundles = Bundle(for: GradientButton.self)
+public let bundles1 = Bundle(for: GradientButton.self)
 public let bundles = Bundle(url: Bundle(for: GradientButton.self).url(forResource: "APFeedbackSwift", withExtension: "bundle") ?? Bundle(for: GradientButton.self).bundleURL) ?? Bundle(for: GradientButton.self)
 
 #endif

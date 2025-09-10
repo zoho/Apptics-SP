@@ -1,6 +1,6 @@
 // swift-tools-version:5.3
  import PackageDescription
- let version = "3.2.0"
+ let version = "3.3.0"
  let package = Package(
      name: "Apptics",
      defaultLocalization: "en",
@@ -157,8 +157,8 @@
                  .copy("AppticsSdkIcons.ttf"),
                  .copy("FloatingView.xib"),
                  .copy("ScreenShotEditorView.xib"),
-                 .copy("ScreenShotView.xib")
-//                 .copy("QuartzResources.bundle")
+                 .copy("ScreenShotView.xib"),
+                 .copy("QuartzResources.bundle")
 
              ]
          )

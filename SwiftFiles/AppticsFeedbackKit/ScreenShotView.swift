@@ -19,8 +19,7 @@ public class ScreenShotView: UIView,UICollectionViewDelegate,UICollectionViewDat
     @IBOutlet weak var cardView:CardViews!
     var floatingscrollController: FloatScreenshotEditor?
     @IBOutlet weak var clobttnTopConst:NSLayoutConstraint!
-    @IBOutlet weak var doneBttnTopConst:NSLayoutConstraint!
-    let DEVICE_SIZE = UIApplication.shared.keyWindow?.rootViewController?.view.convert(UIScreen.main.bounds, from: nil).size
+    @IBOutlet weak var doneBttnTopConst:NSLayoutConstraint!    
     @IBOutlet weak var noDataBttn:UIButton!
     var fileArray = [URL]()
     var filesCount = 0
@@ -55,9 +54,7 @@ public class ScreenShotView: UIView,UICollectionViewDelegate,UICollectionViewDat
         else{
             appFontsize = 40.0
         }
-#if SWIFT_PACKAGE
         cardView.layer.borderColor = UIColor.clear.cgColor
-#endif
         collectionViewSetup()
         getallImages()
         fileindexpath = [0,0]
@@ -67,10 +64,20 @@ public class ScreenShotView: UIView,UICollectionViewDelegate,UICollectionViewDat
         NotificationCenter.default.addObserver(self, selector: #selector(self.screenshotsLoad), name:Notification.Name(notificationScreenreloadKey) , object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(self.imageReloadreportBug), name:Notification.Name(notificationImageReloadfromReportBug) , object: nil)
         self.pageNumberLabel.text = "\(1)/\(self.fileArray.count)"
-        if DEVICE_SIZE!.height < 670{
-            clobttnTopConst.constant = 20
-            doneBttnTopConst.constant = 20
+        
+        if let windowScene = UIApplication.shared.connectedScenes
+            .first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene,
+           let window = windowScene.windows.first(where: { $0.isKeyWindow }),
+           let rootView = window.rootViewController?.view {
+           let deviceSize = rootView.convert(UIScreen.main.bounds, from: nil).size
+            print("Device size: \(deviceSize)")
+            if deviceSize.height < 670{
+                clobttnTopConst.constant = 20
+                doneBttnTopConst.constant = 20
+            }
         }
+        
+        
                 
     }
     
@@ -113,20 +120,20 @@ public class ScreenShotView: UIView,UICollectionViewDelegate,UICollectionViewDat
             self.setHideandShowBttns(status: true)
             cell.transform = cell.transform.scaledBy(x:1.15, y: 1.15)
             UIView.animate(withDuration: 0.20) {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.010) {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.010) { 
                     UIView.animate(withDuration: 0.8, delay: 0.0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0, options: [.curveEaseInOut],animations: {
                             cell.transform = .identity
                         }, completion: { success in
                         })
                     }
             }
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
-                self.setHideandShowBttns(status: false)
-                self.deleteBttn.layer.add(FadeInAdnimation(), forKey: "fadeIn")
-                self.pageView.layer.add(FadeInAdnimation(), forKey: "fadeIn")
-                self.pageNumberLabel.layer.add(FadeInAdnimation(), forKey: "fadeIn")
-                self.doneBttn.layer.add(FadeInAdnimation(), forKey: "fadeIn")
-                self.hideBttn.layer.add(FadeInAdnimation(), forKey: "fadeIn")
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {  [weak self] in
+                self?.setHideandShowBttns(status: false)
+                self?.deleteBttn.layer.add(FadeInAdnimation(), forKey: "fadeIn")
+                self?.pageView.layer.add(FadeInAdnimation(), forKey: "fadeIn")
+                self?.pageNumberLabel.layer.add(FadeInAdnimation(), forKey: "fadeIn")
+                self?.doneBttn.layer.add(FadeInAdnimation(), forKey: "fadeIn")
+                self?.hideBttn.layer.add(FadeInAdnimation(), forKey: "fadeIn")
             }
         }
     }
@@ -192,9 +199,9 @@ public class ScreenShotView: UIView,UICollectionViewDelegate,UICollectionViewDat
                 try FileManager.default.removeItem(atPath: filename.path)
             }
             catch{}
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {  [weak self] in
                 let indexPath = IndexPath(item: visibleIndexPath!.row, section: 0)
-                guard let cell = self.screenshotCollectionView.cellForItem(at: indexPath) else {
+                guard let cell = self?.screenshotCollectionView.cellForItem(at: indexPath) else {
                     return
                 }
                 let animation = CAKeyframeAnimation(keyPath: "transform.scale")
@@ -203,7 +210,7 @@ public class ScreenShotView: UIView,UICollectionViewDelegate,UICollectionViewDat
                 animation.repeatCount = 0
                 cell.layer.add(animation, forKey: nil)
                 UIView.animate(withDuration: 0.6, delay: 0.0, usingSpringWithDamping: 1.0, initialSpringVelocity: 1.0, options: [.curveEaseOut,.curveEaseInOut], animations: {
-                    self.screenshotCollectionView.deleteItems(at: [indexPath])
+                    self?.screenshotCollectionView.deleteItems(at: [indexPath])
                 }, completion: { success in
                 })
             }

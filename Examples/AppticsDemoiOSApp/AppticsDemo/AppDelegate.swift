@@ -173,6 +173,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         config.maxSessionTimeout = APMaxSessionTimeout.timeout30//(60 * 30)
         config.flushInterval = APFlushInterval.interval15//(60 * 30)
         
+        
 //        APAAAUtil.sharedManagerForAnonymousUser().removeRefreshToken()
 //        APAAAUtil.sharedManagerForAnonymousUser().removeTokenTime()
 //
