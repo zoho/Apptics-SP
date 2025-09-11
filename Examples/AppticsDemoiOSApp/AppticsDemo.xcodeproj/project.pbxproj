@@ -10,11 +10,6 @@
 		3875EEC6DBC62C9DDD7266B2 /* Pods_AppticsDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F6A2637AAEE8CB2ECEA282D /* Pods_AppticsDemoTests.framework */; };
 		6B8B170310F57010F1D8B2A0 /* Pods_AppticsWidgetExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9729B44161FE5704BC1E785 /* Pods_AppticsWidgetExtension.framework */; };
 		7AE276EE2FA438AD79010C5D /* Pods_AppticsDemo_AppticsDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CFF7F3AAB67E32972A067B /* Pods_AppticsDemo_AppticsDemoUITests.framework */; };
-		844702092E7198CF0077F2FA /* AppticsAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 844702082E7198CF0077F2FA /* AppticsAnalytics */; };
-		8447020B2E7198CF0077F2FA /* AppticsAnalyticscoreWithKSCrash in Frameworks */ = {isa = PBXBuildFile; productRef = 8447020A2E7198CF0077F2FA /* AppticsAnalyticscoreWithKSCrash */; };
-		8447020D2E7198CF0077F2FA /* AppticsCrossPromotion in Frameworks */ = {isa = PBXBuildFile; productRef = 8447020C2E7198CF0077F2FA /* AppticsCrossPromotion */; };
-		8447020F2E7198CF0077F2FA /* AppticsExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 8447020E2E7198CF0077F2FA /* AppticsExtension */; };
-		844702112E7198CF0077F2FA /* AppticsFeedbackKitSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 844702102E7198CF0077F2FA /* AppticsFeedbackKitSwift */; };
 		849C9C752BBD36A0003A438A /* APAppticsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049309A06726AF690C80B45 /* APAppticsExtension.swift */; };
 		84FC0A3D2D198170006FA610 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC0A3C2D198170006FA610 /* NotificationService.swift */; };
 		84FC0A492D1ACCBD006FA610 /* AppticsMessaging.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FC0A202D1970A3006FA610 /* AppticsMessaging.xcframework */; };
@@ -236,14 +231,9 @@
 			files = (
 				84FC0A792D1AE641006FA610 /* AppticsApiTracker.xcframework in Frameworks */,
 				84FC0A722D1AE5F1006FA610 /* AppticsMessaging.xcframework in Frameworks */,
-				8447020F2E7198CF0077F2FA /* AppticsExtension in Frameworks */,
-				8447020D2E7198CF0077F2FA /* AppticsCrossPromotion in Frameworks */,
 				84FC0A772D1AE62F006FA610 /* AppticsPrivacyShield.xcframework in Frameworks */,
 				8E63463BB6982812A1115120 /* Pods_AppticsDemo.framework in Frameworks */,
-				8447020B2E7198CF0077F2FA /* AppticsAnalyticscoreWithKSCrash in Frameworks */,
-				844702092E7198CF0077F2FA /* AppticsAnalytics in Frameworks */,
 				84FC0A752D1AE61A006FA610 /* AppticsInAppUpdate.xcframework in Frameworks */,
-				844702112E7198CF0077F2FA /* AppticsFeedbackKitSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,11 +531,6 @@
 			);
 			name = AppticsDemo;
 			packageProductDependencies = (
-				844702082E7198CF0077F2FA /* AppticsAnalytics */,
-				8447020A2E7198CF0077F2FA /* AppticsAnalyticscoreWithKSCrash */,
-				8447020C2E7198CF0077F2FA /* AppticsCrossPromotion */,
-				8447020E2E7198CF0077F2FA /* AppticsExtension */,
-				844702102E7198CF0077F2FA /* AppticsFeedbackKitSwift */,
 			);
 			productName = AppticsDemo;
 			productReference = A25BD35A273B454B00FA196D /* AppticsDemo.app */;
@@ -1634,29 +1619,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		844702082E7198CF0077F2FA /* AppticsAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = AppticsAnalytics;
-		};
-		8447020A2E7198CF0077F2FA /* AppticsAnalyticscoreWithKSCrash */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = AppticsAnalyticscoreWithKSCrash;
-		};
-		8447020C2E7198CF0077F2FA /* AppticsCrossPromotion */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = AppticsCrossPromotion;
-		};
-		8447020E2E7198CF0077F2FA /* AppticsExtension */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = AppticsExtension;
-		};
-		844702102E7198CF0077F2FA /* AppticsFeedbackKitSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = AppticsFeedbackKitSwift;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		A25BD366273B454B00FA196D /* AppticsDemo.xcdatamodeld */ = {
