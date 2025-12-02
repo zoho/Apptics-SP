@@ -127,6 +127,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>Apptics-sp</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>AppticsAnalytics</key>
 		<dict>
 			<key>primary</key>
