@@ -12,12 +12,8 @@
 		24EF1B94286D61A500490D90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24EF1B93286D61A500490D90 /* Assets.xcassets */; };
 		24EF1B97286D61A500490D90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24EF1B95286D61A500490D90 /* Main.storyboard */; };
 		24EF1B9A286D61A500490D90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EF1B99286D61A500490D90 /* main.m */; };
-		24EF1BAB286D654800490D90 /* apptics-config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24EF1BAA286D654800490D90 /* apptics-config.plist */; };
 		8375FF805DE30028D3C089FA /* Pods_AppticsDemoMacApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639D8792723EFBD36BFF8D0B /* Pods_AppticsDemoMacApp.framework */; };
-		849C9C782BBD3BFB003A438A /* AppticsAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 849C9C772BBD3BFB003A438A /* AppticsAnalytics */; };
-		849C9C7A2BBD3BFB003A438A /* AppticsApiTracker in Frameworks */ = {isa = PBXBuildFile; productRef = 849C9C792BBD3BFB003A438A /* AppticsApiTracker */; };
-		849C9C7C2BBD3BFB003A438A /* AppticsExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 849C9C7B2BBD3BFB003A438A /* AppticsExtension */; };
-		849C9C7E2BBD3BFB003A438A /* AppticsRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 849C9C7D2BBD3BFB003A438A /* AppticsRemoteConfig */; };
+		84A7D9922EE8463600248AAD /* AppticsAnalyticscoreWithKSCrash in Frameworks */ = {isa = PBXBuildFile; productRef = 84A7D9912EE8463600248AAD /* AppticsAnalyticscoreWithKSCrash */; };
 		A2791E80287E88F30047A3FF /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2791E7F287E88F20047A3FF /* NewViewController.swift */; };
 		A2791E82287E89A70047A3FF /* APAppticsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2791E81287E89A70047A3FF /* APAppticsExtension.swift */; };
 /* End PBXBuildFile section */
@@ -34,8 +30,8 @@
 		24EF1B98286D61A500490D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24EF1B99286D61A500490D90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		24EF1B9B286D61A500490D90 /* AppticsDemoMacApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppticsDemoMacApp.entitlements; sourceTree = "<group>"; };
-		24EF1BAA286D654800490D90 /* apptics-config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "apptics-config.plist"; sourceTree = "<group>"; };
 		639D8792723EFBD36BFF8D0B /* Pods_AppticsDemoMacApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppticsDemoMacApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A7D9902EE8462900248AAD /* MacOS */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MacOS; path = "../../../Apptics-sp 2/MacOS"; sourceTree = "<group>"; };
 		A2791E7E287E88ED0047A3FF /* AppticsDemoMacApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppticsDemoMacApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		A2791E7F287E88F20047A3FF /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		A2791E81287E89A70047A3FF /* APAppticsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APAppticsExtension.swift; sourceTree = "<group>"; };
@@ -47,11 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				849C9C7A2BBD3BFB003A438A /* AppticsApiTracker in Frameworks */,
-				849C9C7C2BBD3BFB003A438A /* AppticsExtension in Frameworks */,
-				849C9C7E2BBD3BFB003A438A /* AppticsRemoteConfig in Frameworks */,
-				849C9C782BBD3BFB003A438A /* AppticsAnalytics in Frameworks */,
 				8375FF805DE30028D3C089FA /* Pods_AppticsDemoMacApp.framework in Frameworks */,
+				84A7D9922EE8463600248AAD /* AppticsAnalyticscoreWithKSCrash in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +54,7 @@
 		24EF1B81286D61A400490D90 = {
 			isa = PBXGroup;
 			children = (
-				24EF1BAA286D654800490D90 /* apptics-config.plist */,
+				84A7D98F2EE8462900248AAD /* Packages */,
 				24EF1B8C286D61A400490D90 /* AppticsDemoMacApp */,
 				24EF1B8B286D61A400490D90 /* Products */,
 				6F78ED4DAF544F9506CFE21B /* Pods */,
@@ -105,6 +98,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		84A7D98F2EE8462900248AAD /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				84A7D9902EE8462900248AAD /* MacOS */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 		C8C3A0174CEAC3F98CFF19AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,10 +134,7 @@
 			);
 			name = AppticsDemoMacApp;
 			packageProductDependencies = (
-				849C9C772BBD3BFB003A438A /* AppticsAnalytics */,
-				849C9C792BBD3BFB003A438A /* AppticsApiTracker */,
-				849C9C7B2BBD3BFB003A438A /* AppticsExtension */,
-				849C9C7D2BBD3BFB003A438A /* AppticsRemoteConfig */,
+				84A7D9912EE8463600248AAD /* AppticsAnalyticscoreWithKSCrash */,
 			);
 			productName = AppticsDemoMacApp;
 			productReference = 24EF1B8A286D61A400490D90 /* AppticsDemoMacApp.app */;
@@ -166,7 +164,6 @@
 			);
 			mainGroup = 24EF1B81286D61A400490D90;
 			packageReferences = (
-				849C9C762BBD3BFB003A438A /* XCRemoteSwiftPackageReference "apptics-SP" */,
 			);
 			productRefGroup = 24EF1B8B286D61A400490D90 /* Products */;
 			projectDirPath = "";
@@ -183,7 +180,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				24EF1B94286D61A500490D90 /* Assets.xcassets in Resources */,
-				24EF1BAB286D654800490D90 /* apptics-config.plist in Resources */,
 				24EF1B97286D61A500490D90 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,37 +452,10 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		849C9C762BBD3BFB003A438A /* XCRemoteSwiftPackageReference "apptics-SP" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/zoho/apptics-SP.git";
-			requirement = {
-				kind = exactVersion;
-				version = 2.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
-		849C9C772BBD3BFB003A438A /* AppticsAnalytics */ = {
+		84A7D9912EE8463600248AAD /* AppticsAnalyticscoreWithKSCrash */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 849C9C762BBD3BFB003A438A /* XCRemoteSwiftPackageReference "apptics-SP" */;
-			productName = AppticsAnalytics;
-		};
-		849C9C792BBD3BFB003A438A /* AppticsApiTracker */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 849C9C762BBD3BFB003A438A /* XCRemoteSwiftPackageReference "apptics-SP" */;
-			productName = AppticsApiTracker;
-		};
-		849C9C7B2BBD3BFB003A438A /* AppticsExtension */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 849C9C762BBD3BFB003A438A /* XCRemoteSwiftPackageReference "apptics-SP" */;
-			productName = AppticsExtension;
-		};
-		849C9C7D2BBD3BFB003A438A /* AppticsRemoteConfig */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 849C9C762BBD3BFB003A438A /* XCRemoteSwiftPackageReference "apptics-SP" */;
-			productName = AppticsRemoteConfig;
+			productName = AppticsAnalyticscoreWithKSCrash;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

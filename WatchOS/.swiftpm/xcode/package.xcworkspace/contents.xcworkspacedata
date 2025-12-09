@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "self:">
+   </FileRef>
+   <FileRef
+      location = "absolute:/Users/jai-13322/Downloads/Apptics-SP-main/MacOS/Package.swift">
+   </FileRef>
+</Workspace>
