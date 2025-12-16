@@ -1,6 +1,6 @@
 // swift-tools-version:5.3
  import PackageDescription
- let version = "3.3.8"
+ let version = "3.3.9"
  let package = Package(
      name: "Apptics",
      defaultLocalization: "en",
@@ -37,7 +37,7 @@
          ),
          .library(
              name: "AppticsAnalyticscoreWithKSCrash",
-             targets: ["AppticsAnalytics"]
+             targets: ["AppticsAnalyticscoreWithKSCrash"]
          ),
          .library(
              name: "AppticsCrossPromotion",
@@ -135,7 +135,7 @@
                 "JWT",
                 "AppticsEventTracker",
                 "AppticsScreenTracker",
-                // only pull this binary target when building for iOS
+                "AppticsMXCrashKit",
                 .target(name: "AppticsMXCrashKit", condition: .when(platforms: [.iOS]))
             ], path: "SwiftFiles/Analytics"
          ),
