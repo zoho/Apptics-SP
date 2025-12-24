@@ -1,6 +1,6 @@
 // swift-tools-version:5.3
  import PackageDescription
- let version = "3.3.9"
+ let version = "3.3.10001"
  let package = Package(
      name: "Apptics",
      defaultLocalization: "en",
@@ -135,7 +135,6 @@
                 "JWT",
                 "AppticsEventTracker",
                 "AppticsScreenTracker",
-                "AppticsMXCrashKit",
                 .target(name: "AppticsMXCrashKit", condition: .when(platforms: [.iOS]))
             ], path: "SwiftFiles/Analytics"
          ),
@@ -166,7 +165,6 @@
                  .copy("ScreenShotEditorView.xib"),
                  .copy("ScreenShotView.xib"),
                  .copy("QuartzResources.bundle")
-
              ]
          )
      ]
