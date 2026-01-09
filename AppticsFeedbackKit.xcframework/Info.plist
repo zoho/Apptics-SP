@@ -22,13 +22,12 @@
 			<key>BinaryPath</key>
 			<string>AppticsFeedbackKit.framework/Versions/A/AppticsFeedbackKit</string>
 			<key>LibraryIdentifier</key>
-			<string>ios-arm64_x86_64-maccatalyst</string>
+			<string>ios-arm64-maccatalyst</string>
 			<key>LibraryPath</key>
 			<string>AppticsFeedbackKit.framework</string>
 			<key>SupportedArchitectures</key>
 			<array>
 				<string>arm64</string>
-				<string>x86_64</string>
 			</array>
 			<key>SupportedPlatform</key>
 			<string>ios</string>
@@ -39,13 +38,12 @@
 			<key>BinaryPath</key>
 			<string>AppticsFeedbackKit.framework/AppticsFeedbackKit</string>
 			<key>LibraryIdentifier</key>
-			<string>ios-arm64_x86_64-simulator</string>
+			<string>ios-arm64-simulator</string>
 			<key>LibraryPath</key>
 			<string>AppticsFeedbackKit.framework</string>
 			<key>SupportedArchitectures</key>
 			<array>
 				<string>arm64</string>
-				<string>x86_64</string>
 			</array>
 			<key>SupportedPlatform</key>
 			<string>ios</string>

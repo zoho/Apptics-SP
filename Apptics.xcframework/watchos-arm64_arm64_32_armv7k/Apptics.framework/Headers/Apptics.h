@@ -587,7 +587,5 @@ After initializing Apptics, call this method to enable auto check for updates.
 
 + (BOOL) customerGroupTrackingStatus;
 
-
-
 @end
 NS_ASSUME_NONNULL_END
