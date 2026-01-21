@@ -1,5 +1,5 @@
 #!/bin/bash
-#app version : 3.3.10
+#app version : 3.3.11
 EVENTS_TRACKING_ID=175
 API_TRACKING_ID=175
 IOS_SDK_ID=5890

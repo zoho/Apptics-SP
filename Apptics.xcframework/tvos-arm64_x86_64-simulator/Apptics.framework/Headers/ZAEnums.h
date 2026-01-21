@@ -256,9 +256,3 @@ typedef NS_ENUM(NSInteger, APDeviceIdentifierType)
     APDeviceIdentifierTypeVendorId = 0,
     APDeviceIdentifierTypeRandomId
 };
-
-typedef NS_ENUM(NSInteger, APTrackKMPCrashByStrategy) {
-    APTrackKMPCrashByStrategyAppend,
-    APTrackKMPCrashByStrategyLogNonFatal,
-    APTrackKMPCrashByStrategyNone
-};
