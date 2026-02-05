@@ -1,0 +1,164 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/admin/Library/Developer/Xcode/DerivedData/Apptics-afhcyqnvzbkgogcruhjsjekfphoy/Build/Intermediates.noindex/ArchiveIntermediates/AppticsPrivacyShield/InstallationBuildProductsLocation/Library/Frameworks/AppticsPrivacyShield.framework/AppticsPrivacyShield'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x56AD4, size: 0x8, addend: 0x0, symName: _AppticsPrivacyShieldVersionString, symObjAddr: 0x0, symBinAddr: 0xB478, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x56B09, size: 0x8, addend: 0x0, symName: _AppticsPrivacyShieldVersionNumber, symObjAddr: 0x48, symBinAddr: 0xB4C0, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x56B46, size: 0x8, addend: 0x0, symName: '-[APSecureImageView init]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x78 }
+  - { offsetInCU: 0x18F, offset: 0x56CAE, size: 0x8, addend: 0x0, symName: '-[APSecureImageView init]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x78 }
+  - { offsetInCU: 0x1C6, offset: 0x56CE5, size: 0x8, addend: 0x0, symName: '-[APSecureImageView initWithCoder:]', symObjAddr: 0x78, symBinAddr: 0x4078, symSize: 0x68 }
+  - { offsetInCU: 0x20D, offset: 0x56D2C, size: 0x8, addend: 0x0, symName: '-[APSecureImageView setup]', symObjAddr: 0xE0, symBinAddr: 0x40E0, symSize: 0x510 }
+  - { offsetInCU: 0x240, offset: 0x56D5F, size: 0x8, addend: 0x0, symName: '-[APSecureImageView setImage:]', symObjAddr: 0x5F0, symBinAddr: 0x45F0, symSize: 0x68 }
+  - { offsetInCU: 0x283, offset: 0x56DA2, size: 0x8, addend: 0x0, symName: '-[APSecureImageView setUserChoice]', symObjAddr: 0x658, symBinAddr: 0x4658, symSize: 0xC8 }
+  - { offsetInCU: 0x2E6, offset: 0x56E05, size: 0x8, addend: 0x0, symName: '-[APSecureImageView startListernerForScreenShieldDisablePermission]', symObjAddr: 0x720, symBinAddr: 0x4720, symSize: 0x54 }
+  - { offsetInCU: 0x319, offset: 0x56E38, size: 0x8, addend: 0x0, symName: '-[APSecureImageView startListernerForScreenShieldEnabledPermission]', symObjAddr: 0x774, symBinAddr: 0x4774, symSize: 0x54 }
+  - { offsetInCU: 0x34C, offset: 0x56E6B, size: 0x8, addend: 0x0, symName: '-[APSecureImageView handleScreenShieldPermissionGranted:]', symObjAddr: 0x7C8, symBinAddr: 0x47C8, symSize: 0xCC }
+  - { offsetInCU: 0x3AE, offset: 0x56ECD, size: 0x8, addend: 0x0, symName: '-[APSecureImageView imageView]', symObjAddr: 0x894, symBinAddr: 0x4894, symSize: 0x10 }
+  - { offsetInCU: 0x3E5, offset: 0x56F04, size: 0x8, addend: 0x0, symName: '-[APSecureImageView setImageView:]', symObjAddr: 0x8A4, symBinAddr: 0x48A4, symSize: 0x14 }
+  - { offsetInCU: 0x426, offset: 0x56F45, size: 0x8, addend: 0x0, symName: '-[APSecureImageView secureContainer]', symObjAddr: 0x8B8, symBinAddr: 0x48B8, symSize: 0x10 }
+  - { offsetInCU: 0x45D, offset: 0x56F7C, size: 0x8, addend: 0x0, symName: '-[APSecureImageView setSecureContainer:]', symObjAddr: 0x8C8, symBinAddr: 0x48C8, symSize: 0x14 }
+  - { offsetInCU: 0x49E, offset: 0x56FBD, size: 0x8, addend: 0x0, symName: '-[APSecureImageView image]', symObjAddr: 0x8DC, symBinAddr: 0x48DC, symSize: 0x10 }
+  - { offsetInCU: 0x4D5, offset: 0x56FF4, size: 0x8, addend: 0x0, symName: '-[APSecureImageView .cxx_destruct]', symObjAddr: 0x8EC, symBinAddr: 0x48EC, symSize: 0x54 }
+  - { offsetInCU: 0x27, offset: 0x570A7, size: 0x8, addend: 0x0, symName: '-[APSecureTextView init]', symObjAddr: 0x0, symBinAddr: 0x4940, symSize: 0x78 }
+  - { offsetInCU: 0x140, offset: 0x571C0, size: 0x8, addend: 0x0, symName: '-[APSecureTextView init]', symObjAddr: 0x0, symBinAddr: 0x4940, symSize: 0x78 }
+  - { offsetInCU: 0x177, offset: 0x571F7, size: 0x8, addend: 0x0, symName: '-[APSecureTextView initWithCoder:]', symObjAddr: 0x78, symBinAddr: 0x49B8, symSize: 0x68 }
+  - { offsetInCU: 0x1BE, offset: 0x5723E, size: 0x8, addend: 0x0, symName: '-[APSecureTextView setup]', symObjAddr: 0xE0, symBinAddr: 0x4A20, symSize: 0x54C }
+  - { offsetInCU: 0x1F1, offset: 0x57271, size: 0x8, addend: 0x0, symName: '-[APSecureTextView setText:]', symObjAddr: 0x62C, symBinAddr: 0x4F6C, symSize: 0x6C }
+  - { offsetInCU: 0x234, offset: 0x572B4, size: 0x8, addend: 0x0, symName: '-[APSecureTextView setUserChoice]', symObjAddr: 0x698, symBinAddr: 0x4FD8, symSize: 0xC8 }
+  - { offsetInCU: 0x297, offset: 0x57317, size: 0x8, addend: 0x0, symName: '-[APSecureTextView startListernerForScreenShieldDisablePermission]', symObjAddr: 0x760, symBinAddr: 0x50A0, symSize: 0x54 }
+  - { offsetInCU: 0x2CA, offset: 0x5734A, size: 0x8, addend: 0x0, symName: '-[APSecureTextView startListernerForScreenShieldEnabledPermission]', symObjAddr: 0x7B4, symBinAddr: 0x50F4, symSize: 0x54 }
+  - { offsetInCU: 0x2FD, offset: 0x5737D, size: 0x8, addend: 0x0, symName: '-[APSecureTextView handleScreenShieldPermissionGranted:]', symObjAddr: 0x808, symBinAddr: 0x5148, symSize: 0xCC }
+  - { offsetInCU: 0x35F, offset: 0x573DF, size: 0x8, addend: 0x0, symName: '-[APSecureTextView textView]', symObjAddr: 0x8D4, symBinAddr: 0x5214, symSize: 0x10 }
+  - { offsetInCU: 0x396, offset: 0x57416, size: 0x8, addend: 0x0, symName: '-[APSecureTextView setTextView:]', symObjAddr: 0x8E4, symBinAddr: 0x5224, symSize: 0x14 }
+  - { offsetInCU: 0x3D7, offset: 0x57457, size: 0x8, addend: 0x0, symName: '-[APSecureTextView secureContainer]', symObjAddr: 0x8F8, symBinAddr: 0x5238, symSize: 0x10 }
+  - { offsetInCU: 0x40E, offset: 0x5748E, size: 0x8, addend: 0x0, symName: '-[APSecureTextView setSecureContainer:]', symObjAddr: 0x908, symBinAddr: 0x5248, symSize: 0x14 }
+  - { offsetInCU: 0x44F, offset: 0x574CF, size: 0x8, addend: 0x0, symName: '-[APSecureTextView text]', symObjAddr: 0x91C, symBinAddr: 0x525C, symSize: 0x10 }
+  - { offsetInCU: 0x486, offset: 0x57506, size: 0x8, addend: 0x0, symName: '-[APSecureTextView .cxx_destruct]', symObjAddr: 0x92C, symBinAddr: 0x526C, symSize: 0x54 }
+  - { offsetInCU: 0x27, offset: 0x575B9, size: 0x8, addend: 0x0, symName: '-[APSecureContainer init]', symObjAddr: 0x0, symBinAddr: 0x52C0, symSize: 0x60 }
+  - { offsetInCU: 0xB5, offset: 0x57647, size: 0x8, addend: 0x0, symName: '-[APSecureContainer init]', symObjAddr: 0x0, symBinAddr: 0x52C0, symSize: 0x60 }
+  - { offsetInCU: 0xEC, offset: 0x5767E, size: 0x8, addend: 0x0, symName: '-[APSecureContainer initWithCoder:]', symObjAddr: 0x60, symBinAddr: 0x5320, symSize: 0x50 }
+  - { offsetInCU: 0x133, offset: 0x576C5, size: 0x8, addend: 0x0, symName: '-[APSecureContainer setup]', symObjAddr: 0xB0, symBinAddr: 0x5370, symSize: 0x544 }
+  - { offsetInCU: 0x176, offset: 0x57708, size: 0x8, addend: 0x0, symName: '-[APSecureContainer hitTest:withEvent:]', symObjAddr: 0x5F4, symBinAddr: 0x58B4, symSize: 0x154 }
+  - { offsetInCU: 0x1E8, offset: 0x5777A, size: 0x8, addend: 0x0, symName: '-[APSecureContainer addSubview:]', symObjAddr: 0x748, symBinAddr: 0x5A08, symSize: 0x50 }
+  - { offsetInCU: 0x22B, offset: 0x577BD, size: 0x8, addend: 0x0, symName: '-[APSecureContainer layoutSubviews]', symObjAddr: 0x798, symBinAddr: 0x5A58, symSize: 0x60 }
+  - { offsetInCU: 0x25E, offset: 0x577F0, size: 0x8, addend: 0x0, symName: '-[APSecureContainer secureContainerViewForTextField:]', symObjAddr: 0x7F8, symBinAddr: 0x5AB8, symSize: 0x194 }
+  - { offsetInCU: 0x32E, offset: 0x578C0, size: 0x8, addend: 0x0, symName: '-[APSecureContainer getHiddenContainerTypeName]', symObjAddr: 0x98C, symBinAddr: 0x5C4C, symSize: 0x84 }
+  - { offsetInCU: 0x371, offset: 0x57903, size: 0x8, addend: 0x0, symName: '-[APSecureContainer setPreventScreenCapture:]', symObjAddr: 0xA10, symBinAddr: 0x5CD0, symSize: 0x1C }
+  - { offsetInCU: 0x3B0, offset: 0x57942, size: 0x8, addend: 0x0, symName: '-[APSecureContainer textField]', symObjAddr: 0xA2C, symBinAddr: 0x5CEC, symSize: 0x10 }
+  - { offsetInCU: 0x3E7, offset: 0x57979, size: 0x8, addend: 0x0, symName: '-[APSecureContainer setTextField:]', symObjAddr: 0xA3C, symBinAddr: 0x5CFC, symSize: 0x14 }
+  - { offsetInCU: 0x428, offset: 0x579BA, size: 0x8, addend: 0x0, symName: '-[APSecureContainer bodyView]', symObjAddr: 0xA50, symBinAddr: 0x5D10, symSize: 0x10 }
+  - { offsetInCU: 0x45F, offset: 0x579F1, size: 0x8, addend: 0x0, symName: '-[APSecureContainer setBodyView:]', symObjAddr: 0xA60, symBinAddr: 0x5D20, symSize: 0x14 }
+  - { offsetInCU: 0x4A0, offset: 0x57A32, size: 0x8, addend: 0x0, symName: '-[APSecureContainer preventScreenCapture]', symObjAddr: 0xA74, symBinAddr: 0x5D34, symSize: 0x10 }
+  - { offsetInCU: 0x4D7, offset: 0x57A69, size: 0x8, addend: 0x0, symName: '-[APSecureContainer .cxx_destruct]', symObjAddr: 0xA84, symBinAddr: 0x5D44, symSize: 0x40 }
+  - { offsetInCU: 0x27, offset: 0x57AFD, size: 0x8, addend: 0x0, symName: '-[APSecureView initWithContentView:]', symObjAddr: 0x0, symBinAddr: 0x5D84, symSize: 0xB0 }
+  - { offsetInCU: 0x3A, offset: 0x57B10, size: 0x8, addend: 0x0, symName: '+[APWindowShield shared]', symObjAddr: 0xBF8, symBinAddr: 0x697C, symSize: 0x40 }
+  - { offsetInCU: 0x64, offset: 0x57B3A, size: 0x8, addend: 0x0, symName: _shared.sharedInstance, symObjAddr: 0x9AF8, symBinAddr: 0x12610, symSize: 0x0 }
+  - { offsetInCU: 0x7A, offset: 0x57B50, size: 0x8, addend: 0x0, symName: _shared.onceToken, symObjAddr: 0x9B00, symBinAddr: 0x12618, symSize: 0x0 }
+  - { offsetInCU: 0x25B, offset: 0x57D31, size: 0x8, addend: 0x0, symName: '-[APSecureView initWithContentView:]', symObjAddr: 0x0, symBinAddr: 0x5D84, symSize: 0xB0 }
+  - { offsetInCU: 0x2A2, offset: 0x57D78, size: 0x8, addend: 0x0, symName: '-[APSecureView initWithCoder:]', symObjAddr: 0xB0, symBinAddr: 0x5E34, symSize: 0x68 }
+  - { offsetInCU: 0x2E9, offset: 0x57DBF, size: 0x8, addend: 0x0, symName: '-[APSecureView setUserChoice]', symObjAddr: 0x118, symBinAddr: 0x5E9C, symSize: 0xB0 }
+  - { offsetInCU: 0x34C, offset: 0x57E22, size: 0x8, addend: 0x0, symName: '-[APSecureView startListernerForScreenShieldDisablePermission]', symObjAddr: 0x1C8, symBinAddr: 0x5F4C, symSize: 0x54 }
+  - { offsetInCU: 0x37F, offset: 0x57E55, size: 0x8, addend: 0x0, symName: '-[APSecureView startListernerForScreenShieldEnabledPermission]', symObjAddr: 0x21C, symBinAddr: 0x5FA0, symSize: 0x54 }
+  - { offsetInCU: 0x3B2, offset: 0x57E88, size: 0x8, addend: 0x0, symName: '-[APSecureView handleScreenShieldPermissionGranted:]', symObjAddr: 0x270, symBinAddr: 0x5FF4, symSize: 0xA8 }
+  - { offsetInCU: 0x414, offset: 0x57EEA, size: 0x8, addend: 0x0, symName: '-[APSecureView setupUI]', symObjAddr: 0x318, symBinAddr: 0x609C, symSize: 0x31C }
+  - { offsetInCU: 0x447, offset: 0x57F1D, size: 0x8, addend: 0x0, symName: '-[APSecureView addContentView:]', symObjAddr: 0x634, symBinAddr: 0x63B8, symSize: 0x2A8 }
+  - { offsetInCU: 0x49A, offset: 0x57F70, size: 0x8, addend: 0x0, symName: '-[APSecureView setPreventScreenCapture:]', symObjAddr: 0x8DC, symBinAddr: 0x6660, symSize: 0x1C }
+  - { offsetInCU: 0x4D9, offset: 0x57FAF, size: 0x8, addend: 0x0, symName: '-[APSecureView setUserInteractionEnabled:]', symObjAddr: 0x8F8, symBinAddr: 0x667C, symSize: 0x58 }
+  - { offsetInCU: 0x51C, offset: 0x57FF2, size: 0x8, addend: 0x0, symName: '-[APSecureView contentView]', symObjAddr: 0x950, symBinAddr: 0x66D4, symSize: 0x10 }
+  - { offsetInCU: 0x553, offset: 0x58029, size: 0x8, addend: 0x0, symName: '-[APSecureView setContentView:]', symObjAddr: 0x960, symBinAddr: 0x66E4, symSize: 0x14 }
+  - { offsetInCU: 0x594, offset: 0x5806A, size: 0x8, addend: 0x0, symName: '-[APSecureView preventScreenCapture]', symObjAddr: 0x974, symBinAddr: 0x66F8, symSize: 0x10 }
+  - { offsetInCU: 0x5CB, offset: 0x580A1, size: 0x8, addend: 0x0, symName: '-[APSecureView .cxx_destruct]', symObjAddr: 0x984, symBinAddr: 0x6708, symSize: 0x68 }
+  - { offsetInCU: 0x5FE, offset: 0x580D4, size: 0x8, addend: 0x0, symName: '-[APSafeContainer findHiddenContainerInView:]', symObjAddr: 0x9EC, symBinAddr: 0x6770, symSize: 0x12C }
+  - { offsetInCU: 0x680, offset: 0x58156, size: 0x8, addend: 0x0, symName: '___45-[APSafeContainer findHiddenContainerInView:]_block_invoke', symObjAddr: 0xB18, symBinAddr: 0x689C, symSize: 0x4C }
+  - { offsetInCU: 0x70F, offset: 0x581E5, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0xB64, symBinAddr: 0x68E8, symSize: 0x8 }
+  - { offsetInCU: 0x736, offset: 0x5820C, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0xB6C, symBinAddr: 0x68F0, symSize: 0x8 }
+  - { offsetInCU: 0x755, offset: 0x5822B, size: 0x8, addend: 0x0, symName: '-[APSafeContainer getHiddenContainerTypeName]', symObjAddr: 0xB74, symBinAddr: 0x68F8, symSize: 0x84 }
+  - { offsetInCU: 0x7E7, offset: 0x582BD, size: 0x8, addend: 0x0, symName: '___24+[APWindowShield shared]_block_invoke', symObjAddr: 0xC38, symBinAddr: 0x69BC, symSize: 0x30 }
+  - { offsetInCU: 0x80E, offset: 0x582E4, size: 0x8, addend: 0x0, symName: '-[APWindowShield enableScreenRecordingMonitoring]', symObjAddr: 0xC68, symBinAddr: 0x69EC, symSize: 0xF8 }
+  - { offsetInCU: 0x841, offset: 0x58317, size: 0x8, addend: 0x0, symName: '-[APWindowShield handleScreenShieldPermissionGranted:]', symObjAddr: 0xD60, symBinAddr: 0x6AE4, symSize: 0x4 }
+  - { offsetInCU: 0x87E, offset: 0x58354, size: 0x8, addend: 0x0, symName: '-[APWindowShield disableScreenRecordingMonitoring]', symObjAddr: 0xD64, symBinAddr: 0x6AE8, symSize: 0x68 }
+  - { offsetInCU: 0x8B1, offset: 0x58387, size: 0x8, addend: 0x0, symName: '-[APWindowShield capturedChange:]', symObjAddr: 0xDCC, symBinAddr: 0x6B50, symSize: 0x94 }
+  - { offsetInCU: 0x900, offset: 0x583D6, size: 0x8, addend: 0x0, symName: '-[APWindowShield addBlurView]', symObjAddr: 0xE60, symBinAddr: 0x6BE4, symSize: 0x74C }
+  - { offsetInCU: 0xA01, offset: 0x584D7, size: 0x8, addend: 0x0, symName: '___29-[APWindowShield addBlurView]_block_invoke', symObjAddr: 0x15AC, symBinAddr: 0x7330, symSize: 0x114 }
+  - { offsetInCU: 0xA4E, offset: 0x58524, size: 0x8, addend: 0x0, symName: '___29-[APWindowShield addBlurView]_block_invoke_2', symObjAddr: 0x16C0, symBinAddr: 0x7444, symSize: 0x94 }
+  - { offsetInCU: 0xABB, offset: 0x58591, size: 0x8, addend: 0x0, symName: '-[APWindowShield removeBlurView]', symObjAddr: 0x1754, symBinAddr: 0x74D8, symSize: 0x238 }
+  - { offsetInCU: 0xB1F, offset: 0x585F5, size: 0x8, addend: 0x0, symName: '-[APWindowShield dealloc]', symObjAddr: 0x198C, symBinAddr: 0x7710, symSize: 0x68 }
+  - { offsetInCU: 0xB53, offset: 0x58629, size: 0x8, addend: 0x0, symName: '-[APWindowShield blurView]', symObjAddr: 0x19F4, symBinAddr: 0x7778, symSize: 0x8 }
+  - { offsetInCU: 0xB8A, offset: 0x58660, size: 0x8, addend: 0x0, symName: '-[APWindowShield setBlurView:]', symObjAddr: 0x19FC, symBinAddr: 0x7780, symSize: 0xC }
+  - { offsetInCU: 0xBCB, offset: 0x586A1, size: 0x8, addend: 0x0, symName: '-[APWindowShield contentView]', symObjAddr: 0x1A08, symBinAddr: 0x778C, symSize: 0x8 }
+  - { offsetInCU: 0xC02, offset: 0x586D8, size: 0x8, addend: 0x0, symName: '-[APWindowShield setContentView:]', symObjAddr: 0x1A10, symBinAddr: 0x7794, symSize: 0xC }
+  - { offsetInCU: 0xC43, offset: 0x58719, size: 0x8, addend: 0x0, symName: '-[APWindowShield viewActive]', symObjAddr: 0x1A1C, symBinAddr: 0x77A0, symSize: 0x8 }
+  - { offsetInCU: 0xC7A, offset: 0x58750, size: 0x8, addend: 0x0, symName: '-[APWindowShield setViewActive:]', symObjAddr: 0x1A24, symBinAddr: 0x77A8, symSize: 0x8 }
+  - { offsetInCU: 0xCB5, offset: 0x5878B, size: 0x8, addend: 0x0, symName: '-[APWindowShield label]', symObjAddr: 0x1A2C, symBinAddr: 0x77B0, symSize: 0x8 }
+  - { offsetInCU: 0xCEC, offset: 0x587C2, size: 0x8, addend: 0x0, symName: '-[APWindowShield setLabel:]', symObjAddr: 0x1A34, symBinAddr: 0x77B8, symSize: 0xC }
+  - { offsetInCU: 0xD2D, offset: 0x58803, size: 0x8, addend: 0x0, symName: '-[APWindowShield imageView]', symObjAddr: 0x1A40, symBinAddr: 0x77C4, symSize: 0x8 }
+  - { offsetInCU: 0xD64, offset: 0x5883A, size: 0x8, addend: 0x0, symName: '-[APWindowShield setImageView:]', symObjAddr: 0x1A48, symBinAddr: 0x77CC, symSize: 0xC }
+  - { offsetInCU: 0xDA5, offset: 0x5887B, size: 0x8, addend: 0x0, symName: '-[APWindowShield .cxx_destruct]', symObjAddr: 0x1A54, symBinAddr: 0x77D8, symSize: 0x48 }
+  - { offsetInCU: 0x27, offset: 0x58BDE, size: 0x8, addend: 0x0, symName: '-[APSecureLabel init]', symObjAddr: 0x0, symBinAddr: 0x7820, symSize: 0x78 }
+  - { offsetInCU: 0x140, offset: 0x58CF7, size: 0x8, addend: 0x0, symName: '-[APSecureLabel init]', symObjAddr: 0x0, symBinAddr: 0x7820, symSize: 0x78 }
+  - { offsetInCU: 0x177, offset: 0x58D2E, size: 0x8, addend: 0x0, symName: '-[APSecureLabel initWithCoder:]', symObjAddr: 0x78, symBinAddr: 0x7898, symSize: 0x68 }
+  - { offsetInCU: 0x1BE, offset: 0x58D75, size: 0x8, addend: 0x0, symName: '-[APSecureLabel setup]', symObjAddr: 0xE0, symBinAddr: 0x7900, symSize: 0x4EC }
+  - { offsetInCU: 0x1F1, offset: 0x58DA8, size: 0x8, addend: 0x0, symName: '-[APSecureLabel setText:]', symObjAddr: 0x5CC, symBinAddr: 0x7DEC, symSize: 0x6C }
+  - { offsetInCU: 0x234, offset: 0x58DEB, size: 0x8, addend: 0x0, symName: '-[APSecureLabel setUserChoice]', symObjAddr: 0x638, symBinAddr: 0x7E58, symSize: 0xC8 }
+  - { offsetInCU: 0x297, offset: 0x58E4E, size: 0x8, addend: 0x0, symName: '-[APSecureLabel startListernerForScreenShieldDisablePermission]', symObjAddr: 0x700, symBinAddr: 0x7F20, symSize: 0x54 }
+  - { offsetInCU: 0x2CA, offset: 0x58E81, size: 0x8, addend: 0x0, symName: '-[APSecureLabel startListernerForScreenShieldEnabledPermission]', symObjAddr: 0x754, symBinAddr: 0x7F74, symSize: 0x54 }
+  - { offsetInCU: 0x2FD, offset: 0x58EB4, size: 0x8, addend: 0x0, symName: '-[APSecureLabel handleScreenShieldPermissionGranted:]', symObjAddr: 0x7A8, symBinAddr: 0x7FC8, symSize: 0xCC }
+  - { offsetInCU: 0x35F, offset: 0x58F16, size: 0x8, addend: 0x0, symName: '-[APSecureLabel label]', symObjAddr: 0x874, symBinAddr: 0x8094, symSize: 0x10 }
+  - { offsetInCU: 0x396, offset: 0x58F4D, size: 0x8, addend: 0x0, symName: '-[APSecureLabel setLabel:]', symObjAddr: 0x884, symBinAddr: 0x80A4, symSize: 0x14 }
+  - { offsetInCU: 0x3D7, offset: 0x58F8E, size: 0x8, addend: 0x0, symName: '-[APSecureLabel secureContainer]', symObjAddr: 0x898, symBinAddr: 0x80B8, symSize: 0x10 }
+  - { offsetInCU: 0x40E, offset: 0x58FC5, size: 0x8, addend: 0x0, symName: '-[APSecureLabel setSecureContainer:]', symObjAddr: 0x8A8, symBinAddr: 0x80C8, symSize: 0x14 }
+  - { offsetInCU: 0x44F, offset: 0x59006, size: 0x8, addend: 0x0, symName: '-[APSecureLabel text]', symObjAddr: 0x8BC, symBinAddr: 0x80DC, symSize: 0x10 }
+  - { offsetInCU: 0x486, offset: 0x5903D, size: 0x8, addend: 0x0, symName: '-[APSecureLabel .cxx_destruct]', symObjAddr: 0x8CC, symBinAddr: 0x80EC, symSize: 0x54 }
+  - { offsetInCU: 0x27, offset: 0x590F0, size: 0x8, addend: 0x0, symName: '+[AppticsPrivacyShield listener]', symObjAddr: 0x0, symBinAddr: 0x8140, symSize: 0x74 }
+  - { offsetInCU: 0x46, offset: 0x5910F, size: 0x8, addend: 0x0, symName: __listener, symObjAddr: 0x87A0, symBinAddr: 0x12620, symSize: 0x0 }
+  - { offsetInCU: 0xC1, offset: 0x5918A, size: 0x8, addend: 0x0, symName: '+[AppticsPrivacyShield listener]', symObjAddr: 0x0, symBinAddr: 0x8140, symSize: 0x74 }
+  - { offsetInCU: 0xEB, offset: 0x591B4, size: 0x8, addend: 0x0, symName: _listener.onceToken, symObjAddr: 0x87A8, symBinAddr: 0x12628, symSize: 0x0 }
+  - { offsetInCU: 0x200, offset: 0x592C9, size: 0x8, addend: 0x0, symName: '___32+[AppticsPrivacyShield listener]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x81B4, symSize: 0x2C }
+  - { offsetInCU: 0x23F, offset: 0x59308, size: 0x8, addend: 0x0, symName: '-[AppticsPrivacyShield init]', symObjAddr: 0xA0, symBinAddr: 0x81E0, symSize: 0x6C }
+  - { offsetInCU: 0x276, offset: 0x5933F, size: 0x8, addend: 0x0, symName: '-[AppticsPrivacyShield dealloc]', symObjAddr: 0x10C, symBinAddr: 0x824C, symSize: 0x68 }
+  - { offsetInCU: 0x2A9, offset: 0x59372, size: 0x8, addend: 0x0, symName: '-[AppticsPrivacyShield setupNotificationObservers]', symObjAddr: 0x174, symBinAddr: 0x82B4, symSize: 0x14C }
+  - { offsetInCU: 0x2DC, offset: 0x593A5, size: 0x8, addend: 0x0, symName: '+[AppticsPrivacyShield startMonitoring]', symObjAddr: 0x2C0, symBinAddr: 0x8400, symSize: 0x38 }
+  - { offsetInCU: 0x30B, offset: 0x593D4, size: 0x8, addend: 0x0, symName: '+[AppticsPrivacyShield stopMonitoring]', symObjAddr: 0x2F8, symBinAddr: 0x8438, symSize: 0x38 }
+  - { offsetInCU: 0x33A, offset: 0x59403, size: 0x8, addend: 0x0, symName: '-[AppticsPrivacyShield stopMonitoring]', symObjAddr: 0x330, symBinAddr: 0x8470, symSize: 0x40 }
+  - { offsetInCU: 0x36D, offset: 0x59436, size: 0x8, addend: 0x0, symName: '+[AppticsPrivacyShield privacyShieldStatus]', symObjAddr: 0x370, symBinAddr: 0x84B0, symSize: 0x44 }
+  - { offsetInCU: 0x3A0, offset: 0x59469, size: 0x8, addend: 0x0, symName: '+[AppticsPrivacyShield enablePrivacyShield:]', symObjAddr: 0x3B4, symBinAddr: 0x84F4, symSize: 0x40 }
+  - { offsetInCU: 0x3DF, offset: 0x594A8, size: 0x8, addend: 0x0, symName: '-[AppticsPrivacyShield getUserPreference]', symObjAddr: 0x3F4, symBinAddr: 0x8534, symSize: 0x54 }
+  - { offsetInCU: 0x422, offset: 0x594EB, size: 0x8, addend: 0x0, symName: '-[AppticsPrivacyShield setUserPreference:]', symObjAddr: 0x448, symBinAddr: 0x8588, symSize: 0x70 }
+  - { offsetInCU: 0x461, offset: 0x5952A, size: 0x8, addend: 0x0, symName: '-[AppticsPrivacyShield applicationDidBecomeActive:]', symObjAddr: 0x4B8, symBinAddr: 0x85F8, symSize: 0x4 }
+  - { offsetInCU: 0x49E, offset: 0x59567, size: 0x8, addend: 0x0, symName: '-[AppticsPrivacyShield enableScreenRecordingMonitoringNotification:]', symObjAddr: 0x4BC, symBinAddr: 0x85FC, symSize: 0x4 }
+  - { offsetInCU: 0x4DB, offset: 0x595A4, size: 0x8, addend: 0x0, symName: '-[AppticsPrivacyShield handleScreenRecording]', symObjAddr: 0x4C0, symBinAddr: 0x8600, symSize: 0x158 }
+  - { offsetInCU: 0x52A, offset: 0x595F3, size: 0x8, addend: 0x0, symName: '-[AppticsPrivacyShield handleScreenshotDetected:]', symObjAddr: 0x618, symBinAddr: 0x8758, symSize: 0x110 }
+  - { offsetInCU: 0x5A4, offset: 0x5966D, size: 0x8, addend: 0x0, symName: '-[AppticsPrivacyShield isCustomViewFoundAndVisible]', symObjAddr: 0x728, symBinAddr: 0x8868, symSize: 0x70 }
+  - { offsetInCU: 0x5EB, offset: 0x596B4, size: 0x8, addend: 0x0, symName: '-[AppticsPrivacyShield displayAlert:]', symObjAddr: 0x798, symBinAddr: 0x88D8, symSize: 0x2F0 }
+  - { offsetInCU: 0x66E, offset: 0x59737, size: 0x8, addend: 0x0, symName: '___37-[AppticsPrivacyShield displayAlert:]_block_invoke', symObjAddr: 0xA88, symBinAddr: 0x8BC8, symSize: 0x2C }
+  - { offsetInCU: 0x6B9, offset: 0x59782, size: 0x8, addend: 0x0, symName: '___37-[AppticsPrivacyShield displayAlert:]_block_invoke.292', symObjAddr: 0xAC4, symBinAddr: 0x8BF4, symSize: 0x50 }
+  - { offsetInCU: 0x704, offset: 0x597CD, size: 0x8, addend: 0x0, symName: '-[AppticsPrivacyShield checkLocalAuthenticationPermission]', symObjAddr: 0xB14, symBinAddr: 0x8C44, symSize: 0x158 }
+  - { offsetInCU: 0x79B, offset: 0x59864, size: 0x8, addend: 0x0, symName: '___58-[AppticsPrivacyShield checkLocalAuthenticationPermission]_block_invoke', symObjAddr: 0xC6C, symBinAddr: 0x8D9C, symSize: 0x90 }
+  - { offsetInCU: 0x81F, offset: 0x598E8, size: 0x8, addend: 0x0, symName: '___58-[AppticsPrivacyShield checkLocalAuthenticationPermission]_block_invoke_2', symObjAddr: 0xCFC, symBinAddr: 0x8E2C, symSize: 0x120 }
+  - { offsetInCU: 0x8AC, offset: 0x59975, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0xE1C, symBinAddr: 0x8F4C, symSize: 0x28 }
+  - { offsetInCU: 0x8D5, offset: 0x5999E, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0xE44, symBinAddr: 0x8F74, symSize: 0x28 }
+  - { offsetInCU: 0x8F4, offset: 0x599BD, size: 0x8, addend: 0x0, symName: '-[AppticsPrivacyShield isCustomViewPresentAndVisibleInView:]', symObjAddr: 0xE6C, symBinAddr: 0x8F9C, symSize: 0x1D8 }
+  - { offsetInCU: 0x962, offset: 0x59A2B, size: 0x8, addend: 0x0, symName: '-[AppticsPrivacyShield isViewVisible:]', symObjAddr: 0x1044, symBinAddr: 0x9174, symSize: 0xDC }
+  - { offsetInCU: 0x9CA, offset: 0x59A93, size: 0x8, addend: 0x0, symName: '-[AppticsPrivacyShield handleAppLaunch:]', symObjAddr: 0x1120, symBinAddr: 0x9250, symSize: 0x14 }
+  - { offsetInCU: 0xA05, offset: 0x59ACE, size: 0x8, addend: 0x0, symName: '-[AppticsPrivacyShield hasCheckedPermissionThisSession]', symObjAddr: 0x1134, symBinAddr: 0x9264, symSize: 0x8 }
+  - { offsetInCU: 0xA3C, offset: 0x59B05, size: 0x8, addend: 0x0, symName: '-[AppticsPrivacyShield setHasCheckedPermissionThisSession:]', symObjAddr: 0x113C, symBinAddr: 0x926C, symSize: 0x8 }
+  - { offsetInCU: 0xA77, offset: 0x59B40, size: 0x8, addend: 0x0, symName: '-[AppticsPrivacyShield isAlertActive]', symObjAddr: 0x1144, symBinAddr: 0x9274, symSize: 0x8 }
+  - { offsetInCU: 0xAAE, offset: 0x59B77, size: 0x8, addend: 0x0, symName: '-[AppticsPrivacyShield setIsAlertActive:]', symObjAddr: 0x114C, symBinAddr: 0x927C, symSize: 0x8 }
+  - { offsetInCU: 0xAE9, offset: 0x59BB2, size: 0x8, addend: 0x0, symName: '-[AppticsPrivacyShield isWindowShieldEnabled]', symObjAddr: 0x1154, symBinAddr: 0x9284, symSize: 0x8 }
+  - { offsetInCU: 0xB20, offset: 0x59BE9, size: 0x8, addend: 0x0, symName: '-[AppticsPrivacyShield setIsWindowShieldEnabled:]', symObjAddr: 0x115C, symBinAddr: 0x928C, symSize: 0x8 }
+  - { offsetInCU: 0x27, offset: 0x59F1B, size: 0x8, addend: 0x0, symName: '-[APSecureButton init]', symObjAddr: 0x0, symBinAddr: 0x9294, symSize: 0x78 }
+  - { offsetInCU: 0x140, offset: 0x5A034, size: 0x8, addend: 0x0, symName: '-[APSecureButton init]', symObjAddr: 0x0, symBinAddr: 0x9294, symSize: 0x78 }
+  - { offsetInCU: 0x177, offset: 0x5A06B, size: 0x8, addend: 0x0, symName: '-[APSecureButton initWithCoder:]', symObjAddr: 0x78, symBinAddr: 0x930C, symSize: 0x68 }
+  - { offsetInCU: 0x1BE, offset: 0x5A0B2, size: 0x8, addend: 0x0, symName: '-[APSecureButton setup]', symObjAddr: 0xE0, symBinAddr: 0x9374, symSize: 0x4EC }
+  - { offsetInCU: 0x1F1, offset: 0x5A0E5, size: 0x8, addend: 0x0, symName: '-[APSecureButton setTitle:]', symObjAddr: 0x5CC, symBinAddr: 0x9860, symSize: 0x70 }
+  - { offsetInCU: 0x234, offset: 0x5A128, size: 0x8, addend: 0x0, symName: '-[APSecureButton setUserChoice]', symObjAddr: 0x63C, symBinAddr: 0x98D0, symSize: 0xC8 }
+  - { offsetInCU: 0x297, offset: 0x5A18B, size: 0x8, addend: 0x0, symName: '-[APSecureButton startListernerForScreenShieldDisablePermission]', symObjAddr: 0x704, symBinAddr: 0x9998, symSize: 0x54 }
+  - { offsetInCU: 0x2CA, offset: 0x5A1BE, size: 0x8, addend: 0x0, symName: '-[APSecureButton startListernerForScreenShieldEnabledPermission]', symObjAddr: 0x758, symBinAddr: 0x99EC, symSize: 0x54 }
+  - { offsetInCU: 0x2FD, offset: 0x5A1F1, size: 0x8, addend: 0x0, symName: '-[APSecureButton handleScreenShieldPermissionGranted:]', symObjAddr: 0x7AC, symBinAddr: 0x9A40, symSize: 0xCC }
+  - { offsetInCU: 0x35F, offset: 0x5A253, size: 0x8, addend: 0x0, symName: '-[APSecureButton button]', symObjAddr: 0x878, symBinAddr: 0x9B0C, symSize: 0x10 }
+  - { offsetInCU: 0x396, offset: 0x5A28A, size: 0x8, addend: 0x0, symName: '-[APSecureButton setButton:]', symObjAddr: 0x888, symBinAddr: 0x9B1C, symSize: 0x14 }
+  - { offsetInCU: 0x3D7, offset: 0x5A2CB, size: 0x8, addend: 0x0, symName: '-[APSecureButton secureContainer]', symObjAddr: 0x89C, symBinAddr: 0x9B30, symSize: 0x10 }
+  - { offsetInCU: 0x40E, offset: 0x5A302, size: 0x8, addend: 0x0, symName: '-[APSecureButton setSecureContainer:]', symObjAddr: 0x8AC, symBinAddr: 0x9B40, symSize: 0x14 }
+  - { offsetInCU: 0x44F, offset: 0x5A343, size: 0x8, addend: 0x0, symName: '-[APSecureButton title]', symObjAddr: 0x8C0, symBinAddr: 0x9B54, symSize: 0x10 }
+  - { offsetInCU: 0x486, offset: 0x5A37A, size: 0x8, addend: 0x0, symName: '-[APSecureButton .cxx_destruct]', symObjAddr: 0x8D0, symBinAddr: 0x9B64, symSize: 0x54 }
+...
