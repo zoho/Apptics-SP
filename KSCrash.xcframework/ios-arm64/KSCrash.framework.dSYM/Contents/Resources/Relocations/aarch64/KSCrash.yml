@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/admin/Library/Developer/Xcode/DerivedData/Apptics-afhcyqnvzbkgogcruhjsjekfphoy/Build/Intermediates.noindex/ArchiveIntermediates/KSCrash-iOS/InstallationBuildProductsLocation/Library/Frameworks/KSCrash.framework/KSCrash'
+binary-path:     '/Users/admin/Library/Developer/Xcode/DerivedData/Apptics-aypxnmfzvhiluscowfsewyrzfdkw/Build/Intermediates.noindex/ArchiveIntermediates/KSCrash-iOS/InstallationBuildProductsLocation/Library/Frameworks/KSCrash.framework/KSCrash'
 relocations:
   - { offsetInCU: 0x34, offset: 0x7A5DF, size: 0x8, addend: 0x0, symName: _KSCrashVersionString, symObjAddr: 0x0, symBinAddr: 0x46290, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x7A614, size: 0x8, addend: 0x0, symName: _KSCrashVersionNumber, symObjAddr: 0x30, symBinAddr: 0x462C0, symSize: 0x0 }

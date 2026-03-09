@@ -1,192 +1,192 @@
 ---
 triple:          'x86_64-apple-darwin'
-binary-path:     '/Users/admin/Library/Developer/Xcode/DerivedData/Apptics-afhcyqnvzbkgogcruhjsjekfphoy/Build/Intermediates.noindex/ArchiveIntermediates/AppticsMessaging/InstallationBuildProductsLocation/Library/Frameworks/AppticsMessaging.framework/Versions/A/AppticsMessaging'
+binary-path:     '/Users/admin/Library/Developer/Xcode/DerivedData/Apptics-aypxnmfzvhiluscowfsewyrzfdkw/Build/Intermediates.noindex/ArchiveIntermediates/AppticsMessaging/InstallationBuildProductsLocation/Library/Frameworks/AppticsMessaging.framework/Versions/A/AppticsMessaging'
 relocations:
-  - { offsetInCU: 0x34, offset: 0xD74D1, size: 0x8, addend: 0x0, symName: _AppticsMessagingVersionString, symObjAddr: 0x0, symBinAddr: 0xC2F0, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0xD7506, size: 0x8, addend: 0x0, symName: _AppticsMessagingVersionNumber, symObjAddr: 0x40, symBinAddr: 0xC330, symSize: 0x0 }
-  - { offsetInCU: 0x27, offset: 0xD7543, size: 0x8, addend: 0x0, symName: '+[APMessagingRemoteNotificationsProxy load]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x6 }
-  - { offsetInCU: 0x3F, offset: 0xD755B, size: 0x8, addend: 0x0, symName: '+[APMessagingRemoteNotificationsProxy sharedInstance]', symObjAddr: 0x11, symBinAddr: 0x4011, symSize: 0x30 }
-  - { offsetInCU: 0x69, offset: 0xD7585, size: 0x8, addend: 0x0, symName: _sharedInstance.proxy, symObjAddr: 0x12188, symBinAddr: 0x1B328, symSize: 0x0 }
-  - { offsetInCU: 0x7F, offset: 0xD759B, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x12190, symBinAddr: 0x1B330, symSize: 0x0 }
-  - { offsetInCU: 0x20B, offset: 0xD7727, size: 0x8, addend: 0x0, symName: _UserNotificationObserverContext, symObjAddr: 0x4140, symBinAddr: 0x1B260, symSize: 0x0 }
-  - { offsetInCU: 0x32D, offset: 0xD7849, size: 0x8, addend: 0x0, symName: '+[APMessagingRemoteNotificationsProxy load]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x6 }
-  - { offsetInCU: 0x35C, offset: 0xD7878, size: 0x8, addend: 0x0, symName: '+[APMessagingRemoteNotificationsProxy canPerformMethodSwizzling]', symObjAddr: 0x6, symBinAddr: 0x4006, symSize: 0xB }
-  - { offsetInCU: 0x3C9, offset: 0xD78E5, size: 0x8, addend: 0x0, symName: '___53+[APMessagingRemoteNotificationsProxy sharedInstance]_block_invoke', symObjAddr: 0x41, symBinAddr: 0x4041, symSize: 0x25 }
-  - { offsetInCU: 0x3FC, offset: 0xD7918, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy init]', symObjAddr: 0x66, symBinAddr: 0x4066, symSize: 0x75 }
-  - { offsetInCU: 0x44B, offset: 0xD7967, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy dealloc]', symObjAddr: 0xDB, symBinAddr: 0x40DB, symSize: 0xA3 }
-  - { offsetInCU: 0x507, offset: 0xD7A23, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy performMethodSwizzlingIfPossible]', symObjAddr: 0x17E, symBinAddr: 0x417E, symSize: 0x152 }
-  - { offsetInCU: 0x659, offset: 0xD7B75, size: 0x8, addend: 0x0, symName: _injectSelector, symObjAddr: 0x2D0, symBinAddr: 0x42D0, symSize: 0xC7 }
-  - { offsetInCU: 0x85C, offset: 0xD7D78, size: 0x8, addend: 0x0, symName: _APPropertyNameForMessagingFromObject, symObjAddr: 0x397, symBinAddr: 0x4397, symSize: 0xAE }
-  - { offsetInCU: 0x9C8, offset: 0xD7EE4, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy unswizzleAllMethods]', symObjAddr: 0x445, symBinAddr: 0x4445, symSize: 0x358 }
-  - { offsetInCU: 0xBF3, offset: 0xD810F, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy monitorUserNotificationCenterDelegateChanges:]', symObjAddr: 0x79D, symBinAddr: 0x479D, symSize: 0xCD }
-  - { offsetInCU: 0xD42, offset: 0xD825E, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy swizzleDelegateForUserNotificationCenter:]', symObjAddr: 0x86A, symBinAddr: 0x486A, symSize: 0x148 }
-  - { offsetInCU: 0xECC, offset: 0xD83E8, size: 0x8, addend: 0x0, symName: _APSwizzleWillPresentNotificationWithHandler, symObjAddr: 0x9B2, symBinAddr: 0x49B2, symSize: 0x24B }
-  - { offsetInCU: 0x11CA, offset: 0xD86E6, size: 0x8, addend: 0x0, symName: _APMessagingUserInfoFromNotification, symObjAddr: 0x1DD5, symBinAddr: 0x5DD5, symSize: 0x147 }
-  - { offsetInCU: 0x135C, offset: 0xD8878, size: 0x8, addend: 0x0, symName: _APSwizzleDidReceiveNotificationResponseWithHandler, symObjAddr: 0xBFD, symBinAddr: 0x4BFD, symSize: 0x29C }
-  - { offsetInCU: 0x16BC, offset: 0xD8BD8, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy unswizzleDelegateForUserNotificationCenter:]', symObjAddr: 0xE99, symBinAddr: 0x4E99, symSize: 0x126 }
-  - { offsetInCU: 0x182E, offset: 0xD8D4A, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy attachDelegateObserverToUserNotificationCenter:]', symObjAddr: 0xFBF, symBinAddr: 0x4FBF, symSize: 0x131 }
-  - { offsetInCU: 0x19A7, offset: 0xD8EC3, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy detachUserNotificationCenterDelegateObserver]', symObjAddr: 0x10F0, symBinAddr: 0x50F0, symSize: 0x162 }
-  - { offsetInCU: 0x1AC9, offset: 0xD8FE5, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy observeValueForKeyPath:ofObject:change:context:]', symObjAddr: 0x1252, symBinAddr: 0x5252, symSize: 0x1D3 }
-  - { offsetInCU: 0x1CBC, offset: 0xD91D8, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy preserveOriginalImplementation:forSelector:]', symObjAddr: 0x1425, symBinAddr: 0x5425, symSize: 0xB0 }
-  - { offsetInCU: 0x1DB3, offset: 0xD92CF, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy fetchOriginalImplementationForSelector:]', symObjAddr: 0x14D5, symBinAddr: 0x54D5, symSize: 0xAF }
-  - { offsetInCU: 0x1EA4, offset: 0xD93C0, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy monitorSwizzledSelector:ofClass:]', symObjAddr: 0x1584, symBinAddr: 0x5584, symSize: 0x152 }
-  - { offsetInCU: 0x2023, offset: 0xD953F, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy discardImplementationForSelector:]', symObjAddr: 0x16D6, symBinAddr: 0x56D6, symSize: 0x6E }
-  - { offsetInCU: 0x20CB, offset: 0xD95E7, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy swizzleSelector:inClass:withImplementation:inProtocol:]', symObjAddr: 0x1744, symBinAddr: 0x5744, symSize: 0x155 }
-  - { offsetInCU: 0x2355, offset: 0xD9871, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy unswizzleSelector:inClass:]', symObjAddr: 0x1899, symBinAddr: 0x5899, symSize: 0x94 }
-  - { offsetInCU: 0x2489, offset: 0xD99A5, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy missingMethodImplementationForClass:]', symObjAddr: 0x192D, symBinAddr: 0x592D, symSize: 0x26 }
-  - { offsetInCU: 0x2528, offset: 0xD9A44, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy application:didReceiveRemoteNotification:fetchCompletionHandler:]', symObjAddr: 0x1953, symBinAddr: 0x5953, symSize: 0x97 }
-  - { offsetInCU: 0x2626, offset: 0xD9B42, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy application:didFailToRegisterForRemoteNotificationsWithError:]', symObjAddr: 0x19EA, symBinAddr: 0x59EA, symSize: 0xC3 }
-  - { offsetInCU: 0x2708, offset: 0xD9C24, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy application:didRegisterForRemoteNotificationsWithDeviceToken:]', symObjAddr: 0x1AAD, symBinAddr: 0x5AAD, symSize: 0x6D }
-  - { offsetInCU: 0x27B3, offset: 0xD9CCF, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy appticsSetApplicationIconBadgeNumber:]', symObjAddr: 0x1B1A, symBinAddr: 0x5B1A, symSize: 0x67 }
-  - { offsetInCU: 0x2847, offset: 0xD9D63, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy origAppDelegateImps]', symObjAddr: 0x1B81, symBinAddr: 0x5B81, symSize: 0xA }
-  - { offsetInCU: 0x287C, offset: 0xD9D98, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy setOrigAppDelegateImps:]', symObjAddr: 0x1B8B, symBinAddr: 0x5B8B, symSize: 0x11 }
-  - { offsetInCU: 0x28BB, offset: 0xD9DD7, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy swizzledMethodsByClass]', symObjAddr: 0x1B9C, symBinAddr: 0x5B9C, symSize: 0xA }
-  - { offsetInCU: 0x28F0, offset: 0xD9E0C, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy setSwizzledMethodsByClass:]', symObjAddr: 0x1BA6, symBinAddr: 0x5BA6, symSize: 0x11 }
-  - { offsetInCU: 0x292F, offset: 0xD9E4B, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy didSwizzleMethods]', symObjAddr: 0x1BB7, symBinAddr: 0x5BB7, symSize: 0xA }
-  - { offsetInCU: 0x2964, offset: 0xD9E80, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy setDidSwizzleMethods:]', symObjAddr: 0x1BC1, symBinAddr: 0x5BC1, symSize: 0x9 }
-  - { offsetInCU: 0x29A1, offset: 0xD9EBD, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy isUserNotificationDelegateSwizzled]', symObjAddr: 0x1BCA, symBinAddr: 0x5BCA, symSize: 0xA }
-  - { offsetInCU: 0x29D6, offset: 0xD9EF2, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy setIsUserNotificationDelegateSwizzled:]', symObjAddr: 0x1BD4, symBinAddr: 0x5BD4, symSize: 0x9 }
-  - { offsetInCU: 0x2A13, offset: 0xD9F2F, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy isListeningForUserNotificationDelegateChanges]', symObjAddr: 0x1BDD, symBinAddr: 0x5BDD, symSize: 0xA }
-  - { offsetInCU: 0x2A48, offset: 0xD9F64, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy setIsListeningForUserNotificationDelegateChanges:]', symObjAddr: 0x1BE7, symBinAddr: 0x5BE7, symSize: 0x9 }
-  - { offsetInCU: 0x2A85, offset: 0xD9FA1, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy userNotificationCenter]', symObjAddr: 0x1BF0, symBinAddr: 0x5BF0, symSize: 0xA }
-  - { offsetInCU: 0x2ABA, offset: 0xD9FD6, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy setUserNotificationCenter:]', symObjAddr: 0x1BFA, symBinAddr: 0x5BFA, symSize: 0x11 }
-  - { offsetInCU: 0x2AF9, offset: 0xDA015, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy presentUserNotificationCenterDelegate]', symObjAddr: 0x1C0B, symBinAddr: 0x5C0B, symSize: 0xA }
-  - { offsetInCU: 0x2B2E, offset: 0xDA04A, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy setPresentUserNotificationCenterDelegate:]', symObjAddr: 0x1C15, symBinAddr: 0x5C15, symSize: 0x11 }
-  - { offsetInCU: 0x2B6D, offset: 0xDA089, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy appDelegateMonitoringID]', symObjAddr: 0x1C26, symBinAddr: 0x5C26, symSize: 0xA }
-  - { offsetInCU: 0x2BA2, offset: 0xDA0BE, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy setAppDelegateMonitoringID:]', symObjAddr: 0x1C30, symBinAddr: 0x5C30, symSize: 0x11 }
-  - { offsetInCU: 0x2BE1, offset: 0xDA0FD, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy .cxx_destruct]', symObjAddr: 0x1C41, symBinAddr: 0x5C41, symSize: 0x49 }
-  - { offsetInCU: 0x2C14, offset: 0xDA130, size: 0x8, addend: 0x0, symName: '-[APUserNotificationCenter appticsSetBadgeCount:withCompletionHandler:]', symObjAddr: 0x1C8A, symBinAddr: 0x5C8A, symSize: 0x91 }
-  - { offsetInCU: 0x2CEB, offset: 0xDA207, size: 0x8, addend: 0x0, symName: '-[APUserNotificationCenterDelegate appticsUserNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:]', symObjAddr: 0x1D1B, symBinAddr: 0x5D1B, symSize: 0x12 }
-  - { offsetInCU: 0x2D77, offset: 0xDA293, size: 0x8, addend: 0x0, symName: ___APSwizzleWillPresentNotificationWithHandler_block_invoke, symObjAddr: 0x1D2D, symBinAddr: 0x5D2D, symSize: 0x2A }
-  - { offsetInCU: 0x2E16, offset: 0xDA332, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56b, symObjAddr: 0x1D57, symBinAddr: 0x5D57, symSize: 0x4B }
-  - { offsetInCU: 0x2E63, offset: 0xDA37F, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s, symObjAddr: 0x1DA2, symBinAddr: 0x5DA2, symSize: 0x33 }
-  - { offsetInCU: 0x2EB2, offset: 0xDA3CE, size: 0x8, addend: 0x0, symName: ___APSwizzleDidReceiveNotificationResponseWithHandler_block_invoke, symObjAddr: 0x1F1C, symBinAddr: 0x5F1C, symSize: 0x2A }
-  - { offsetInCU: 0x27, offset: 0xDA79B, size: 0x8, addend: 0x0, symName: '+[APTokenManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x5F46, symSize: 0x63 }
-  - { offsetInCU: 0x3F, offset: 0xDA7B3, size: 0x8, addend: 0x0, symName: '+[APTokenManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x5F46, symSize: 0x63 }
-  - { offsetInCU: 0x69, offset: 0xDA7DD, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xC1C8, symBinAddr: 0x1B338, symSize: 0x0 }
-  - { offsetInCU: 0x7F, offset: 0xDA7F3, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xC1D0, symBinAddr: 0x1B340, symSize: 0x0 }
-  - { offsetInCU: 0x171, offset: 0xDA8E5, size: 0x8, addend: 0x0, symName: '___32+[APTokenManager sharedInstance]_block_invoke', symObjAddr: 0x63, symBinAddr: 0x5FA9, symSize: 0x85 }
-  - { offsetInCU: 0x1EF, offset: 0xDA963, size: 0x8, addend: 0x0, symName: '-[APTokenManager setAPNSToken:]', symObjAddr: 0xE8, symBinAddr: 0x602E, symSize: 0x88 }
-  - { offsetInCU: 0x2B6, offset: 0xDAA2A, size: 0x8, addend: 0x0, symName: '-[APTokenManager registerAPNSToken:]', symObjAddr: 0x170, symBinAddr: 0x60B6, symSize: 0x8F }
-  - { offsetInCU: 0x35D, offset: 0xDAAD1, size: 0x8, addend: 0x0, symName: '___36-[APTokenManager registerAPNSToken:]_block_invoke', symObjAddr: 0x1FF, symBinAddr: 0x6145, symSize: 0x2D }
-  - { offsetInCU: 0x3B4, offset: 0xDAB28, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x22C, symBinAddr: 0x6172, symSize: 0xF }
-  - { offsetInCU: 0x3E7, offset: 0xDAB5B, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x23B, symBinAddr: 0x6181, symSize: 0xF }
-  - { offsetInCU: 0x412, offset: 0xDAB86, size: 0x8, addend: 0x0, symName: '-[APTokenManager personalInfoTrackingStatusUpdated:]', symObjAddr: 0x24A, symBinAddr: 0x6190, symSize: 0x5A }
-  - { offsetInCU: 0x491, offset: 0xDAC05, size: 0x8, addend: 0x0, symName: '-[APTokenManager sendTokenToServer:completion:]', symObjAddr: 0x2A4, symBinAddr: 0x61EA, symSize: 0xD1 }
-  - { offsetInCU: 0x591, offset: 0xDAD05, size: 0x8, addend: 0x0, symName: '___47-[APTokenManager sendTokenToServer:completion:]_block_invoke', symObjAddr: 0x375, symBinAddr: 0x62BB, symSize: 0x1D7 }
-  - { offsetInCU: 0x775, offset: 0xDAEE9, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b, symObjAddr: 0x54C, symBinAddr: 0x6492, symSize: 0x44 }
-  - { offsetInCU: 0x7B6, offset: 0xDAF2A, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0x590, symBinAddr: 0x64D6, symSize: 0x2C }
-  - { offsetInCU: 0x7F9, offset: 0xDAF6D, size: 0x8, addend: 0x0, symName: '___47-[APTokenManager sendTokenToServer:completion:]_block_invoke.306', symObjAddr: 0x5BC, symBinAddr: 0x6502, symSize: 0x34 }
-  - { offsetInCU: 0x874, offset: 0xDAFE8, size: 0x8, addend: 0x0, symName: '-[APTokenManager sendStatsToServer:completion:]', symObjAddr: 0x5F0, symBinAddr: 0x6536, symSize: 0xD1 }
-  - { offsetInCU: 0x974, offset: 0xDB0E8, size: 0x8, addend: 0x0, symName: '___47-[APTokenManager sendStatsToServer:completion:]_block_invoke', symObjAddr: 0x6C1, symBinAddr: 0x6607, symSize: 0x203 }
-  - { offsetInCU: 0xBC5, offset: 0xDB339, size: 0x8, addend: 0x0, symName: '___47-[APTokenManager sendStatsToServer:completion:]_block_invoke_2', symObjAddr: 0x8C4, symBinAddr: 0x680A, symSize: 0x34 }
-  - { offsetInCU: 0xC0E, offset: 0xDB382, size: 0x8, addend: 0x0, symName: '-[APTokenManager makeRequest:withParameter:headers:payload:completion:]', symObjAddr: 0x8F8, symBinAddr: 0x683E, symSize: 0x178 }
-  - { offsetInCU: 0xE37, offset: 0xDB5AB, size: 0x8, addend: 0x0, symName: '___71-[APTokenManager makeRequest:withParameter:headers:payload:completion:]_block_invoke', symObjAddr: 0xA70, symBinAddr: 0x69B6, symSize: 0x306 }
-  - { offsetInCU: 0x10E9, offset: 0xDB85D, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0xD76, symBinAddr: 0x6CBC, symSize: 0x16 }
-  - { offsetInCU: 0x110E, offset: 0xDB882, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0xD8C, symBinAddr: 0x6CD2, symSize: 0xF }
-  - { offsetInCU: 0x1139, offset: 0xDB8AD, size: 0x8, addend: 0x0, symName: '___71-[APTokenManager makeRequest:withParameter:headers:payload:completion:]_block_invoke.343', symObjAddr: 0xD9B, symBinAddr: 0x6CE1, symSize: 0x9AE }
-  - { offsetInCU: 0x1863, offset: 0xDBFD7, size: 0x8, addend: 0x0, symName: '___71-[APTokenManager makeRequest:withParameter:headers:payload:completion:]_block_invoke_2', symObjAddr: 0x1749, symBinAddr: 0x768F, symSize: 0x252 }
-  - { offsetInCU: 0x1AF0, offset: 0xDC264, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x199B, symBinAddr: 0x78E1, symSize: 0x30 }
-  - { offsetInCU: 0x1B25, offset: 0xDC299, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x19CB, symBinAddr: 0x7911, symSize: 0x25 }
-  - { offsetInCU: 0x1B5C, offset: 0xDC2D0, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64s72s80b88r, symObjAddr: 0x19F0, symBinAddr: 0x7936, symSize: 0x72 }
-  - { offsetInCU: 0x1BCD, offset: 0xDC341, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s72s80s88r, symObjAddr: 0x1A62, symBinAddr: 0x79A8, symSize: 0x56 }
-  - { offsetInCU: 0x1C40, offset: 0xDC3B4, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64s72b, symObjAddr: 0x1AB8, symBinAddr: 0x79FE, symSize: 0x59 }
-  - { offsetInCU: 0x1CA5, offset: 0xDC419, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s72s, symObjAddr: 0x1B11, symBinAddr: 0x7A57, symSize: 0x41 }
-  - { offsetInCU: 0x1D0C, offset: 0xDC480, size: 0x8, addend: 0x0, symName: '-[APTokenManager serverUrl]', symObjAddr: 0x1B52, symBinAddr: 0x7A98, symSize: 0x1BA }
-  - { offsetInCU: 0x1EA5, offset: 0xDC619, size: 0x8, addend: 0x0, symName: '-[APTokenManager setHTTPHeaderField:]', symObjAddr: 0x1D0C, symBinAddr: 0x7C52, symSize: 0x1BF }
-  - { offsetInCU: 0x20A3, offset: 0xDC817, size: 0x8, addend: 0x0, symName: '-[APTokenManager stringFromDeviceToken:]', symObjAddr: 0x1ECB, symBinAddr: 0x7E11, symSize: 0x116 }
-  - { offsetInCU: 0x27, offset: 0xDCFB9, size: 0x8, addend: 0x0, symName: '-[APTSafeWeakContainer object]', symObjAddr: 0x0, symBinAddr: 0x7F27, symSize: 0x16 }
-  - { offsetInCU: 0x3F, offset: 0xDCFD1, size: 0x8, addend: 0x0, symName: '+[APTAppDelegateObserver sharedInstance]', symObjAddr: 0x35, symBinAddr: 0x7F5C, symSize: 0x30 }
-  - { offsetInCU: 0x69, offset: 0xDCFFB, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0x11DD8, symBinAddr: 0x1B348, symSize: 0x0 }
-  - { offsetInCU: 0x7F, offset: 0xDD011, size: 0x8, addend: 0x0, symName: _sharedInstance.once, symObjAddr: 0x11DE0, symBinAddr: 0x1B350, symSize: 0x0 }
-  - { offsetInCU: 0xFF, offset: 0xDD091, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler interceptors]', symObjAddr: 0xD4F, symBinAddr: 0x8C76, symSize: 0x30 }
-  - { offsetInCU: 0x12B, offset: 0xDD0BD, size: 0x8, addend: 0x0, symName: _interceptors.onceToken, symObjAddr: 0x11E10, symBinAddr: 0x1B380, symSize: 0x0 }
-  - { offsetInCU: 0x142, offset: 0xDD0D4, size: 0x8, addend: 0x0, symName: _interceptors.sInterceptors, symObjAddr: 0x11E18, symBinAddr: 0x1B388, symSize: 0x0 }
-  - { offsetInCU: 0x18E, offset: 0xDD120, size: 0x8, addend: 0x0, symName: _aOriginalAppDelegate, symObjAddr: 0x11DE8, symBinAddr: 0x1B358, symSize: 0x0 }
-  - { offsetInCU: 0x1CD, offset: 0xDD15F, size: 0x8, addend: 0x0, symName: _aOriginalAppDelegateClass, symObjAddr: 0x11E08, symBinAddr: 0x1B378, symSize: 0x0 }
-  - { offsetInCU: 0x1EC, offset: 0xDD17E, size: 0x8, addend: 0x0, symName: _aAppDelegateSubclass, symObjAddr: 0x11E00, symBinAddr: 0x1B370, symSize: 0x0 }
-  - { offsetInCU: 0x202, offset: 0xDD194, size: 0x8, addend: 0x0, symName: _sProxyAppDelegateOnceToken, symObjAddr: 0x11DF0, symBinAddr: 0x1B360, symSize: 0x0 }
-  - { offsetInCU: 0x218, offset: 0xDD1AA, size: 0x8, addend: 0x0, symName: _sProxyAppDelegateRemoteNotificationOnceToken, symObjAddr: 0x11DF8, symBinAddr: 0x1B368, symSize: 0x0 }
-  - { offsetInCU: 0x22E, offset: 0xDD1C0, size: 0x8, addend: 0x0, symName: _kAPTOrigIMPBySelectorKey, symObjAddr: 0x5758, symBinAddr: 0x14290, symSize: 0x0 }
-  - { offsetInCU: 0x24E, offset: 0xDD1E0, size: 0x8, addend: 0x0, symName: _kAPTOrigClassKey, symObjAddr: 0x5780, symBinAddr: 0x14298, symSize: 0x0 }
-  - { offsetInCU: 0x2BC, offset: 0xDD24E, size: 0x8, addend: 0x0, symName: '-[APTSafeWeakContainer object]', symObjAddr: 0x0, symBinAddr: 0x7F27, symSize: 0x16 }
-  - { offsetInCU: 0x2F3, offset: 0xDD285, size: 0x8, addend: 0x0, symName: '-[APTSafeWeakContainer setObject:]', symObjAddr: 0x16, symBinAddr: 0x7F3D, symSize: 0x11 }
-  - { offsetInCU: 0x332, offset: 0xDD2C4, size: 0x8, addend: 0x0, symName: '-[APTSafeWeakContainer .cxx_destruct]', symObjAddr: 0x27, symBinAddr: 0x7F4E, symSize: 0xE }
-  - { offsetInCU: 0x3AC, offset: 0xDD33E, size: 0x8, addend: 0x0, symName: '___40+[APTAppDelegateObserver sharedInstance]_block_invoke', symObjAddr: 0x65, symBinAddr: 0x7F8C, symSize: 0x25 }
-  - { offsetInCU: 0x3DF, offset: 0xDD371, size: 0x8, addend: 0x0, symName: '-[APTAppDelegateObserver observeUIApplication]', symObjAddr: 0x8A, symBinAddr: 0x7FB1, symSize: 0x6E }
-  - { offsetInCU: 0x452, offset: 0xDD3E4, size: 0x8, addend: 0x0, symName: '-[APTAppDelegateObserver observeValueForKeyPath:ofObject:change:context:]', symObjAddr: 0xF8, symBinAddr: 0x801F, symSize: 0x143 }
-  - { offsetInCU: 0x5E0, offset: 0xDD572, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler isAppDelegateProxyEnabled]', symObjAddr: 0x23B, symBinAddr: 0x8162, symSize: 0xB }
-  - { offsetInCU: 0x613, offset: 0xDD5A5, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler registerAppDelegateInterceptor:]', symObjAddr: 0x246, symBinAddr: 0x816D, symSize: 0x1BB }
-  - { offsetInCU: 0x79F, offset: 0xDD731, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler unregisterAppDelegateInterceptorWithIdentifier:]', symObjAddr: 0x401, symBinAddr: 0x8328, symSize: 0x14C }
-  - { offsetInCU: 0x8CD, offset: 0xDD85F, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler proxyOrigDelegate]', symObjAddr: 0x54D, symBinAddr: 0x8474, symSize: 0x24 }
-  - { offsetInCU: 0x917, offset: 0xDD8A9, size: 0x8, addend: 0x0, symName: '___42+[APAppDelegateSwizzler proxyOrigDelegate]_block_invoke', symObjAddr: 0x571, symBinAddr: 0x8498, symSize: 0x77 }
-  - { offsetInCU: 0x9AD, offset: 0xDD93F, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler proxyOrigDelegateIncludingAPNSMethods]', symObjAddr: 0x5E8, symBinAddr: 0x850F, symSize: 0x6A }
-  - { offsetInCU: 0xA23, offset: 0xDD9B5, size: 0x8, addend: 0x0, symName: '___62+[APAppDelegateSwizzler proxyOrigDelegateIncludingAPNSMethods]_block_invoke', symObjAddr: 0x652, symBinAddr: 0x8579, symSize: 0x10B }
-  - { offsetInCU: 0xBB8, offset: 0xDDB4A, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler sharedApplication]', symObjAddr: 0x75D, symBinAddr: 0x8684, symSize: 0x5F }
-  - { offsetInCU: 0xC6C, offset: 0xDDBFE, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler createSubclassWithObject:]', symObjAddr: 0x7BC, symBinAddr: 0x86E3, symSize: 0x32D }
-  - { offsetInCU: 0xFCC, offset: 0xDDF5E, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler proxyRemoteNotificationsHandlingWithAppDelegateSubClass:realClass:appDelegate:realImplementationsBySelector:]', symObjAddr: 0xAE9, symBinAddr: 0x8A10, symSize: 0x154 }
-  - { offsetInCU: 0x114E, offset: 0xDE0E0, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler reconfigureAppDelegate]', symObjAddr: 0xC3D, symBinAddr: 0x8B64, symSize: 0x112 }
-  - { offsetInCU: 0x128A, offset: 0xDE21C, size: 0x8, addend: 0x0, symName: '___37+[APAppDelegateSwizzler interceptors]_block_invoke', symObjAddr: 0xD7F, symBinAddr: 0x8CA6, symSize: 0x25 }
-  - { offsetInCU: 0x12BF, offset: 0xDE251, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler fetchOriginalSelectorImplementation:object:]', symObjAddr: 0xDA4, symBinAddr: 0x8CCB, symSize: 0x7C }
-  - { offsetInCU: 0x1385, offset: 0xDE317, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler targetSelectorForProxy:implementationsFromSourceSelector:fromClass:toClass:realClass:storeDestinationImplementationTo:]', symObjAddr: 0xE20, symBinAddr: 0x8D47, symSize: 0xE5 }
-  - { offsetInCU: 0x1514, offset: 0xDE4A6, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler registerInstanceMethodWithSelector:fromClass:toClass:]', symObjAddr: 0xF05, symBinAddr: 0x8E2C, symSize: 0x1B }
-  - { offsetInCU: 0x15AC, offset: 0xDE53E, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler registerInstanceMethodWithDestinationSelector:withImplementationFromSourceSelector:fromClass:toClass:]', symObjAddr: 0xF20, symBinAddr: 0x8E47, symSize: 0xB3 }
-  - { offsetInCU: 0x177B, offset: 0xDE70D, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler implMethodSelector:fromClass:]', symObjAddr: 0xFD3, symBinAddr: 0x8EFA, symSize: 0x18 }
-  - { offsetInCU: 0x180F, offset: 0xDE7A1, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler broadcastToInterceptorsUsingSelector:callback:]', symObjAddr: 0xFEB, symBinAddr: 0x8F12, symSize: 0xCC }
-  - { offsetInCU: 0x18F2, offset: 0xDE884, size: 0x8, addend: 0x0, symName: '___71+[APAppDelegateSwizzler broadcastToInterceptorsUsingSelector:callback:]_block_invoke', symObjAddr: 0x10B7, symBinAddr: 0x8FDE, symSize: 0xED }
-  - { offsetInCU: 0x1A45, offset: 0xDE9D7, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x11A4, symBinAddr: 0x90CB, symSize: 0x17 }
-  - { offsetInCU: 0x1A6E, offset: 0xDEA00, size: 0x8, addend: 0x0, symName: '-[APAppDelegateSwizzler application:donor_didRegisterForRemoteNotificationsWithDeviceToken:]', symObjAddr: 0x11CA, symBinAddr: 0x90E2, symSize: 0x13B }
-  - { offsetInCU: 0x1C10, offset: 0xDEBA2, size: 0x8, addend: 0x0, symName: '___92-[APAppDelegateSwizzler application:donor_didRegisterForRemoteNotificationsWithDeviceToken:]_block_invoke', symObjAddr: 0x1305, symBinAddr: 0x921D, symSize: 0xC9 }
-  - { offsetInCU: 0x1D72, offset: 0xDED04, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x13CE, symBinAddr: 0x92E6, symSize: 0x25 }
-  - { offsetInCU: 0x1DB3, offset: 0xDED45, size: 0x8, addend: 0x0, symName: '-[APAppDelegateSwizzler application:donor_didFailToRegisterForRemoteNotificationsWithError:]', symObjAddr: 0x1418, symBinAddr: 0x930B, symSize: 0x13B }
-  - { offsetInCU: 0x1F55, offset: 0xDEEE7, size: 0x8, addend: 0x0, symName: '___92-[APAppDelegateSwizzler application:donor_didFailToRegisterForRemoteNotificationsWithError:]_block_invoke', symObjAddr: 0x1553, symBinAddr: 0x9446, symSize: 0xC9 }
-  - { offsetInCU: 0x20B7, offset: 0xDF049, size: 0x8, addend: 0x0, symName: '-[APAppDelegateSwizzler application:donor_didReceiveRemoteNotification:fetchCompletionHandler:]', symObjAddr: 0x161C, symBinAddr: 0x950F, symSize: 0x335 }
-  - { offsetInCU: 0x23C9, offset: 0xDF35B, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x1951, symBinAddr: 0x9844, symSize: 0x16 }
-  - { offsetInCU: 0x23EE, offset: 0xDF380, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x1967, symBinAddr: 0x985A, symSize: 0xF }
-  - { offsetInCU: 0x2419, offset: 0xDF3AB, size: 0x8, addend: 0x0, symName: '___95-[APAppDelegateSwizzler application:donor_didReceiveRemoteNotification:fetchCompletionHandler:]_block_invoke', symObjAddr: 0x1976, symBinAddr: 0x9869, symSize: 0x72 }
-  - { offsetInCU: 0x24CA, offset: 0xDF45C, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32r40r, symObjAddr: 0x19E8, symBinAddr: 0x98DB, symSize: 0x38 }
-  - { offsetInCU: 0x24F3, offset: 0xDF485, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32r40r, symObjAddr: 0x1A20, symBinAddr: 0x9913, symSize: 0x2B }
-  - { offsetInCU: 0x2512, offset: 0xDF4A4, size: 0x8, addend: 0x0, symName: '___95-[APAppDelegateSwizzler application:donor_didReceiveRemoteNotification:fetchCompletionHandler:]_block_invoke.562', symObjAddr: 0x1A4B, symBinAddr: 0x993E, symSize: 0xE9 }
-  - { offsetInCU: 0x26D4, offset: 0xDF666, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b56r, symObjAddr: 0x1B34, symBinAddr: 0x9A27, symSize: 0x56 }
-  - { offsetInCU: 0x2715, offset: 0xDF6A7, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56r, symObjAddr: 0x1B8A, symBinAddr: 0x9A7D, symSize: 0x3A }
-  - { offsetInCU: 0x2758, offset: 0xDF6EA, size: 0x8, addend: 0x0, symName: '___95-[APAppDelegateSwizzler application:donor_didReceiveRemoteNotification:fetchCompletionHandler:]_block_invoke.563', symObjAddr: 0x1BC4, symBinAddr: 0x9AB7, symSize: 0x1B0 }
-  - { offsetInCU: 0x289B, offset: 0xDF82D, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b40r, symObjAddr: 0x1D74, symBinAddr: 0x9C67, symSize: 0x38 }
-  - { offsetInCU: 0x28C4, offset: 0xDF856, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40r, symObjAddr: 0x1DAC, symBinAddr: 0x9C9F, symSize: 0x27 }
-  - { offsetInCU: 0x28EF, offset: 0xDF881, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler invokeAppDelegateForSelector:]', symObjAddr: 0x1DD3, symBinAddr: 0x9CC6, symSize: 0x79 }
-  - { offsetInCU: 0x29CF, offset: 0xDF961, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler proxyAppDelegate:]', symObjAddr: 0x1E4C, symBinAddr: 0x9D3F, symSize: 0x1AF }
-  - { offsetInCU: 0x27, offset: 0xE020F, size: 0x8, addend: 0x0, symName: '+[APMessaging shared]', symObjAddr: 0x0, symBinAddr: 0x9EEE, symSize: 0x30 }
-  - { offsetInCU: 0x3F, offset: 0xE0227, size: 0x8, addend: 0x0, symName: '+[APMessaging shared]', symObjAddr: 0x0, symBinAddr: 0x9EEE, symSize: 0x30 }
-  - { offsetInCU: 0x69, offset: 0xE0251, size: 0x8, addend: 0x0, symName: _shared.instance, symObjAddr: 0xB7A0, symBinAddr: 0x1B390, symSize: 0x0 }
-  - { offsetInCU: 0x7F, offset: 0xE0267, size: 0x8, addend: 0x0, symName: _shared.once, symObjAddr: 0xB7A8, symBinAddr: 0x1B398, symSize: 0x0 }
-  - { offsetInCU: 0x1FE, offset: 0xE03E6, size: 0x8, addend: 0x0, symName: '___21+[APMessaging shared]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x9F1E, symSize: 0x10E }
-  - { offsetInCU: 0x2D8, offset: 0xE04C0, size: 0x8, addend: 0x0, symName: '+[APMessaging startService]', symObjAddr: 0x13E, symBinAddr: 0xA02C, symSize: 0x56 }
-  - { offsetInCU: 0x343, offset: 0xE052B, size: 0x8, addend: 0x0, symName: '-[APMessaging APNSToken]', symObjAddr: 0x194, symBinAddr: 0xA082, symSize: 0x12 }
-  - { offsetInCU: 0x38D, offset: 0xE0575, size: 0x8, addend: 0x0, symName: '-[APMessaging setAPNSToken:]', symObjAddr: 0x1A6, symBinAddr: 0xA094, symSize: 0x15C }
-  - { offsetInCU: 0x529, offset: 0xE0711, size: 0x8, addend: 0x0, symName: '-[APMessaging updateLogMsgIds:]', symObjAddr: 0x302, symBinAddr: 0xA1F0, symSize: 0x329 }
-  - { offsetInCU: 0x7B0, offset: 0xE0998, size: 0x8, addend: 0x0, symName: '___31-[APMessaging updateLogMsgIds:]_block_invoke', symObjAddr: 0x62B, symBinAddr: 0xA519, symSize: 0x40 }
-  - { offsetInCU: 0x7FD, offset: 0xE09E5, size: 0x8, addend: 0x0, symName: '-[APMessaging appDidReceiveMessage:withResponse:]', symObjAddr: 0x66B, symBinAddr: 0xA559, symSize: 0x9B4 }
-  - { offsetInCU: 0xF3A, offset: 0xE1122, size: 0x8, addend: 0x0, symName: '___49-[APMessaging appDidReceiveMessage:withResponse:]_block_invoke', symObjAddr: 0x101F, symBinAddr: 0xAF0D, symSize: 0x40 }
-  - { offsetInCU: 0xF88, offset: 0xE1170, size: 0x8, addend: 0x0, symName: '___49-[APMessaging appDidReceiveMessage:withResponse:]_block_invoke_2', symObjAddr: 0x105F, symBinAddr: 0xAF4D, symSize: 0x40 }
-  - { offsetInCU: 0xFD6, offset: 0xE11BE, size: 0x8, addend: 0x0, symName: '-[APMessaging didFailToRegisterForRemoteNotificationsWithError:]', symObjAddr: 0x109F, symBinAddr: 0xAF8D, symSize: 0x46 }
-  - { offsetInCU: 0x102C, offset: 0xE1214, size: 0x8, addend: 0x0, symName: '-[APMessaging updateBadgeCount:]', symObjAddr: 0x10E5, symBinAddr: 0xAFD3, symSize: 0x90 }
-  - { offsetInCU: 0x10E3, offset: 0xE12CB, size: 0x8, addend: 0x0, symName: '-[APMessaging getBadgeCount]', symObjAddr: 0x1175, symBinAddr: 0xB063, symSize: 0x8B }
-  - { offsetInCU: 0x1195, offset: 0xE137D, size: 0x8, addend: 0x0, symName: '-[APMessaging getSharedDefaults]', symObjAddr: 0x1200, symBinAddr: 0xB0EE, symSize: 0x14B }
-  - { offsetInCU: 0x12C7, offset: 0xE14AF, size: 0x8, addend: 0x0, symName: '-[APMessaging findValueForKey:inDictionary:]', symObjAddr: 0x134B, symBinAddr: 0xB239, symSize: 0x3D4 }
-  - { offsetInCU: 0x1505, offset: 0xE16ED, size: 0x8, addend: 0x0, symName: '-[APMessaging getActionButtonById:inArray:]', symObjAddr: 0x171F, symBinAddr: 0xB60D, symSize: 0x1D8 }
-  - { offsetInCU: 0x1663, offset: 0xE184B, size: 0x8, addend: 0x0, symName: '-[APMessaging parseBodyString:]', symObjAddr: 0x18F7, symBinAddr: 0xB7E5, symSize: 0x13F }
-  - { offsetInCU: 0x1793, offset: 0xE197B, size: 0x8, addend: 0x0, symName: '-[APMessaging globalEngagementDataNotification:]', symObjAddr: 0x1A36, symBinAddr: 0xB924, symSize: 0x398 }
-  - { offsetInCU: 0x1A7D, offset: 0xE1C65, size: 0x8, addend: 0x0, symName: '___48-[APMessaging globalEngagementDataNotification:]_block_invoke', symObjAddr: 0x1DCE, symBinAddr: 0xBCBC, symSize: 0x40 }
-  - { offsetInCU: 0x1ACE, offset: 0xE1CB6, size: 0x8, addend: 0x0, symName: '-[APMessaging applicationDidBecomeActive:]', symObjAddr: 0x1E0E, symBinAddr: 0xBCFC, symSize: 0x5F }
-  - { offsetInCU: 0x1B7C, offset: 0xE1D64, size: 0x8, addend: 0x0, symName: '___42-[APMessaging applicationDidBecomeActive:]_block_invoke', symObjAddr: 0x1E6D, symBinAddr: 0xBD5B, symSize: 0x117 }
-  - { offsetInCU: 0x1CBA, offset: 0xE1EA2, size: 0x8, addend: 0x0, symName: '___42-[APMessaging applicationDidBecomeActive:]_block_invoke_2', symObjAddr: 0x1F84, symBinAddr: 0xBE72, symSize: 0x40 }
-  - { offsetInCU: 0x1D0B, offset: 0xE1EF3, size: 0x8, addend: 0x0, symName: '-[APMessaging pnToken]', symObjAddr: 0x1FE2, symBinAddr: 0xBEB2, symSize: 0xA }
-  - { offsetInCU: 0x1D40, offset: 0xE1F28, size: 0x8, addend: 0x0, symName: '-[APMessaging apnsToken]', symObjAddr: 0x1FEC, symBinAddr: 0xBEBC, symSize: 0xA }
-  - { offsetInCU: 0x1D75, offset: 0xE1F5D, size: 0x8, addend: 0x0, symName: '-[APMessaging setApnsToken:]', symObjAddr: 0x1FF6, symBinAddr: 0xBEC6, symSize: 0x11 }
-  - { offsetInCU: 0x1DB4, offset: 0xE1F9C, size: 0x8, addend: 0x0, symName: '-[APMessaging appticsPnID]', symObjAddr: 0x2007, symBinAddr: 0xBED7, symSize: 0xA }
-  - { offsetInCU: 0x1DE9, offset: 0xE1FD1, size: 0x8, addend: 0x0, symName: '-[APMessaging setAppticsPnID:]', symObjAddr: 0x2011, symBinAddr: 0xBEE1, symSize: 0x11 }
-  - { offsetInCU: 0x1E28, offset: 0xE2010, size: 0x8, addend: 0x0, symName: '-[APMessaging conversionEvent]', symObjAddr: 0x2022, symBinAddr: 0xBEF2, symSize: 0xA }
-  - { offsetInCU: 0x1E5D, offset: 0xE2045, size: 0x8, addend: 0x0, symName: '-[APMessaging setConversionEvent:]', symObjAddr: 0x202C, symBinAddr: 0xBEFC, symSize: 0x11 }
-  - { offsetInCU: 0x1E9C, offset: 0xE2084, size: 0x8, addend: 0x0, symName: '-[APMessaging pnID]', symObjAddr: 0x203D, symBinAddr: 0xBF0D, symSize: 0xA }
-  - { offsetInCU: 0x1ED1, offset: 0xE20B9, size: 0x8, addend: 0x0, symName: '-[APMessaging setPnID:]', symObjAddr: 0x2047, symBinAddr: 0xBF17, symSize: 0x11 }
-  - { offsetInCU: 0x1F10, offset: 0xE20F8, size: 0x8, addend: 0x0, symName: '-[APMessaging .cxx_destruct]', symObjAddr: 0x2058, symBinAddr: 0xBF28, symSize: 0x49 }
+  - { offsetInCU: 0x34, offset: 0xD74DF, size: 0x8, addend: 0x0, symName: _AppticsMessagingVersionString, symObjAddr: 0x0, symBinAddr: 0xC2F0, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0xD7514, size: 0x8, addend: 0x0, symName: _AppticsMessagingVersionNumber, symObjAddr: 0x40, symBinAddr: 0xC330, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0xD7551, size: 0x8, addend: 0x0, symName: '+[APMessagingRemoteNotificationsProxy load]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x6 }
+  - { offsetInCU: 0x3F, offset: 0xD7569, size: 0x8, addend: 0x0, symName: '+[APMessagingRemoteNotificationsProxy sharedInstance]', symObjAddr: 0x11, symBinAddr: 0x4011, symSize: 0x30 }
+  - { offsetInCU: 0x69, offset: 0xD7593, size: 0x8, addend: 0x0, symName: _sharedInstance.proxy, symObjAddr: 0x121B0, symBinAddr: 0x1B328, symSize: 0x0 }
+  - { offsetInCU: 0x7F, offset: 0xD75A9, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x121B8, symBinAddr: 0x1B330, symSize: 0x0 }
+  - { offsetInCU: 0x20B, offset: 0xD7735, size: 0x8, addend: 0x0, symName: _UserNotificationObserverContext, symObjAddr: 0x4150, symBinAddr: 0x1B260, symSize: 0x0 }
+  - { offsetInCU: 0x32D, offset: 0xD7857, size: 0x8, addend: 0x0, symName: '+[APMessagingRemoteNotificationsProxy load]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x6 }
+  - { offsetInCU: 0x35C, offset: 0xD7886, size: 0x8, addend: 0x0, symName: '+[APMessagingRemoteNotificationsProxy canPerformMethodSwizzling]', symObjAddr: 0x6, symBinAddr: 0x4006, symSize: 0xB }
+  - { offsetInCU: 0x3C9, offset: 0xD78F3, size: 0x8, addend: 0x0, symName: '___53+[APMessagingRemoteNotificationsProxy sharedInstance]_block_invoke', symObjAddr: 0x41, symBinAddr: 0x4041, symSize: 0x25 }
+  - { offsetInCU: 0x3FC, offset: 0xD7926, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy init]', symObjAddr: 0x66, symBinAddr: 0x4066, symSize: 0x75 }
+  - { offsetInCU: 0x44B, offset: 0xD7975, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy dealloc]', symObjAddr: 0xDB, symBinAddr: 0x40DB, symSize: 0xA3 }
+  - { offsetInCU: 0x507, offset: 0xD7A31, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy performMethodSwizzlingIfPossible]', symObjAddr: 0x17E, symBinAddr: 0x417E, symSize: 0x152 }
+  - { offsetInCU: 0x659, offset: 0xD7B83, size: 0x8, addend: 0x0, symName: _injectSelector, symObjAddr: 0x2D0, symBinAddr: 0x42D0, symSize: 0xC7 }
+  - { offsetInCU: 0x85C, offset: 0xD7D86, size: 0x8, addend: 0x0, symName: _APPropertyNameForMessagingFromObject, symObjAddr: 0x397, symBinAddr: 0x4397, symSize: 0xAE }
+  - { offsetInCU: 0x9C8, offset: 0xD7EF2, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy unswizzleAllMethods]', symObjAddr: 0x445, symBinAddr: 0x4445, symSize: 0x358 }
+  - { offsetInCU: 0xBF3, offset: 0xD811D, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy monitorUserNotificationCenterDelegateChanges:]', symObjAddr: 0x79D, symBinAddr: 0x479D, symSize: 0xCD }
+  - { offsetInCU: 0xD42, offset: 0xD826C, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy swizzleDelegateForUserNotificationCenter:]', symObjAddr: 0x86A, symBinAddr: 0x486A, symSize: 0x148 }
+  - { offsetInCU: 0xECC, offset: 0xD83F6, size: 0x8, addend: 0x0, symName: _APSwizzleWillPresentNotificationWithHandler, symObjAddr: 0x9B2, symBinAddr: 0x49B2, symSize: 0x24B }
+  - { offsetInCU: 0x11CA, offset: 0xD86F4, size: 0x8, addend: 0x0, symName: _APMessagingUserInfoFromNotification, symObjAddr: 0x1DD5, symBinAddr: 0x5DD5, symSize: 0x147 }
+  - { offsetInCU: 0x135C, offset: 0xD8886, size: 0x8, addend: 0x0, symName: _APSwizzleDidReceiveNotificationResponseWithHandler, symObjAddr: 0xBFD, symBinAddr: 0x4BFD, symSize: 0x29C }
+  - { offsetInCU: 0x16BC, offset: 0xD8BE6, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy unswizzleDelegateForUserNotificationCenter:]', symObjAddr: 0xE99, symBinAddr: 0x4E99, symSize: 0x126 }
+  - { offsetInCU: 0x182E, offset: 0xD8D58, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy attachDelegateObserverToUserNotificationCenter:]', symObjAddr: 0xFBF, symBinAddr: 0x4FBF, symSize: 0x131 }
+  - { offsetInCU: 0x19A7, offset: 0xD8ED1, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy detachUserNotificationCenterDelegateObserver]', symObjAddr: 0x10F0, symBinAddr: 0x50F0, symSize: 0x162 }
+  - { offsetInCU: 0x1AC9, offset: 0xD8FF3, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy observeValueForKeyPath:ofObject:change:context:]', symObjAddr: 0x1252, symBinAddr: 0x5252, symSize: 0x1D3 }
+  - { offsetInCU: 0x1CBC, offset: 0xD91E6, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy preserveOriginalImplementation:forSelector:]', symObjAddr: 0x1425, symBinAddr: 0x5425, symSize: 0xB0 }
+  - { offsetInCU: 0x1DB3, offset: 0xD92DD, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy fetchOriginalImplementationForSelector:]', symObjAddr: 0x14D5, symBinAddr: 0x54D5, symSize: 0xAF }
+  - { offsetInCU: 0x1EA4, offset: 0xD93CE, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy monitorSwizzledSelector:ofClass:]', symObjAddr: 0x1584, symBinAddr: 0x5584, symSize: 0x152 }
+  - { offsetInCU: 0x2023, offset: 0xD954D, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy discardImplementationForSelector:]', symObjAddr: 0x16D6, symBinAddr: 0x56D6, symSize: 0x6E }
+  - { offsetInCU: 0x20CB, offset: 0xD95F5, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy swizzleSelector:inClass:withImplementation:inProtocol:]', symObjAddr: 0x1744, symBinAddr: 0x5744, symSize: 0x155 }
+  - { offsetInCU: 0x2355, offset: 0xD987F, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy unswizzleSelector:inClass:]', symObjAddr: 0x1899, symBinAddr: 0x5899, symSize: 0x94 }
+  - { offsetInCU: 0x2489, offset: 0xD99B3, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy missingMethodImplementationForClass:]', symObjAddr: 0x192D, symBinAddr: 0x592D, symSize: 0x26 }
+  - { offsetInCU: 0x2528, offset: 0xD9A52, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy application:didReceiveRemoteNotification:fetchCompletionHandler:]', symObjAddr: 0x1953, symBinAddr: 0x5953, symSize: 0x97 }
+  - { offsetInCU: 0x2626, offset: 0xD9B50, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy application:didFailToRegisterForRemoteNotificationsWithError:]', symObjAddr: 0x19EA, symBinAddr: 0x59EA, symSize: 0xC3 }
+  - { offsetInCU: 0x2708, offset: 0xD9C32, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy application:didRegisterForRemoteNotificationsWithDeviceToken:]', symObjAddr: 0x1AAD, symBinAddr: 0x5AAD, symSize: 0x6D }
+  - { offsetInCU: 0x27B3, offset: 0xD9CDD, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy appticsSetApplicationIconBadgeNumber:]', symObjAddr: 0x1B1A, symBinAddr: 0x5B1A, symSize: 0x67 }
+  - { offsetInCU: 0x2847, offset: 0xD9D71, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy origAppDelegateImps]', symObjAddr: 0x1B81, symBinAddr: 0x5B81, symSize: 0xA }
+  - { offsetInCU: 0x287C, offset: 0xD9DA6, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy setOrigAppDelegateImps:]', symObjAddr: 0x1B8B, symBinAddr: 0x5B8B, symSize: 0x11 }
+  - { offsetInCU: 0x28BB, offset: 0xD9DE5, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy swizzledMethodsByClass]', symObjAddr: 0x1B9C, symBinAddr: 0x5B9C, symSize: 0xA }
+  - { offsetInCU: 0x28F0, offset: 0xD9E1A, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy setSwizzledMethodsByClass:]', symObjAddr: 0x1BA6, symBinAddr: 0x5BA6, symSize: 0x11 }
+  - { offsetInCU: 0x292F, offset: 0xD9E59, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy didSwizzleMethods]', symObjAddr: 0x1BB7, symBinAddr: 0x5BB7, symSize: 0xA }
+  - { offsetInCU: 0x2964, offset: 0xD9E8E, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy setDidSwizzleMethods:]', symObjAddr: 0x1BC1, symBinAddr: 0x5BC1, symSize: 0x9 }
+  - { offsetInCU: 0x29A1, offset: 0xD9ECB, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy isUserNotificationDelegateSwizzled]', symObjAddr: 0x1BCA, symBinAddr: 0x5BCA, symSize: 0xA }
+  - { offsetInCU: 0x29D6, offset: 0xD9F00, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy setIsUserNotificationDelegateSwizzled:]', symObjAddr: 0x1BD4, symBinAddr: 0x5BD4, symSize: 0x9 }
+  - { offsetInCU: 0x2A13, offset: 0xD9F3D, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy isListeningForUserNotificationDelegateChanges]', symObjAddr: 0x1BDD, symBinAddr: 0x5BDD, symSize: 0xA }
+  - { offsetInCU: 0x2A48, offset: 0xD9F72, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy setIsListeningForUserNotificationDelegateChanges:]', symObjAddr: 0x1BE7, symBinAddr: 0x5BE7, symSize: 0x9 }
+  - { offsetInCU: 0x2A85, offset: 0xD9FAF, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy userNotificationCenter]', symObjAddr: 0x1BF0, symBinAddr: 0x5BF0, symSize: 0xA }
+  - { offsetInCU: 0x2ABA, offset: 0xD9FE4, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy setUserNotificationCenter:]', symObjAddr: 0x1BFA, symBinAddr: 0x5BFA, symSize: 0x11 }
+  - { offsetInCU: 0x2AF9, offset: 0xDA023, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy presentUserNotificationCenterDelegate]', symObjAddr: 0x1C0B, symBinAddr: 0x5C0B, symSize: 0xA }
+  - { offsetInCU: 0x2B2E, offset: 0xDA058, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy setPresentUserNotificationCenterDelegate:]', symObjAddr: 0x1C15, symBinAddr: 0x5C15, symSize: 0x11 }
+  - { offsetInCU: 0x2B6D, offset: 0xDA097, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy appDelegateMonitoringID]', symObjAddr: 0x1C26, symBinAddr: 0x5C26, symSize: 0xA }
+  - { offsetInCU: 0x2BA2, offset: 0xDA0CC, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy setAppDelegateMonitoringID:]', symObjAddr: 0x1C30, symBinAddr: 0x5C30, symSize: 0x11 }
+  - { offsetInCU: 0x2BE1, offset: 0xDA10B, size: 0x8, addend: 0x0, symName: '-[APMessagingRemoteNotificationsProxy .cxx_destruct]', symObjAddr: 0x1C41, symBinAddr: 0x5C41, symSize: 0x49 }
+  - { offsetInCU: 0x2C14, offset: 0xDA13E, size: 0x8, addend: 0x0, symName: '-[APUserNotificationCenter appticsSetBadgeCount:withCompletionHandler:]', symObjAddr: 0x1C8A, symBinAddr: 0x5C8A, symSize: 0x91 }
+  - { offsetInCU: 0x2CEB, offset: 0xDA215, size: 0x8, addend: 0x0, symName: '-[APUserNotificationCenterDelegate appticsUserNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:]', symObjAddr: 0x1D1B, symBinAddr: 0x5D1B, symSize: 0x12 }
+  - { offsetInCU: 0x2D77, offset: 0xDA2A1, size: 0x8, addend: 0x0, symName: ___APSwizzleWillPresentNotificationWithHandler_block_invoke, symObjAddr: 0x1D2D, symBinAddr: 0x5D2D, symSize: 0x2A }
+  - { offsetInCU: 0x2E16, offset: 0xDA340, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56b, symObjAddr: 0x1D57, symBinAddr: 0x5D57, symSize: 0x4B }
+  - { offsetInCU: 0x2E63, offset: 0xDA38D, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s, symObjAddr: 0x1DA2, symBinAddr: 0x5DA2, symSize: 0x33 }
+  - { offsetInCU: 0x2EB2, offset: 0xDA3DC, size: 0x8, addend: 0x0, symName: ___APSwizzleDidReceiveNotificationResponseWithHandler_block_invoke, symObjAddr: 0x1F1C, symBinAddr: 0x5F1C, symSize: 0x2A }
+  - { offsetInCU: 0x27, offset: 0xDA7A9, size: 0x8, addend: 0x0, symName: '+[APTokenManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x5F46, symSize: 0x63 }
+  - { offsetInCU: 0x3F, offset: 0xDA7C1, size: 0x8, addend: 0x0, symName: '+[APTokenManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x5F46, symSize: 0x63 }
+  - { offsetInCU: 0x69, offset: 0xDA7EB, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xC1F0, symBinAddr: 0x1B338, symSize: 0x0 }
+  - { offsetInCU: 0x7F, offset: 0xDA801, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xC1F8, symBinAddr: 0x1B340, symSize: 0x0 }
+  - { offsetInCU: 0x171, offset: 0xDA8F3, size: 0x8, addend: 0x0, symName: '___32+[APTokenManager sharedInstance]_block_invoke', symObjAddr: 0x63, symBinAddr: 0x5FA9, symSize: 0x85 }
+  - { offsetInCU: 0x1EF, offset: 0xDA971, size: 0x8, addend: 0x0, symName: '-[APTokenManager setAPNSToken:]', symObjAddr: 0xE8, symBinAddr: 0x602E, symSize: 0x88 }
+  - { offsetInCU: 0x2B6, offset: 0xDAA38, size: 0x8, addend: 0x0, symName: '-[APTokenManager registerAPNSToken:]', symObjAddr: 0x170, symBinAddr: 0x60B6, symSize: 0x8F }
+  - { offsetInCU: 0x35D, offset: 0xDAADF, size: 0x8, addend: 0x0, symName: '___36-[APTokenManager registerAPNSToken:]_block_invoke', symObjAddr: 0x1FF, symBinAddr: 0x6145, symSize: 0x2D }
+  - { offsetInCU: 0x3B4, offset: 0xDAB36, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x22C, symBinAddr: 0x6172, symSize: 0xF }
+  - { offsetInCU: 0x3E7, offset: 0xDAB69, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x23B, symBinAddr: 0x6181, symSize: 0xF }
+  - { offsetInCU: 0x412, offset: 0xDAB94, size: 0x8, addend: 0x0, symName: '-[APTokenManager personalInfoTrackingStatusUpdated:]', symObjAddr: 0x24A, symBinAddr: 0x6190, symSize: 0x5A }
+  - { offsetInCU: 0x491, offset: 0xDAC13, size: 0x8, addend: 0x0, symName: '-[APTokenManager sendTokenToServer:completion:]', symObjAddr: 0x2A4, symBinAddr: 0x61EA, symSize: 0xD1 }
+  - { offsetInCU: 0x591, offset: 0xDAD13, size: 0x8, addend: 0x0, symName: '___47-[APTokenManager sendTokenToServer:completion:]_block_invoke', symObjAddr: 0x375, symBinAddr: 0x62BB, symSize: 0x1D7 }
+  - { offsetInCU: 0x775, offset: 0xDAEF7, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b, symObjAddr: 0x54C, symBinAddr: 0x6492, symSize: 0x44 }
+  - { offsetInCU: 0x7B6, offset: 0xDAF38, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0x590, symBinAddr: 0x64D6, symSize: 0x2C }
+  - { offsetInCU: 0x7F9, offset: 0xDAF7B, size: 0x8, addend: 0x0, symName: '___47-[APTokenManager sendTokenToServer:completion:]_block_invoke.306', symObjAddr: 0x5BC, symBinAddr: 0x6502, symSize: 0x34 }
+  - { offsetInCU: 0x874, offset: 0xDAFF6, size: 0x8, addend: 0x0, symName: '-[APTokenManager sendStatsToServer:completion:]', symObjAddr: 0x5F0, symBinAddr: 0x6536, symSize: 0xD1 }
+  - { offsetInCU: 0x974, offset: 0xDB0F6, size: 0x8, addend: 0x0, symName: '___47-[APTokenManager sendStatsToServer:completion:]_block_invoke', symObjAddr: 0x6C1, symBinAddr: 0x6607, symSize: 0x203 }
+  - { offsetInCU: 0xBC5, offset: 0xDB347, size: 0x8, addend: 0x0, symName: '___47-[APTokenManager sendStatsToServer:completion:]_block_invoke_2', symObjAddr: 0x8C4, symBinAddr: 0x680A, symSize: 0x34 }
+  - { offsetInCU: 0xC0E, offset: 0xDB390, size: 0x8, addend: 0x0, symName: '-[APTokenManager makeRequest:withParameter:headers:payload:completion:]', symObjAddr: 0x8F8, symBinAddr: 0x683E, symSize: 0x178 }
+  - { offsetInCU: 0xE37, offset: 0xDB5B9, size: 0x8, addend: 0x0, symName: '___71-[APTokenManager makeRequest:withParameter:headers:payload:completion:]_block_invoke', symObjAddr: 0xA70, symBinAddr: 0x69B6, symSize: 0x306 }
+  - { offsetInCU: 0x10E9, offset: 0xDB86B, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0xD76, symBinAddr: 0x6CBC, symSize: 0x16 }
+  - { offsetInCU: 0x110E, offset: 0xDB890, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0xD8C, symBinAddr: 0x6CD2, symSize: 0xF }
+  - { offsetInCU: 0x1139, offset: 0xDB8BB, size: 0x8, addend: 0x0, symName: '___71-[APTokenManager makeRequest:withParameter:headers:payload:completion:]_block_invoke.343', symObjAddr: 0xD9B, symBinAddr: 0x6CE1, symSize: 0x9AE }
+  - { offsetInCU: 0x1863, offset: 0xDBFE5, size: 0x8, addend: 0x0, symName: '___71-[APTokenManager makeRequest:withParameter:headers:payload:completion:]_block_invoke_2', symObjAddr: 0x1749, symBinAddr: 0x768F, symSize: 0x252 }
+  - { offsetInCU: 0x1AF0, offset: 0xDC272, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x199B, symBinAddr: 0x78E1, symSize: 0x30 }
+  - { offsetInCU: 0x1B25, offset: 0xDC2A7, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x19CB, symBinAddr: 0x7911, symSize: 0x25 }
+  - { offsetInCU: 0x1B5C, offset: 0xDC2DE, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64s72s80b88r, symObjAddr: 0x19F0, symBinAddr: 0x7936, symSize: 0x72 }
+  - { offsetInCU: 0x1BCD, offset: 0xDC34F, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s72s80s88r, symObjAddr: 0x1A62, symBinAddr: 0x79A8, symSize: 0x56 }
+  - { offsetInCU: 0x1C40, offset: 0xDC3C2, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64s72b, symObjAddr: 0x1AB8, symBinAddr: 0x79FE, symSize: 0x59 }
+  - { offsetInCU: 0x1CA5, offset: 0xDC427, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s72s, symObjAddr: 0x1B11, symBinAddr: 0x7A57, symSize: 0x41 }
+  - { offsetInCU: 0x1D0C, offset: 0xDC48E, size: 0x8, addend: 0x0, symName: '-[APTokenManager serverUrl]', symObjAddr: 0x1B52, symBinAddr: 0x7A98, symSize: 0x1BA }
+  - { offsetInCU: 0x1EA5, offset: 0xDC627, size: 0x8, addend: 0x0, symName: '-[APTokenManager setHTTPHeaderField:]', symObjAddr: 0x1D0C, symBinAddr: 0x7C52, symSize: 0x1BF }
+  - { offsetInCU: 0x20A3, offset: 0xDC825, size: 0x8, addend: 0x0, symName: '-[APTokenManager stringFromDeviceToken:]', symObjAddr: 0x1ECB, symBinAddr: 0x7E11, symSize: 0x116 }
+  - { offsetInCU: 0x27, offset: 0xDCFC7, size: 0x8, addend: 0x0, symName: '-[APTSafeWeakContainer object]', symObjAddr: 0x0, symBinAddr: 0x7F27, symSize: 0x16 }
+  - { offsetInCU: 0x3F, offset: 0xDCFDF, size: 0x8, addend: 0x0, symName: '+[APTAppDelegateObserver sharedInstance]', symObjAddr: 0x35, symBinAddr: 0x7F5C, symSize: 0x30 }
+  - { offsetInCU: 0x69, offset: 0xDD009, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0x11E00, symBinAddr: 0x1B348, symSize: 0x0 }
+  - { offsetInCU: 0x7F, offset: 0xDD01F, size: 0x8, addend: 0x0, symName: _sharedInstance.once, symObjAddr: 0x11E08, symBinAddr: 0x1B350, symSize: 0x0 }
+  - { offsetInCU: 0xFF, offset: 0xDD09F, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler interceptors]', symObjAddr: 0xD4F, symBinAddr: 0x8C76, symSize: 0x30 }
+  - { offsetInCU: 0x12B, offset: 0xDD0CB, size: 0x8, addend: 0x0, symName: _interceptors.onceToken, symObjAddr: 0x11E38, symBinAddr: 0x1B380, symSize: 0x0 }
+  - { offsetInCU: 0x142, offset: 0xDD0E2, size: 0x8, addend: 0x0, symName: _interceptors.sInterceptors, symObjAddr: 0x11E40, symBinAddr: 0x1B388, symSize: 0x0 }
+  - { offsetInCU: 0x18E, offset: 0xDD12E, size: 0x8, addend: 0x0, symName: _aOriginalAppDelegate, symObjAddr: 0x11E10, symBinAddr: 0x1B358, symSize: 0x0 }
+  - { offsetInCU: 0x1CD, offset: 0xDD16D, size: 0x8, addend: 0x0, symName: _aOriginalAppDelegateClass, symObjAddr: 0x11E30, symBinAddr: 0x1B378, symSize: 0x0 }
+  - { offsetInCU: 0x1EC, offset: 0xDD18C, size: 0x8, addend: 0x0, symName: _aAppDelegateSubclass, symObjAddr: 0x11E28, symBinAddr: 0x1B370, symSize: 0x0 }
+  - { offsetInCU: 0x202, offset: 0xDD1A2, size: 0x8, addend: 0x0, symName: _sProxyAppDelegateOnceToken, symObjAddr: 0x11E18, symBinAddr: 0x1B360, symSize: 0x0 }
+  - { offsetInCU: 0x218, offset: 0xDD1B8, size: 0x8, addend: 0x0, symName: _sProxyAppDelegateRemoteNotificationOnceToken, symObjAddr: 0x11E20, symBinAddr: 0x1B368, symSize: 0x0 }
+  - { offsetInCU: 0x22E, offset: 0xDD1CE, size: 0x8, addend: 0x0, symName: _kAPTOrigIMPBySelectorKey, symObjAddr: 0x5768, symBinAddr: 0x14290, symSize: 0x0 }
+  - { offsetInCU: 0x24E, offset: 0xDD1EE, size: 0x8, addend: 0x0, symName: _kAPTOrigClassKey, symObjAddr: 0x5790, symBinAddr: 0x14298, symSize: 0x0 }
+  - { offsetInCU: 0x2BC, offset: 0xDD25C, size: 0x8, addend: 0x0, symName: '-[APTSafeWeakContainer object]', symObjAddr: 0x0, symBinAddr: 0x7F27, symSize: 0x16 }
+  - { offsetInCU: 0x2F3, offset: 0xDD293, size: 0x8, addend: 0x0, symName: '-[APTSafeWeakContainer setObject:]', symObjAddr: 0x16, symBinAddr: 0x7F3D, symSize: 0x11 }
+  - { offsetInCU: 0x332, offset: 0xDD2D2, size: 0x8, addend: 0x0, symName: '-[APTSafeWeakContainer .cxx_destruct]', symObjAddr: 0x27, symBinAddr: 0x7F4E, symSize: 0xE }
+  - { offsetInCU: 0x3AC, offset: 0xDD34C, size: 0x8, addend: 0x0, symName: '___40+[APTAppDelegateObserver sharedInstance]_block_invoke', symObjAddr: 0x65, symBinAddr: 0x7F8C, symSize: 0x25 }
+  - { offsetInCU: 0x3DF, offset: 0xDD37F, size: 0x8, addend: 0x0, symName: '-[APTAppDelegateObserver observeUIApplication]', symObjAddr: 0x8A, symBinAddr: 0x7FB1, symSize: 0x6E }
+  - { offsetInCU: 0x452, offset: 0xDD3F2, size: 0x8, addend: 0x0, symName: '-[APTAppDelegateObserver observeValueForKeyPath:ofObject:change:context:]', symObjAddr: 0xF8, symBinAddr: 0x801F, symSize: 0x143 }
+  - { offsetInCU: 0x5E0, offset: 0xDD580, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler isAppDelegateProxyEnabled]', symObjAddr: 0x23B, symBinAddr: 0x8162, symSize: 0xB }
+  - { offsetInCU: 0x613, offset: 0xDD5B3, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler registerAppDelegateInterceptor:]', symObjAddr: 0x246, symBinAddr: 0x816D, symSize: 0x1BB }
+  - { offsetInCU: 0x79F, offset: 0xDD73F, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler unregisterAppDelegateInterceptorWithIdentifier:]', symObjAddr: 0x401, symBinAddr: 0x8328, symSize: 0x14C }
+  - { offsetInCU: 0x8CD, offset: 0xDD86D, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler proxyOrigDelegate]', symObjAddr: 0x54D, symBinAddr: 0x8474, symSize: 0x24 }
+  - { offsetInCU: 0x917, offset: 0xDD8B7, size: 0x8, addend: 0x0, symName: '___42+[APAppDelegateSwizzler proxyOrigDelegate]_block_invoke', symObjAddr: 0x571, symBinAddr: 0x8498, symSize: 0x77 }
+  - { offsetInCU: 0x9AD, offset: 0xDD94D, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler proxyOrigDelegateIncludingAPNSMethods]', symObjAddr: 0x5E8, symBinAddr: 0x850F, symSize: 0x6A }
+  - { offsetInCU: 0xA23, offset: 0xDD9C3, size: 0x8, addend: 0x0, symName: '___62+[APAppDelegateSwizzler proxyOrigDelegateIncludingAPNSMethods]_block_invoke', symObjAddr: 0x652, symBinAddr: 0x8579, symSize: 0x10B }
+  - { offsetInCU: 0xBB8, offset: 0xDDB58, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler sharedApplication]', symObjAddr: 0x75D, symBinAddr: 0x8684, symSize: 0x5F }
+  - { offsetInCU: 0xC6C, offset: 0xDDC0C, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler createSubclassWithObject:]', symObjAddr: 0x7BC, symBinAddr: 0x86E3, symSize: 0x32D }
+  - { offsetInCU: 0xFCC, offset: 0xDDF6C, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler proxyRemoteNotificationsHandlingWithAppDelegateSubClass:realClass:appDelegate:realImplementationsBySelector:]', symObjAddr: 0xAE9, symBinAddr: 0x8A10, symSize: 0x154 }
+  - { offsetInCU: 0x114E, offset: 0xDE0EE, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler reconfigureAppDelegate]', symObjAddr: 0xC3D, symBinAddr: 0x8B64, symSize: 0x112 }
+  - { offsetInCU: 0x128A, offset: 0xDE22A, size: 0x8, addend: 0x0, symName: '___37+[APAppDelegateSwizzler interceptors]_block_invoke', symObjAddr: 0xD7F, symBinAddr: 0x8CA6, symSize: 0x25 }
+  - { offsetInCU: 0x12BF, offset: 0xDE25F, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler fetchOriginalSelectorImplementation:object:]', symObjAddr: 0xDA4, symBinAddr: 0x8CCB, symSize: 0x7C }
+  - { offsetInCU: 0x1385, offset: 0xDE325, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler targetSelectorForProxy:implementationsFromSourceSelector:fromClass:toClass:realClass:storeDestinationImplementationTo:]', symObjAddr: 0xE20, symBinAddr: 0x8D47, symSize: 0xE5 }
+  - { offsetInCU: 0x1514, offset: 0xDE4B4, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler registerInstanceMethodWithSelector:fromClass:toClass:]', symObjAddr: 0xF05, symBinAddr: 0x8E2C, symSize: 0x1B }
+  - { offsetInCU: 0x15AC, offset: 0xDE54C, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler registerInstanceMethodWithDestinationSelector:withImplementationFromSourceSelector:fromClass:toClass:]', symObjAddr: 0xF20, symBinAddr: 0x8E47, symSize: 0xB3 }
+  - { offsetInCU: 0x177B, offset: 0xDE71B, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler implMethodSelector:fromClass:]', symObjAddr: 0xFD3, symBinAddr: 0x8EFA, symSize: 0x18 }
+  - { offsetInCU: 0x180F, offset: 0xDE7AF, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler broadcastToInterceptorsUsingSelector:callback:]', symObjAddr: 0xFEB, symBinAddr: 0x8F12, symSize: 0xCC }
+  - { offsetInCU: 0x18F2, offset: 0xDE892, size: 0x8, addend: 0x0, symName: '___71+[APAppDelegateSwizzler broadcastToInterceptorsUsingSelector:callback:]_block_invoke', symObjAddr: 0x10B7, symBinAddr: 0x8FDE, symSize: 0xED }
+  - { offsetInCU: 0x1A45, offset: 0xDE9E5, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x11A4, symBinAddr: 0x90CB, symSize: 0x17 }
+  - { offsetInCU: 0x1A6E, offset: 0xDEA0E, size: 0x8, addend: 0x0, symName: '-[APAppDelegateSwizzler application:donor_didRegisterForRemoteNotificationsWithDeviceToken:]', symObjAddr: 0x11CA, symBinAddr: 0x90E2, symSize: 0x13B }
+  - { offsetInCU: 0x1C10, offset: 0xDEBB0, size: 0x8, addend: 0x0, symName: '___92-[APAppDelegateSwizzler application:donor_didRegisterForRemoteNotificationsWithDeviceToken:]_block_invoke', symObjAddr: 0x1305, symBinAddr: 0x921D, symSize: 0xC9 }
+  - { offsetInCU: 0x1D72, offset: 0xDED12, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x13CE, symBinAddr: 0x92E6, symSize: 0x25 }
+  - { offsetInCU: 0x1DB3, offset: 0xDED53, size: 0x8, addend: 0x0, symName: '-[APAppDelegateSwizzler application:donor_didFailToRegisterForRemoteNotificationsWithError:]', symObjAddr: 0x1418, symBinAddr: 0x930B, symSize: 0x13B }
+  - { offsetInCU: 0x1F55, offset: 0xDEEF5, size: 0x8, addend: 0x0, symName: '___92-[APAppDelegateSwizzler application:donor_didFailToRegisterForRemoteNotificationsWithError:]_block_invoke', symObjAddr: 0x1553, symBinAddr: 0x9446, symSize: 0xC9 }
+  - { offsetInCU: 0x20B7, offset: 0xDF057, size: 0x8, addend: 0x0, symName: '-[APAppDelegateSwizzler application:donor_didReceiveRemoteNotification:fetchCompletionHandler:]', symObjAddr: 0x161C, symBinAddr: 0x950F, symSize: 0x335 }
+  - { offsetInCU: 0x23C9, offset: 0xDF369, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x1951, symBinAddr: 0x9844, symSize: 0x16 }
+  - { offsetInCU: 0x23EE, offset: 0xDF38E, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x1967, symBinAddr: 0x985A, symSize: 0xF }
+  - { offsetInCU: 0x2419, offset: 0xDF3B9, size: 0x8, addend: 0x0, symName: '___95-[APAppDelegateSwizzler application:donor_didReceiveRemoteNotification:fetchCompletionHandler:]_block_invoke', symObjAddr: 0x1976, symBinAddr: 0x9869, symSize: 0x72 }
+  - { offsetInCU: 0x24CA, offset: 0xDF46A, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32r40r, symObjAddr: 0x19E8, symBinAddr: 0x98DB, symSize: 0x38 }
+  - { offsetInCU: 0x24F3, offset: 0xDF493, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32r40r, symObjAddr: 0x1A20, symBinAddr: 0x9913, symSize: 0x2B }
+  - { offsetInCU: 0x2512, offset: 0xDF4B2, size: 0x8, addend: 0x0, symName: '___95-[APAppDelegateSwizzler application:donor_didReceiveRemoteNotification:fetchCompletionHandler:]_block_invoke.562', symObjAddr: 0x1A4B, symBinAddr: 0x993E, symSize: 0xE9 }
+  - { offsetInCU: 0x26D4, offset: 0xDF674, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b56r, symObjAddr: 0x1B34, symBinAddr: 0x9A27, symSize: 0x56 }
+  - { offsetInCU: 0x2715, offset: 0xDF6B5, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56r, symObjAddr: 0x1B8A, symBinAddr: 0x9A7D, symSize: 0x3A }
+  - { offsetInCU: 0x2758, offset: 0xDF6F8, size: 0x8, addend: 0x0, symName: '___95-[APAppDelegateSwizzler application:donor_didReceiveRemoteNotification:fetchCompletionHandler:]_block_invoke.563', symObjAddr: 0x1BC4, symBinAddr: 0x9AB7, symSize: 0x1B0 }
+  - { offsetInCU: 0x289B, offset: 0xDF83B, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b40r, symObjAddr: 0x1D74, symBinAddr: 0x9C67, symSize: 0x38 }
+  - { offsetInCU: 0x28C4, offset: 0xDF864, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40r, symObjAddr: 0x1DAC, symBinAddr: 0x9C9F, symSize: 0x27 }
+  - { offsetInCU: 0x28EF, offset: 0xDF88F, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler invokeAppDelegateForSelector:]', symObjAddr: 0x1DD3, symBinAddr: 0x9CC6, symSize: 0x79 }
+  - { offsetInCU: 0x29CF, offset: 0xDF96F, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler proxyAppDelegate:]', symObjAddr: 0x1E4C, symBinAddr: 0x9D3F, symSize: 0x1AF }
+  - { offsetInCU: 0x27, offset: 0xE021D, size: 0x8, addend: 0x0, symName: '+[APMessaging shared]', symObjAddr: 0x0, symBinAddr: 0x9EEE, symSize: 0x30 }
+  - { offsetInCU: 0x3F, offset: 0xE0235, size: 0x8, addend: 0x0, symName: '+[APMessaging shared]', symObjAddr: 0x0, symBinAddr: 0x9EEE, symSize: 0x30 }
+  - { offsetInCU: 0x69, offset: 0xE025F, size: 0x8, addend: 0x0, symName: _shared.instance, symObjAddr: 0xB7C0, symBinAddr: 0x1B390, symSize: 0x0 }
+  - { offsetInCU: 0x7F, offset: 0xE0275, size: 0x8, addend: 0x0, symName: _shared.once, symObjAddr: 0xB7C8, symBinAddr: 0x1B398, symSize: 0x0 }
+  - { offsetInCU: 0x1FE, offset: 0xE03F4, size: 0x8, addend: 0x0, symName: '___21+[APMessaging shared]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x9F1E, symSize: 0x10E }
+  - { offsetInCU: 0x2D8, offset: 0xE04CE, size: 0x8, addend: 0x0, symName: '+[APMessaging startService]', symObjAddr: 0x13E, symBinAddr: 0xA02C, symSize: 0x56 }
+  - { offsetInCU: 0x343, offset: 0xE0539, size: 0x8, addend: 0x0, symName: '-[APMessaging APNSToken]', symObjAddr: 0x194, symBinAddr: 0xA082, symSize: 0x12 }
+  - { offsetInCU: 0x38D, offset: 0xE0583, size: 0x8, addend: 0x0, symName: '-[APMessaging setAPNSToken:]', symObjAddr: 0x1A6, symBinAddr: 0xA094, symSize: 0x15C }
+  - { offsetInCU: 0x529, offset: 0xE071F, size: 0x8, addend: 0x0, symName: '-[APMessaging updateLogMsgIds:]', symObjAddr: 0x302, symBinAddr: 0xA1F0, symSize: 0x329 }
+  - { offsetInCU: 0x7B0, offset: 0xE09A6, size: 0x8, addend: 0x0, symName: '___31-[APMessaging updateLogMsgIds:]_block_invoke', symObjAddr: 0x62B, symBinAddr: 0xA519, symSize: 0x40 }
+  - { offsetInCU: 0x7FD, offset: 0xE09F3, size: 0x8, addend: 0x0, symName: '-[APMessaging appDidReceiveMessage:withResponse:]', symObjAddr: 0x66B, symBinAddr: 0xA559, symSize: 0x9B4 }
+  - { offsetInCU: 0xF3A, offset: 0xE1130, size: 0x8, addend: 0x0, symName: '___49-[APMessaging appDidReceiveMessage:withResponse:]_block_invoke', symObjAddr: 0x101F, symBinAddr: 0xAF0D, symSize: 0x40 }
+  - { offsetInCU: 0xF88, offset: 0xE117E, size: 0x8, addend: 0x0, symName: '___49-[APMessaging appDidReceiveMessage:withResponse:]_block_invoke_2', symObjAddr: 0x105F, symBinAddr: 0xAF4D, symSize: 0x40 }
+  - { offsetInCU: 0xFD6, offset: 0xE11CC, size: 0x8, addend: 0x0, symName: '-[APMessaging didFailToRegisterForRemoteNotificationsWithError:]', symObjAddr: 0x109F, symBinAddr: 0xAF8D, symSize: 0x46 }
+  - { offsetInCU: 0x102C, offset: 0xE1222, size: 0x8, addend: 0x0, symName: '-[APMessaging updateBadgeCount:]', symObjAddr: 0x10E5, symBinAddr: 0xAFD3, symSize: 0x90 }
+  - { offsetInCU: 0x10E3, offset: 0xE12D9, size: 0x8, addend: 0x0, symName: '-[APMessaging getBadgeCount]', symObjAddr: 0x1175, symBinAddr: 0xB063, symSize: 0x8B }
+  - { offsetInCU: 0x1195, offset: 0xE138B, size: 0x8, addend: 0x0, symName: '-[APMessaging getSharedDefaults]', symObjAddr: 0x1200, symBinAddr: 0xB0EE, symSize: 0x14B }
+  - { offsetInCU: 0x12C7, offset: 0xE14BD, size: 0x8, addend: 0x0, symName: '-[APMessaging findValueForKey:inDictionary:]', symObjAddr: 0x134B, symBinAddr: 0xB239, symSize: 0x3D4 }
+  - { offsetInCU: 0x1505, offset: 0xE16FB, size: 0x8, addend: 0x0, symName: '-[APMessaging getActionButtonById:inArray:]', symObjAddr: 0x171F, symBinAddr: 0xB60D, symSize: 0x1D8 }
+  - { offsetInCU: 0x1663, offset: 0xE1859, size: 0x8, addend: 0x0, symName: '-[APMessaging parseBodyString:]', symObjAddr: 0x18F7, symBinAddr: 0xB7E5, symSize: 0x13F }
+  - { offsetInCU: 0x1793, offset: 0xE1989, size: 0x8, addend: 0x0, symName: '-[APMessaging globalEngagementDataNotification:]', symObjAddr: 0x1A36, symBinAddr: 0xB924, symSize: 0x398 }
+  - { offsetInCU: 0x1A7D, offset: 0xE1C73, size: 0x8, addend: 0x0, symName: '___48-[APMessaging globalEngagementDataNotification:]_block_invoke', symObjAddr: 0x1DCE, symBinAddr: 0xBCBC, symSize: 0x40 }
+  - { offsetInCU: 0x1ACE, offset: 0xE1CC4, size: 0x8, addend: 0x0, symName: '-[APMessaging applicationDidBecomeActive:]', symObjAddr: 0x1E0E, symBinAddr: 0xBCFC, symSize: 0x5F }
+  - { offsetInCU: 0x1B7C, offset: 0xE1D72, size: 0x8, addend: 0x0, symName: '___42-[APMessaging applicationDidBecomeActive:]_block_invoke', symObjAddr: 0x1E6D, symBinAddr: 0xBD5B, symSize: 0x117 }
+  - { offsetInCU: 0x1CBA, offset: 0xE1EB0, size: 0x8, addend: 0x0, symName: '___42-[APMessaging applicationDidBecomeActive:]_block_invoke_2', symObjAddr: 0x1F84, symBinAddr: 0xBE72, symSize: 0x40 }
+  - { offsetInCU: 0x1D0B, offset: 0xE1F01, size: 0x8, addend: 0x0, symName: '-[APMessaging pnToken]', symObjAddr: 0x1FE2, symBinAddr: 0xBEB2, symSize: 0xA }
+  - { offsetInCU: 0x1D40, offset: 0xE1F36, size: 0x8, addend: 0x0, symName: '-[APMessaging apnsToken]', symObjAddr: 0x1FEC, symBinAddr: 0xBEBC, symSize: 0xA }
+  - { offsetInCU: 0x1D75, offset: 0xE1F6B, size: 0x8, addend: 0x0, symName: '-[APMessaging setApnsToken:]', symObjAddr: 0x1FF6, symBinAddr: 0xBEC6, symSize: 0x11 }
+  - { offsetInCU: 0x1DB4, offset: 0xE1FAA, size: 0x8, addend: 0x0, symName: '-[APMessaging appticsPnID]', symObjAddr: 0x2007, symBinAddr: 0xBED7, symSize: 0xA }
+  - { offsetInCU: 0x1DE9, offset: 0xE1FDF, size: 0x8, addend: 0x0, symName: '-[APMessaging setAppticsPnID:]', symObjAddr: 0x2011, symBinAddr: 0xBEE1, symSize: 0x11 }
+  - { offsetInCU: 0x1E28, offset: 0xE201E, size: 0x8, addend: 0x0, symName: '-[APMessaging conversionEvent]', symObjAddr: 0x2022, symBinAddr: 0xBEF2, symSize: 0xA }
+  - { offsetInCU: 0x1E5D, offset: 0xE2053, size: 0x8, addend: 0x0, symName: '-[APMessaging setConversionEvent:]', symObjAddr: 0x202C, symBinAddr: 0xBEFC, symSize: 0x11 }
+  - { offsetInCU: 0x1E9C, offset: 0xE2092, size: 0x8, addend: 0x0, symName: '-[APMessaging pnID]', symObjAddr: 0x203D, symBinAddr: 0xBF0D, symSize: 0xA }
+  - { offsetInCU: 0x1ED1, offset: 0xE20C7, size: 0x8, addend: 0x0, symName: '-[APMessaging setPnID:]', symObjAddr: 0x2047, symBinAddr: 0xBF17, symSize: 0x11 }
+  - { offsetInCU: 0x1F10, offset: 0xE2106, size: 0x8, addend: 0x0, symName: '-[APMessaging .cxx_destruct]', symObjAddr: 0x2058, symBinAddr: 0xBF28, symSize: 0x49 }
 ...
