@@ -16,21 +16,29 @@
 		<data>
 		gsLXoN4ttVcnevnfBgEnpuxfjPQ=
 		</data>
+		<key>Headers/APNotificationHandler.h</key>
+		<data>
+		E8n/ynx28TPzX86DJuoDfw2CRSk=
+		</data>
 		<key>Headers/APTokenManager.h</key>
 		<data>
 		kUxHSE5YdhJHjy9+/+EhcWA0w+M=
 		</data>
 		<key>Headers/AppticsMessaging.h</key>
 		<data>
-		yFjRjRBkqFdKVSPDGfPsi4QHtIo=
+		eQkV4njoV0vNPdz3nBURUcd/2Gw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		io73ICZOpVC8D2H3MLDdbclQ0HA=
+		4Iux/9FjyS59rvvoL3dgEmkhXh4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		CL0KtBrWNlNUqYr8LKEy9uwsvDs=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		cl5C9XI0dGK5oiqjbyJFIC3sCV4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -56,6 +64,13 @@
 			2STNiC5nAGh2LPXnQysuvcOMLq9ci0T0ldb5/dqSrI4=
 			</data>
 		</dict>
+		<key>Headers/APNotificationHandler.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			C+0+zZ+n5/I4nA7uLIpzn58lO+Ag6FLpNmoU7A6iWXI=
+			</data>
+		</dict>
 		<key>Headers/APTokenManager.h</key>
 		<dict>
 			<key>hash2</key>
@@ -67,7 +82,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rQzZDuXaV6K3R4KSIBP3mCP36rZ1j8OEJiv1uVCqa3Y=
+			2CcbbspDbOUp0obfEygJ+RlFK1wJYS8m+ysH3s4UKC8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -75,6 +90,13 @@
 			<key>hash2</key>
 			<data>
 			BQQiiCya5mfET+waG2nvngUcRp5P3T4RagpXOpjgD/0=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7Abj29BKhiz8bFZbe/Iw3CNg7SORJLWdcXrFRbYKRZw=
 			</data>
 		</dict>
 	</dict>

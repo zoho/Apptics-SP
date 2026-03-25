@@ -1,6 +1,6 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.6
  import PackageDescription
- let version = "3.3.12006"
+ let version = "3.3.12"
  let package = Package(
      name: "Apptics",
      defaultLocalization: "en",
@@ -48,6 +48,10 @@
              targets: ["AppticsFeedbackKitSwift"]
          ),
          .library(
+             name: "AppticsFeedbackKitSwiftMacOS",
+             targets: ["AppticsFeedbackKitSwiftMacOS"]
+         ),
+         .library(
              name: "AppticsPrivacyShield",
              targets: ["AppticsPrivacyShield"]
          ),
@@ -58,6 +62,10 @@
          .library(
              name: "AppticsNotificationServiceExtension",
              targets: ["AppticsNotificationServiceExtension"]
+         ),
+         .library(
+             name: "AppticsNotificationContentExtension",
+             targets: ["AppticsNotificationContentExtension"]
          )
      ],
      targets: [
@@ -121,6 +129,10 @@
              name: "AppticsNotificationServiceExtension",
              path: "AppticsNotificationServiceExtension.xcframework"
          ),
+         .binaryTarget(
+             name: "AppticsNotificationContentExtension",
+             path: "AppticsNotificationContentExtension.xcframework"
+         ),
          .target(
              name: "AppticsExtension",
              path: "SwiftFiles/AppExtension",
@@ -166,7 +178,20 @@
                  .copy("ScreenShotView.xib"),
                  .copy("QuartzResources.bundle")
              ]
-         )
+         ),
+         .target(
+                     name: "AppticsFeedbackKitSwiftMacOS",
+                     dependencies: ["AppticsFeedbackKit"],
+                     path: "SwiftFiles/AppticsMacFeedbackKit",
+                     resources: [
+                         .copy("AttachementFeed.png"),
+                         .copy("messageIcon.png"),
+                         .copy("Close.png"),
+                         .copy("Info.png"),
+                         .copy("AppticsFeedbackViewController.xib"),
+                         .copy("CollectionCell.xib"),
+                         .copy("PrivacyInfo.xcprivacy")
+                     ]
+                 )
      ]
 )
-
