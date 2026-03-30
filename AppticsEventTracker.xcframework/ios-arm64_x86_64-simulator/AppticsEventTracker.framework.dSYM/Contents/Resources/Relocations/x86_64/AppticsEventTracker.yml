@@ -1,6 +1,6 @@
 ---
 triple:          'x86_64-apple-darwin'
-binary-path:     '/Users/saravanan-0639/Library/Developer/Xcode/DerivedData/Apptics-azcsysvfdnednagsmpljeyeczlzy/Build/Intermediates.noindex/ArchiveIntermediates/AppticsEventTracker/InstallationBuildProductsLocation/Library/Frameworks/AppticsEventTracker.framework/AppticsEventTracker'
+binary-path:     '/Users/jai-13322/Library/Developer/Xcode/DerivedData/Apptics-ccjyicllufnqkefyezduqrwtelwr/Build/Intermediates.noindex/ArchiveIntermediates/AppticsEventTracker/InstallationBuildProductsLocation/Library/Frameworks/AppticsEventTracker.framework/AppticsEventTracker'
 relocations:
   - { offset: 0x869F4, size: 0x8, addend: 0x0, symName: _AppticsEventTrackerVersionString, symObjAddr: 0x0, symBinAddr: 0x70C0, symSize: 0x0 }
   - { offset: 0x86A29, size: 0x8, addend: 0x0, symName: _AppticsEventTrackerVersionNumber, symObjAddr: 0x48, symBinAddr: 0x7108, symSize: 0x0 }
@@ -52,8 +52,8 @@ relocations:
   - { offset: 0x86E68, size: 0x8, addend: 0x0, symName: _AP_GROUP_APP_LIFE_CYCLE, symObjAddr: 0x6FC0, symBinAddr: 0xA340, symSize: 0x0 }
   - { offset: 0x86E7E, size: 0x8, addend: 0x0, symName: _AP_GROUP_USER_LIFE_CYCLE, symObjAddr: 0x6FC8, symBinAddr: 0xA348, symSize: 0x0 }
   - { offset: 0x86E88, size: 0x8, addend: 0x0, symName: '+[APEvent getInstance]', symObjAddr: 0x0, symBinAddr: 0xC60, symSize: 0x22 }
-  - { offset: 0x86EB2, size: 0x8, addend: 0x0, symName: _getInstance.getInstance, symObjAddr: 0x1B0A8, symBinAddr: 0xC500, symSize: 0x0 }
-  - { offset: 0x86EC8, size: 0x8, addend: 0x0, symName: _getInstance.onceToken, symObjAddr: 0x1B0B0, symBinAddr: 0xC508, symSize: 0x0 }
+  - { offset: 0x86EB2, size: 0x8, addend: 0x0, symName: _getInstance.getInstance, symObjAddr: 0x1B080, symBinAddr: 0xC500, symSize: 0x0 }
+  - { offset: 0x86EC8, size: 0x8, addend: 0x0, symName: _getInstance.onceToken, symObjAddr: 0x1B088, symBinAddr: 0xC508, symSize: 0x0 }
   - { offset: 0x87039, size: 0x8, addend: 0x0, symName: '-[APEvent applicationDidFinishLaunching:]', symObjAddr: 0xF36, symBinAddr: 0x1B96, symSize: 0x711 }
   - { offset: 0x877A7, size: 0x8, addend: 0x0, symName: '+[APEvent getInstance].cold.1', symObjAddr: 0x529A, symBinAddr: 0x6D8A, symSize: 0x18 }
   - { offset: 0x877D5, size: 0x8, addend: 0x0, symName: '___22+[APEvent getInstance]_block_invoke', symObjAddr: 0x22, symBinAddr: 0xC82, symSize: 0x390 }
@@ -134,10 +134,10 @@ relocations:
   - { offset: 0x8C7DF, size: 0x8, addend: 0x0, symName: '-[APEvent .cxx_destruct]', symObjAddr: 0x522A, symBinAddr: 0x5E8A, symSize: 0x66 }
   - { offset: 0x8CC69, size: 0x8, addend: 0x0, symName: '+[APExtensionEventList load]', symObjAddr: 0x0, symBinAddr: 0x5EF0, symSize: 0x16 }
   - { offset: 0x8CC7C, size: 0x8, addend: 0x0, symName: '+[APExtensionEventList load]', symObjAddr: 0x0, symBinAddr: 0x5EF0, symSize: 0x16 }
-  - { offset: 0x8CCA2, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x4F68, symBinAddr: 0xC510, symSize: 0x0 }
+  - { offset: 0x8CCA2, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x4F50, symBinAddr: 0xC510, symSize: 0x0 }
   - { offset: 0x8CCE3, size: 0x8, addend: 0x0, symName: '+[APExtensionEventList listener]', symObjAddr: 0x38, symBinAddr: 0x5F28, symSize: 0x22 }
-  - { offset: 0x8CD0D, size: 0x8, addend: 0x0, symName: _listener.listener, symObjAddr: 0x4F70, symBinAddr: 0xC518, symSize: 0x0 }
-  - { offset: 0x8CD23, size: 0x8, addend: 0x0, symName: _listener.onceToken, symObjAddr: 0x4F78, symBinAddr: 0xC520, symSize: 0x0 }
+  - { offset: 0x8CD0D, size: 0x8, addend: 0x0, symName: _listener.listener, symObjAddr: 0x4F58, symBinAddr: 0xC518, symSize: 0x0 }
+  - { offset: 0x8CD23, size: 0x8, addend: 0x0, symName: _listener.onceToken, symObjAddr: 0x4F60, symBinAddr: 0xC520, symSize: 0x0 }
   - { offset: 0x8CDC2, size: 0x8, addend: 0x0, symName: '+[APExtensionEventList load].cold.1', symObjAddr: 0x921, symBinAddr: 0x6DA2, symSize: 0x18 }
   - { offset: 0x8CDF0, size: 0x8, addend: 0x0, symName: '___28+[APExtensionEventList load]_block_invoke', symObjAddr: 0x16, symBinAddr: 0x5F06, symSize: 0x22 }
   - { offset: 0x8CE23, size: 0x8, addend: 0x0, symName: '+[APExtensionEventList listener].cold.1', symObjAddr: 0x939, symBinAddr: 0x6DBA, symSize: 0x18 }
@@ -146,7 +146,7 @@ relocations:
   - { offset: 0x8CF02, size: 0x8, addend: 0x0, symName: '+[APExtensionEventList purgeExtensionData]', symObjAddr: 0x108, symBinAddr: 0x5FF8, symSize: 0x819 }
   - { offset: 0x8D629, size: 0x8, addend: 0x0, symName: '+[APEvent(Extension) load]', symObjAddr: 0x0, symBinAddr: 0x6811, symSize: 0x16 }
   - { offset: 0x8D637, size: 0x8, addend: 0x0, symName: '+[APEvent(Extension) load]', symObjAddr: 0x0, symBinAddr: 0x6811, symSize: 0x16 }
-  - { offset: 0x8D65D, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x2258, symBinAddr: 0xC528, symSize: 0x0 }
+  - { offset: 0x8D65D, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x2248, symBinAddr: 0xC528, symSize: 0x0 }
   - { offset: 0x8D6DA, size: 0x8, addend: 0x0, symName: '+[APEvent(Extension) load].cold.1', symObjAddr: 0x8B, symBinAddr: 0x6DD2, symSize: 0x18 }
   - { offset: 0x8D708, size: 0x8, addend: 0x0, symName: '___26+[APEvent(Extension) load]_block_invoke', symObjAddr: 0x16, symBinAddr: 0x6827, symSize: 0x44 }
   - { offset: 0x8D753, size: 0x8, addend: 0x0, symName: '-[APEvent(Extension) notificationExtendedMethod]', symObjAddr: 0x5A, symBinAddr: 0x686B, symSize: 0x19 }

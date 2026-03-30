@@ -1,12 +1,12 @@
 ---
 triple:          'x86_64-apple-darwin'
-binary-path:     '/Users/saravanan-0639/Library/Developer/Xcode/DerivedData/Apptics-azcsysvfdnednagsmpljeyeczlzy/Build/Intermediates.noindex/ArchiveIntermediates/AppticsRateUs/InstallationBuildProductsLocation/Library/Frameworks/AppticsRateUs.framework/AppticsRateUs'
+binary-path:     '/Users/jai-13322/Library/Developer/Xcode/DerivedData/Apptics-ccjyicllufnqkefyezduqrwtelwr/Build/Intermediates.noindex/ArchiveIntermediates/AppticsRateUs/InstallationBuildProductsLocation/Library/Frameworks/AppticsRateUs.framework/AppticsRateUs'
 relocations:
   - { offset: 0xA40BA, size: 0x8, addend: 0x0, symName: _AppticsRateUsVersionString, symObjAddr: 0x0, symBinAddr: 0x81F0, symSize: 0x0 }
   - { offset: 0xA40EF, size: 0x8, addend: 0x0, symName: _AppticsRateUsVersionNumber, symObjAddr: 0x40, symBinAddr: 0x8230, symSize: 0x0 }
   - { offset: 0xA412C, size: 0x8, addend: 0x0, symName: '+[ARCustomHandlerManager sharedHandlerManager]', symObjAddr: 0x0, symBinAddr: 0xCE8, symSize: 0x22 }
-  - { offset: 0xA4146, size: 0x8, addend: 0x0, symName: _sharedHandler, symObjAddr: 0x28D8, symBinAddr: 0xD0F0, symSize: 0x0 }
-  - { offset: 0xA41B5, size: 0x8, addend: 0x0, symName: _onceHandlerToken, symObjAddr: 0x28E0, symBinAddr: 0xD0F8, symSize: 0x0 }
+  - { offset: 0xA4146, size: 0x8, addend: 0x0, symName: _sharedHandler, symObjAddr: 0x28C0, symBinAddr: 0xD0F0, symSize: 0x0 }
+  - { offset: 0xA41B5, size: 0x8, addend: 0x0, symName: _onceHandlerToken, symObjAddr: 0x28C8, symBinAddr: 0xD0F8, symSize: 0x0 }
   - { offset: 0xA425D, size: 0x8, addend: 0x0, symName: '+[ARCustomHandlerManager sharedHandlerManager]', symObjAddr: 0x0, symBinAddr: 0xCE8, symSize: 0x22 }
   - { offset: 0xA42AB, size: 0x8, addend: 0x0, symName: '+[ARCustomHandlerManager sharedHandlerManager].cold.1', symObjAddr: 0x1E4, symBinAddr: 0x8006, symSize: 0x18 }
   - { offset: 0xA42D9, size: 0x8, addend: 0x0, symName: '___46+[ARCustomHandlerManager sharedHandlerManager]_block_invoke', symObjAddr: 0x22, symBinAddr: 0xD0A, symSize: 0x41 }
@@ -17,7 +17,7 @@ relocations:
   - { offset: 0xA450E, size: 0x8, addend: 0x0, symName: '-[ARCustomHandlerManager .cxx_destruct]', symObjAddr: 0x1D4, symBinAddr: 0xEBC, symSize: 0x10 }
   - { offset: 0xA4616, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load]', symObjAddr: 0x0, symBinAddr: 0xECC, symSize: 0x16 }
   - { offset: 0xA4624, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load]', symObjAddr: 0x0, symBinAddr: 0xECC, symSize: 0x16 }
-  - { offset: 0xA464A, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x2918, symBinAddr: 0xD100, symSize: 0x0 }
+  - { offset: 0xA464A, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x2908, symBinAddr: 0xD100, symSize: 0x0 }
   - { offset: 0xA46C7, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load].cold.1', symObjAddr: 0x38, symBinAddr: 0x801E, symSize: 0x18 }
   - { offset: 0xA46F5, size: 0x8, addend: 0x0, symName: '___27+[Analytics(Listener) load]_block_invoke', symObjAddr: 0x16, symBinAddr: 0xEE2, symSize: 0x22 }
   - { offset: 0xA47F4, size: 0x8, addend: 0x0, symName: _SRModelFromData, symObjAddr: 0x0, symBinAddr: 0xF04, symSize: 0x187 }
@@ -130,36 +130,36 @@ relocations:
   - { offset: 0xA7772, size: 0x8, addend: 0x0, symName: '-[SRSessionduration min]', symObjAddr: 0x273D, symBinAddr: 0x3641, symSize: 0xA }
   - { offset: 0xA77A7, size: 0x8, addend: 0x0, symName: '-[SRSessionduration setMin:]', symObjAddr: 0x2747, symBinAddr: 0x364B, symSize: 0xA }
   - { offset: 0xA7CC5, size: 0x8, addend: 0x0, symName: '-[StoreReviewWindow init]', symObjAddr: 0x0, symBinAddr: 0x3655, symSize: 0xCA }
-  - { offset: 0xA7CE9, size: 0x8, addend: 0x0, symName: _JAAppIncrementer, symObjAddr: 0x65E0, symBinAddr: 0xA368, symSize: 0x0 }
-  - { offset: 0xA7CFF, size: 0x8, addend: 0x0, symName: _JALastRemindedDate, symObjAddr: 0x65E8, symBinAddr: 0xA370, symSize: 0x0 }
-  - { offset: 0xA7D15, size: 0x8, addend: 0x0, symName: _JAAppRatingShown, symObjAddr: 0x65F0, symBinAddr: 0xA378, symSize: 0x0 }
-  - { offset: 0xA7D2B, size: 0x8, addend: 0x0, symName: _JAFirstRatingShownDate, symObjAddr: 0x65F8, symBinAddr: 0xA380, symSize: 0x0 }
-  - { offset: 0xA7D41, size: 0x8, addend: 0x0, symName: _JARatedVersion, symObjAddr: 0x6600, symBinAddr: 0xA388, symSize: 0x0 }
-  - { offset: 0xA7D57, size: 0x8, addend: 0x0, symName: _JAExpoRemindPeriod, symObjAddr: 0x6608, symBinAddr: 0xA390, symSize: 0x0 }
-  - { offset: 0xA7D6D, size: 0x8, addend: 0x0, symName: _promptForNewVersion, symObjAddr: 0x6748, symBinAddr: 0xD0B0, symSize: 0x0 }
-  - { offset: 0xA7D8A, size: 0x8, addend: 0x0, symName: _inProgress, symObjAddr: 0x143D8, symBinAddr: 0xD168, symSize: 0x0 }
-  - { offset: 0xA7DA0, size: 0x8, addend: 0x0, symName: _Yes, symObjAddr: 0x6610, symBinAddr: 0xA398, symSize: 0x0 }
-  - { offset: 0xA7DB6, size: 0x8, addend: 0x0, symName: _No, symObjAddr: 0x6618, symBinAddr: 0xA3A0, symSize: 0x0 }
-  - { offset: 0xA7DCC, size: 0x8, addend: 0x0, symName: _rateUs, symObjAddr: 0x6620, symBinAddr: 0xA3A8, symSize: 0x0 }
-  - { offset: 0xA7DE2, size: 0x8, addend: 0x0, symName: _sendFeedback, symObjAddr: 0x6628, symBinAddr: 0xA3B0, symSize: 0x0 }
-  - { offset: 0xA7DF8, size: 0x8, addend: 0x0, symName: _notNow, symObjAddr: 0x6630, symBinAddr: 0xA3B8, symSize: 0x0 }
-  - { offset: 0xA7E0E, size: 0x8, addend: 0x0, symName: _bundleName, symObjAddr: 0x6750, symBinAddr: 0xD0B8, symSize: 0x0 }
-  - { offset: 0xA7E24, size: 0x8, addend: 0x0, symName: _title1, symObjAddr: 0x6758, symBinAddr: 0xD0C0, symSize: 0x0 }
-  - { offset: 0xA7E3A, size: 0x8, addend: 0x0, symName: _message1, symObjAddr: 0x6760, symBinAddr: 0xD0C8, symSize: 0x0 }
-  - { offset: 0xA7E50, size: 0x8, addend: 0x0, symName: _title2, symObjAddr: 0x6768, symBinAddr: 0xD0D0, symSize: 0x0 }
-  - { offset: 0xA7E66, size: 0x8, addend: 0x0, symName: _message2, symObjAddr: 0x6770, symBinAddr: 0xD0D8, symSize: 0x0 }
-  - { offset: 0xA7E7C, size: 0x8, addend: 0x0, symName: _requiredLaunchesBeforeRating, symObjAddr: 0x6778, symBinAddr: 0xD0E0, symSize: 0x0 }
+  - { offset: 0xA7CE9, size: 0x8, addend: 0x0, symName: _JAAppIncrementer, symObjAddr: 0x65E8, symBinAddr: 0xA368, symSize: 0x0 }
+  - { offset: 0xA7CFF, size: 0x8, addend: 0x0, symName: _JALastRemindedDate, symObjAddr: 0x65F0, symBinAddr: 0xA370, symSize: 0x0 }
+  - { offset: 0xA7D15, size: 0x8, addend: 0x0, symName: _JAAppRatingShown, symObjAddr: 0x65F8, symBinAddr: 0xA378, symSize: 0x0 }
+  - { offset: 0xA7D2B, size: 0x8, addend: 0x0, symName: _JAFirstRatingShownDate, symObjAddr: 0x6600, symBinAddr: 0xA380, symSize: 0x0 }
+  - { offset: 0xA7D41, size: 0x8, addend: 0x0, symName: _JARatedVersion, symObjAddr: 0x6608, symBinAddr: 0xA388, symSize: 0x0 }
+  - { offset: 0xA7D57, size: 0x8, addend: 0x0, symName: _JAExpoRemindPeriod, symObjAddr: 0x6610, symBinAddr: 0xA390, symSize: 0x0 }
+  - { offset: 0xA7D6D, size: 0x8, addend: 0x0, symName: _promptForNewVersion, symObjAddr: 0x6750, symBinAddr: 0xD0B0, symSize: 0x0 }
+  - { offset: 0xA7D8A, size: 0x8, addend: 0x0, symName: _inProgress, symObjAddr: 0x143B8, symBinAddr: 0xD168, symSize: 0x0 }
+  - { offset: 0xA7DA0, size: 0x8, addend: 0x0, symName: _Yes, symObjAddr: 0x6618, symBinAddr: 0xA398, symSize: 0x0 }
+  - { offset: 0xA7DB6, size: 0x8, addend: 0x0, symName: _No, symObjAddr: 0x6620, symBinAddr: 0xA3A0, symSize: 0x0 }
+  - { offset: 0xA7DCC, size: 0x8, addend: 0x0, symName: _rateUs, symObjAddr: 0x6628, symBinAddr: 0xA3A8, symSize: 0x0 }
+  - { offset: 0xA7DE2, size: 0x8, addend: 0x0, symName: _sendFeedback, symObjAddr: 0x6630, symBinAddr: 0xA3B0, symSize: 0x0 }
+  - { offset: 0xA7DF8, size: 0x8, addend: 0x0, symName: _notNow, symObjAddr: 0x6638, symBinAddr: 0xA3B8, symSize: 0x0 }
+  - { offset: 0xA7E0E, size: 0x8, addend: 0x0, symName: _bundleName, symObjAddr: 0x6758, symBinAddr: 0xD0B8, symSize: 0x0 }
+  - { offset: 0xA7E24, size: 0x8, addend: 0x0, symName: _title1, symObjAddr: 0x6760, symBinAddr: 0xD0C0, symSize: 0x0 }
+  - { offset: 0xA7E3A, size: 0x8, addend: 0x0, symName: _message1, symObjAddr: 0x6768, symBinAddr: 0xD0C8, symSize: 0x0 }
+  - { offset: 0xA7E50, size: 0x8, addend: 0x0, symName: _title2, symObjAddr: 0x6770, symBinAddr: 0xD0D0, symSize: 0x0 }
+  - { offset: 0xA7E66, size: 0x8, addend: 0x0, symName: _message2, symObjAddr: 0x6778, symBinAddr: 0xD0D8, symSize: 0x0 }
+  - { offset: 0xA7E7C, size: 0x8, addend: 0x0, symName: _requiredLaunchesBeforeRating, symObjAddr: 0x6780, symBinAddr: 0xD0E0, symSize: 0x0 }
   - { offset: 0xA7E8D, size: 0x8, addend: 0x0, symName: '+[APStoreReviewManager getInstance]', symObjAddr: 0x206, symBinAddr: 0x385B, symSize: 0x22 }
-  - { offset: 0xA7EB7, size: 0x8, addend: 0x0, symName: _getInstance.getInstance, symObjAddr: 0x14420, symBinAddr: 0xD148, symSize: 0x0 }
-  - { offset: 0xA7ECD, size: 0x8, addend: 0x0, symName: _getInstance.onceToken, symObjAddr: 0x14428, symBinAddr: 0xD150, symSize: 0x0 }
-  - { offset: 0xA7F92, size: 0x8, addend: 0x0, symName: _criteriaId, symObjAddr: 0x143F0, symBinAddr: 0xD180, symSize: 0x0 }
-  - { offset: 0xA7FAD, size: 0x8, addend: 0x0, symName: _gSource, symObjAddr: 0x143E0, symBinAddr: 0xD170, symSize: 0x0 }
-  - { offset: 0xA7FC3, size: 0x8, addend: 0x0, symName: _modals, symObjAddr: 0x14418, symBinAddr: 0xD1A8, symSize: 0x0 }
-  - { offset: 0xA8000, size: 0x8, addend: 0x0, symName: _ruleBookDictionary, symObjAddr: 0x14400, symBinAddr: 0xD190, symSize: 0x0 }
-  - { offset: 0xA801B, size: 0x8, addend: 0x0, symName: _ruleBookDictionaryArray, symObjAddr: 0x143F8, symBinAddr: 0xD188, symSize: 0x0 }
-  - { offset: 0xA8036, size: 0x8, addend: 0x0, symName: _anchors, symObjAddr: 0x14410, symBinAddr: 0xD1A0, symSize: 0x0 }
-  - { offset: 0xA804C, size: 0x8, addend: 0x0, symName: _triggers, symObjAddr: 0x14408, symBinAddr: 0xD198, symSize: 0x0 }
-  - { offset: 0xA8062, size: 0x8, addend: 0x0, symName: _engagementsAggrigateData, symObjAddr: 0x143E8, symBinAddr: 0xD178, symSize: 0x0 }
+  - { offset: 0xA7EB7, size: 0x8, addend: 0x0, symName: _getInstance.getInstance, symObjAddr: 0x14400, symBinAddr: 0xD148, symSize: 0x0 }
+  - { offset: 0xA7ECD, size: 0x8, addend: 0x0, symName: _getInstance.onceToken, symObjAddr: 0x14408, symBinAddr: 0xD150, symSize: 0x0 }
+  - { offset: 0xA7F92, size: 0x8, addend: 0x0, symName: _criteriaId, symObjAddr: 0x143D0, symBinAddr: 0xD180, symSize: 0x0 }
+  - { offset: 0xA7FAD, size: 0x8, addend: 0x0, symName: _gSource, symObjAddr: 0x143C0, symBinAddr: 0xD170, symSize: 0x0 }
+  - { offset: 0xA7FC3, size: 0x8, addend: 0x0, symName: _modals, symObjAddr: 0x143F8, symBinAddr: 0xD1A8, symSize: 0x0 }
+  - { offset: 0xA8000, size: 0x8, addend: 0x0, symName: _ruleBookDictionary, symObjAddr: 0x143E0, symBinAddr: 0xD190, symSize: 0x0 }
+  - { offset: 0xA801B, size: 0x8, addend: 0x0, symName: _ruleBookDictionaryArray, symObjAddr: 0x143D8, symBinAddr: 0xD188, symSize: 0x0 }
+  - { offset: 0xA8036, size: 0x8, addend: 0x0, symName: _anchors, symObjAddr: 0x143F0, symBinAddr: 0xD1A0, symSize: 0x0 }
+  - { offset: 0xA804C, size: 0x8, addend: 0x0, symName: _triggers, symObjAddr: 0x143E8, symBinAddr: 0xD198, symSize: 0x0 }
+  - { offset: 0xA8062, size: 0x8, addend: 0x0, symName: _engagementsAggrigateData, symObjAddr: 0x143C8, symBinAddr: 0xD178, symSize: 0x0 }
   - { offset: 0xA809D, size: 0x8, addend: 0x0, symName: '-[StoreReviewWindow init]', symObjAddr: 0x0, symBinAddr: 0x3655, symSize: 0xCA }
   - { offset: 0xA8122, size: 0x8, addend: 0x0, symName: '-[StoreReviewWindow pointInside:withEvent:]', symObjAddr: 0xCA, symBinAddr: 0x371F, symSize: 0x104 }
   - { offset: 0xA8256, size: 0x8, addend: 0x0, symName: '-[StoreReviewWindow views]', symObjAddr: 0x1CE, symBinAddr: 0x3823, symSize: 0x11 }
@@ -218,8 +218,8 @@ relocations:
   - { offset: 0xABB4B, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager .cxx_destruct]', symObjAddr: 0x47A0, symBinAddr: 0x7DF5, symSize: 0x10 }
   - { offset: 0xAC0D5, size: 0x8, addend: 0x0, symName: '+[APRateUs listener]', symObjAddr: 0x0, symBinAddr: 0x7E05, symSize: 0x22 }
   - { offset: 0xAC0E3, size: 0x8, addend: 0x0, symName: '+[APRateUs listener]', symObjAddr: 0x0, symBinAddr: 0x7E05, symSize: 0x22 }
-  - { offset: 0xAC10D, size: 0x8, addend: 0x0, symName: _listener.listener, symObjAddr: 0x2710, symBinAddr: 0xD158, symSize: 0x0 }
-  - { offset: 0xAC123, size: 0x8, addend: 0x0, symName: _listener.onceToken, symObjAddr: 0x2718, symBinAddr: 0xD160, symSize: 0x0 }
+  - { offset: 0xAC10D, size: 0x8, addend: 0x0, symName: _listener.listener, symObjAddr: 0x26F8, symBinAddr: 0xD158, symSize: 0x0 }
+  - { offset: 0xAC123, size: 0x8, addend: 0x0, symName: _listener.onceToken, symObjAddr: 0x2700, symBinAddr: 0xD160, symSize: 0x0 }
   - { offset: 0xAC1B6, size: 0x8, addend: 0x0, symName: '+[APRateUs listener].cold.1', symObjAddr: 0x201, symBinAddr: 0x804E, symSize: 0x18 }
   - { offset: 0xAC1E4, size: 0x8, addend: 0x0, symName: '___20+[APRateUs listener]_block_invoke', symObjAddr: 0x22, symBinAddr: 0x7E27, symSize: 0x95 }
   - { offset: 0xAC24E, size: 0x8, addend: 0x0, symName: '-[APRateUs appticsDidFinishLoad:]', symObjAddr: 0xB7, symBinAddr: 0x7EBC, symSize: 0x64 }

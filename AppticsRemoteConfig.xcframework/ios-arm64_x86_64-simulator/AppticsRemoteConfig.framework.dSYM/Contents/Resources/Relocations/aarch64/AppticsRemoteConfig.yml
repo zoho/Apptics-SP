@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/saravanan-0639/Library/Developer/Xcode/DerivedData/Apptics-azcsysvfdnednagsmpljeyeczlzy/Build/Intermediates.noindex/ArchiveIntermediates/AppticsRemoteConfig/InstallationBuildProductsLocation/Library/Frameworks/AppticsRemoteConfig.framework/AppticsRemoteConfig'
+binary-path:     '/Users/jai-13322/Library/Developer/Xcode/DerivedData/Apptics-ccjyicllufnqkefyezduqrwtelwr/Build/Intermediates.noindex/ArchiveIntermediates/AppticsRemoteConfig/InstallationBuildProductsLocation/Library/Frameworks/AppticsRemoteConfig.framework/AppticsRemoteConfig'
 relocations:
   - { offset: 0x6C710, size: 0x8, addend: 0x0, symName: _AppticsRemoteConfigVersionString, symObjAddr: 0x0, symBinAddr: 0x77A0, symSize: 0x0 }
   - { offset: 0x6C745, size: 0x8, addend: 0x0, symName: _AppticsRemoteConfigVersionNumber, symObjAddr: 0x48, symBinAddr: 0x77E8, symSize: 0x0 }
@@ -14,14 +14,14 @@ relocations:
   - { offset: 0x6C9B7, size: 0x8, addend: 0x0, symName: '-[APRemoteConfigValue .cxx_destruct]', symObjAddr: 0x294, symBinAddr: 0x4294, symSize: 0xC }
   - { offset: 0x6CA4A, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load]', symObjAddr: 0x0, symBinAddr: 0x42A0, symSize: 0x28 }
   - { offset: 0x6CA58, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load]', symObjAddr: 0x0, symBinAddr: 0x42A0, symSize: 0x28 }
-  - { offset: 0x6CA7E, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x29C8, symBinAddr: 0xD568, symSize: 0x0 }
+  - { offset: 0x6CA7E, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x29B8, symBinAddr: 0xD568, symSize: 0x0 }
   - { offset: 0x6CAFB, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load].cold.1', symObjAddr: 0x4C, symBinAddr: 0x6AD0, symSize: 0x14 }
   - { offset: 0x6CB17, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load].cold.1', symObjAddr: 0x4C, symBinAddr: 0x6AD0, symSize: 0x14 }
   - { offset: 0x6CB29, size: 0x8, addend: 0x0, symName: '___27+[Analytics(Listener) load]_block_invoke', symObjAddr: 0x28, symBinAddr: 0x42C8, symSize: 0x24 }
   - { offset: 0x6CC23, size: 0x8, addend: 0x0, symName: '+[APRemoteConfig shared]', symObjAddr: 0x0, symBinAddr: 0x42EC, symSize: 0x30 }
   - { offset: 0x6CC69, size: 0x8, addend: 0x0, symName: '+[APRemoteConfig shared]', symObjAddr: 0x0, symBinAddr: 0x42EC, symSize: 0x30 }
-  - { offset: 0x6CC93, size: 0x8, addend: 0x0, symName: _shared.classInstance, symObjAddr: 0x10898, symBinAddr: 0xD570, symSize: 0x0 }
-  - { offset: 0x6CCA9, size: 0x8, addend: 0x0, symName: _shared.onceToken, symObjAddr: 0x108A0, symBinAddr: 0xD578, symSize: 0x0 }
+  - { offset: 0x6CC93, size: 0x8, addend: 0x0, symName: _shared.classInstance, symObjAddr: 0x10880, symBinAddr: 0xD570, symSize: 0x0 }
+  - { offset: 0x6CCA9, size: 0x8, addend: 0x0, symName: _shared.onceToken, symObjAddr: 0x10888, symBinAddr: 0xD578, symSize: 0x0 }
   - { offset: 0x6CEDA, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig UDKey_localContent:]', symObjAddr: 0x22AC, symBinAddr: 0x6598, symSize: 0xC }
   - { offset: 0x6CF3B, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig UDKey_lastLocalCommitID:]', symObjAddr: 0x22B8, symBinAddr: 0x65A4, symSize: 0xC }
   - { offset: 0x6CFAD, size: 0x8, addend: 0x0, symName: _kAPRemoteConfigQueueKey, symObjAddr: 0x3668, symBinAddr: 0xD558, symSize: 0x0 }

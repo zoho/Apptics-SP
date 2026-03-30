@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/saravanan-0639/Library/Developer/Xcode/DerivedData/Apptics-azcsysvfdnednagsmpljeyeczlzy/Build/Intermediates.noindex/ArchiveIntermediates/AppticsPrivacyShield/InstallationBuildProductsLocation/Library/Frameworks/AppticsPrivacyShield.framework/AppticsPrivacyShield'
+binary-path:     '/Users/jai-13322/Library/Developer/Xcode/DerivedData/Apptics-ccjyicllufnqkefyezduqrwtelwr/Build/Intermediates.noindex/ArchiveIntermediates/AppticsPrivacyShield/InstallationBuildProductsLocation/Library/Frameworks/AppticsPrivacyShield.framework/AppticsPrivacyShield'
 relocations:
   - { offset: 0x86399, size: 0x8, addend: 0x0, symName: _AppticsPrivacyShieldVersionString, symObjAddr: 0x0, symBinAddr: 0xC340, symSize: 0x0 }
   - { offset: 0x863CE, size: 0x8, addend: 0x0, symName: _AppticsPrivacyShieldVersionNumber, symObjAddr: 0x48, symBinAddr: 0xC388, symSize: 0x0 }
@@ -52,8 +52,8 @@ relocations:
   - { offset: 0x8728A, size: 0x8, addend: 0x0, symName: '-[APSecureContainer preventScreenCapture]', symObjAddr: 0xAEC, symBinAddr: 0x5B24, symSize: 0x10 }
   - { offset: 0x872C1, size: 0x8, addend: 0x0, symName: '-[APSecureContainer .cxx_destruct]', symObjAddr: 0xAFC, symBinAddr: 0x5B34, symSize: 0x40 }
   - { offset: 0x87384, size: 0x8, addend: 0x0, symName: '+[APWindowShield shared]', symObjAddr: 0xB48, symBinAddr: 0x66BC, symSize: 0x30 }
-  - { offset: 0x873AE, size: 0x8, addend: 0x0, symName: _shared.sharedInstance, symObjAddr: 0xBED0, symBinAddr: 0x130E8, symSize: 0x0 }
-  - { offset: 0x873C4, size: 0x8, addend: 0x0, symName: _shared.onceToken, symObjAddr: 0xBED8, symBinAddr: 0x130F0, symSize: 0x0 }
+  - { offset: 0x873AE, size: 0x8, addend: 0x0, symName: _shared.sharedInstance, symObjAddr: 0xBEA0, symBinAddr: 0x130E8, symSize: 0x0 }
+  - { offset: 0x873C4, size: 0x8, addend: 0x0, symName: _shared.onceToken, symObjAddr: 0xBEA8, symBinAddr: 0x130F0, symSize: 0x0 }
   - { offset: 0x87589, size: 0x8, addend: 0x0, symName: '-[APSecureView initWithContentView:]', symObjAddr: 0x0, symBinAddr: 0x5B74, symSize: 0xB0 }
   - { offset: 0x875D0, size: 0x8, addend: 0x0, symName: '-[APSecureView initWithCoder:]', symObjAddr: 0xB0, symBinAddr: 0x5C24, symSize: 0x68 }
   - { offset: 0x87617, size: 0x8, addend: 0x0, symName: '-[APSecureView setUserChoice]', symObjAddr: 0x118, symBinAddr: 0x5C8C, symSize: 0x30 }
@@ -115,9 +115,9 @@ relocations:
   - { offset: 0x8884E, size: 0x8, addend: 0x0, symName: '-[APSecureLabel text]', symObjAddr: 0x778, symBinAddr: 0x86A4, symSize: 0x10 }
   - { offset: 0x88885, size: 0x8, addend: 0x0, symName: '-[APSecureLabel .cxx_destruct]', symObjAddr: 0x788, symBinAddr: 0x86B4, symSize: 0x54 }
   - { offset: 0x8898C, size: 0x8, addend: 0x0, symName: '+[AppticsPrivacyShield listener]', symObjAddr: 0x0, symBinAddr: 0x8708, symSize: 0x74 }
-  - { offset: 0x889AB, size: 0x8, addend: 0x0, symName: __listener, symObjAddr: 0xB8B8, symBinAddr: 0x130F8, symSize: 0x0 }
+  - { offset: 0x889AB, size: 0x8, addend: 0x0, symName: __listener, symObjAddr: 0xB898, symBinAddr: 0x130F8, symSize: 0x0 }
   - { offset: 0x88AC0, size: 0x8, addend: 0x0, symName: '+[AppticsPrivacyShield listener]', symObjAddr: 0x0, symBinAddr: 0x8708, symSize: 0x74 }
-  - { offset: 0x88AEA, size: 0x8, addend: 0x0, symName: _listener.onceToken, symObjAddr: 0xB8C0, symBinAddr: 0x13100, symSize: 0x0 }
+  - { offset: 0x88AEA, size: 0x8, addend: 0x0, symName: _listener.onceToken, symObjAddr: 0xB8A0, symBinAddr: 0x13100, symSize: 0x0 }
   - { offset: 0x88B9D, size: 0x8, addend: 0x0, symName: '___32+[AppticsPrivacyShield listener]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x877C, symSize: 0x2C }
   - { offset: 0x88BDC, size: 0x8, addend: 0x0, symName: '-[AppticsPrivacyShield init]', symObjAddr: 0xA0, symBinAddr: 0x87A8, symSize: 0xA4 }
   - { offset: 0x88C13, size: 0x8, addend: 0x0, symName: '-[AppticsPrivacyShield dealloc]', symObjAddr: 0x144, symBinAddr: 0x884C, symSize: 0x68 }

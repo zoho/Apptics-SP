@@ -1,22 +1,22 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/saravanan-0639/Library/Developer/Xcode/DerivedData/Apptics-azcsysvfdnednagsmpljeyeczlzy/Build/Intermediates.noindex/ArchiveIntermediates/AppticsInAppUpdate/InstallationBuildProductsLocation/Library/Frameworks/AppticsInAppUpdate.framework/AppticsInAppUpdate'
+binary-path:     '/Users/jai-13322/Library/Developer/Xcode/DerivedData/Apptics-ccjyicllufnqkefyezduqrwtelwr/Build/Intermediates.noindex/ArchiveIntermediates/AppticsInAppUpdate/InstallationBuildProductsLocation/Library/Frameworks/AppticsInAppUpdate.framework/AppticsInAppUpdate'
 relocations:
   - { offset: 0x874E5, size: 0x8, addend: 0x0, symName: _AppticsInAppUpdateVersionString, symObjAddr: 0x0, symBinAddr: 0xBEE0, symSize: 0x0 }
   - { offset: 0x8751A, size: 0x8, addend: 0x0, symName: _AppticsInAppUpdateVersionNumber, symObjAddr: 0x48, symBinAddr: 0xBF28, symSize: 0x0 }
   - { offset: 0x87557, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x28 }
   - { offset: 0x87565, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x28 }
-  - { offset: 0x8758B, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x2B90, symBinAddr: 0x11F48, symSize: 0x0 }
+  - { offset: 0x8758B, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x2B80, symBinAddr: 0x11F48, symSize: 0x0 }
   - { offset: 0x87608, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load].cold.1', symObjAddr: 0x4C, symBinAddr: 0xA7B0, symSize: 0x14 }
   - { offset: 0x87624, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load].cold.1', symObjAddr: 0x4C, symBinAddr: 0xA7B0, symSize: 0x14 }
   - { offset: 0x87636, size: 0x8, addend: 0x0, symName: '___27+[Analytics(Listener) load]_block_invoke', symObjAddr: 0x28, symBinAddr: 0x4028, symSize: 0x24 }
   - { offset: 0x87737, size: 0x8, addend: 0x0, symName: '-[AppUpdateWindow init]', symObjAddr: 0x0, symBinAddr: 0x404C, symSize: 0x90 }
-  - { offset: 0x87751, size: 0x8, addend: 0x0, symName: _alertOSXcurrentWindow, symObjAddr: 0x1CC48, symBinAddr: 0x11F88, symSize: 0x0 }
-  - { offset: 0x8776C, size: 0x8, addend: 0x0, symName: _alertOnWindow, symObjAddr: 0x1CC50, symBinAddr: 0x11F90, symSize: 0x0 }
-  - { offset: 0x87787, size: 0x8, addend: 0x0, symName: _currentWindow, symObjAddr: 0x1CC58, symBinAddr: 0x11F98, symSize: 0x0 }
+  - { offset: 0x87751, size: 0x8, addend: 0x0, symName: _alertOSXcurrentWindow, symObjAddr: 0x1CC28, symBinAddr: 0x11F88, symSize: 0x0 }
+  - { offset: 0x8776C, size: 0x8, addend: 0x0, symName: _alertOnWindow, symObjAddr: 0x1CC30, symBinAddr: 0x11F90, symSize: 0x0 }
+  - { offset: 0x87787, size: 0x8, addend: 0x0, symName: _apCurrentWindow, symObjAddr: 0x1CC38, symBinAddr: 0x11F98, symSize: 0x0 }
   - { offset: 0x87791, size: 0x8, addend: 0x0, symName: '+[APAppUpdateManager sharedManager]', symObjAddr: 0x4D4, symBinAddr: 0x4520, symSize: 0x74 }
-  - { offset: 0x877BB, size: 0x8, addend: 0x0, symName: _sharedManager.sharedManger, symObjAddr: 0x1CC60, symBinAddr: 0x11F50, symSize: 0x0 }
-  - { offset: 0x877D1, size: 0x8, addend: 0x0, symName: _sharedManager.onceToken, symObjAddr: 0x1CC68, symBinAddr: 0x11F58, symSize: 0x0 }
+  - { offset: 0x877BB, size: 0x8, addend: 0x0, symName: _sharedManager.sharedManger, symObjAddr: 0x1CC40, symBinAddr: 0x11F50, symSize: 0x0 }
+  - { offset: 0x877D1, size: 0x8, addend: 0x0, symName: _sharedManager.onceToken, symObjAddr: 0x1CC48, symBinAddr: 0x11F58, symSize: 0x0 }
   - { offset: 0x87A17, size: 0x8, addend: 0x0, symName: '-[AppUpdateWindow init]', symObjAddr: 0x0, symBinAddr: 0x404C, symSize: 0x90 }
   - { offset: 0x87A4E, size: 0x8, addend: 0x0, symName: '-[AppUpdateWindow pointInside:withEvent:]', symObjAddr: 0x90, symBinAddr: 0x40DC, symSize: 0xD4 }
   - { offset: 0x87AB1, size: 0x8, addend: 0x0, symName: '-[AppUpdateWindow views]', symObjAddr: 0x164, symBinAddr: 0x41B0, symSize: 0x10 }

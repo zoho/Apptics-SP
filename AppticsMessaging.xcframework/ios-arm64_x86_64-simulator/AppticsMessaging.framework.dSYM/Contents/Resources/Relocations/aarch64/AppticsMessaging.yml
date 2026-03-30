@@ -1,14 +1,14 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/saravanan-0639/Library/Developer/Xcode/DerivedData/Apptics-azcsysvfdnednagsmpljeyeczlzy/Build/Intermediates.noindex/ArchiveIntermediates/AppticsMessaging/InstallationBuildProductsLocation/Library/Frameworks/AppticsMessaging.framework/AppticsMessaging'
+binary-path:     '/Users/jai-13322/Library/Developer/Xcode/DerivedData/Apptics-ccjyicllufnqkefyezduqrwtelwr/Build/Intermediates.noindex/ArchiveIntermediates/AppticsMessaging/InstallationBuildProductsLocation/Library/Frameworks/AppticsMessaging.framework/AppticsMessaging'
 relocations:
   - { offset: 0xA00D7, size: 0x8, addend: 0x0, symName: _AppticsMessagingVersionString, symObjAddr: 0x0, symBinAddr: 0xD560, symSize: 0x0 }
   - { offset: 0xA010C, size: 0x8, addend: 0x0, symName: _AppticsMessagingVersionNumber, symObjAddr: 0x40, symBinAddr: 0xD5A0, symSize: 0x0 }
   - { offset: 0xA0149, size: 0x8, addend: 0x0, symName: '+[APMessagingRemoteNotificationsProxy load]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x4 }
   - { offset: 0xA0161, size: 0x8, addend: 0x0, symName: '+[APMessagingRemoteNotificationsProxy sharedInstance]', symObjAddr: 0xC, symBinAddr: 0x400C, symSize: 0x30 }
-  - { offset: 0xA018B, size: 0x8, addend: 0x0, symName: _sharedInstance.proxy, symObjAddr: 0x10AA0, symBinAddr: 0x1AAE0, symSize: 0x0 }
-  - { offset: 0xA01A1, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x10AA8, symBinAddr: 0x1AAE8, symSize: 0x0 }
-  - { offset: 0xA031F, size: 0x8, addend: 0x0, symName: _UserNotificationObserverContext, symObjAddr: 0x3AB8, symBinAddr: 0x1AA10, symSize: 0x0 }
+  - { offset: 0xA018B, size: 0x8, addend: 0x0, symName: _sharedInstance.proxy, symObjAddr: 0x10A90, symBinAddr: 0x1AAE0, symSize: 0x0 }
+  - { offset: 0xA01A1, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x10A98, symBinAddr: 0x1AAE8, symSize: 0x0 }
+  - { offset: 0xA031F, size: 0x8, addend: 0x0, symName: _UserNotificationObserverContext, symObjAddr: 0x3AC0, symBinAddr: 0x1AA10, symSize: 0x0 }
   - { offset: 0xA0415, size: 0x8, addend: 0x0, symName: '+[APMessagingRemoteNotificationsProxy load]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x4 }
   - { offset: 0xA0444, size: 0x8, addend: 0x0, symName: '+[APMessagingRemoteNotificationsProxy canPerformMethodSwizzling]', symObjAddr: 0x4, symBinAddr: 0x4004, symSize: 0x8 }
   - { offset: 0xA049E, size: 0x8, addend: 0x0, symName: '+[APMessagingRemoteNotificationsProxy sharedInstance].cold.1', symObjAddr: 0x1C78, symBinAddr: 0xB684, symSize: 0x14 }
@@ -65,8 +65,8 @@ relocations:
   - { offset: 0xA1E91, size: 0x8, addend: 0x0, symName: ___APSwizzleDidReceiveNotificationResponseWithHandler_block_invoke, symObjAddr: 0x1C58, symBinAddr: 0x5C58, symSize: 0x20 }
   - { offset: 0xA2283, size: 0x8, addend: 0x0, symName: '+[APTokenManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x5C78, symSize: 0x74 }
   - { offset: 0xA229B, size: 0x8, addend: 0x0, symName: '+[APTokenManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x5C78, symSize: 0x74 }
-  - { offset: 0xA22C5, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x9EA0, symBinAddr: 0x1AAF0, symSize: 0x0 }
-  - { offset: 0xA22DB, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x9EA8, symBinAddr: 0x1AAF8, symSize: 0x0 }
+  - { offset: 0xA22C5, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x9E88, symBinAddr: 0x1AAF0, symSize: 0x0 }
+  - { offset: 0xA22DB, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x9E90, symBinAddr: 0x1AAF8, symSize: 0x0 }
   - { offset: 0xA23B7, size: 0x8, addend: 0x0, symName: '___32+[APTokenManager sharedInstance]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x5CEC, symSize: 0x6C }
   - { offset: 0xA23F6, size: 0x8, addend: 0x0, symName: '-[APTokenManager setAPNSToken:]', symObjAddr: 0xE0, symBinAddr: 0x5D58, symSize: 0x74 }
   - { offset: 0xA2449, size: 0x8, addend: 0x0, symName: '-[APTokenManager registerAPNSToken:]', symObjAddr: 0x154, symBinAddr: 0x5DCC, symSize: 0x8C }
@@ -99,18 +99,18 @@ relocations:
   - { offset: 0xA2F99, size: 0x8, addend: 0x0, symName: '-[APTokenManager stringFromDeviceToken:]', symObjAddr: 0x1AB0, symBinAddr: 0x7728, symSize: 0xF0 }
   - { offset: 0xA364E, size: 0x8, addend: 0x0, symName: '-[APTSafeWeakContainer object]', symObjAddr: 0x0, symBinAddr: 0x7818, symSize: 0x18 }
   - { offset: 0xA3666, size: 0x8, addend: 0x0, symName: '+[APTAppDelegateObserver sharedInstance]', symObjAddr: 0x2C, symBinAddr: 0x7844, symSize: 0x30 }
-  - { offset: 0xA3690, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0x10750, symBinAddr: 0x1AB00, symSize: 0x0 }
-  - { offset: 0xA36A6, size: 0x8, addend: 0x0, symName: _sharedInstance.once, symObjAddr: 0x10758, symBinAddr: 0x1AB08, symSize: 0x0 }
+  - { offset: 0xA3690, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0x10730, symBinAddr: 0x1AB00, symSize: 0x0 }
+  - { offset: 0xA36A6, size: 0x8, addend: 0x0, symName: _sharedInstance.once, symObjAddr: 0x10738, symBinAddr: 0x1AB08, symSize: 0x0 }
   - { offset: 0xA3725, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler interceptors]', symObjAddr: 0xBF0, symBinAddr: 0x8408, symSize: 0x30 }
-  - { offset: 0xA3751, size: 0x8, addend: 0x0, symName: _interceptors.onceToken, symObjAddr: 0x10788, symBinAddr: 0x1AB38, symSize: 0x0 }
-  - { offset: 0xA3768, size: 0x8, addend: 0x0, symName: _interceptors.sInterceptors, symObjAddr: 0x10790, symBinAddr: 0x1AB40, symSize: 0x0 }
-  - { offset: 0xA37B4, size: 0x8, addend: 0x0, symName: _aOriginalAppDelegate, symObjAddr: 0x10760, symBinAddr: 0x1AB10, symSize: 0x0 }
-  - { offset: 0xA37F3, size: 0x8, addend: 0x0, symName: _aOriginalAppDelegateClass, symObjAddr: 0x10780, symBinAddr: 0x1AB30, symSize: 0x0 }
-  - { offset: 0xA3812, size: 0x8, addend: 0x0, symName: _aAppDelegateSubclass, symObjAddr: 0x10778, symBinAddr: 0x1AB28, symSize: 0x0 }
-  - { offset: 0xA3828, size: 0x8, addend: 0x0, symName: _sProxyAppDelegateOnceToken, symObjAddr: 0x10768, symBinAddr: 0x1AB18, symSize: 0x0 }
-  - { offset: 0xA383E, size: 0x8, addend: 0x0, symName: _sProxyAppDelegateRemoteNotificationOnceToken, symObjAddr: 0x10770, symBinAddr: 0x1AB20, symSize: 0x0 }
-  - { offset: 0xA3854, size: 0x8, addend: 0x0, symName: _kAPTOrigIMPBySelectorKey, symObjAddr: 0x52D0, symBinAddr: 0x14298, symSize: 0x0 }
-  - { offset: 0xA3874, size: 0x8, addend: 0x0, symName: _kAPTOrigClassKey, symObjAddr: 0x52F8, symBinAddr: 0x142A0, symSize: 0x0 }
+  - { offset: 0xA3751, size: 0x8, addend: 0x0, symName: _interceptors.onceToken, symObjAddr: 0x10768, symBinAddr: 0x1AB38, symSize: 0x0 }
+  - { offset: 0xA3768, size: 0x8, addend: 0x0, symName: _interceptors.sInterceptors, symObjAddr: 0x10770, symBinAddr: 0x1AB40, symSize: 0x0 }
+  - { offset: 0xA37B4, size: 0x8, addend: 0x0, symName: _aOriginalAppDelegate, symObjAddr: 0x10740, symBinAddr: 0x1AB10, symSize: 0x0 }
+  - { offset: 0xA37F3, size: 0x8, addend: 0x0, symName: _aOriginalAppDelegateClass, symObjAddr: 0x10760, symBinAddr: 0x1AB30, symSize: 0x0 }
+  - { offset: 0xA3812, size: 0x8, addend: 0x0, symName: _aAppDelegateSubclass, symObjAddr: 0x10758, symBinAddr: 0x1AB28, symSize: 0x0 }
+  - { offset: 0xA3828, size: 0x8, addend: 0x0, symName: _sProxyAppDelegateOnceToken, symObjAddr: 0x10748, symBinAddr: 0x1AB18, symSize: 0x0 }
+  - { offset: 0xA383E, size: 0x8, addend: 0x0, symName: _sProxyAppDelegateRemoteNotificationOnceToken, symObjAddr: 0x10750, symBinAddr: 0x1AB20, symSize: 0x0 }
+  - { offset: 0xA3854, size: 0x8, addend: 0x0, symName: _kAPTOrigIMPBySelectorKey, symObjAddr: 0x52D8, symBinAddr: 0x14298, symSize: 0x0 }
+  - { offset: 0xA3874, size: 0x8, addend: 0x0, symName: _kAPTOrigClassKey, symObjAddr: 0x5300, symBinAddr: 0x142A0, symSize: 0x0 }
   - { offset: 0xA38C2, size: 0x8, addend: 0x0, symName: '-[APTSafeWeakContainer object]', symObjAddr: 0x0, symBinAddr: 0x7818, symSize: 0x18 }
   - { offset: 0xA38F9, size: 0x8, addend: 0x0, symName: '-[APTSafeWeakContainer setObject:]', symObjAddr: 0x18, symBinAddr: 0x7830, symSize: 0xC }
   - { offset: 0xA393A, size: 0x8, addend: 0x0, symName: '-[APTSafeWeakContainer .cxx_destruct]', symObjAddr: 0x24, symBinAddr: 0x783C, symSize: 0x8 }
@@ -164,8 +164,8 @@ relocations:
   - { offset: 0xA50DA, size: 0x8, addend: 0x0, symName: '+[APAppDelegateSwizzler proxyAppDelegate:]', symObjAddr: 0x1B4C, symBinAddr: 0x9334, symSize: 0x1A0 }
   - { offset: 0xA58E8, size: 0x8, addend: 0x0, symName: '+[APNotificationHandler shared]', symObjAddr: 0x0, symBinAddr: 0x94D4, symSize: 0x30 }
   - { offset: 0xA58F6, size: 0x8, addend: 0x0, symName: '+[APNotificationHandler shared]', symObjAddr: 0x0, symBinAddr: 0x94D4, symSize: 0x30 }
-  - { offset: 0xA5920, size: 0x8, addend: 0x0, symName: _shared.obj, symObjAddr: 0x3788, symBinAddr: 0x1AB48, symSize: 0x0 }
-  - { offset: 0xA5936, size: 0x8, addend: 0x0, symName: _shared.onceToken, symObjAddr: 0x3790, symBinAddr: 0x1AB50, symSize: 0x0 }
+  - { offset: 0xA5920, size: 0x8, addend: 0x0, symName: _shared.obj, symObjAddr: 0x3778, symBinAddr: 0x1AB48, symSize: 0x0 }
+  - { offset: 0xA5936, size: 0x8, addend: 0x0, symName: _shared.onceToken, symObjAddr: 0x3780, symBinAddr: 0x1AB50, symSize: 0x0 }
   - { offset: 0xA5A29, size: 0x8, addend: 0x0, symName: '+[APNotificationHandler shared].cold.1', symObjAddr: 0x780, symBinAddr: 0xB6D4, symSize: 0x14 }
   - { offset: 0xA5A45, size: 0x8, addend: 0x0, symName: '+[APNotificationHandler shared].cold.1', symObjAddr: 0x780, symBinAddr: 0xB6D4, symSize: 0x14 }
   - { offset: 0xA5A57, size: 0x8, addend: 0x0, symName: '___31+[APNotificationHandler shared]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x9504, symSize: 0x2C }
@@ -177,8 +177,8 @@ relocations:
   - { offset: 0xA5D03, size: 0x8, addend: 0x0, symName: '___41-[APNotificationHandler openClickAction:]_block_invoke', symObjAddr: 0x720, symBinAddr: 0x9BF4, symSize: 0x50 }
   - { offset: 0xA5F29, size: 0x8, addend: 0x0, symName: '+[APMessaging shared]', symObjAddr: 0x0, symBinAddr: 0x9C44, symSize: 0x30 }
   - { offset: 0xA5F41, size: 0x8, addend: 0x0, symName: '+[APMessaging shared]', symObjAddr: 0x0, symBinAddr: 0x9C44, symSize: 0x30 }
-  - { offset: 0xA5F6B, size: 0x8, addend: 0x0, symName: _shared.instance, symObjAddr: 0xA130, symBinAddr: 0x1AB58, symSize: 0x0 }
-  - { offset: 0xA5F81, size: 0x8, addend: 0x0, symName: _shared.once, symObjAddr: 0xA138, symBinAddr: 0x1AB60, symSize: 0x0 }
+  - { offset: 0xA5F6B, size: 0x8, addend: 0x0, symName: _shared.instance, symObjAddr: 0xA110, symBinAddr: 0x1AB58, symSize: 0x0 }
+  - { offset: 0xA5F81, size: 0x8, addend: 0x0, symName: _shared.once, symObjAddr: 0xA118, symBinAddr: 0x1AB60, symSize: 0x0 }
   - { offset: 0xA60CC, size: 0x8, addend: 0x0, symName: '+[APMessaging shared].cold.1', symObjAddr: 0x1A50, symBinAddr: 0xB6E8, symSize: 0x14 }
   - { offset: 0xA60E8, size: 0x8, addend: 0x0, symName: '+[APMessaging shared].cold.1', symObjAddr: 0x1A50, symBinAddr: 0xB6E8, symSize: 0x14 }
   - { offset: 0xA60FA, size: 0x8, addend: 0x0, symName: '___21+[APMessaging shared]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x9C74, symSize: 0xE0 }

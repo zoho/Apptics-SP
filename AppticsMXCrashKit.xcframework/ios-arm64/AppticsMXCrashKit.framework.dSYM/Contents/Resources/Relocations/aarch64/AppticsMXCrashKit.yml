@@ -1,12 +1,12 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/saravanan-0639/Library/Developer/Xcode/DerivedData/Apptics-azcsysvfdnednagsmpljeyeczlzy/Build/Intermediates.noindex/ArchiveIntermediates/AppticsMXCrashKit/InstallationBuildProductsLocation/Library/Frameworks/AppticsMXCrashKit.framework/AppticsMXCrashKit'
+binary-path:     '/Users/jai-13322/Library/Developer/Xcode/DerivedData/Apptics-ccjyicllufnqkefyezduqrwtelwr/Build/Intermediates.noindex/ArchiveIntermediates/AppticsMXCrashKit/InstallationBuildProductsLocation/Library/Frameworks/AppticsMXCrashKit.framework/AppticsMXCrashKit'
 relocations:
   - { offset: 0xAC327, size: 0x8, addend: 0x0, symName: _AppticsMXCrashKitVersionString, symObjAddr: 0x0, symBinAddr: 0x133E0, symSize: 0x0 }
   - { offset: 0xAC35C, size: 0x8, addend: 0x0, symName: _AppticsMXCrashKitVersionNumber, symObjAddr: 0x40, symBinAddr: 0x13420, symSize: 0x0 }
   - { offset: 0xAC399, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load]', symObjAddr: 0x0, symBinAddr: 0xEE0, symSize: 0x28 }
   - { offset: 0xAC3A7, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load]', symObjAddr: 0x0, symBinAddr: 0xEE0, symSize: 0x28 }
-  - { offset: 0xAC3CD, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x2F88, symBinAddr: 0x22BC8, symSize: 0x0 }
+  - { offset: 0xAC3CD, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x2F68, symBinAddr: 0x22BC8, symSize: 0x0 }
   - { offset: 0xAC44A, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load].cold.1', symObjAddr: 0x88, symBinAddr: 0xF24C, symSize: 0x14 }
   - { offset: 0xAC466, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load].cold.1', symObjAddr: 0x88, symBinAddr: 0xF24C, symSize: 0x14 }
   - { offset: 0xAC478, size: 0x8, addend: 0x0, symName: '___27+[Analytics(Listener) load]_block_invoke', symObjAddr: 0x28, symBinAddr: 0xF08, symSize: 0x60 }
@@ -100,11 +100,11 @@ relocations:
   - { offset: 0xAE168, size: 0x8, addend: 0x0, symName: '-[APAppState setApplicationIsInForeground:]', symObjAddr: 0xA98, symBinAddr: 0x39A8, symSize: 0x8 }
   - { offset: 0xAE255, size: 0x8, addend: 0x0, symName: _writeCrashLog, symObjAddr: 0x0, symBinAddr: 0x39B0, symSize: 0x7C }
   - { offset: 0xAE268, size: 0x8, addend: 0x0, symName: _signalHandler, symObjAddr: 0x7C, symBinAddr: 0x3A2C, symSize: 0x328 }
-  - { offset: 0xAE28A, size: 0x8, addend: 0x0, symName: _signalHandler.regex, symObjAddr: 0xE070, symBinAddr: 0x22BD0, symSize: 0x0 }
-  - { offset: 0xAE2A0, size: 0x8, addend: 0x0, symName: _signalHandler.onceToken, symObjAddr: 0xE078, symBinAddr: 0x22BD8, symSize: 0x0 }
+  - { offset: 0xAE28A, size: 0x8, addend: 0x0, symName: _signalHandler.regex, symObjAddr: 0xE050, symBinAddr: 0x22BD0, symSize: 0x0 }
+  - { offset: 0xAE2A0, size: 0x8, addend: 0x0, symName: _signalHandler.onceToken, symObjAddr: 0xE058, symBinAddr: 0x22BD8, symSize: 0x0 }
   - { offset: 0xAE4E4, size: 0x8, addend: 0x0, symName: '+[APCrashReporter sharedInstance]', symObjAddr: 0x99C, symBinAddr: 0x434C, symSize: 0x74 }
-  - { offset: 0xAE50E, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xE080, symBinAddr: 0x22BE0, symSize: 0x0 }
-  - { offset: 0xAE524, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xE088, symBinAddr: 0x22BE8, symSize: 0x0 }
+  - { offset: 0xAE50E, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xE060, symBinAddr: 0x22BE0, symSize: 0x0 }
+  - { offset: 0xAE524, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xE068, symBinAddr: 0x22BE8, symSize: 0x0 }
   - { offset: 0xAE74D, size: 0x8, addend: 0x0, symName: _writeCrashLog, symObjAddr: 0x0, symBinAddr: 0x39B0, symSize: 0x7C }
   - { offset: 0xAE860, size: 0x8, addend: 0x0, symName: _signalHandler.cold.1, symObjAddr: 0x2058, symBinAddr: 0xF260, symSize: 0x14 }
   - { offset: 0xAE87C, size: 0x8, addend: 0x0, symName: _signalHandler.cold.1, symObjAddr: 0x2058, symBinAddr: 0xF260, symSize: 0x14 }
@@ -188,10 +188,10 @@ relocations:
   - { offset: 0xB04ED, size: 0x8, addend: 0x0, symName: '-[ZACrashReportUploadOperation setBackgroundUpdateTask:]', symObjAddr: 0x1538, symBinAddr: 0x6F40, symSize: 0x10 }
   - { offset: 0xB052A, size: 0x8, addend: 0x0, symName: '-[ZACrashReportUploadOperation .cxx_destruct]', symObjAddr: 0x1548, symBinAddr: 0x6F50, symSize: 0x8C }
   - { offset: 0xB0897, size: 0x8, addend: 0x0, symName: '-[CrashLogWindow init]', symObjAddr: 0x0, symBinAddr: 0x6FDC, symSize: 0x90 }
-  - { offset: 0xB08B6, size: 0x8, addend: 0x0, symName: _logCrashAlertWindow, symObjAddr: 0xC588, symBinAddr: 0x22C58, symSize: 0x0 }
+  - { offset: 0xB08B6, size: 0x8, addend: 0x0, symName: _logCrashAlertWindow, symObjAddr: 0xC570, symBinAddr: 0x22C58, symSize: 0x0 }
   - { offset: 0xB08C5, size: 0x8, addend: 0x0, symName: '+[APCrash sharedManager]', symObjAddr: 0x1F0, symBinAddr: 0x71CC, symSize: 0x74 }
-  - { offset: 0xB08EF, size: 0x8, addend: 0x0, symName: _sharedManager.sharedManager, symObjAddr: 0xC590, symBinAddr: 0x22BF0, symSize: 0x0 }
-  - { offset: 0xB0905, size: 0x8, addend: 0x0, symName: _sharedManager.onceToken, symObjAddr: 0xC598, symBinAddr: 0x22BF8, symSize: 0x0 }
+  - { offset: 0xB08EF, size: 0x8, addend: 0x0, symName: _sharedManager.sharedManager, symObjAddr: 0xC578, symBinAddr: 0x22BF0, symSize: 0x0 }
+  - { offset: 0xB0905, size: 0x8, addend: 0x0, symName: _sharedManager.onceToken, symObjAddr: 0xC580, symBinAddr: 0x22BF8, symSize: 0x0 }
   - { offset: 0xB0A1B, size: 0x8, addend: 0x0, symName: '-[CrashLogWindow init]', symObjAddr: 0x0, symBinAddr: 0x6FDC, symSize: 0x90 }
   - { offset: 0xB0A52, size: 0x8, addend: 0x0, symName: '-[CrashLogWindow pointInside:withEvent:]', symObjAddr: 0x90, symBinAddr: 0x706C, symSize: 0xD4 }
   - { offset: 0xB0AB5, size: 0x8, addend: 0x0, symName: '-[CrashLogWindow views]', symObjAddr: 0x164, symBinAddr: 0x7140, symSize: 0x10 }
@@ -240,11 +240,11 @@ relocations:
   - { offset: 0xB1928, size: 0x8, addend: 0x0, symName: '-[APCrash setUrl:]', symObjAddr: 0x2100, symBinAddr: 0x907C, symSize: 0xC }
   - { offset: 0xB1969, size: 0x8, addend: 0x0, symName: '-[APCrash .cxx_destruct]', symObjAddr: 0x210C, symBinAddr: 0x9088, symSize: 0x3C }
   - { offset: 0xB20D2, size: 0x8, addend: 0x0, symName: '+[KMPCrash sharedManager]', symObjAddr: 0x0, symBinAddr: 0x90C4, symSize: 0x74 }
-  - { offset: 0xB20F6, size: 0x8, addend: 0x0, symName: _globalImageAddress, symObjAddr: 0xB868, symBinAddr: 0x22C00, symSize: 0x0 }
+  - { offset: 0xB20F6, size: 0x8, addend: 0x0, symName: _globalImageAddress, symObjAddr: 0xB838, symBinAddr: 0x22C00, symSize: 0x0 }
   - { offset: 0xB2105, size: 0x8, addend: 0x0, symName: '+[KMPCrash sharedManager]', symObjAddr: 0x0, symBinAddr: 0x90C4, symSize: 0x74 }
-  - { offset: 0xB212F, size: 0x8, addend: 0x0, symName: _sharedManager.sharedManager, symObjAddr: 0xB870, symBinAddr: 0x22C08, symSize: 0x0 }
-  - { offset: 0xB2145, size: 0x8, addend: 0x0, symName: _sharedManager.onceToken, symObjAddr: 0xB878, symBinAddr: 0x22C10, symSize: 0x0 }
-  - { offset: 0xB21EC, size: 0x8, addend: 0x0, symName: _binaryPathCache, symObjAddr: 0xB880, symBinAddr: 0x22C18, symSize: 0x0 }
+  - { offset: 0xB212F, size: 0x8, addend: 0x0, symName: _sharedManager.sharedManager, symObjAddr: 0xB840, symBinAddr: 0x22C08, symSize: 0x0 }
+  - { offset: 0xB2145, size: 0x8, addend: 0x0, symName: _sharedManager.onceToken, symObjAddr: 0xB848, symBinAddr: 0x22C10, symSize: 0x0 }
+  - { offset: 0xB21EC, size: 0x8, addend: 0x0, symName: _binaryPathCache, symObjAddr: 0xB850, symBinAddr: 0x22C18, symSize: 0x0 }
   - { offset: 0xB227B, size: 0x8, addend: 0x0, symName: '___25+[KMPCrash sharedManager]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x9138, symSize: 0x70 }
   - { offset: 0xB230D, size: 0x8, addend: 0x0, symName: '___25+[KMPCrash sharedManager]_block_invoke_2', symObjAddr: 0xE4, symBinAddr: 0x91A8, symSize: 0x3DC }
   - { offset: 0xB2484, size: 0x8, addend: 0x0, symName: '-[KMPCrash readCrashData]', symObjAddr: 0x4C0, symBinAddr: 0x9584, symSize: 0x3E8 }
@@ -263,15 +263,15 @@ relocations:
   - { offset: 0xB313C, size: 0x8, addend: 0x0, symName: '-[KMPCrash .cxx_destruct]', symObjAddr: 0x244C, symBinAddr: 0xB510, symSize: 0xC }
   - { offset: 0xB336A, size: 0x8, addend: 0x0, symName: _getInfoForBinaryName, symObjAddr: 0x0, symBinAddr: 0xB51C, symSize: 0x2B0 }
   - { offset: 0xB3390, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt parseCrashDiagnostics:crashType:timeStampBegin:]', symObjAddr: 0xB00, symBinAddr: 0xC01C, symSize: 0x1668 }
-  - { offset: 0xB33B8, size: 0x8, addend: 0x0, symName: '_parseCrashDiagnostics:crashType:timeStampBegin:.regex', symObjAddr: 0x13730, symBinAddr: 0x22C38, symSize: 0x0 }
-  - { offset: 0xB33CF, size: 0x8, addend: 0x0, symName: '_parseCrashDiagnostics:crashType:timeStampBegin:.onceToken', symObjAddr: 0x13738, symBinAddr: 0x22C40, symSize: 0x0 }
+  - { offset: 0xB33B8, size: 0x8, addend: 0x0, symName: '_parseCrashDiagnostics:crashType:timeStampBegin:.regex', symObjAddr: 0x13718, symBinAddr: 0x22C38, symSize: 0x0 }
+  - { offset: 0xB33CF, size: 0x8, addend: 0x0, symName: '_parseCrashDiagnostics:crashType:timeStampBegin:.onceToken', symObjAddr: 0x13720, symBinAddr: 0x22C40, symSize: 0x0 }
   - { offset: 0xB38E6, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt crashedThreadMatches:tmpStackTrace:]', symObjAddr: 0x283C, symBinAddr: 0xDD58, symSize: 0x300 }
-  - { offset: 0xB3912, size: 0x8, addend: 0x0, symName: '_crashedThreadMatches:tmpStackTrace:.regex', symObjAddr: 0x13740, symBinAddr: 0x22C48, symSize: 0x0 }
-  - { offset: 0xB3929, size: 0x8, addend: 0x0, symName: '_crashedThreadMatches:tmpStackTrace:.onceToken', symObjAddr: 0x13748, symBinAddr: 0x22C50, symSize: 0x0 }
-  - { offset: 0xB3A50, size: 0x8, addend: 0x0, symName: _g_dateFormatter, symObjAddr: 0x13720, symBinAddr: 0x22C28, symSize: 0x0 }
-  - { offset: 0xB3A6B, size: 0x8, addend: 0x0, symName: _g_rfc3339DateFormatter, symObjAddr: 0x13728, symBinAddr: 0x22C30, symSize: 0x0 }
-  - { offset: 0xB3A81, size: 0x8, addend: 0x0, symName: _globalImageAddress, symObjAddr: 0x13750, symBinAddr: 0x22C60, symSize: 0x0 }
-  - { offset: 0xB3A9C, size: 0x8, addend: 0x0, symName: _binaryPathCache, symObjAddr: 0x13718, symBinAddr: 0x22C20, symSize: 0x0 }
+  - { offset: 0xB3912, size: 0x8, addend: 0x0, symName: '_crashedThreadMatches:tmpStackTrace:.regex', symObjAddr: 0x13728, symBinAddr: 0x22C48, symSize: 0x0 }
+  - { offset: 0xB3929, size: 0x8, addend: 0x0, symName: '_crashedThreadMatches:tmpStackTrace:.onceToken', symObjAddr: 0x13730, symBinAddr: 0x22C50, symSize: 0x0 }
+  - { offset: 0xB3A50, size: 0x8, addend: 0x0, symName: _g_dateFormatter, symObjAddr: 0x13708, symBinAddr: 0x22C28, symSize: 0x0 }
+  - { offset: 0xB3A6B, size: 0x8, addend: 0x0, symName: _g_rfc3339DateFormatter, symObjAddr: 0x13710, symBinAddr: 0x22C30, symSize: 0x0 }
+  - { offset: 0xB3A81, size: 0x8, addend: 0x0, symName: _globalImageAddress, symObjAddr: 0x13738, symBinAddr: 0x22C60, symSize: 0x0 }
+  - { offset: 0xB3A9C, size: 0x8, addend: 0x0, symName: _binaryPathCache, symObjAddr: 0x13700, symBinAddr: 0x22C20, symSize: 0x0 }
   - { offset: 0xB3B0D, size: 0x8, addend: 0x0, symName: _getInfoForBinaryName, symObjAddr: 0x0, symBinAddr: 0xB51C, symSize: 0x2B0 }
   - { offset: 0xB3D82, size: 0x8, addend: 0x0, symName: _terminationReasonForSignal, symObjAddr: 0x2B0, symBinAddr: 0xB7CC, symSize: 0x64 }
   - { offset: 0xB3DAD, size: 0x8, addend: 0x0, symName: _apmach_exceptionName, symObjAddr: 0x314, symBinAddr: 0xB830, symSize: 0x28 }

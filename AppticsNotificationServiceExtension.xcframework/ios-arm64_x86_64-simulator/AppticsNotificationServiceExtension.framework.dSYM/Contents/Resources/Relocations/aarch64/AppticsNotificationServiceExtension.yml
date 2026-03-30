@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/saravanan-0639/Library/Developer/Xcode/DerivedData/Apptics-azcsysvfdnednagsmpljeyeczlzy/Build/Intermediates.noindex/ArchiveIntermediates/AppticsNotificationServiceExtension/InstallationBuildProductsLocation/Library/Frameworks/AppticsNotificationServiceExtension.framework/AppticsNotificationServiceExtension'
+binary-path:     '/Users/jai-13322/Library/Developer/Xcode/DerivedData/Apptics-ccjyicllufnqkefyezduqrwtelwr/Build/Intermediates.noindex/ArchiveIntermediates/AppticsNotificationServiceExtension/InstallationBuildProductsLocation/Library/Frameworks/AppticsNotificationServiceExtension.framework/AppticsNotificationServiceExtension'
 relocations:
   - { offset: 0x85C61, size: 0x8, addend: 0x0, symName: _AppticsNotificationServiceExtensionVersionString, symObjAddr: 0x0, symBinAddr: 0xB958, symSize: 0x0 }
   - { offset: 0x85C96, size: 0x8, addend: 0x0, symName: _AppticsNotificationServiceExtensionVersionNumber, symObjAddr: 0x50, symBinAddr: 0xB9A8, symSize: 0x0 }
