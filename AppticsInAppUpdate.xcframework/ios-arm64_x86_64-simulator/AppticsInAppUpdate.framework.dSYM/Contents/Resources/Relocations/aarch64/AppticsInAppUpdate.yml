@@ -13,7 +13,7 @@ relocations:
   - { offset: 0x87737, size: 0x8, addend: 0x0, symName: '-[AppUpdateWindow init]', symObjAddr: 0x0, symBinAddr: 0x404C, symSize: 0x90 }
   - { offset: 0x87751, size: 0x8, addend: 0x0, symName: _alertOSXcurrentWindow, symObjAddr: 0x1CC28, symBinAddr: 0x11F88, symSize: 0x0 }
   - { offset: 0x8776C, size: 0x8, addend: 0x0, symName: _alertOnWindow, symObjAddr: 0x1CC30, symBinAddr: 0x11F90, symSize: 0x0 }
-  - { offset: 0x87787, size: 0x8, addend: 0x0, symName: _apCurrentWindow, symObjAddr: 0x1CC38, symBinAddr: 0x11F98, symSize: 0x0 }
+  - { offset: 0x87787, size: 0x8, addend: 0x0, symName: _currentWindow, symObjAddr: 0x1CC38, symBinAddr: 0x11F98, symSize: 0x0 }
   - { offset: 0x87791, size: 0x8, addend: 0x0, symName: '+[APAppUpdateManager sharedManager]', symObjAddr: 0x4D4, symBinAddr: 0x4520, symSize: 0x74 }
   - { offset: 0x877BB, size: 0x8, addend: 0x0, symName: _sharedManager.sharedManger, symObjAddr: 0x1CC40, symBinAddr: 0x11F50, symSize: 0x0 }
   - { offset: 0x877D1, size: 0x8, addend: 0x0, symName: _sharedManager.onceToken, symObjAddr: 0x1CC48, symBinAddr: 0x11F58, symSize: 0x0 }

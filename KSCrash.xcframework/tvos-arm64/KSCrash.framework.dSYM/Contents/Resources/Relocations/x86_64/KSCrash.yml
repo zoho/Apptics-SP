@@ -6,16 +6,16 @@ relocations:
   - { offset: 0xF437D, size: 0x8, addend: 0x0, symName: _KSCrashVersionNumber, symObjAddr: 0x30, symBinAddr: 0x421B0, symSize: 0x0 }
   - { offset: 0xF43B9, size: 0x8, addend: 0x0, symName: ___cxa_throw, symObjAddr: 0x0, symBinAddr: 0xE28, symSize: 0x69 }
   - { offset: 0xF43C7, size: 0x8, addend: 0x0, symName: ___cxa_throw, symObjAddr: 0x0, symBinAddr: 0xE28, symSize: 0x69 }
-  - { offset: 0xF43E9, size: 0x8, addend: 0x0, symName: __ZZ11__cxa_throwE14orig_cxa_throw, symObjAddr: 0x5520, symBinAddr: 0x5F430, symSize: 0x0 }
+  - { offset: 0xF43E9, size: 0x8, addend: 0x0, symName: __ZZ11__cxa_throwE14orig_cxa_throw, symObjAddr: 0x5570, symBinAddr: 0x5F430, symSize: 0x0 }
   - { offset: 0xF494A, size: 0x8, addend: 0x0, symName: _kscm_cppexception_getAPI, symObjAddr: 0xAC, symBinAddr: 0xED4, symSize: 0xD }
   - { offset: 0xF4970, size: 0x8, addend: 0x0, symName: __ZZ24kscm_cppexception_getAPIE3api, symObjAddr: 0x5A0, symBinAddr: 0x5D530, symSize: 0x0 }
-  - { offset: 0xF4E92, size: 0x8, addend: 0x0, symName: __ZL16g_cxaSwapEnabled, symObjAddr: 0x5528, symBinAddr: 0x5F438, symSize: 0x0 }
-  - { offset: 0xF4EB3, size: 0x8, addend: 0x0, symName: __ZL23g_captureNextStackTrace, symObjAddr: 0x5529, symBinAddr: 0x5F439, symSize: 0x0 }
-  - { offset: 0xF4ECD, size: 0x8, addend: 0x0, symName: __ZL13g_stackCursor, symObjAddr: 0x5530, symBinAddr: 0x5F440, symSize: 0x0 }
-  - { offset: 0xF4FD8, size: 0x8, addend: 0x0, symName: __ZL11g_isEnabled, symObjAddr: 0x5898, symBinAddr: 0x5F7A8, symSize: 0x0 }
-  - { offset: 0xF4FF8, size: 0x8, addend: 0x0, symName: __ZL9g_eventID, symObjAddr: 0x58A0, symBinAddr: 0x5F7B0, symSize: 0x0 }
-  - { offset: 0xF501F, size: 0x8, addend: 0x0, symName: __ZL16g_monitorContext, symObjAddr: 0x58D8, symBinAddr: 0x5F7E8, symSize: 0x0 }
-  - { offset: 0xF5044, size: 0x8, addend: 0x0, symName: __ZL26g_originalTerminateHandler, symObjAddr: 0x58C8, symBinAddr: 0x5F7D8, symSize: 0x0 }
+  - { offset: 0xF4E92, size: 0x8, addend: 0x0, symName: __ZL16g_cxaSwapEnabled, symObjAddr: 0x5578, symBinAddr: 0x5F438, symSize: 0x0 }
+  - { offset: 0xF4EB3, size: 0x8, addend: 0x0, symName: __ZL23g_captureNextStackTrace, symObjAddr: 0x5579, symBinAddr: 0x5F439, symSize: 0x0 }
+  - { offset: 0xF4ECD, size: 0x8, addend: 0x0, symName: __ZL13g_stackCursor, symObjAddr: 0x5580, symBinAddr: 0x5F440, symSize: 0x0 }
+  - { offset: 0xF4FD8, size: 0x8, addend: 0x0, symName: __ZL11g_isEnabled, symObjAddr: 0x58E8, symBinAddr: 0x5F7A8, symSize: 0x0 }
+  - { offset: 0xF4FF8, size: 0x8, addend: 0x0, symName: __ZL9g_eventID, symObjAddr: 0x58F0, symBinAddr: 0x5F7B0, symSize: 0x0 }
+  - { offset: 0xF501F, size: 0x8, addend: 0x0, symName: __ZL16g_monitorContext, symObjAddr: 0x5928, symBinAddr: 0x5F7E8, symSize: 0x0 }
+  - { offset: 0xF5044, size: 0x8, addend: 0x0, symName: __ZL26g_originalTerminateHandler, symObjAddr: 0x5918, symBinAddr: 0x5F7D8, symSize: 0x0 }
   - { offset: 0xF50AE, size: 0x8, addend: 0x0, symName: __ZL17captureStackTracePvPSt9type_infoPFvS_E, symObjAddr: 0x69, symBinAddr: 0xE91, symSize: 0x21 }
   - { offset: 0xF50EA, size: 0x8, addend: 0x0, symName: _kscm_enableSwapCxaThrow, symObjAddr: 0x8A, symBinAddr: 0xEB2, symSize: 0x22 }
   - { offset: 0xF513E, size: 0x8, addend: 0x0, symName: __ZL10setEnabledb, symObjAddr: 0xB9, symBinAddr: 0xEE1, symSize: 0x76 }
