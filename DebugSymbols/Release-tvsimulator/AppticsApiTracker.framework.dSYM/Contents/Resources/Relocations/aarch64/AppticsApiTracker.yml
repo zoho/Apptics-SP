@@ -1,0 +1,116 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/appticts-0639-t/Library/Developer/Xcode/DerivedData/Apptics-bjsshrjdnincfpbpdsumorlclqac/Build/Intermediates.noindex/ArchiveIntermediates/AppticsApiTracker/InstallationBuildProductsLocation/Library/Frameworks/AppticsApiTracker.framework/AppticsApiTracker'
+relocations:
+  - { offset: 0x5D082, size: 0x8, addend: 0x0, symName: _AppticsApiTrackerVersionString, symObjAddr: 0x0, symBinAddr: 0x5288, symSize: 0x0 }
+  - { offset: 0x5D0B7, size: 0x8, addend: 0x0, symName: _AppticsApiTrackerVersionNumber, symObjAddr: 0x48, symBinAddr: 0x52D0, symSize: 0x0 }
+  - { offset: 0x5D0F4, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load]', symObjAddr: 0x0, symBinAddr: 0xD98, symSize: 0x28 }
+  - { offset: 0x5D102, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load]', symObjAddr: 0x0, symBinAddr: 0xD98, symSize: 0x28 }
+  - { offset: 0x5D128, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x2A38, symBinAddr: 0xD228, symSize: 0x0 }
+  - { offset: 0x5D1A5, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load].cold.1', symObjAddr: 0x4C, symBinAddr: 0x3B30, symSize: 0x14 }
+  - { offset: 0x5D1C1, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load].cold.1', symObjAddr: 0x4C, symBinAddr: 0x3B30, symSize: 0x14 }
+  - { offset: 0x5D1D3, size: 0x8, addend: 0x0, symName: '___27+[Analytics(Listener) load]_block_invoke', symObjAddr: 0x28, symBinAddr: 0xDC0, symSize: 0x24 }
+  - { offset: 0x5D2CD, size: 0x8, addend: 0x0, symName: _APAPIConfigFromData, symObjAddr: 0x0, symBinAddr: 0xDE4, symSize: 0x17C }
+  - { offset: 0x5D2DB, size: 0x8, addend: 0x0, symName: '+[APAPIConfigElement properties]', symObjAddr: 0x68C, symBinAddr: 0x1470, symSize: 0x194 }
+  - { offset: 0x5D305, size: 0x8, addend: 0x0, symName: _properties.properties, symObjAddr: 0x5C40, symBinAddr: 0xD230, symSize: 0x0 }
+  - { offset: 0x5D4A2, size: 0x8, addend: 0x0, symName: _APAPIConfigFromData, symObjAddr: 0x0, symBinAddr: 0xDE4, symSize: 0x17C }
+  - { offset: 0x5D529, size: 0x8, addend: 0x0, symName: _map, symObjAddr: 0x17C, symBinAddr: 0xF60, symSize: 0x2B8 }
+  - { offset: 0x5D5DF, size: 0x8, addend: 0x0, symName: ___APAPIConfigFromData_block_invoke, symObjAddr: 0x434, symBinAddr: 0x1218, symSize: 0x10 }
+  - { offset: 0x5D61A, size: 0x8, addend: 0x0, symName: _APAPIConfigFromJSON, symObjAddr: 0x444, symBinAddr: 0x1228, symSize: 0x50 }
+  - { offset: 0x5D67B, size: 0x8, addend: 0x0, symName: _APAPIConfigToData, symObjAddr: 0x494, symBinAddr: 0x1278, symSize: 0x18C }
+  - { offset: 0x5D712, size: 0x8, addend: 0x0, symName: ___APAPIConfigToData_block_invoke, symObjAddr: 0x620, symBinAddr: 0x1404, symSize: 0x8 }
+  - { offset: 0x5D74D, size: 0x8, addend: 0x0, symName: _APAPIConfigToJSON, symObjAddr: 0x628, symBinAddr: 0x140C, symSize: 0x64 }
+  - { offset: 0x5D7C7, size: 0x8, addend: 0x0, symName: '+[APAPIConfigElement fromJSONDictionary:]', symObjAddr: 0x820, symBinAddr: 0x1604, symSize: 0x58 }
+  - { offset: 0x5D80A, size: 0x8, addend: 0x0, symName: '-[APAPIConfigElement initWithJSONDictionary:]', symObjAddr: 0x878, symBinAddr: 0x165C, symSize: 0x6C }
+  - { offset: 0x5D851, size: 0x8, addend: 0x0, symName: '-[APAPIConfigElement setValue:forKey:]', symObjAddr: 0x8E4, symBinAddr: 0x16C8, symSize: 0xC4 }
+  - { offset: 0x5D8B4, size: 0x8, addend: 0x0, symName: '-[APAPIConfigElement JSONDictionary]', symObjAddr: 0x9A8, symBinAddr: 0x178C, symSize: 0x258 }
+  - { offset: 0x5D929, size: 0x8, addend: 0x0, symName: '-[APAPIConfigElement lastUpdatedBy]', symObjAddr: 0xC00, symBinAddr: 0x19E4, symSize: 0x8 }
+  - { offset: 0x5D960, size: 0x8, addend: 0x0, symName: '-[APAPIConfigElement setLastUpdatedBy:]', symObjAddr: 0xC08, symBinAddr: 0x19EC, symSize: 0x8 }
+  - { offset: 0x5D99F, size: 0x8, addend: 0x0, symName: '-[APAPIConfigElement lastUpdatedDate]', symObjAddr: 0xC10, symBinAddr: 0x19F4, symSize: 0x8 }
+  - { offset: 0x5D9D6, size: 0x8, addend: 0x0, symName: '-[APAPIConfigElement setLastUpdatedDate:]', symObjAddr: 0xC18, symBinAddr: 0x19FC, symSize: 0x8 }
+  - { offset: 0x5DA15, size: 0x8, addend: 0x0, symName: '-[APAPIConfigElement type]', symObjAddr: 0xC20, symBinAddr: 0x1A04, symSize: 0x8 }
+  - { offset: 0x5DA4C, size: 0x8, addend: 0x0, symName: '-[APAPIConfigElement setType:]', symObjAddr: 0xC28, symBinAddr: 0x1A0C, symSize: 0x8 }
+  - { offset: 0x5DA89, size: 0x8, addend: 0x0, symName: '-[APAPIConfigElement createdBy]', symObjAddr: 0xC30, symBinAddr: 0x1A14, symSize: 0x8 }
+  - { offset: 0x5DAC0, size: 0x8, addend: 0x0, symName: '-[APAPIConfigElement setCreatedBy:]', symObjAddr: 0xC38, symBinAddr: 0x1A1C, symSize: 0x8 }
+  - { offset: 0x5DAFF, size: 0x8, addend: 0x0, symName: '-[APAPIConfigElement appID]', symObjAddr: 0xC40, symBinAddr: 0x1A24, symSize: 0x8 }
+  - { offset: 0x5DB36, size: 0x8, addend: 0x0, symName: '-[APAPIConfigElement setAppID:]', symObjAddr: 0xC48, symBinAddr: 0x1A2C, symSize: 0x8 }
+  - { offset: 0x5DB73, size: 0x8, addend: 0x0, symName: '-[APAPIConfigElement createdDate]', symObjAddr: 0xC50, symBinAddr: 0x1A34, symSize: 0x8 }
+  - { offset: 0x5DBAA, size: 0x8, addend: 0x0, symName: '-[APAPIConfigElement setCreatedDate:]', symObjAddr: 0xC58, symBinAddr: 0x1A3C, symSize: 0x8 }
+  - { offset: 0x5DBE9, size: 0x8, addend: 0x0, symName: '-[APAPIConfigElement apiConfigID]', symObjAddr: 0xC60, symBinAddr: 0x1A44, symSize: 0x8 }
+  - { offset: 0x5DC20, size: 0x8, addend: 0x0, symName: '-[APAPIConfigElement setApiConfigID:]', symObjAddr: 0xC68, symBinAddr: 0x1A4C, symSize: 0x8 }
+  - { offset: 0x5DC5D, size: 0x8, addend: 0x0, symName: '-[APAPIConfigElement validationURL]', symObjAddr: 0xC70, symBinAddr: 0x1A54, symSize: 0x8 }
+  - { offset: 0x5DC94, size: 0x8, addend: 0x0, symName: '-[APAPIConfigElement setValidationURL:]', symObjAddr: 0xC78, symBinAddr: 0x1A5C, symSize: 0x8 }
+  - { offset: 0x5DCD3, size: 0x8, addend: 0x0, symName: '-[APAPIConfigElement url]', symObjAddr: 0xC80, symBinAddr: 0x1A64, symSize: 0x8 }
+  - { offset: 0x5DD0A, size: 0x8, addend: 0x0, symName: '-[APAPIConfigElement setUrl:]', symObjAddr: 0xC88, symBinAddr: 0x1A6C, symSize: 0x8 }
+  - { offset: 0x5DD49, size: 0x8, addend: 0x0, symName: '-[APAPIConfigElement name]', symObjAddr: 0xC90, symBinAddr: 0x1A74, symSize: 0x8 }
+  - { offset: 0x5DD80, size: 0x8, addend: 0x0, symName: '-[APAPIConfigElement setName:]', symObjAddr: 0xC98, symBinAddr: 0x1A7C, symSize: 0x8 }
+  - { offset: 0x5DDBF, size: 0x8, addend: 0x0, symName: '-[APAPIConfigElement isIsKey]', symObjAddr: 0xCA0, symBinAddr: 0x1A84, symSize: 0x8 }
+  - { offset: 0x5DDF6, size: 0x8, addend: 0x0, symName: '-[APAPIConfigElement setIsIsKey:]', symObjAddr: 0xCA8, symBinAddr: 0x1A8C, symSize: 0x8 }
+  - { offset: 0x5DE31, size: 0x8, addend: 0x0, symName: '-[APAPIConfigElement .cxx_destruct]', symObjAddr: 0xCB0, symBinAddr: 0x1A94, symSize: 0x6C }
+  - { offset: 0x5E074, size: 0x8, addend: 0x0, symName: '+[APURLProtocol canInitWithRequest:]', symObjAddr: 0x0, symBinAddr: 0x1B00, symSize: 0x48 }
+  - { offset: 0x5E1B5, size: 0x8, addend: 0x0, symName: '+[APURLProtocol canInitWithRequest:]', symObjAddr: 0x0, symBinAddr: 0x1B00, symSize: 0x48 }
+  - { offset: 0x5E1F8, size: 0x8, addend: 0x0, symName: '+[APURLProtocol canonicalRequestForRequest:]', symObjAddr: 0x48, symBinAddr: 0x1B48, symSize: 0x28 }
+  - { offset: 0x5E23B, size: 0x8, addend: 0x0, symName: '-[APURLProtocol startLoading]', symObjAddr: 0x70, symBinAddr: 0x1B70, symSize: 0x268 }
+  - { offset: 0x5E2E1, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x2D8, symBinAddr: 0x1DD8, symSize: 0x10 }
+  - { offset: 0x5E306, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x2E8, symBinAddr: 0x1DE8, symSize: 0x8 }
+  - { offset: 0x5E325, size: 0x8, addend: 0x0, symName: '___29-[APURLProtocol startLoading]_block_invoke', symObjAddr: 0x2F0, symBinAddr: 0x1DF0, symSize: 0x154 }
+  - { offset: 0x5E3A3, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48r, symObjAddr: 0x444, symBinAddr: 0x1F44, symSize: 0x3C }
+  - { offset: 0x5E3CC, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48r, symObjAddr: 0x480, symBinAddr: 0x1F80, symSize: 0x34 }
+  - { offset: 0x5E3EB, size: 0x8, addend: 0x0, symName: '-[APURLProtocol stopLoading]', symObjAddr: 0x4B4, symBinAddr: 0x1FB4, symSize: 0x8C }
+  - { offset: 0x5E434, size: 0x8, addend: 0x0, symName: '___28-[APURLProtocol stopLoading]_block_invoke', symObjAddr: 0x540, symBinAddr: 0x2040, symSize: 0x3C }
+  - { offset: 0x5E473, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x57C, symBinAddr: 0x207C, symSize: 0x8 }
+  - { offset: 0x5E49A, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x584, symBinAddr: 0x2084, symSize: 0x8 }
+  - { offset: 0x5E4B9, size: 0x8, addend: 0x0, symName: '-[APURLProtocol URLSession:didReceiveChallenge:completionHandler:]', symObjAddr: 0x58C, symBinAddr: 0x208C, symSize: 0x134 }
+  - { offset: 0x5E534, size: 0x8, addend: 0x0, symName: '-[APURLProtocol URLSession:dataTask:didReceiveData:]', symObjAddr: 0x6C0, symBinAddr: 0x21C0, symSize: 0xB8 }
+  - { offset: 0x5E5A5, size: 0x8, addend: 0x0, symName: '___52-[APURLProtocol URLSession:dataTask:didReceiveData:]_block_invoke', symObjAddr: 0x778, symBinAddr: 0x2278, symSize: 0x3C }
+  - { offset: 0x5E5F4, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x7B4, symBinAddr: 0x22B4, symSize: 0x28 }
+  - { offset: 0x5E61D, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x7DC, symBinAddr: 0x22DC, symSize: 0x28 }
+  - { offset: 0x5E63C, size: 0x8, addend: 0x0, symName: '-[APURLProtocol URLSession:dataTask:didReceiveResponse:completionHandler:]', symObjAddr: 0x804, symBinAddr: 0x2304, symSize: 0xE0 }
+  - { offset: 0x5E6D7, size: 0x8, addend: 0x0, symName: '___74-[APURLProtocol URLSession:dataTask:didReceiveResponse:completionHandler:]_block_invoke', symObjAddr: 0x8E4, symBinAddr: 0x23E4, symSize: 0xA4 }
+  - { offset: 0x5E788, size: 0x8, addend: 0x0, symName: '-[APURLProtocol URLSession:task:didCompleteWithError:]', symObjAddr: 0x988, symBinAddr: 0x2488, symSize: 0x1FC }
+  - { offset: 0x5E836, size: 0x8, addend: 0x0, symName: '___54-[APURLProtocol URLSession:task:didCompleteWithError:]_block_invoke', symObjAddr: 0xB84, symBinAddr: 0x2684, symSize: 0x104 }
+  - { offset: 0x5E89B, size: 0x8, addend: 0x0, symName: '___54-[APURLProtocol URLSession:task:didCompleteWithError:]_block_invoke_2', symObjAddr: 0xC88, symBinAddr: 0x2788, symSize: 0x104 }
+  - { offset: 0x5E901, size: 0x8, addend: 0x0, symName: '-[APURLProtocol URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]', symObjAddr: 0xD8C, symBinAddr: 0x288C, symSize: 0x10 }
+  - { offset: 0x5E991, size: 0x8, addend: 0x0, symName: '-[APURLProtocol dealloc]', symObjAddr: 0xD9C, symBinAddr: 0x289C, symSize: 0x8C }
+  - { offset: 0x5E9DB, size: 0x8, addend: 0x0, symName: '-[APURLProtocol connection]', symObjAddr: 0xE28, symBinAddr: 0x2928, symSize: 0x10 }
+  - { offset: 0x5EA12, size: 0x8, addend: 0x0, symName: '-[APURLProtocol setConnection:]', symObjAddr: 0xE38, symBinAddr: 0x2938, symSize: 0x40 }
+  - { offset: 0x5EA53, size: 0x8, addend: 0x0, symName: '-[APURLProtocol mutableData]', symObjAddr: 0xE78, symBinAddr: 0x2978, symSize: 0x10 }
+  - { offset: 0x5EA8A, size: 0x8, addend: 0x0, symName: '-[APURLProtocol setMutableData:]', symObjAddr: 0xE88, symBinAddr: 0x2988, symSize: 0x40 }
+  - { offset: 0x5EACB, size: 0x8, addend: 0x0, symName: '-[APURLProtocol response]', symObjAddr: 0xEC8, symBinAddr: 0x29C8, symSize: 0x10 }
+  - { offset: 0x5EB02, size: 0x8, addend: 0x0, symName: '-[APURLProtocol setResponse:]', symObjAddr: 0xED8, symBinAddr: 0x29D8, symSize: 0x40 }
+  - { offset: 0x5EB43, size: 0x8, addend: 0x0, symName: '-[APURLProtocol apiObject]', symObjAddr: 0xF18, symBinAddr: 0x2A18, symSize: 0x10 }
+  - { offset: 0x5EB7A, size: 0x8, addend: 0x0, symName: '-[APURLProtocol setApiObject:]', symObjAddr: 0xF28, symBinAddr: 0x2A28, symSize: 0x40 }
+  - { offset: 0x5EBBB, size: 0x8, addend: 0x0, symName: '-[APURLProtocol session]', symObjAddr: 0xF68, symBinAddr: 0x2A68, symSize: 0x10 }
+  - { offset: 0x5EBF2, size: 0x8, addend: 0x0, symName: '-[APURLProtocol setSession:]', symObjAddr: 0xF78, symBinAddr: 0x2A78, symSize: 0x40 }
+  - { offset: 0x5EC33, size: 0x8, addend: 0x0, symName: '-[APURLProtocol .cxx_destruct]', symObjAddr: 0xFB8, symBinAddr: 0x2AB8, symSize: 0x7C }
+  - { offset: 0x5F12C, size: 0x8, addend: 0x0, symName: '+[APAPIManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x2B34, symSize: 0x144 }
+  - { offset: 0x5F13F, size: 0x8, addend: 0x0, symName: '+[APAPIManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x2B34, symSize: 0x144 }
+  - { offset: 0x5F169, size: 0x8, addend: 0x0, symName: _sharedInstance.classInstance, symObjAddr: 0x8648, symBinAddr: 0xD238, symSize: 0x0 }
+  - { offset: 0x5F256, size: 0x8, addend: 0x0, symName: '___30+[APAPIManager sharedInstance]_block_invoke', symObjAddr: 0x144, symBinAddr: 0x2C78, symSize: 0x10 }
+  - { offset: 0x5F28D, size: 0x8, addend: 0x0, symName: '-[APAPIManager apAPIUpdateNotification:]', symObjAddr: 0x154, symBinAddr: 0x2C88, symSize: 0x7C }
+  - { offset: 0x5F2CC, size: 0x8, addend: 0x0, symName: '___40-[APAPIManager apAPIUpdateNotification:]_block_invoke', symObjAddr: 0x1D0, symBinAddr: 0x2D04, symSize: 0xC }
+  - { offset: 0x5F31B, size: 0x8, addend: 0x0, symName: '-[APAPIManager addAPIObject:]', symObjAddr: 0x1EC, symBinAddr: 0x2D10, symSize: 0xB0 }
+  - { offset: 0x5F3A3, size: 0x8, addend: 0x0, symName: '___29-[APAPIManager addAPIObject:]_block_invoke', symObjAddr: 0x29C, symBinAddr: 0x2DC0, symSize: 0x3C }
+  - { offset: 0x5F3F2, size: 0x8, addend: 0x0, symName: '-[APAPIManager removeAPIObject:]', symObjAddr: 0x328, symBinAddr: 0x2DFC, symSize: 0xB0 }
+  - { offset: 0x5F452, size: 0x8, addend: 0x0, symName: '___32-[APAPIManager removeAPIObject:]_block_invoke', symObjAddr: 0x3D8, symBinAddr: 0x2EAC, symSize: 0x3C }
+  - { offset: 0x5F4A1, size: 0x8, addend: 0x0, symName: '-[APAPIManager getAllAPIObjects]', symObjAddr: 0x414, symBinAddr: 0x2EE8, symSize: 0x138 }
+  - { offset: 0x5F5BC, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x54C, symBinAddr: 0x3020, symSize: 0x10 }
+  - { offset: 0x5F5E1, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x55C, symBinAddr: 0x3030, symSize: 0x8 }
+  - { offset: 0x5F600, size: 0x8, addend: 0x0, symName: '___32-[APAPIManager getAllAPIObjects]_block_invoke', symObjAddr: 0x564, symBinAddr: 0x3038, symSize: 0x58 }
+  - { offset: 0x5F67F, size: 0x8, addend: 0x0, symName: '+[APAPIManager enableForSessionConfiguration:]', symObjAddr: 0x62C, symBinAddr: 0x3090, symSize: 0x54 }
+  - { offset: 0x5F6BE, size: 0x8, addend: 0x0, symName: '-[APAPIManager enableApiTrackingForSessionConfiguration:]', symObjAddr: 0x680, symBinAddr: 0x30E4, symSize: 0xA8 }
+  - { offset: 0x5F6FD, size: 0x8, addend: 0x0, symName: '+[APAPIManager getApiIdForUrl:]', symObjAddr: 0x728, symBinAddr: 0x318C, symSize: 0x184 }
+  - { offset: 0x5F7D2, size: 0x8, addend: 0x0, symName: '+[APAPIManager isMatchString:withString:]', symObjAddr: 0x8AC, symBinAddr: 0x3310, symSize: 0xA4 }
+  - { offset: 0x5F845, size: 0x8, addend: 0x0, symName: '+[APAPIManager directMatch:]', symObjAddr: 0x950, symBinAddr: 0x33B4, symSize: 0x204 }
+  - { offset: 0x5F8BF, size: 0x8, addend: 0x0, symName: '+[APAPIManager patternMatch:]', symObjAddr: 0xB54, symBinAddr: 0x35B8, symSize: 0x20C }
+  - { offset: 0x5F93D, size: 0x8, addend: 0x0, symName: '+[APAPIManager startTrackingApi:HTTPMethod:]', symObjAddr: 0xD60, symBinAddr: 0x37C4, symSize: 0xDC }
+  - { offset: 0x5F9A0, size: 0x8, addend: 0x0, symName: '+[APAPIManager endTrackingApi:responseCode:]', symObjAddr: 0xE3C, symBinAddr: 0x38A0, symSize: 0x19C }
+  - { offset: 0x5FA52, size: 0x8, addend: 0x0, symName: '+[APAPIManager convertStringArrayToNumberArray:]', symObjAddr: 0xFD8, symBinAddr: 0x3A3C, symSize: 0x10 }
+  - { offset: 0x5FA95, size: 0x8, addend: 0x0, symName: '-[APAPIManager apisQueue]', symObjAddr: 0xFE8, symBinAddr: 0x3A4C, symSize: 0x8 }
+  - { offset: 0x5FACC, size: 0x8, addend: 0x0, symName: '-[APAPIManager setApisQueue:]', symObjAddr: 0xFF0, symBinAddr: 0x3A54, symSize: 0x30 }
+  - { offset: 0x5FB0D, size: 0x8, addend: 0x0, symName: '-[APAPIManager apiInfo]', symObjAddr: 0x1020, symBinAddr: 0x3A84, symSize: 0x8 }
+  - { offset: 0x5FB44, size: 0x8, addend: 0x0, symName: '-[APAPIManager setApiInfo:]', symObjAddr: 0x1028, symBinAddr: 0x3A8C, symSize: 0x30 }
+  - { offset: 0x5FB85, size: 0x8, addend: 0x0, symName: '-[APAPIManager apiQueueAccessQueue]', symObjAddr: 0x1058, symBinAddr: 0x3ABC, symSize: 0x8 }
+  - { offset: 0x5FBBC, size: 0x8, addend: 0x0, symName: '-[APAPIManager setApiQueueAccessQueue:]', symObjAddr: 0x1060, symBinAddr: 0x3AC4, symSize: 0x30 }
+  - { offset: 0x5FBFD, size: 0x8, addend: 0x0, symName: '-[APAPIManager .cxx_destruct]', symObjAddr: 0x1090, symBinAddr: 0x3AF4, symSize: 0x3C }
+...

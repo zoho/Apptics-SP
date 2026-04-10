@@ -1,0 +1,309 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/appticts-0639-t/Library/Developer/Xcode/DerivedData/Apptics-dzrqlnnjyljckdcajdfczditujtu/Build/Intermediates.noindex/ArchiveIntermediates/AppticsMXCrashKit/InstallationBuildProductsLocation/Library/Frameworks/AppticsMXCrashKit.framework/AppticsMXCrashKit'
+relocations:
+  - { offset: 0x6462F, size: 0x8, addend: 0x0, symName: _AppticsMXCrashKitVersionString, symObjAddr: 0x0, symBinAddr: 0x15A20, symSize: 0x0 }
+  - { offset: 0x64664, size: 0x8, addend: 0x0, symName: _AppticsMXCrashKitVersionNumber, symObjAddr: 0x40, symBinAddr: 0x15A60, symSize: 0x0 }
+  - { offset: 0x646A1, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x28 }
+  - { offset: 0x646AF, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x28 }
+  - { offset: 0x646D5, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x2F30, symBinAddr: 0x28590, symSize: 0x0 }
+  - { offset: 0x64752, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load].cold.1', symObjAddr: 0x88, symBinAddr: 0x127DC, symSize: 0x14 }
+  - { offset: 0x6476E, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load].cold.1', symObjAddr: 0x88, symBinAddr: 0x127DC, symSize: 0x14 }
+  - { offset: 0x64780, size: 0x8, addend: 0x0, symName: '___27+[Analytics(Listener) load]_block_invoke', symObjAddr: 0x28, symBinAddr: 0x4028, symSize: 0x60 }
+  - { offset: 0x648A7, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData initWithDictionary:]', symObjAddr: 0x0, symBinAddr: 0x4088, symSize: 0x3F8 }
+  - { offset: 0x64B7F, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData initWithDictionary:]', symObjAddr: 0x0, symBinAddr: 0x4088, symSize: 0x3F8 }
+  - { offset: 0x64BE5, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData safeStringForKey:fromDictionary:]', symObjAddr: 0x3F8, symBinAddr: 0x4480, symSize: 0x68 }
+  - { offset: 0x64C48, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData safeIntegerForKey:fromDictionary:]', symObjAddr: 0x460, symBinAddr: 0x44E8, symSize: 0x74 }
+  - { offset: 0x64CAB, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData safeBoolForKey:fromDictionary:]', symObjAddr: 0x4D4, symBinAddr: 0x455C, symSize: 0x74 }
+  - { offset: 0x64D0E, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData parseSignpostData:]', symObjAddr: 0x548, symBinAddr: 0x45D0, symSize: 0x30C }
+  - { offset: 0x64E07, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData launchJson]', symObjAddr: 0x854, symBinAddr: 0x48DC, symSize: 0x398 }
+  - { offset: 0x64E4E, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData hangJson]', symObjAddr: 0xBEC, symBinAddr: 0x4C74, symSize: 0x430 }
+  - { offset: 0x64E95, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData diskWriteJson]', symObjAddr: 0x101C, symBinAddr: 0x50A4, symSize: 0x3E4 }
+  - { offset: 0x64EDC, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData cpuJson]', symObjAddr: 0x1400, symBinAddr: 0x5488, symSize: 0x430 }
+  - { offset: 0x64F23, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData crashJson]', symObjAddr: 0x1830, symBinAddr: 0x58B8, symSize: 0x514 }
+  - { offset: 0x64F6C, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData appBuildVersion]', symObjAddr: 0x1D44, symBinAddr: 0x5DCC, symSize: 0x8 }
+  - { offset: 0x64FA3, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData setAppBuildVersion:]', symObjAddr: 0x1D4C, symBinAddr: 0x5DD4, symSize: 0x30 }
+  - { offset: 0x64FE4, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData appVersion]', symObjAddr: 0x1D7C, symBinAddr: 0x5E04, symSize: 0x8 }
+  - { offset: 0x6501B, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData setAppVersion:]', symObjAddr: 0x1D84, symBinAddr: 0x5E0C, symSize: 0x30 }
+  - { offset: 0x6505C, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData bundleIdentifier]', symObjAddr: 0x1DB4, symBinAddr: 0x5E3C, symSize: 0x8 }
+  - { offset: 0x65093, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData setBundleIdentifier:]', symObjAddr: 0x1DBC, symBinAddr: 0x5E44, symSize: 0x30 }
+  - { offset: 0x650D4, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData deviceType]', symObjAddr: 0x1DEC, symBinAddr: 0x5E74, symSize: 0x8 }
+  - { offset: 0x6510B, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData setDeviceType:]', symObjAddr: 0x1DF4, symBinAddr: 0x5E7C, symSize: 0x30 }
+  - { offset: 0x6514C, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData exceptionCode]', symObjAddr: 0x1E24, symBinAddr: 0x5EAC, symSize: 0x8 }
+  - { offset: 0x65183, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData setExceptionCode:]', symObjAddr: 0x1E2C, symBinAddr: 0x5EB4, symSize: 0x8 }
+  - { offset: 0x651C0, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData exceptionType]', symObjAddr: 0x1E34, symBinAddr: 0x5EBC, symSize: 0x8 }
+  - { offset: 0x651F7, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData setExceptionType:]', symObjAddr: 0x1E3C, symBinAddr: 0x5EC4, symSize: 0x8 }
+  - { offset: 0x65234, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData isTestFlightApp]', symObjAddr: 0x1E44, symBinAddr: 0x5ECC, symSize: 0x8 }
+  - { offset: 0x6526B, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData setIsTestFlightApp:]', symObjAddr: 0x1E4C, symBinAddr: 0x5ED4, symSize: 0x8 }
+  - { offset: 0x652A8, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData lowPowerModeEnabled]', symObjAddr: 0x1E54, symBinAddr: 0x5EDC, symSize: 0x8 }
+  - { offset: 0x652DF, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData setLowPowerModeEnabled:]', symObjAddr: 0x1E5C, symBinAddr: 0x5EE4, symSize: 0x8 }
+  - { offset: 0x6531C, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData osVersion]', symObjAddr: 0x1E64, symBinAddr: 0x5EEC, symSize: 0x8 }
+  - { offset: 0x65353, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData setOsVersion:]', symObjAddr: 0x1E6C, symBinAddr: 0x5EF4, symSize: 0x30 }
+  - { offset: 0x65394, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData pid]', symObjAddr: 0x1E9C, symBinAddr: 0x5F24, symSize: 0x8 }
+  - { offset: 0x653CB, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData setPid:]', symObjAddr: 0x1EA4, symBinAddr: 0x5F2C, symSize: 0x8 }
+  - { offset: 0x65408, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData platformArchitecture]', symObjAddr: 0x1EAC, symBinAddr: 0x5F34, symSize: 0x8 }
+  - { offset: 0x6543F, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData setPlatformArchitecture:]', symObjAddr: 0x1EB4, symBinAddr: 0x5F3C, symSize: 0x30 }
+  - { offset: 0x65480, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData regionFormat]', symObjAddr: 0x1EE4, symBinAddr: 0x5F6C, symSize: 0x8 }
+  - { offset: 0x654B7, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData setRegionFormat:]', symObjAddr: 0x1EEC, symBinAddr: 0x5F74, symSize: 0x30 }
+  - { offset: 0x654F8, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData signal]', symObjAddr: 0x1F1C, symBinAddr: 0x5FA4, symSize: 0x8 }
+  - { offset: 0x6552F, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData setSignal:]', symObjAddr: 0x1F24, symBinAddr: 0x5FAC, symSize: 0x8 }
+  - { offset: 0x6556C, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData signpostData]', symObjAddr: 0x1F2C, symBinAddr: 0x5FB4, symSize: 0x8 }
+  - { offset: 0x655A3, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData setSignpostData:]', symObjAddr: 0x1F34, symBinAddr: 0x5FBC, symSize: 0x30 }
+  - { offset: 0x655E4, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData terminationReason]', symObjAddr: 0x1F64, symBinAddr: 0x5FEC, symSize: 0x8 }
+  - { offset: 0x6561B, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData setTerminationReason:]', symObjAddr: 0x1F6C, symBinAddr: 0x5FF4, symSize: 0x30 }
+  - { offset: 0x6565C, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData virtualMemoryRegionInfo]', symObjAddr: 0x1F9C, symBinAddr: 0x6024, symSize: 0x8 }
+  - { offset: 0x65693, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData setVirtualMemoryRegionInfo:]', symObjAddr: 0x1FA4, symBinAddr: 0x602C, symSize: 0x30 }
+  - { offset: 0x656D4, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData totalCPUTime]', symObjAddr: 0x1FD4, symBinAddr: 0x605C, symSize: 0x8 }
+  - { offset: 0x6570B, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData setTotalCPUTime:]', symObjAddr: 0x1FDC, symBinAddr: 0x6064, symSize: 0x30 }
+  - { offset: 0x6574C, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData totalSampledTime]', symObjAddr: 0x200C, symBinAddr: 0x6094, symSize: 0x8 }
+  - { offset: 0x65783, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData setTotalSampledTime:]', symObjAddr: 0x2014, symBinAddr: 0x609C, symSize: 0x30 }
+  - { offset: 0x657C4, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData hangType]', symObjAddr: 0x2044, symBinAddr: 0x60CC, symSize: 0x8 }
+  - { offset: 0x657FB, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData setHangType:]', symObjAddr: 0x204C, symBinAddr: 0x60D4, symSize: 0x30 }
+  - { offset: 0x6583C, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData hangDuration]', symObjAddr: 0x207C, symBinAddr: 0x6104, symSize: 0x8 }
+  - { offset: 0x65873, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData setHangDuration:]', symObjAddr: 0x2084, symBinAddr: 0x610C, symSize: 0x30 }
+  - { offset: 0x658B4, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData writesCaused]', symObjAddr: 0x20B4, symBinAddr: 0x613C, symSize: 0x8 }
+  - { offset: 0x658EB, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData setWritesCaused:]', symObjAddr: 0x20BC, symBinAddr: 0x6144, symSize: 0x8 }
+  - { offset: 0x6592A, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData launchDuration]', symObjAddr: 0x20C4, symBinAddr: 0x614C, symSize: 0x8 }
+  - { offset: 0x65961, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData setLaunchDuration:]', symObjAddr: 0x20CC, symBinAddr: 0x6154, symSize: 0x8 }
+  - { offset: 0x659A0, size: 0x8, addend: 0x0, symName: '-[APDiagnosticMetaData .cxx_destruct]', symObjAddr: 0x20D4, symBinAddr: 0x615C, symSize: 0xD8 }
+  - { offset: 0x65A6B, size: 0x8, addend: 0x0, symName: '+[APAppState supportsSecureCoding]', symObjAddr: 0x0, symBinAddr: 0x6234, symSize: 0x8 }
+  - { offset: 0x65C2B, size: 0x8, addend: 0x0, symName: '+[APAppState supportsSecureCoding]', symObjAddr: 0x0, symBinAddr: 0x6234, symSize: 0x8 }
+  - { offset: 0x65C5E, size: 0x8, addend: 0x0, symName: '-[APAppState encodeWithCoder:]', symObjAddr: 0x8, symBinAddr: 0x623C, symSize: 0x168 }
+  - { offset: 0x65CA1, size: 0x8, addend: 0x0, symName: '-[APAppState initWithCoder:]', symObjAddr: 0x170, symBinAddr: 0x63A4, symSize: 0x150 }
+  - { offset: 0x65CE8, size: 0x8, addend: 0x0, symName: '-[APAppState filePath]', symObjAddr: 0x2C0, symBinAddr: 0x64F4, symSize: 0x74 }
+  - { offset: 0x65D6D, size: 0x8, addend: 0x0, symName: '-[APAppState saveStateToFile]', symObjAddr: 0x334, symBinAddr: 0x6568, symSize: 0xFC }
+  - { offset: 0x65E17, size: 0x8, addend: 0x0, symName: '+[APAppState loadStateFromFile]', symObjAddr: 0x430, symBinAddr: 0x6664, symSize: 0x14C }
+  - { offset: 0x65EA0, size: 0x8, addend: 0x0, symName: '-[APAppState jsonify]', symObjAddr: 0x57C, symBinAddr: 0x67B0, symSize: 0x488 }
+  - { offset: 0x65FEE, size: 0x8, addend: 0x0, symName: '-[APAppState activeDurationSinceLastCrash]', symObjAddr: 0xA04, symBinAddr: 0x6C38, symSize: 0x8 }
+  - { offset: 0x66023, size: 0x8, addend: 0x0, symName: '-[APAppState setActiveDurationSinceLastCrash:]', symObjAddr: 0xA0C, symBinAddr: 0x6C40, symSize: 0x8 }
+  - { offset: 0x66061, size: 0x8, addend: 0x0, symName: '-[APAppState backgroundDurationSinceLastCrash]', symObjAddr: 0xA14, symBinAddr: 0x6C48, symSize: 0x8 }
+  - { offset: 0x66096, size: 0x8, addend: 0x0, symName: '-[APAppState setBackgroundDurationSinceLastCrash:]', symObjAddr: 0xA1C, symBinAddr: 0x6C50, symSize: 0x8 }
+  - { offset: 0x660D4, size: 0x8, addend: 0x0, symName: '-[APAppState launchesSinceLastCrash]', symObjAddr: 0xA24, symBinAddr: 0x6C58, symSize: 0x8 }
+  - { offset: 0x6610B, size: 0x8, addend: 0x0, symName: '-[APAppState setLaunchesSinceLastCrash:]', symObjAddr: 0xA2C, symBinAddr: 0x6C60, symSize: 0x8 }
+  - { offset: 0x66148, size: 0x8, addend: 0x0, symName: '-[APAppState sessionsSinceLastCrash]', symObjAddr: 0xA34, symBinAddr: 0x6C68, symSize: 0x8 }
+  - { offset: 0x6617F, size: 0x8, addend: 0x0, symName: '-[APAppState setSessionsSinceLastCrash:]', symObjAddr: 0xA3C, symBinAddr: 0x6C70, symSize: 0x8 }
+  - { offset: 0x661BC, size: 0x8, addend: 0x0, symName: '-[APAppState activeDurationSinceLaunch]', symObjAddr: 0xA44, symBinAddr: 0x6C78, symSize: 0x8 }
+  - { offset: 0x661F1, size: 0x8, addend: 0x0, symName: '-[APAppState setActiveDurationSinceLaunch:]', symObjAddr: 0xA4C, symBinAddr: 0x6C80, symSize: 0x8 }
+  - { offset: 0x6622F, size: 0x8, addend: 0x0, symName: '-[APAppState backgroundDurationSinceLaunch]', symObjAddr: 0xA54, symBinAddr: 0x6C88, symSize: 0x8 }
+  - { offset: 0x66264, size: 0x8, addend: 0x0, symName: '-[APAppState setBackgroundDurationSinceLaunch:]', symObjAddr: 0xA5C, symBinAddr: 0x6C90, symSize: 0x8 }
+  - { offset: 0x662A2, size: 0x8, addend: 0x0, symName: '-[APAppState sessionsSinceLaunch]', symObjAddr: 0xA64, symBinAddr: 0x6C98, symSize: 0x8 }
+  - { offset: 0x662D9, size: 0x8, addend: 0x0, symName: '-[APAppState setSessionsSinceLaunch:]', symObjAddr: 0xA6C, symBinAddr: 0x6CA0, symSize: 0x8 }
+  - { offset: 0x66316, size: 0x8, addend: 0x0, symName: '-[APAppState crashedLastLaunch]', symObjAddr: 0xA74, symBinAddr: 0x6CA8, symSize: 0x8 }
+  - { offset: 0x6634D, size: 0x8, addend: 0x0, symName: '-[APAppState setCrashedLastLaunch:]', symObjAddr: 0xA7C, symBinAddr: 0x6CB0, symSize: 0x8 }
+  - { offset: 0x66388, size: 0x8, addend: 0x0, symName: '-[APAppState crashedThisLaunch]', symObjAddr: 0xA84, symBinAddr: 0x6CB8, symSize: 0x8 }
+  - { offset: 0x663BF, size: 0x8, addend: 0x0, symName: '-[APAppState setCrashedThisLaunch:]', symObjAddr: 0xA8C, symBinAddr: 0x6CC0, symSize: 0x8 }
+  - { offset: 0x663FA, size: 0x8, addend: 0x0, symName: '-[APAppState appStateTransitionTime]', symObjAddr: 0xA94, symBinAddr: 0x6CC8, symSize: 0x8 }
+  - { offset: 0x6642F, size: 0x8, addend: 0x0, symName: '-[APAppState setAppStateTransitionTime:]', symObjAddr: 0xA9C, symBinAddr: 0x6CD0, symSize: 0x8 }
+  - { offset: 0x6646D, size: 0x8, addend: 0x0, symName: '-[APAppState applicationIsActive]', symObjAddr: 0xAA4, symBinAddr: 0x6CD8, symSize: 0x8 }
+  - { offset: 0x664A4, size: 0x8, addend: 0x0, symName: '-[APAppState setApplicationIsActive:]', symObjAddr: 0xAAC, symBinAddr: 0x6CE0, symSize: 0x8 }
+  - { offset: 0x664DF, size: 0x8, addend: 0x0, symName: '-[APAppState applicationIsInForeground]', symObjAddr: 0xAB4, symBinAddr: 0x6CE8, symSize: 0x8 }
+  - { offset: 0x66516, size: 0x8, addend: 0x0, symName: '-[APAppState setApplicationIsInForeground:]', symObjAddr: 0xABC, symBinAddr: 0x6CF0, symSize: 0x8 }
+  - { offset: 0x66603, size: 0x8, addend: 0x0, symName: _writeCrashLog, symObjAddr: 0x0, symBinAddr: 0x6CF8, symSize: 0x7C }
+  - { offset: 0x66616, size: 0x8, addend: 0x0, symName: _signalHandler, symObjAddr: 0x7C, symBinAddr: 0x6D74, symSize: 0x324 }
+  - { offset: 0x66638, size: 0x8, addend: 0x0, symName: _signalHandler.regex, symObjAddr: 0xE260, symBinAddr: 0x28598, symSize: 0x0 }
+  - { offset: 0x6664E, size: 0x8, addend: 0x0, symName: _signalHandler.onceToken, symObjAddr: 0xE268, symBinAddr: 0x285A0, symSize: 0x0 }
+  - { offset: 0x66892, size: 0x8, addend: 0x0, symName: '+[APCrashReporter sharedInstance]', symObjAddr: 0x99C, symBinAddr: 0x7694, symSize: 0x88 }
+  - { offset: 0x668BC, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0xE270, symBinAddr: 0x285A8, symSize: 0x0 }
+  - { offset: 0x668D2, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xE278, symBinAddr: 0x285B0, symSize: 0x0 }
+  - { offset: 0x66B26, size: 0x8, addend: 0x0, symName: _writeCrashLog, symObjAddr: 0x0, symBinAddr: 0x6CF8, symSize: 0x7C }
+  - { offset: 0x66C39, size: 0x8, addend: 0x0, symName: _signalHandler.cold.1, symObjAddr: 0x216C, symBinAddr: 0x127F0, symSize: 0x14 }
+  - { offset: 0x66C55, size: 0x8, addend: 0x0, symName: _signalHandler.cold.1, symObjAddr: 0x216C, symBinAddr: 0x127F0, symSize: 0x14 }
+  - { offset: 0x66C67, size: 0x8, addend: 0x0, symName: ___signalHandler_block_invoke, symObjAddr: 0x3A0, symBinAddr: 0x7098, symSize: 0x44 }
+  - { offset: 0x66CAD, size: 0x8, addend: 0x0, symName: _registerSignalHandlers, symObjAddr: 0x3E4, symBinAddr: 0x70DC, symSize: 0xAC }
+  - { offset: 0x66DE3, size: 0x8, addend: 0x0, symName: _handleUncaughtException, symObjAddr: 0x490, symBinAddr: 0x7188, symSize: 0x2C0 }
+  - { offset: 0x66E48, size: 0x8, addend: 0x0, symName: '-[APCrashReporter loadSavedException]', symObjAddr: 0x750, symBinAddr: 0x7448, symSize: 0xDC }
+  - { offset: 0x66EB9, size: 0x8, addend: 0x0, symName: '-[APCrashReporter deleteSavedException]', symObjAddr: 0x82C, symBinAddr: 0x7524, symSize: 0x170 }
+  - { offset: 0x66FB2, size: 0x8, addend: 0x0, symName: '___33+[APCrashReporter sharedInstance]_block_invoke', symObjAddr: 0xA24, symBinAddr: 0x771C, symSize: 0x38 }
+  - { offset: 0x66FF1, size: 0x8, addend: 0x0, symName: '-[APCrashReporter startListeners]', symObjAddr: 0xA5C, symBinAddr: 0x7754, symSize: 0x1C0 }
+  - { offset: 0x67058, size: 0x8, addend: 0x0, symName: '-[APCrashReporter installCrashLogger]', symObjAddr: 0xC1C, symBinAddr: 0x7914, symSize: 0x34 }
+  - { offset: 0x6708B, size: 0x8, addend: 0x0, symName: '-[APCrashReporter startMonitoring]', symObjAddr: 0xC50, symBinAddr: 0x7948, symSize: 0x40 }
+  - { offset: 0x670BE, size: 0x8, addend: 0x0, symName: '-[APCrashReporter stopMonitoring]', symObjAddr: 0xC90, symBinAddr: 0x7988, symSize: 0x40 }
+  - { offset: 0x670F1, size: 0x8, addend: 0x0, symName: '-[APCrashReporter didReceiveDiagnosticPayloads:]', symObjAddr: 0xCD0, symBinAddr: 0x79C8, symSize: 0x4 }
+  - { offset: 0x67130, size: 0x8, addend: 0x0, symName: '-[APCrashReporter saveDiagnosticPayload:]', symObjAddr: 0xCD4, symBinAddr: 0x79CC, symSize: 0x474 }
+  - { offset: 0x6725E, size: 0x8, addend: 0x0, symName: '-[APCrashReporter saveDiagnosticPayloadToFile:meta:]', symObjAddr: 0x1148, symBinAddr: 0x7E40, symSize: 0x168 }
+  - { offset: 0x672F2, size: 0x8, addend: 0x0, symName: '-[APCrashReporter processTheCrashReport]', symObjAddr: 0x12B0, symBinAddr: 0x7FA8, symSize: 0x458 }
+  - { offset: 0x67337, size: 0x8, addend: 0x0, symName: '-[APCrashReporter applicationDidFinishLaunching:]', symObjAddr: 0x1708, symBinAddr: 0x8400, symSize: 0x48 }
+  - { offset: 0x67378, size: 0x8, addend: 0x0, symName: '-[APCrashReporter applicationDidBecomeActive:]', symObjAddr: 0x1750, symBinAddr: 0x8448, symSize: 0xB4 }
+  - { offset: 0x673B9, size: 0x8, addend: 0x0, symName: '-[APCrashReporter applicationWillResignActive:]', symObjAddr: 0x1804, symBinAddr: 0x84FC, symSize: 0x134 }
+  - { offset: 0x673FA, size: 0x8, addend: 0x0, symName: '-[APCrashReporter applicationDidEnterBackground:]', symObjAddr: 0x1938, symBinAddr: 0x8630, symSize: 0xDC }
+  - { offset: 0x6743B, size: 0x8, addend: 0x0, symName: '-[APCrashReporter applicationWillEnterForeground:]', symObjAddr: 0x1A14, symBinAddr: 0x870C, symSize: 0x1A8 }
+  - { offset: 0x6747C, size: 0x8, addend: 0x0, symName: '-[APCrashReporter appWillTerminate:]', symObjAddr: 0x1BBC, symBinAddr: 0x88B4, symSize: 0x7C }
+  - { offset: 0x674BD, size: 0x8, addend: 0x0, symName: '+[APCrashReporter activeDurationSinceLastCrash]', symObjAddr: 0x1C38, symBinAddr: 0x8930, symSize: 0x64 }
+  - { offset: 0x674F1, size: 0x8, addend: 0x0, symName: '+[APCrashReporter backgroundDurationSinceLastCrash]', symObjAddr: 0x1C9C, symBinAddr: 0x8994, symSize: 0x64 }
+  - { offset: 0x67525, size: 0x8, addend: 0x0, symName: '+[APCrashReporter launchesSinceLastCrash]', symObjAddr: 0x1D00, symBinAddr: 0x89F8, symSize: 0x64 }
+  - { offset: 0x67559, size: 0x8, addend: 0x0, symName: '+[APCrashReporter sessionsSinceLastCrash]', symObjAddr: 0x1D64, symBinAddr: 0x8A5C, symSize: 0x64 }
+  - { offset: 0x6758D, size: 0x8, addend: 0x0, symName: '+[APCrashReporter activeDurationSinceLaunch]', symObjAddr: 0x1DC8, symBinAddr: 0x8AC0, symSize: 0x64 }
+  - { offset: 0x675C1, size: 0x8, addend: 0x0, symName: '+[APCrashReporter backgroundDurationSinceLaunch]', symObjAddr: 0x1E2C, symBinAddr: 0x8B24, symSize: 0x64 }
+  - { offset: 0x675F5, size: 0x8, addend: 0x0, symName: '+[APCrashReporter sessionsSinceLaunch]', symObjAddr: 0x1E90, symBinAddr: 0x8B88, symSize: 0x64 }
+  - { offset: 0x67629, size: 0x8, addend: 0x0, symName: '+[APCrashReporter crashedLastLaunch]', symObjAddr: 0x1EF4, symBinAddr: 0x8BEC, symSize: 0x64 }
+  - { offset: 0x6765D, size: 0x8, addend: 0x0, symName: '-[APCrashReporter appState]', symObjAddr: 0x1F58, symBinAddr: 0x8C50, symSize: 0x8 }
+  - { offset: 0x67694, size: 0x8, addend: 0x0, symName: '-[APCrashReporter setAppState:]', symObjAddr: 0x1F60, symBinAddr: 0x8C58, symSize: 0x30 }
+  - { offset: 0x676D5, size: 0x8, addend: 0x0, symName: '-[APCrashReporter previousAppState]', symObjAddr: 0x1F90, symBinAddr: 0x8C88, symSize: 0x8 }
+  - { offset: 0x6770C, size: 0x8, addend: 0x0, symName: '-[APCrashReporter setPreviousAppState:]', symObjAddr: 0x1F98, symBinAddr: 0x8C90, symSize: 0x30 }
+  - { offset: 0x6774D, size: 0x8, addend: 0x0, symName: '-[APCrashReporter crashReports]', symObjAddr: 0x1FC8, symBinAddr: 0x8CC0, symSize: 0x8 }
+  - { offset: 0x67784, size: 0x8, addend: 0x0, symName: '-[APCrashReporter setCrashReports:]', symObjAddr: 0x1FD0, symBinAddr: 0x8CC8, symSize: 0x30 }
+  - { offset: 0x677C5, size: 0x8, addend: 0x0, symName: '-[APCrashReporter crashMetaInfo]', symObjAddr: 0x2000, symBinAddr: 0x8CF8, symSize: 0x8 }
+  - { offset: 0x677FC, size: 0x8, addend: 0x0, symName: '-[APCrashReporter setCrashMetaInfo:]', symObjAddr: 0x2008, symBinAddr: 0x8D00, symSize: 0x30 }
+  - { offset: 0x6783D, size: 0x8, addend: 0x0, symName: '-[APCrashReporter backgroundEntryTime]', symObjAddr: 0x2038, symBinAddr: 0x8D30, symSize: 0x8 }
+  - { offset: 0x67874, size: 0x8, addend: 0x0, symName: '-[APCrashReporter setBackgroundEntryTime:]', symObjAddr: 0x2040, symBinAddr: 0x8D38, symSize: 0x30 }
+  - { offset: 0x678B5, size: 0x8, addend: 0x0, symName: '-[APCrashReporter crashedLastLaunch]', symObjAddr: 0x2070, symBinAddr: 0x8D68, symSize: 0x8 }
+  - { offset: 0x678EC, size: 0x8, addend: 0x0, symName: '-[APCrashReporter setCrashedLastLaunch:]', symObjAddr: 0x2078, symBinAddr: 0x8D70, symSize: 0x8 }
+  - { offset: 0x67927, size: 0x8, addend: 0x0, symName: '-[APCrashReporter isAppLaunched]', symObjAddr: 0x2080, symBinAddr: 0x8D78, symSize: 0x8 }
+  - { offset: 0x6795E, size: 0x8, addend: 0x0, symName: '-[APCrashReporter setIsAppLaunched:]', symObjAddr: 0x2088, symBinAddr: 0x8D80, symSize: 0x8 }
+  - { offset: 0x67999, size: 0x8, addend: 0x0, symName: '-[APCrashReporter previousCrash]', symObjAddr: 0x2090, symBinAddr: 0x8D88, symSize: 0x8 }
+  - { offset: 0x679D0, size: 0x8, addend: 0x0, symName: '-[APCrashReporter setPreviousCrash:]', symObjAddr: 0x2098, symBinAddr: 0x8D90, symSize: 0x30 }
+  - { offset: 0x67A11, size: 0x8, addend: 0x0, symName: '-[APCrashReporter payloads]', symObjAddr: 0x20C8, symBinAddr: 0x8DC0, symSize: 0x8 }
+  - { offset: 0x67A48, size: 0x8, addend: 0x0, symName: '-[APCrashReporter setPayloads:]', symObjAddr: 0x20D0, symBinAddr: 0x8DC8, symSize: 0x30 }
+  - { offset: 0x67A89, size: 0x8, addend: 0x0, symName: '-[APCrashReporter .cxx_destruct]', symObjAddr: 0x2100, symBinAddr: 0x8DF8, symSize: 0x6C }
+  - { offset: 0x67CE7, size: 0x8, addend: 0x0, symName: '-[ZACrashReportUploadOperation initWithCrashReport:]', symObjAddr: 0x0, symBinAddr: 0x8E64, symSize: 0x294 }
+  - { offset: 0x67E13, size: 0x8, addend: 0x0, symName: '-[ZACrashReportUploadOperation initWithCrashReport:]', symObjAddr: 0x0, symBinAddr: 0x8E64, symSize: 0x294 }
+  - { offset: 0x67EE4, size: 0x8, addend: 0x0, symName: '-[ZACrashReportUploadOperation initWithFileName:]', symObjAddr: 0x294, symBinAddr: 0x90F8, symSize: 0x7C }
+  - { offset: 0x67F2B, size: 0x8, addend: 0x0, symName: '-[ZACrashReportUploadOperation dealloc]', symObjAddr: 0x310, symBinAddr: 0x9174, symSize: 0x54 }
+  - { offset: 0x67F5E, size: 0x8, addend: 0x0, symName: '-[ZACrashReportUploadOperation main]', symObjAddr: 0x364, symBinAddr: 0x91C8, symSize: 0x3C }
+  - { offset: 0x67F91, size: 0x8, addend: 0x0, symName: '-[ZACrashReportUploadOperation parseData:withSuccess:]', symObjAddr: 0x3A0, symBinAddr: 0x9204, symSize: 0xD0 }
+  - { offset: 0x68008, size: 0x8, addend: 0x0, symName: '-[ZACrashReportUploadOperation sendReports:]', symObjAddr: 0x470, symBinAddr: 0x92D4, symSize: 0x210 }
+  - { offset: 0x68099, size: 0x8, addend: 0x0, symName: '___44-[ZACrashReportUploadOperation sendReports:]_block_invoke', symObjAddr: 0x680, symBinAddr: 0x94E4, symSize: 0xA14 }
+  - { offset: 0x68371, size: 0x8, addend: 0x0, symName: '___44-[ZACrashReportUploadOperation sendReports:]_block_invoke_2', symObjAddr: 0x1094, symBinAddr: 0x9EF8, symSize: 0x200 }
+  - { offset: 0x6846B, size: 0x8, addend: 0x0, symName: '___44-[ZACrashReportUploadOperation sendReports:]_block_invoke_3', symObjAddr: 0x1294, symBinAddr: 0xA0F8, symSize: 0x74 }
+  - { offset: 0x684BA, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x1308, symBinAddr: 0xA16C, symSize: 0x8 }
+  - { offset: 0x684E1, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x1310, symBinAddr: 0xA174, symSize: 0x8 }
+  - { offset: 0x68500, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x1318, symBinAddr: 0xA17C, symSize: 0x28 }
+  - { offset: 0x68529, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x1340, symBinAddr: 0xA1A4, symSize: 0x28 }
+  - { offset: 0x68548, size: 0x8, addend: 0x0, symName: '-[ZACrashReportUploadOperation beginBackgroundUpdateTask]', symObjAddr: 0x1368, symBinAddr: 0xA1CC, symSize: 0x7C }
+  - { offset: 0x6857B, size: 0x8, addend: 0x0, symName: '___57-[ZACrashReportUploadOperation beginBackgroundUpdateTask]_block_invoke', symObjAddr: 0x13E4, symBinAddr: 0xA248, symSize: 0x8 }
+  - { offset: 0x685BA, size: 0x8, addend: 0x0, symName: '-[ZACrashReportUploadOperation endBackgroundUpdateTask]', symObjAddr: 0x13EC, symBinAddr: 0xA250, symSize: 0x58 }
+  - { offset: 0x685ED, size: 0x8, addend: 0x0, symName: '-[ZACrashReportUploadOperation fileName]', symObjAddr: 0x1444, symBinAddr: 0xA2A8, symSize: 0x10 }
+  - { offset: 0x68624, size: 0x8, addend: 0x0, symName: '-[ZACrashReportUploadOperation setFileName:]', symObjAddr: 0x1454, symBinAddr: 0xA2B8, symSize: 0xC }
+  - { offset: 0x68663, size: 0x8, addend: 0x0, symName: '-[ZACrashReportUploadOperation crashReport]', symObjAddr: 0x1460, symBinAddr: 0xA2C4, symSize: 0x10 }
+  - { offset: 0x6869A, size: 0x8, addend: 0x0, symName: '-[ZACrashReportUploadOperation setCrashReport:]', symObjAddr: 0x1470, symBinAddr: 0xA2D4, symSize: 0x40 }
+  - { offset: 0x686DB, size: 0x8, addend: 0x0, symName: '-[ZACrashReportUploadOperation reportIds]', symObjAddr: 0x14B0, symBinAddr: 0xA314, symSize: 0x10 }
+  - { offset: 0x68712, size: 0x8, addend: 0x0, symName: '-[ZACrashReportUploadOperation setReportIds:]', symObjAddr: 0x14C0, symBinAddr: 0xA324, symSize: 0xC }
+  - { offset: 0x68751, size: 0x8, addend: 0x0, symName: '-[ZACrashReportUploadOperation url]', symObjAddr: 0x14CC, symBinAddr: 0xA330, symSize: 0x10 }
+  - { offset: 0x68788, size: 0x8, addend: 0x0, symName: '-[ZACrashReportUploadOperation setUrl:]', symObjAddr: 0x14DC, symBinAddr: 0xA340, symSize: 0x40 }
+  - { offset: 0x687C9, size: 0x8, addend: 0x0, symName: '-[ZACrashReportUploadOperation params]', symObjAddr: 0x151C, symBinAddr: 0xA380, symSize: 0x10 }
+  - { offset: 0x68800, size: 0x8, addend: 0x0, symName: '-[ZACrashReportUploadOperation setParams:]', symObjAddr: 0x152C, symBinAddr: 0xA390, symSize: 0x40 }
+  - { offset: 0x68841, size: 0x8, addend: 0x0, symName: '-[ZACrashReportUploadOperation aaaUtil]', symObjAddr: 0x156C, symBinAddr: 0xA3D0, symSize: 0x20 }
+  - { offset: 0x68878, size: 0x8, addend: 0x0, symName: '-[ZACrashReportUploadOperation setAaaUtil:]', symObjAddr: 0x158C, symBinAddr: 0xA3F0, symSize: 0x14 }
+  - { offset: 0x688B9, size: 0x8, addend: 0x0, symName: '-[ZACrashReportUploadOperation backgroundUpdateTask]', symObjAddr: 0x15A0, symBinAddr: 0xA404, symSize: 0x10 }
+  - { offset: 0x688F0, size: 0x8, addend: 0x0, symName: '-[ZACrashReportUploadOperation setBackgroundUpdateTask:]', symObjAddr: 0x15B0, symBinAddr: 0xA414, symSize: 0x10 }
+  - { offset: 0x6892D, size: 0x8, addend: 0x0, symName: '-[ZACrashReportUploadOperation .cxx_destruct]', symObjAddr: 0x15C0, symBinAddr: 0xA424, symSize: 0x8C }
+  - { offset: 0x68C9A, size: 0x8, addend: 0x0, symName: '-[CrashLogWindow init]', symObjAddr: 0x0, symBinAddr: 0xA4B0, symSize: 0x90 }
+  - { offset: 0x68CB9, size: 0x8, addend: 0x0, symName: _logCrashAlertWindow, symObjAddr: 0xC790, symBinAddr: 0x28620, symSize: 0x0 }
+  - { offset: 0x68CC8, size: 0x8, addend: 0x0, symName: '+[APCrash sharedManager]', symObjAddr: 0x21C, symBinAddr: 0xA6CC, symSize: 0x88 }
+  - { offset: 0x68CF2, size: 0x8, addend: 0x0, symName: _sharedManager.sharedManager, symObjAddr: 0xC798, symBinAddr: 0x285B8, symSize: 0x0 }
+  - { offset: 0x68D08, size: 0x8, addend: 0x0, symName: _sharedManager.onceToken, symObjAddr: 0xC7A0, symBinAddr: 0x285C0, symSize: 0x0 }
+  - { offset: 0x68E32, size: 0x8, addend: 0x0, symName: '-[CrashLogWindow init]', symObjAddr: 0x0, symBinAddr: 0xA4B0, symSize: 0x90 }
+  - { offset: 0x68E69, size: 0x8, addend: 0x0, symName: '-[CrashLogWindow pointInside:withEvent:]', symObjAddr: 0x90, symBinAddr: 0xA540, symSize: 0xD4 }
+  - { offset: 0x68ECC, size: 0x8, addend: 0x0, symName: '-[CrashLogWindow views]', symObjAddr: 0x164, symBinAddr: 0xA614, symSize: 0x10 }
+  - { offset: 0x68F03, size: 0x8, addend: 0x0, symName: '-[CrashLogWindow setViews:]', symObjAddr: 0x174, symBinAddr: 0xA624, symSize: 0x40 }
+  - { offset: 0x68F44, size: 0x8, addend: 0x0, symName: '-[CrashLogWindow .cxx_destruct]', symObjAddr: 0x1B4, symBinAddr: 0xA664, symSize: 0x14 }
+  - { offset: 0x68F77, size: 0x8, addend: 0x0, symName: '+[APCrash installCrashServicesWith:]', symObjAddr: 0x1C8, symBinAddr: 0xA678, symSize: 0x54 }
+  - { offset: 0x69004, size: 0x8, addend: 0x0, symName: '___24+[APCrash sharedManager]_block_invoke', symObjAddr: 0x2A4, symBinAddr: 0xA754, symSize: 0x33C }
+  - { offset: 0x69043, size: 0x8, addend: 0x0, symName: '-[APCrash observeValueForKeyPath:ofObject:change:context:]', symObjAddr: 0x5E0, symBinAddr: 0xAA90, symSize: 0x45C }
+  - { offset: 0x691A7, size: 0x8, addend: 0x0, symName: '-[APCrash saveCrashReport:]', symObjAddr: 0xA3C, symBinAddr: 0xAEEC, symSize: 0x124 }
+  - { offset: 0x69215, size: 0x8, addend: 0x0, symName: '-[APCrash init]', symObjAddr: 0xB60, symBinAddr: 0xB010, symSize: 0x34 }
+  - { offset: 0x6924C, size: 0x8, addend: 0x0, symName: '-[APCrash sendPendingReports]', symObjAddr: 0xB94, symBinAddr: 0xB044, symSize: 0x7C }
+  - { offset: 0x6927F, size: 0x8, addend: 0x0, symName: '___29-[APCrash sendPendingReports]_block_invoke', symObjAddr: 0xC10, symBinAddr: 0xB0C0, symSize: 0x80 }
+  - { offset: 0x692CA, size: 0x8, addend: 0x0, symName: '___29-[APCrash sendPendingReports]_block_invoke_2', symObjAddr: 0xC90, symBinAddr: 0xB140, symSize: 0x494 }
+  - { offset: 0x693C4, size: 0x8, addend: 0x0, symName: '___29-[APCrash sendPendingReports]_block_invoke_3', symObjAddr: 0x1124, symBinAddr: 0xB5D4, symSize: 0x1F8 }
+  - { offset: 0x694F4, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64r, symObjAddr: 0x131C, symBinAddr: 0xB7CC, symSize: 0x4C }
+  - { offset: 0x6951D, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64r, symObjAddr: 0x1368, symBinAddr: 0xB818, symSize: 0x44 }
+  - { offset: 0x6953C, size: 0x8, addend: 0x0, symName: '+[APCrash sendPendingReports]', symObjAddr: 0x13BC, symBinAddr: 0xB85C, symSize: 0x38 }
+  - { offset: 0x6956B, size: 0x8, addend: 0x0, symName: '+[APCrash setCrashCustomProperty:]', symObjAddr: 0x13F4, symBinAddr: 0xB894, symSize: 0xD8 }
+  - { offset: 0x695AA, size: 0x8, addend: 0x0, symName: '+[APCrash clearCrashCustomProperty]', symObjAddr: 0x14CC, symBinAddr: 0xB96C, symSize: 0x64 }
+  - { offset: 0x695D9, size: 0x8, addend: 0x0, symName: '+[APCrash setCrashInfo:]', symObjAddr: 0x1530, symBinAddr: 0xB9D0, symSize: 0x90 }
+  - { offset: 0x69618, size: 0x8, addend: 0x0, symName: '+[APCrash clearCrashInfo]', symObjAddr: 0x15C0, symBinAddr: 0xBA60, symSize: 0x64 }
+  - { offset: 0x69647, size: 0x8, addend: 0x0, symName: '+[APCrash updateUrl:]', symObjAddr: 0x1624, symBinAddr: 0xBAC4, symSize: 0x54 }
+  - { offset: 0x69688, size: 0x8, addend: 0x0, symName: '-[APCrash uploadCrashSuccessNotification:]', symObjAddr: 0x1678, symBinAddr: 0xBB18, symSize: 0x58 }
+  - { offset: 0x696DA, size: 0x8, addend: 0x0, symName: '-[APCrash installCrashServices:]', symObjAddr: 0x16D0, symBinAddr: 0xBB70, symSize: 0x68 }
+  - { offset: 0x69717, size: 0x8, addend: 0x0, symName: '-[APCrash setCrashCustomProperty:]', symObjAddr: 0x1738, symBinAddr: 0xBBD8, symSize: 0x40 }
+  - { offset: 0x69769, size: 0x8, addend: 0x0, symName: '-[APCrash checkForCrashAndSaveToFile:]', symObjAddr: 0x1778, symBinAddr: 0xBC18, symSize: 0x40 }
+  - { offset: 0x697A6, size: 0x8, addend: 0x0, symName: '___38-[APCrash checkForCrashAndSaveToFile:]_block_invoke', symObjAddr: 0x17B8, symBinAddr: 0xBC58, symSize: 0xA8 }
+  - { offset: 0x697E0, size: 0x8, addend: 0x0, symName: '-[APCrash checkForCrashAndSendToServer:]', symObjAddr: 0x1860, symBinAddr: 0xBD00, symSize: 0x40 }
+  - { offset: 0x6981D, size: 0x8, addend: 0x0, symName: '___40-[APCrash checkForCrashAndSendToServer:]_block_invoke', symObjAddr: 0x18A0, symBinAddr: 0xBD40, symSize: 0x178 }
+  - { offset: 0x69857, size: 0x8, addend: 0x0, symName: '___40-[APCrash checkForCrashAndSendToServer:]_block_invoke_2', symObjAddr: 0x1A18, symBinAddr: 0xBEB8, symSize: 0x60 }
+  - { offset: 0x69891, size: 0x8, addend: 0x0, symName: '-[APCrash setCrashInfo:]', symObjAddr: 0x1A78, symBinAddr: 0xBF18, symSize: 0x40 }
+  - { offset: 0x698E3, size: 0x8, addend: 0x0, symName: '-[APCrash reviewAndSendOnWindow]', symObjAddr: 0x1AB8, symBinAddr: 0xBF58, symSize: 0xA4 }
+  - { offset: 0x69913, size: 0x8, addend: 0x0, symName: '___32-[APCrash reviewAndSendOnWindow]_block_invoke', symObjAddr: 0x1B5C, symBinAddr: 0xBFFC, symSize: 0x50 }
+  - { offset: 0x6993C, size: 0x8, addend: 0x0, symName: '-[APCrash reviewAndSendReportHandler:]', symObjAddr: 0x1BAC, symBinAddr: 0xC04C, symSize: 0x7C }
+  - { offset: 0x6997D, size: 0x8, addend: 0x0, symName: '___38-[APCrash reviewAndSendReportHandler:]_block_invoke', symObjAddr: 0x1C28, symBinAddr: 0xC0C8, symSize: 0x2A0 }
+  - { offset: 0x69A72, size: 0x8, addend: 0x0, symName: '___38-[APCrash reviewAndSendReportHandler:]_block_invoke_2', symObjAddr: 0x1EC8, symBinAddr: 0xC368, symSize: 0xC4 }
+  - { offset: 0x69B3F, size: 0x8, addend: 0x0, symName: '-[APCrash updateUrl:]', symObjAddr: 0x1FDC, symBinAddr: 0xC42C, symSize: 0x68 }
+  - { offset: 0x69B7C, size: 0x8, addend: 0x0, symName: '-[APCrash updateLog:]', symObjAddr: 0x2044, symBinAddr: 0xC494, symSize: 0x34 }
+  - { offset: 0x69BB9, size: 0x8, addend: 0x0, symName: '___21-[APCrash updateLog:]_block_invoke', symObjAddr: 0x2078, symBinAddr: 0xC4C8, symSize: 0x50 }
+  - { offset: 0x69BE2, size: 0x8, addend: 0x0, symName: '___21-[APCrash updateLog:]_block_invoke_2', symObjAddr: 0x20C8, symBinAddr: 0xC518, symSize: 0x2C }
+  - { offset: 0x69C18, size: 0x8, addend: 0x0, symName: '-[APCrash crashMetaInfo]', symObjAddr: 0x20F4, symBinAddr: 0xC544, symSize: 0x8 }
+  - { offset: 0x69C4F, size: 0x8, addend: 0x0, symName: '-[APCrash setCrashMetaInfo:]', symObjAddr: 0x20FC, symBinAddr: 0xC54C, symSize: 0x30 }
+  - { offset: 0x69C90, size: 0x8, addend: 0x0, symName: '-[APCrash operationQueue]', symObjAddr: 0x212C, symBinAddr: 0xC57C, symSize: 0x8 }
+  - { offset: 0x69CC7, size: 0x8, addend: 0x0, symName: '-[APCrash setOperationQueue:]', symObjAddr: 0x2134, symBinAddr: 0xC584, symSize: 0x30 }
+  - { offset: 0x69D08, size: 0x8, addend: 0x0, symName: '-[APCrash url]', symObjAddr: 0x2164, symBinAddr: 0xC5B4, symSize: 0x8 }
+  - { offset: 0x69D3F, size: 0x8, addend: 0x0, symName: '-[APCrash setUrl:]', symObjAddr: 0x216C, symBinAddr: 0xC5BC, symSize: 0x30 }
+  - { offset: 0x69D80, size: 0x8, addend: 0x0, symName: '-[APCrash .cxx_destruct]', symObjAddr: 0x219C, symBinAddr: 0xC5EC, symSize: 0x3C }
+  - { offset: 0x6A4E9, size: 0x8, addend: 0x0, symName: '+[KMPCrash sharedManager]', symObjAddr: 0x0, symBinAddr: 0xC628, symSize: 0x88 }
+  - { offset: 0x6A50D, size: 0x8, addend: 0x0, symName: _globalImageAddress, symObjAddr: 0xB968, symBinAddr: 0x285C8, symSize: 0x0 }
+  - { offset: 0x6A51C, size: 0x8, addend: 0x0, symName: '+[KMPCrash sharedManager]', symObjAddr: 0x0, symBinAddr: 0xC628, symSize: 0x88 }
+  - { offset: 0x6A546, size: 0x8, addend: 0x0, symName: _sharedManager.sharedManager, symObjAddr: 0xB970, symBinAddr: 0x285D0, symSize: 0x0 }
+  - { offset: 0x6A55C, size: 0x8, addend: 0x0, symName: _sharedManager.onceToken, symObjAddr: 0xB978, symBinAddr: 0x285D8, symSize: 0x0 }
+  - { offset: 0x6A608, size: 0x8, addend: 0x0, symName: _binaryPathCache, symObjAddr: 0xB980, symBinAddr: 0x285E0, symSize: 0x0 }
+  - { offset: 0x6A697, size: 0x8, addend: 0x0, symName: '___25+[KMPCrash sharedManager]_block_invoke', symObjAddr: 0x88, symBinAddr: 0xC6B0, symSize: 0x70 }
+  - { offset: 0x6A729, size: 0x8, addend: 0x0, symName: '___25+[KMPCrash sharedManager]_block_invoke_2', symObjAddr: 0xF8, symBinAddr: 0xC720, symSize: 0x3DC }
+  - { offset: 0x6A8A0, size: 0x8, addend: 0x0, symName: '-[KMPCrash readCrashData]', symObjAddr: 0x4D4, symBinAddr: 0xCAFC, symSize: 0x3DC }
+  - { offset: 0x6AA0D, size: 0x8, addend: 0x0, symName: '-[KMPCrash toCompactUUID:]', symObjAddr: 0x8B0, symBinAddr: 0xCED8, symSize: 0x58 }
+  - { offset: 0x6AA50, size: 0x8, addend: 0x0, symName: '-[KMPCrash printFrame:level:string:]', symObjAddr: 0x908, symBinAddr: 0xCF30, symSize: 0x2A4 }
+  - { offset: 0x6AB41, size: 0x8, addend: 0x0, symName: '-[KMPCrash getInfoForBinaryName:]', symObjAddr: 0xBAC, symBinAddr: 0xD1D4, symSize: 0x2B4 }
+  - { offset: 0x6ADD1, size: 0x8, addend: 0x0, symName: '-[KMPCrash getPlatformArchitecture]', symObjAddr: 0xE60, symBinAddr: 0xD488, symSize: 0x74 }
+  - { offset: 0x6AE42, size: 0x8, addend: 0x0, symName: '-[KMPCrash receiveAndSaveKMMCrash:]', symObjAddr: 0xED4, symBinAddr: 0xD4FC, symSize: 0xE0 }
+  - { offset: 0x6AEBA, size: 0x8, addend: 0x0, symName: '-[KMPCrash exceptionToAppleCrashDictionary:]', symObjAddr: 0xFB4, symBinAddr: 0xD5DC, symSize: 0x9C8 }
+  - { offset: 0x6B0F2, size: 0x8, addend: 0x0, symName: '-[KMPCrash getOSVersion]', symObjAddr: 0x197C, symBinAddr: 0xDFA4, symSize: 0xC }
+  - { offset: 0x6B126, size: 0x8, addend: 0x0, symName: '-[KMPCrash stringFromDate:]', symObjAddr: 0x1988, symBinAddr: 0xDFB0, symSize: 0xC0 }
+  - { offset: 0x6B17C, size: 0x8, addend: 0x0, symName: '-[KMPCrash getFormattedCallStackAndBinaryImagesFromException:]', symObjAddr: 0x1A48, symBinAddr: 0xE070, symSize: 0x7C8 }
+  - { offset: 0x6B3C8, size: 0x8, addend: 0x0, symName: '-[KMPCrash addLoadedBinaryImagesInfo:]', symObjAddr: 0x2210, symBinAddr: 0xE838, symSize: 0x238 }
+  - { offset: 0x6B4DE, size: 0x8, addend: 0x0, symName: '-[KMPCrash crashMetaInfo]', symObjAddr: 0x2448, symBinAddr: 0xEA70, symSize: 0x8 }
+  - { offset: 0x6B515, size: 0x8, addend: 0x0, symName: '-[KMPCrash setCrashMetaInfo:]', symObjAddr: 0x2450, symBinAddr: 0xEA78, symSize: 0x30 }
+  - { offset: 0x6B556, size: 0x8, addend: 0x0, symName: '-[KMPCrash .cxx_destruct]', symObjAddr: 0x2480, symBinAddr: 0xEAA8, symSize: 0xC }
+  - { offset: 0x6B784, size: 0x8, addend: 0x0, symName: _getInfoForBinaryName, symObjAddr: 0x0, symBinAddr: 0xEAB4, symSize: 0x2B0 }
+  - { offset: 0x6B7AA, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt parseCrashDiagnostics:crashType:timeStampBegin:]', symObjAddr: 0xB00, symBinAddr: 0xF5B4, symSize: 0x1650 }
+  - { offset: 0x6B7D2, size: 0x8, addend: 0x0, symName: '_parseCrashDiagnostics:crashType:timeStampBegin:.regex', symObjAddr: 0x13890, symBinAddr: 0x28600, symSize: 0x0 }
+  - { offset: 0x6B7E9, size: 0x8, addend: 0x0, symName: '_parseCrashDiagnostics:crashType:timeStampBegin:.onceToken', symObjAddr: 0x13898, symBinAddr: 0x28608, symSize: 0x0 }
+  - { offset: 0x6BD04, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt crashedThreadMatches:tmpStackTrace:]', symObjAddr: 0x2814, symBinAddr: 0x112C8, symSize: 0x2FC }
+  - { offset: 0x6BD30, size: 0x8, addend: 0x0, symName: '_crashedThreadMatches:tmpStackTrace:.regex', symObjAddr: 0x138A0, symBinAddr: 0x28610, symSize: 0x0 }
+  - { offset: 0x6BD47, size: 0x8, addend: 0x0, symName: '_crashedThreadMatches:tmpStackTrace:.onceToken', symObjAddr: 0x138A8, symBinAddr: 0x28618, symSize: 0x0 }
+  - { offset: 0x6BE6E, size: 0x8, addend: 0x0, symName: _g_dateFormatter, symObjAddr: 0x13880, symBinAddr: 0x285F0, symSize: 0x0 }
+  - { offset: 0x6BE89, size: 0x8, addend: 0x0, symName: _g_rfc3339DateFormatter, symObjAddr: 0x13888, symBinAddr: 0x285F8, symSize: 0x0 }
+  - { offset: 0x6BE9F, size: 0x8, addend: 0x0, symName: _globalImageAddress, symObjAddr: 0x138B0, symBinAddr: 0x28628, symSize: 0x0 }
+  - { offset: 0x6BEBA, size: 0x8, addend: 0x0, symName: _binaryPathCache, symObjAddr: 0x13878, symBinAddr: 0x285E8, symSize: 0x0 }
+  - { offset: 0x6BF30, size: 0x8, addend: 0x0, symName: _getInfoForBinaryName, symObjAddr: 0x0, symBinAddr: 0xEAB4, symSize: 0x2B0 }
+  - { offset: 0x6C1A3, size: 0x8, addend: 0x0, symName: _terminationReasonForSignal, symObjAddr: 0x2B0, symBinAddr: 0xED64, symSize: 0x64 }
+  - { offset: 0x6C1CE, size: 0x8, addend: 0x0, symName: _apmach_exceptionName, symObjAddr: 0x314, symBinAddr: 0xEDC8, symSize: 0x28 }
+  - { offset: 0x6C1F9, size: 0x8, addend: 0x0, symName: _apmach_kernelReturnCodeName, symObjAddr: 0x33C, symBinAddr: 0xEDF0, symSize: 0x24 }
+  - { offset: 0x6C224, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt init]', symObjAddr: 0x360, symBinAddr: 0xEE14, symSize: 0x17C }
+  - { offset: 0x6C25B, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt convertToAppleCrashReport]', symObjAddr: 0x4DC, symBinAddr: 0xEF90, symSize: 0x4F4 }
+  - { offset: 0x6C3C5, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt epochMillisecondsFromDateString:]', symObjAddr: 0x9D0, symBinAddr: 0xF484, symSize: 0x130 }
+  - { offset: 0x6C499, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt parseCrashDiagnostics:crashType:timeStampBegin:].cold.1', symObjAddr: 0x3D28, symBinAddr: 0x12804, symSize: 0x14 }
+  - { offset: 0x6C4B5, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt parseCrashDiagnostics:crashType:timeStampBegin:].cold.1', symObjAddr: 0x3D28, symBinAddr: 0x12804, symSize: 0x14 }
+  - { offset: 0x6C4C8, size: 0x8, addend: 0x0, symName: '___72-[APCrashFilterAppleFmt parseCrashDiagnostics:crashType:timeStampBegin:]_block_invoke', symObjAddr: 0x2150, symBinAddr: 0x10C04, symSize: 0x44 }
+  - { offset: 0x6C511, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt callStackTreeForReport:lastExceptionBacktrace:crashedThreadTrace:]', symObjAddr: 0x2194, symBinAddr: 0x10C48, symSize: 0x680 }
+  - { offset: 0x6C6EA, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt crashedThreadMatches:tmpStackTrace:].cold.1', symObjAddr: 0x3D3C, symBinAddr: 0x12818, symSize: 0x14 }
+  - { offset: 0x6C706, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt crashedThreadMatches:tmpStackTrace:].cold.1', symObjAddr: 0x3D3C, symBinAddr: 0x12818, symSize: 0x14 }
+  - { offset: 0x6C719, size: 0x8, addend: 0x0, symName: '___60-[APCrashFilterAppleFmt crashedThreadMatches:tmpStackTrace:]_block_invoke', symObjAddr: 0x2B10, symBinAddr: 0x115C4, symSize: 0x44 }
+  - { offset: 0x6C762, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt printFrame:level:string:]', symObjAddr: 0x2B54, symBinAddr: 0x11608, symSize: 0x2A4 }
+  - { offset: 0x6C85E, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt binaryImagesStringForReport:arch:]', symObjAddr: 0x2DF8, symBinAddr: 0x118AC, symSize: 0x408 }
+  - { offset: 0x6CA12, size: 0x8, addend: 0x0, symName: '___58-[APCrashFilterAppleFmt binaryImagesStringForReport:arch:]_block_invoke', symObjAddr: 0x3200, symBinAddr: 0x11CB4, symSize: 0xF8 }
+  - { offset: 0x6CAB4, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt toCompactUUID:]', symObjAddr: 0x32F8, symBinAddr: 0x11DAC, symSize: 0x58 }
+  - { offset: 0x6CAF9, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt readDiagnosticPayloadFromFile]', symObjAddr: 0x3350, symBinAddr: 0x11E04, symSize: 0xB4 }
+  - { offset: 0x6CB60, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt readDiagnosticMetaFromFile]', symObjAddr: 0x3404, symBinAddr: 0x11EB8, symSize: 0x94 }
+  - { offset: 0x6CBC7, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt removeDiagnosticPayloadFile]', symObjAddr: 0x3498, symBinAddr: 0x11F4C, symSize: 0x13C }
+  - { offset: 0x6CC4C, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt readCrashReportMeta]', symObjAddr: 0x35D4, symBinAddr: 0x12088, symSize: 0xB4 }
+  - { offset: 0x6CCB3, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt convertDictionaryToJSONString:]', symObjAddr: 0x3688, symBinAddr: 0x1213C, symSize: 0x144 }
+  - { offset: 0x6CD59, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt getFirstHexValueFromVMRegionInfo:]', symObjAddr: 0x37CC, symBinAddr: 0x12280, symSize: 0xE4 }
+  - { offset: 0x6CDFE, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt exceptionType:]', symObjAddr: 0x38B0, symBinAddr: 0x12364, symSize: 0x30 }
+  - { offset: 0x6CE51, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt exceptionCodeName:]', symObjAddr: 0x38E0, symBinAddr: 0x12394, symSize: 0x30 }
+  - { offset: 0x6CEA4, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt signalType:]', symObjAddr: 0x3910, symBinAddr: 0x123C4, symSize: 0x54 }
+  - { offset: 0x6CEE9, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt hexStringToNumber:]', symObjAddr: 0x3964, symBinAddr: 0x12418, symSize: 0x84 }
+  - { offset: 0x6CF50, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt getCPUType:]', symObjAddr: 0x39E8, symBinAddr: 0x1249C, symSize: 0xD8 }
+  - { offset: 0x6CF95, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt stringFromDate:]', symObjAddr: 0x3AC0, symBinAddr: 0x12574, symSize: 0x70 }
+  - { offset: 0x6CFDA, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt saveCrashReport:version:]', symObjAddr: 0x3B30, symBinAddr: 0x125E4, symSize: 0x1B4 }
+  - { offset: 0x6D08B, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt previousAppState]', symObjAddr: 0x3CE4, symBinAddr: 0x12798, symSize: 0x8 }
+  - { offset: 0x6D0C2, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt setPreviousAppState:]', symObjAddr: 0x3CEC, symBinAddr: 0x127A0, symSize: 0x30 }
+  - { offset: 0x6D103, size: 0x8, addend: 0x0, symName: '-[APCrashFilterAppleFmt .cxx_destruct]', symObjAddr: 0x3D1C, symBinAddr: 0x127D0, symSize: 0xC }
+...

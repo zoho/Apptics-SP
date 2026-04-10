@@ -1,0 +1,233 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/appticts-0639-t/Library/Developer/Xcode/DerivedData/Apptics-dzrqlnnjyljckdcajdfczditujtu/Build/Intermediates.noindex/ArchiveIntermediates/AppticsRateUs/InstallationBuildProductsLocation/Library/Frameworks/AppticsRateUs.framework/AppticsRateUs'
+relocations:
+  - { offset: 0x61578, size: 0x8, addend: 0x0, symName: _AppticsRateUsVersionString, symObjAddr: 0x0, symBinAddr: 0xAB00, symSize: 0x0 }
+  - { offset: 0x615AD, size: 0x8, addend: 0x0, symName: _AppticsRateUsVersionNumber, symObjAddr: 0x40, symBinAddr: 0xAB40, symSize: 0x0 }
+  - { offset: 0x615EA, size: 0x8, addend: 0x0, symName: '+[ARCustomHandlerManager sharedHandlerManager]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x44 }
+  - { offset: 0x61604, size: 0x8, addend: 0x0, symName: _sharedHandler, symObjAddr: 0x27F8, symBinAddr: 0x13080, symSize: 0x0 }
+  - { offset: 0x61678, size: 0x8, addend: 0x0, symName: _onceHandlerToken, symObjAddr: 0x2800, symBinAddr: 0x13088, symSize: 0x0 }
+  - { offset: 0x61720, size: 0x8, addend: 0x0, symName: '+[ARCustomHandlerManager sharedHandlerManager]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x44 }
+  - { offset: 0x6176E, size: 0x8, addend: 0x0, symName: '+[ARCustomHandlerManager sharedHandlerManager].cold.1', symObjAddr: 0x1E0, symBinAddr: 0x9B90, symSize: 0x14 }
+  - { offset: 0x6178A, size: 0x8, addend: 0x0, symName: '+[ARCustomHandlerManager sharedHandlerManager].cold.1', symObjAddr: 0x1E0, symBinAddr: 0x9B90, symSize: 0x14 }
+  - { offset: 0x6179C, size: 0x8, addend: 0x0, symName: '___46+[ARCustomHandlerManager sharedHandlerManager]_block_invoke', symObjAddr: 0x44, symBinAddr: 0x4044, symSize: 0x4C }
+  - { offset: 0x617C3, size: 0x8, addend: 0x0, symName: '+[ARCustomHandlerManager setCustomHandler:]', symObjAddr: 0x90, symBinAddr: 0x4090, symSize: 0x54 }
+  - { offset: 0x61802, size: 0x8, addend: 0x0, symName: '+[ARCustomHandlerManager willDisplayReviewPrompt:]', symObjAddr: 0xE4, symBinAddr: 0x40E4, symSize: 0xB8 }
+  - { offset: 0x61855, size: 0x8, addend: 0x0, symName: '-[ARCustomHandlerManager sharedCustomHandler]', symObjAddr: 0x19C, symBinAddr: 0x419C, symSize: 0x8 }
+  - { offset: 0x6188C, size: 0x8, addend: 0x0, symName: '-[ARCustomHandlerManager setSharedCustomHandler:]', symObjAddr: 0x1A4, symBinAddr: 0x41A4, symSize: 0x30 }
+  - { offset: 0x618CD, size: 0x8, addend: 0x0, symName: '-[ARCustomHandlerManager .cxx_destruct]', symObjAddr: 0x1D4, symBinAddr: 0x41D4, symSize: 0xC }
+  - { offset: 0x619D5, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load]', symObjAddr: 0x0, symBinAddr: 0x41E0, symSize: 0x28 }
+  - { offset: 0x619E3, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load]', symObjAddr: 0x0, symBinAddr: 0x41E0, symSize: 0x28 }
+  - { offset: 0x61A09, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x28C8, symBinAddr: 0x13090, symSize: 0x0 }
+  - { offset: 0x61A86, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load].cold.1', symObjAddr: 0x4C, symBinAddr: 0x9BA4, symSize: 0x14 }
+  - { offset: 0x61AA2, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load].cold.1', symObjAddr: 0x4C, symBinAddr: 0x9BA4, symSize: 0x14 }
+  - { offset: 0x61AB4, size: 0x8, addend: 0x0, symName: '___27+[Analytics(Listener) load]_block_invoke', symObjAddr: 0x28, symBinAddr: 0x4208, symSize: 0x24 }
+  - { offset: 0x61BA7, size: 0x8, addend: 0x0, symName: _SRModelFromData, symObjAddr: 0x0, symBinAddr: 0x422C, symSize: 0x17C }
+  - { offset: 0x61BB5, size: 0x8, addend: 0x0, symName: '+[SRModel properties]', symObjAddr: 0x3B4, symBinAddr: 0x45E0, symSize: 0xC0 }
+  - { offset: 0x61BDF, size: 0x8, addend: 0x0, symName: _properties.properties, symObjAddr: 0xD0C0, symBinAddr: 0x13098, symSize: 0x0 }
+  - { offset: 0x61C03, size: 0x8, addend: 0x0, symName: '+[SRCriterion properties]', symObjAddr: 0x9AC, symBinAddr: 0x4BD8, symSize: 0xF4 }
+  - { offset: 0x61C2D, size: 0x8, addend: 0x0, symName: _properties.properties.35, symObjAddr: 0xD0C8, symBinAddr: 0x130A0, symSize: 0x0 }
+  - { offset: 0x61C4C, size: 0x8, addend: 0x0, symName: '+[SREventconf properties]', symObjAddr: 0xE5C, symBinAddr: 0x5088, symSize: 0xDC }
+  - { offset: 0x61C76, size: 0x8, addend: 0x0, symName: _properties.properties.88, symObjAddr: 0xD0D0, symBinAddr: 0x130A8, symSize: 0x0 }
+  - { offset: 0x61C95, size: 0x8, addend: 0x0, symName: '+[SREvent properties]', symObjAddr: 0x11CC, symBinAddr: 0x53F8, symSize: 0xE4 }
+  - { offset: 0x61CBF, size: 0x8, addend: 0x0, symName: _properties.properties.117, symObjAddr: 0xD0D8, symBinAddr: 0x130B0, symSize: 0x0 }
+  - { offset: 0x61CDE, size: 0x8, addend: 0x0, symName: '+[SRScreenconf properties]', symObjAddr: 0x1660, symBinAddr: 0x588C, symSize: 0xCC }
+  - { offset: 0x61D0A, size: 0x8, addend: 0x0, symName: _properties.properties.147, symObjAddr: 0xD0E0, symBinAddr: 0x130B8, symSize: 0x0 }
+  - { offset: 0x61D29, size: 0x8, addend: 0x0, symName: '+[SRScreen properties]', symObjAddr: 0x198C, symBinAddr: 0x5BB8, symSize: 0xD4 }
+  - { offset: 0x61D55, size: 0x8, addend: 0x0, symName: _properties.properties.162, symObjAddr: 0xD0E8, symBinAddr: 0x130C0, symSize: 0x0 }
+  - { offset: 0x61D74, size: 0x8, addend: 0x0, symName: '+[SRSession properties]', symObjAddr: 0x1E00, symBinAddr: 0x602C, symSize: 0xCC }
+  - { offset: 0x61DA0, size: 0x8, addend: 0x0, symName: _properties.properties.166, symObjAddr: 0xD0F0, symBinAddr: 0x130C8, symSize: 0x0 }
+  - { offset: 0x61DBF, size: 0x8, addend: 0x0, symName: '+[SRSessionduration properties]', symObjAddr: 0x2134, symBinAddr: 0x6360, symSize: 0xCC }
+  - { offset: 0x61DEB, size: 0x8, addend: 0x0, symName: _properties.properties.179, symObjAddr: 0xD0F8, symBinAddr: 0x130D0, symSize: 0x0 }
+  - { offset: 0x62142, size: 0x8, addend: 0x0, symName: _SRModelFromData, symObjAddr: 0x0, symBinAddr: 0x422C, symSize: 0x17C }
+  - { offset: 0x621B3, size: 0x8, addend: 0x0, symName: _SRModelFromJSON, symObjAddr: 0x17C, symBinAddr: 0x43A8, symSize: 0x50 }
+  - { offset: 0x62214, size: 0x8, addend: 0x0, symName: _SRModelToData, symObjAddr: 0x1CC, symBinAddr: 0x43F8, symSize: 0x184 }
+  - { offset: 0x62295, size: 0x8, addend: 0x0, symName: _SRModelToJSON, symObjAddr: 0x350, symBinAddr: 0x457C, symSize: 0x64 }
+  - { offset: 0x6230F, size: 0x8, addend: 0x0, symName: '+[SRModel fromData:error:]', symObjAddr: 0x474, symBinAddr: 0x46A0, symSize: 0xC }
+  - { offset: 0x62381, size: 0x8, addend: 0x0, symName: '+[SRModel fromJSON:encoding:error:]', symObjAddr: 0x480, symBinAddr: 0x46AC, symSize: 0x10 }
+  - { offset: 0x6240B, size: 0x8, addend: 0x0, symName: '+[SRModel fromJSONDictionary:]', symObjAddr: 0x490, symBinAddr: 0x46BC, symSize: 0x58 }
+  - { offset: 0x6244E, size: 0x8, addend: 0x0, symName: '-[SRModel initWithJSONDictionary:]', symObjAddr: 0x4E8, symBinAddr: 0x4714, symSize: 0x94 }
+  - { offset: 0x624A3, size: 0x8, addend: 0x0, symName: _map, symObjAddr: 0x57C, symBinAddr: 0x47A8, symSize: 0x2B8 }
+  - { offset: 0x62559, size: 0x8, addend: 0x0, symName: '___34-[SRModel initWithJSONDictionary:]_block_invoke', symObjAddr: 0x834, symBinAddr: 0x4A60, symSize: 0x10 }
+  - { offset: 0x62594, size: 0x8, addend: 0x0, symName: '-[SRModel JSONDictionary]', symObjAddr: 0x844, symBinAddr: 0x4A70, symSize: 0x130 }
+  - { offset: 0x625E9, size: 0x8, addend: 0x0, symName: '___25-[SRModel JSONDictionary]_block_invoke', symObjAddr: 0x974, symBinAddr: 0x4BA0, symSize: 0x8 }
+  - { offset: 0x62624, size: 0x8, addend: 0x0, symName: '-[SRModel toData:]', symObjAddr: 0x97C, symBinAddr: 0x4BA8, symSize: 0x8 }
+  - { offset: 0x62688, size: 0x8, addend: 0x0, symName: '-[SRModel toJSON:error:]', symObjAddr: 0x984, symBinAddr: 0x4BB0, symSize: 0xC }
+  - { offset: 0x62704, size: 0x8, addend: 0x0, symName: '-[SRModel criteria]', symObjAddr: 0x990, symBinAddr: 0x4BBC, symSize: 0x8 }
+  - { offset: 0x6273B, size: 0x8, addend: 0x0, symName: '-[SRModel setCriteria:]', symObjAddr: 0x998, symBinAddr: 0x4BC4, symSize: 0x8 }
+  - { offset: 0x6277A, size: 0x8, addend: 0x0, symName: '-[SRModel .cxx_destruct]', symObjAddr: 0x9A0, symBinAddr: 0x4BCC, symSize: 0xC }
+  - { offset: 0x627AD, size: 0x8, addend: 0x0, symName: '+[SRCriterion fromJSONDictionary:]', symObjAddr: 0xAA0, symBinAddr: 0x4CCC, symSize: 0x58 }
+  - { offset: 0x627F0, size: 0x8, addend: 0x0, symName: '-[SRCriterion initWithJSONDictionary:]', symObjAddr: 0xAF8, symBinAddr: 0x4D24, symSize: 0xE4 }
+  - { offset: 0x62853, size: 0x8, addend: 0x0, symName: '___38-[SRCriterion initWithJSONDictionary:]_block_invoke', symObjAddr: 0xBDC, symBinAddr: 0x4E08, symSize: 0x10 }
+  - { offset: 0x6288E, size: 0x8, addend: 0x0, symName: '___38-[SRCriterion initWithJSONDictionary:]_block_invoke_2', symObjAddr: 0xBEC, symBinAddr: 0x4E18, symSize: 0x10 }
+  - { offset: 0x628C9, size: 0x8, addend: 0x0, symName: '-[SRCriterion JSONDictionary]', symObjAddr: 0xBFC, symBinAddr: 0x4E28, symSize: 0x190 }
+  - { offset: 0x6292C, size: 0x8, addend: 0x0, symName: '___29-[SRCriterion JSONDictionary]_block_invoke', symObjAddr: 0xD8C, symBinAddr: 0x4FB8, symSize: 0x8 }
+  - { offset: 0x62967, size: 0x8, addend: 0x0, symName: '___29-[SRCriterion JSONDictionary]_block_invoke_2', symObjAddr: 0xD94, symBinAddr: 0x4FC0, symSize: 0x8 }
+  - { offset: 0x629A2, size: 0x8, addend: 0x0, symName: '-[SRCriterion criteriaid]', symObjAddr: 0xD9C, symBinAddr: 0x4FC8, symSize: 0x8 }
+  - { offset: 0x629D9, size: 0x8, addend: 0x0, symName: '-[SRCriterion setCriteriaid:]', symObjAddr: 0xDA4, symBinAddr: 0x4FD0, symSize: 0x8 }
+  - { offset: 0x62A16, size: 0x8, addend: 0x0, symName: '-[SRCriterion criterianame]', symObjAddr: 0xDAC, symBinAddr: 0x4FD8, symSize: 0x8 }
+  - { offset: 0x62A4D, size: 0x8, addend: 0x0, symName: '-[SRCriterion setCriterianame:]', symObjAddr: 0xDB4, symBinAddr: 0x4FE0, symSize: 0x8 }
+  - { offset: 0x62A8C, size: 0x8, addend: 0x0, symName: '-[SRCriterion eventconf]', symObjAddr: 0xDBC, symBinAddr: 0x4FE8, symSize: 0x8 }
+  - { offset: 0x62AC3, size: 0x8, addend: 0x0, symName: '-[SRCriterion setEventconf:]', symObjAddr: 0xDC4, symBinAddr: 0x4FF0, symSize: 0x8 }
+  - { offset: 0x62B02, size: 0x8, addend: 0x0, symName: '-[SRCriterion screenconf]', symObjAddr: 0xDCC, symBinAddr: 0x4FF8, symSize: 0x8 }
+  - { offset: 0x62B39, size: 0x8, addend: 0x0, symName: '-[SRCriterion setScreenconf:]', symObjAddr: 0xDD4, symBinAddr: 0x5000, symSize: 0x8 }
+  - { offset: 0x62B78, size: 0x8, addend: 0x0, symName: '-[SRCriterion session]', symObjAddr: 0xDDC, symBinAddr: 0x5008, symSize: 0x8 }
+  - { offset: 0x62BAF, size: 0x8, addend: 0x0, symName: '-[SRCriterion setSession:]', symObjAddr: 0xDE4, symBinAddr: 0x5010, symSize: 0x30 }
+  - { offset: 0x62BF0, size: 0x8, addend: 0x0, symName: '-[SRCriterion .cxx_destruct]', symObjAddr: 0xE14, symBinAddr: 0x5040, symSize: 0x48 }
+  - { offset: 0x62C23, size: 0x8, addend: 0x0, symName: '+[SREventconf fromJSONDictionary:]', symObjAddr: 0xF38, symBinAddr: 0x5164, symSize: 0x58 }
+  - { offset: 0x62C66, size: 0x8, addend: 0x0, symName: '-[SREventconf initWithJSONDictionary:]', symObjAddr: 0xF90, symBinAddr: 0x51BC, symSize: 0x94 }
+  - { offset: 0x62CBB, size: 0x8, addend: 0x0, symName: '___38-[SREventconf initWithJSONDictionary:]_block_invoke', symObjAddr: 0x1024, symBinAddr: 0x5250, symSize: 0x10 }
+  - { offset: 0x62CF6, size: 0x8, addend: 0x0, symName: '-[SREventconf JSONDictionary]', symObjAddr: 0x1034, symBinAddr: 0x5260, symSize: 0x130 }
+  - { offset: 0x62D4B, size: 0x8, addend: 0x0, symName: '___29-[SREventconf JSONDictionary]_block_invoke', symObjAddr: 0x1164, symBinAddr: 0x5390, symSize: 0x8 }
+  - { offset: 0x62D86, size: 0x8, addend: 0x0, symName: '-[SREventconf events]', symObjAddr: 0x116C, symBinAddr: 0x5398, symSize: 0x8 }
+  - { offset: 0x62DBD, size: 0x8, addend: 0x0, symName: '-[SREventconf setEvents:]', symObjAddr: 0x1174, symBinAddr: 0x53A0, symSize: 0x8 }
+  - { offset: 0x62DFC, size: 0x8, addend: 0x0, symName: '-[SREventconf group]', symObjAddr: 0x117C, symBinAddr: 0x53A8, symSize: 0x8 }
+  - { offset: 0x62E33, size: 0x8, addend: 0x0, symName: '-[SREventconf setGroup:]', symObjAddr: 0x1184, symBinAddr: 0x53B0, symSize: 0x8 }
+  - { offset: 0x62E72, size: 0x8, addend: 0x0, symName: '-[SREventconf hitcount]', symObjAddr: 0x118C, symBinAddr: 0x53B8, symSize: 0x8 }
+  - { offset: 0x62EA9, size: 0x8, addend: 0x0, symName: '-[SREventconf setHitcount:]', symObjAddr: 0x1194, symBinAddr: 0x53C0, symSize: 0x8 }
+  - { offset: 0x62EE6, size: 0x8, addend: 0x0, symName: '-[SREventconf .cxx_destruct]', symObjAddr: 0x119C, symBinAddr: 0x53C8, symSize: 0x30 }
+  - { offset: 0x62F19, size: 0x8, addend: 0x0, symName: '+[SREvent fromJSONDictionary:]', symObjAddr: 0x12B0, symBinAddr: 0x54DC, symSize: 0x58 }
+  - { offset: 0x62F5C, size: 0x8, addend: 0x0, symName: '-[SREvent initWithJSONDictionary:]', symObjAddr: 0x1308, symBinAddr: 0x5534, symSize: 0x6C }
+  - { offset: 0x62FA5, size: 0x8, addend: 0x0, symName: '-[SREvent setValue:forKey:]', symObjAddr: 0x1374, symBinAddr: 0x55A0, symSize: 0xC4 }
+  - { offset: 0x6300C, size: 0x8, addend: 0x0, symName: '-[SREvent JSONDictionary]', symObjAddr: 0x1438, symBinAddr: 0x5664, symSize: 0x1EC }
+  - { offset: 0x63085, size: 0x8, addend: 0x0, symName: '-[SREvent eventstatus]', symObjAddr: 0x1624, symBinAddr: 0x5850, symSize: 0x8 }
+  - { offset: 0x630BC, size: 0x8, addend: 0x0, symName: '-[SREvent setEventstatus:]', symObjAddr: 0x162C, symBinAddr: 0x5858, symSize: 0x8 }
+  - { offset: 0x630F9, size: 0x8, addend: 0x0, symName: '-[SREvent identifier]', symObjAddr: 0x1634, symBinAddr: 0x5860, symSize: 0x8 }
+  - { offset: 0x63130, size: 0x8, addend: 0x0, symName: '-[SREvent setIdentifier:]', symObjAddr: 0x163C, symBinAddr: 0x5868, symSize: 0x8 }
+  - { offset: 0x6316D, size: 0x8, addend: 0x0, symName: '-[SREvent name]', symObjAddr: 0x1644, symBinAddr: 0x5870, symSize: 0x8 }
+  - { offset: 0x631A4, size: 0x8, addend: 0x0, symName: '-[SREvent setName:]', symObjAddr: 0x164C, symBinAddr: 0x5878, symSize: 0x8 }
+  - { offset: 0x631E3, size: 0x8, addend: 0x0, symName: '-[SREvent .cxx_destruct]', symObjAddr: 0x1654, symBinAddr: 0x5880, symSize: 0xC }
+  - { offset: 0x63216, size: 0x8, addend: 0x0, symName: '+[SRScreenconf fromJSONDictionary:]', symObjAddr: 0x172C, symBinAddr: 0x5958, symSize: 0x58 }
+  - { offset: 0x6325B, size: 0x8, addend: 0x0, symName: '-[SRScreenconf initWithJSONDictionary:]', symObjAddr: 0x1784, symBinAddr: 0x59B0, symSize: 0x94 }
+  - { offset: 0x632B2, size: 0x8, addend: 0x0, symName: '___39-[SRScreenconf initWithJSONDictionary:]_block_invoke', symObjAddr: 0x1818, symBinAddr: 0x5A44, symSize: 0x10 }
+  - { offset: 0x632F0, size: 0x8, addend: 0x0, symName: '-[SRScreenconf JSONDictionary]', symObjAddr: 0x1828, symBinAddr: 0x5A54, symSize: 0x130 }
+  - { offset: 0x63347, size: 0x8, addend: 0x0, symName: '___30-[SRScreenconf JSONDictionary]_block_invoke', symObjAddr: 0x1958, symBinAddr: 0x5B84, symSize: 0x8 }
+  - { offset: 0x63385, size: 0x8, addend: 0x0, symName: '-[SRScreenconf hitcount]', symObjAddr: 0x1960, symBinAddr: 0x5B8C, symSize: 0x8 }
+  - { offset: 0x633BC, size: 0x8, addend: 0x0, symName: '-[SRScreenconf setHitcount:]', symObjAddr: 0x1968, symBinAddr: 0x5B94, symSize: 0x8 }
+  - { offset: 0x633F9, size: 0x8, addend: 0x0, symName: '-[SRScreenconf screens]', symObjAddr: 0x1970, symBinAddr: 0x5B9C, symSize: 0x8 }
+  - { offset: 0x63430, size: 0x8, addend: 0x0, symName: '-[SRScreenconf setScreens:]', symObjAddr: 0x1978, symBinAddr: 0x5BA4, symSize: 0x8 }
+  - { offset: 0x6346F, size: 0x8, addend: 0x0, symName: '-[SRScreenconf .cxx_destruct]', symObjAddr: 0x1980, symBinAddr: 0x5BAC, symSize: 0xC }
+  - { offset: 0x634A3, size: 0x8, addend: 0x0, symName: '+[SRScreen fromJSONDictionary:]', symObjAddr: 0x1A60, symBinAddr: 0x5C8C, symSize: 0x58 }
+  - { offset: 0x634E8, size: 0x8, addend: 0x0, symName: '-[SRScreen initWithJSONDictionary:]', symObjAddr: 0x1AB8, symBinAddr: 0x5CE4, symSize: 0x6C }
+  - { offset: 0x63531, size: 0x8, addend: 0x0, symName: '-[SRScreen setValue:forKey:]', symObjAddr: 0x1B24, symBinAddr: 0x5D50, symSize: 0xC4 }
+  - { offset: 0x63598, size: 0x8, addend: 0x0, symName: '-[SRScreen JSONDictionary]', symObjAddr: 0x1BE8, symBinAddr: 0x5E14, symSize: 0x1EC }
+  - { offset: 0x63611, size: 0x8, addend: 0x0, symName: '-[SRScreen identifier]', symObjAddr: 0x1DD4, symBinAddr: 0x6000, symSize: 0x8 }
+  - { offset: 0x63648, size: 0x8, addend: 0x0, symName: '-[SRScreen setIdentifier:]', symObjAddr: 0x1DDC, symBinAddr: 0x6008, symSize: 0x8 }
+  - { offset: 0x63685, size: 0x8, addend: 0x0, symName: '-[SRScreen name]', symObjAddr: 0x1DE4, symBinAddr: 0x6010, symSize: 0x8 }
+  - { offset: 0x636BC, size: 0x8, addend: 0x0, symName: '-[SRScreen setName:]', symObjAddr: 0x1DEC, symBinAddr: 0x6018, symSize: 0x8 }
+  - { offset: 0x636FB, size: 0x8, addend: 0x0, symName: '-[SRScreen .cxx_destruct]', symObjAddr: 0x1DF4, symBinAddr: 0x6020, symSize: 0xC }
+  - { offset: 0x6372F, size: 0x8, addend: 0x0, symName: '+[SRSession fromJSONDictionary:]', symObjAddr: 0x1ECC, symBinAddr: 0x60F8, symSize: 0x58 }
+  - { offset: 0x63774, size: 0x8, addend: 0x0, symName: '-[SRSession initWithJSONDictionary:]', symObjAddr: 0x1F24, symBinAddr: 0x6150, symSize: 0x94 }
+  - { offset: 0x637BD, size: 0x8, addend: 0x0, symName: '-[SRSession JSONDictionary]', symObjAddr: 0x1FB8, symBinAddr: 0x61E4, symSize: 0x128 }
+  - { offset: 0x63806, size: 0x8, addend: 0x0, symName: '-[SRSession hitcount]', symObjAddr: 0x20E0, symBinAddr: 0x630C, symSize: 0x8 }
+  - { offset: 0x6383D, size: 0x8, addend: 0x0, symName: '-[SRSession setHitcount:]', symObjAddr: 0x20E8, symBinAddr: 0x6314, symSize: 0x8 }
+  - { offset: 0x6387A, size: 0x8, addend: 0x0, symName: '-[SRSession sessionduration]', symObjAddr: 0x20F0, symBinAddr: 0x631C, symSize: 0x8 }
+  - { offset: 0x638B1, size: 0x8, addend: 0x0, symName: '-[SRSession setSessionduration:]', symObjAddr: 0x20F8, symBinAddr: 0x6324, symSize: 0x30 }
+  - { offset: 0x638F2, size: 0x8, addend: 0x0, symName: '-[SRSession .cxx_destruct]', symObjAddr: 0x2128, symBinAddr: 0x6354, symSize: 0xC }
+  - { offset: 0x63926, size: 0x8, addend: 0x0, symName: '+[SRSessionduration fromJSONDictionary:]', symObjAddr: 0x2200, symBinAddr: 0x642C, symSize: 0x58 }
+  - { offset: 0x6396B, size: 0x8, addend: 0x0, symName: '-[SRSessionduration initWithJSONDictionary:]', symObjAddr: 0x2258, symBinAddr: 0x6484, symSize: 0x6C }
+  - { offset: 0x639B4, size: 0x8, addend: 0x0, symName: '-[SRSessionduration JSONDictionary]', symObjAddr: 0x22C4, symBinAddr: 0x64F0, symSize: 0x78 }
+  - { offset: 0x639EC, size: 0x8, addend: 0x0, symName: '-[SRSessionduration max]', symObjAddr: 0x233C, symBinAddr: 0x6568, symSize: 0x8 }
+  - { offset: 0x63A23, size: 0x8, addend: 0x0, symName: '-[SRSessionduration setMax:]', symObjAddr: 0x2344, symBinAddr: 0x6570, symSize: 0x8 }
+  - { offset: 0x63A60, size: 0x8, addend: 0x0, symName: '-[SRSessionduration min]', symObjAddr: 0x234C, symBinAddr: 0x6578, symSize: 0x8 }
+  - { offset: 0x63A97, size: 0x8, addend: 0x0, symName: '-[SRSessionduration setMin:]', symObjAddr: 0x2354, symBinAddr: 0x6580, symSize: 0x8 }
+  - { offset: 0x63FB5, size: 0x8, addend: 0x0, symName: '-[StoreReviewWindow init]', symObjAddr: 0x0, symBinAddr: 0x6588, symSize: 0x90 }
+  - { offset: 0x63FD9, size: 0x8, addend: 0x0, symName: _JAAppIncrementer, symObjAddr: 0x4D50, symBinAddr: 0x10358, symSize: 0x0 }
+  - { offset: 0x63FEF, size: 0x8, addend: 0x0, symName: _JALastRemindedDate, symObjAddr: 0x4D58, symBinAddr: 0x10360, symSize: 0x0 }
+  - { offset: 0x64005, size: 0x8, addend: 0x0, symName: _JAAppRatingShown, symObjAddr: 0x4D60, symBinAddr: 0x10368, symSize: 0x0 }
+  - { offset: 0x6401B, size: 0x8, addend: 0x0, symName: _JAFirstRatingShownDate, symObjAddr: 0x4D68, symBinAddr: 0x10370, symSize: 0x0 }
+  - { offset: 0x64031, size: 0x8, addend: 0x0, symName: _JARatedVersion, symObjAddr: 0x4D70, symBinAddr: 0x10378, symSize: 0x0 }
+  - { offset: 0x64047, size: 0x8, addend: 0x0, symName: _JAExpoRemindPeriod, symObjAddr: 0x4D78, symBinAddr: 0x10380, symSize: 0x0 }
+  - { offset: 0x6405D, size: 0x8, addend: 0x0, symName: _promptForNewVersion, symObjAddr: 0x4EB8, symBinAddr: 0x13040, symSize: 0x0 }
+  - { offset: 0x6407A, size: 0x8, addend: 0x0, symName: _inProgress, symObjAddr: 0x10680, symBinAddr: 0x130F8, symSize: 0x0 }
+  - { offset: 0x64090, size: 0x8, addend: 0x0, symName: _Yes, symObjAddr: 0x4D80, symBinAddr: 0x10388, symSize: 0x0 }
+  - { offset: 0x640A6, size: 0x8, addend: 0x0, symName: _No, symObjAddr: 0x4D88, symBinAddr: 0x10390, symSize: 0x0 }
+  - { offset: 0x640BC, size: 0x8, addend: 0x0, symName: _rateUs, symObjAddr: 0x4D90, symBinAddr: 0x10398, symSize: 0x0 }
+  - { offset: 0x640D2, size: 0x8, addend: 0x0, symName: _sendFeedback, symObjAddr: 0x4D98, symBinAddr: 0x103A0, symSize: 0x0 }
+  - { offset: 0x640E8, size: 0x8, addend: 0x0, symName: _notNow, symObjAddr: 0x4DA0, symBinAddr: 0x103A8, symSize: 0x0 }
+  - { offset: 0x640FE, size: 0x8, addend: 0x0, symName: _bundleName, symObjAddr: 0x4EC0, symBinAddr: 0x13048, symSize: 0x0 }
+  - { offset: 0x64114, size: 0x8, addend: 0x0, symName: _title1, symObjAddr: 0x4EC8, symBinAddr: 0x13050, symSize: 0x0 }
+  - { offset: 0x6412A, size: 0x8, addend: 0x0, symName: _message1, symObjAddr: 0x4ED0, symBinAddr: 0x13058, symSize: 0x0 }
+  - { offset: 0x64140, size: 0x8, addend: 0x0, symName: _title2, symObjAddr: 0x4ED8, symBinAddr: 0x13060, symSize: 0x0 }
+  - { offset: 0x64156, size: 0x8, addend: 0x0, symName: _message2, symObjAddr: 0x4EE0, symBinAddr: 0x13068, symSize: 0x0 }
+  - { offset: 0x6416C, size: 0x8, addend: 0x0, symName: _requiredLaunchesBeforeRating, symObjAddr: 0x4EE8, symBinAddr: 0x13070, symSize: 0x0 }
+  - { offset: 0x6417D, size: 0x8, addend: 0x0, symName: '+[APStoreReviewManager getInstance]', symObjAddr: 0x1C8, symBinAddr: 0x6750, symSize: 0x44 }
+  - { offset: 0x641A7, size: 0x8, addend: 0x0, symName: _getInstance.getInstance, symObjAddr: 0x106C8, symBinAddr: 0x130D8, symSize: 0x0 }
+  - { offset: 0x641BD, size: 0x8, addend: 0x0, symName: _getInstance.onceToken, symObjAddr: 0x106D0, symBinAddr: 0x130E0, symSize: 0x0 }
+  - { offset: 0x64290, size: 0x8, addend: 0x0, symName: _criteriaId, symObjAddr: 0x10698, symBinAddr: 0x13110, symSize: 0x0 }
+  - { offset: 0x642AB, size: 0x8, addend: 0x0, symName: _gSource, symObjAddr: 0x10688, symBinAddr: 0x13100, symSize: 0x0 }
+  - { offset: 0x642C1, size: 0x8, addend: 0x0, symName: _modals, symObjAddr: 0x106C0, symBinAddr: 0x13138, symSize: 0x0 }
+  - { offset: 0x642FE, size: 0x8, addend: 0x0, symName: _ruleBookDictionary, symObjAddr: 0x106A8, symBinAddr: 0x13120, symSize: 0x0 }
+  - { offset: 0x64319, size: 0x8, addend: 0x0, symName: _ruleBookDictionaryArray, symObjAddr: 0x106A0, symBinAddr: 0x13118, symSize: 0x0 }
+  - { offset: 0x64334, size: 0x8, addend: 0x0, symName: _anchors, symObjAddr: 0x106B8, symBinAddr: 0x13130, symSize: 0x0 }
+  - { offset: 0x6434A, size: 0x8, addend: 0x0, symName: _triggers, symObjAddr: 0x106B0, symBinAddr: 0x13128, symSize: 0x0 }
+  - { offset: 0x64360, size: 0x8, addend: 0x0, symName: _engagementsAggrigateData, symObjAddr: 0x10690, symBinAddr: 0x13108, symSize: 0x0 }
+  - { offset: 0x643A0, size: 0x8, addend: 0x0, symName: '-[StoreReviewWindow init]', symObjAddr: 0x0, symBinAddr: 0x6588, symSize: 0x90 }
+  - { offset: 0x643D7, size: 0x8, addend: 0x0, symName: '-[StoreReviewWindow pointInside:withEvent:]', symObjAddr: 0x90, symBinAddr: 0x6618, symSize: 0xD4 }
+  - { offset: 0x6443A, size: 0x8, addend: 0x0, symName: '-[StoreReviewWindow views]', symObjAddr: 0x164, symBinAddr: 0x66EC, symSize: 0x10 }
+  - { offset: 0x64471, size: 0x8, addend: 0x0, symName: '-[StoreReviewWindow setViews:]', symObjAddr: 0x174, symBinAddr: 0x66FC, symSize: 0x40 }
+  - { offset: 0x644B2, size: 0x8, addend: 0x0, symName: '-[StoreReviewWindow .cxx_destruct]', symObjAddr: 0x1B4, symBinAddr: 0x673C, symSize: 0x14 }
+  - { offset: 0x64519, size: 0x8, addend: 0x0, symName: '+[APStoreReviewManager getInstance].cold.1', symObjAddr: 0x344C, symBinAddr: 0x9BB8, symSize: 0x14 }
+  - { offset: 0x64535, size: 0x8, addend: 0x0, symName: '+[APStoreReviewManager getInstance].cold.1', symObjAddr: 0x344C, symBinAddr: 0x9BB8, symSize: 0x14 }
+  - { offset: 0x64547, size: 0x8, addend: 0x0, symName: '___35+[APStoreReviewManager getInstance]_block_invoke', symObjAddr: 0x20C, symBinAddr: 0x6794, symSize: 0x1DC }
+  - { offset: 0x645A0, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager saveAggrigatedEngagementsData]', symObjAddr: 0x3E8, symBinAddr: 0x6970, symSize: 0x24 }
+  - { offset: 0x645CF, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager enableRateUsAndReview:]', symObjAddr: 0x40C, symBinAddr: 0x6994, symSize: 0x24 }
+  - { offset: 0x64612, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager shouldPromptForRating]', symObjAddr: 0x430, symBinAddr: 0x69B8, symSize: 0x8 }
+  - { offset: 0x64645, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager incrementAppRuns]', symObjAddr: 0x438, symBinAddr: 0x69C0, symSize: 0x78 }
+  - { offset: 0x64684, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager getRunCounts]', symObjAddr: 0x4B0, symBinAddr: 0x6A38, symSize: 0x5C }
+  - { offset: 0x646D7, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager resetAppRuns]', symObjAddr: 0x50C, symBinAddr: 0x6A94, symSize: 0x54 }
+  - { offset: 0x64706, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager setAppRatingShown]', symObjAddr: 0x560, symBinAddr: 0x6AE8, symSize: 0x50 }
+  - { offset: 0x64739, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager setRatedVersion:]', symObjAddr: 0x5B0, symBinAddr: 0x6B38, symSize: 0x14 }
+  - { offset: 0x64776, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager getRatedVersion]', symObjAddr: 0x5C4, symBinAddr: 0x6B4C, symSize: 0x14 }
+  - { offset: 0x647A9, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager ratedThisVersion]', symObjAddr: 0x5D8, symBinAddr: 0x6B60, symSize: 0x6C }
+  - { offset: 0x647E0, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager ratedAnyVersion]', symObjAddr: 0x644, symBinAddr: 0x6BCC, symSize: 0x34 }
+  - { offset: 0x64817, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager updateRateUAImpressionction]', symObjAddr: 0x678, symBinAddr: 0x6C00, symSize: 0xA4 }
+  - { offset: 0x64846, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager incrementSessionHitCount:]', symObjAddr: 0x71C, symBinAddr: 0x6CA4, symSize: 0x258 }
+  - { offset: 0x648DE, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager incrementEventHitCount:]', symObjAddr: 0x974, symBinAddr: 0x6EFC, symSize: 0x10C }
+  - { offset: 0x64941, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager incrementScreenHitCount:]', symObjAddr: 0xA80, symBinAddr: 0x7008, symSize: 0x12C }
+  - { offset: 0x649A5, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager checkIfCriteriaMatches:]', symObjAddr: 0xBAC, symBinAddr: 0x7134, symSize: 0xC0 }
+  - { offset: 0x64A61, size: 0x8, addend: 0x0, symName: '___47-[APStoreReviewManager checkIfCriteriaMatches:]_block_invoke', symObjAddr: 0xC6C, symBinAddr: 0x71F4, symSize: 0x24 }
+  - { offset: 0x64AB4, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0xC90, symBinAddr: 0x7218, symSize: 0x28 }
+  - { offset: 0x64ADD, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0xCB8, symBinAddr: 0x7240, symSize: 0x28 }
+  - { offset: 0x64AFC, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager validateAndShowReviewPrompt:]', symObjAddr: 0xCE0, symBinAddr: 0x7268, symSize: 0x17C }
+  - { offset: 0x64BBE, size: 0x8, addend: 0x0, symName: '___52-[APStoreReviewManager validateAndShowReviewPrompt:]_block_invoke', symObjAddr: 0xE5C, symBinAddr: 0x73E4, symSize: 0xC }
+  - { offset: 0x64BE7, size: 0x8, addend: 0x0, symName: '___52-[APStoreReviewManager validateAndShowReviewPrompt:]_block_invoke_2', symObjAddr: 0xE68, symBinAddr: 0x73F0, symSize: 0x5B4 }
+  - { offset: 0x64D4E, size: 0x8, addend: 0x0, symName: '___52-[APStoreReviewManager validateAndShowReviewPrompt:]_block_invoke_3', symObjAddr: 0x141C, symBinAddr: 0x79A4, symSize: 0x60 }
+  - { offset: 0x64D90, size: 0x8, addend: 0x0, symName: '___52-[APStoreReviewManager validateAndShowReviewPrompt:]_block_invoke_4', symObjAddr: 0x147C, symBinAddr: 0x7A04, symSize: 0x8 }
+  - { offset: 0x64DD2, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x1484, symBinAddr: 0x7A0C, symSize: 0x8 }
+  - { offset: 0x64DF9, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x148C, symBinAddr: 0x7A14, symSize: 0x8 }
+  - { offset: 0x64E18, size: 0x8, addend: 0x0, symName: '___52-[APStoreReviewManager validateAndShowReviewPrompt:]_block_invoke.345', symObjAddr: 0x1494, symBinAddr: 0x7A1C, symSize: 0xC }
+  - { offset: 0x64E41, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager storeReviewMasterReset]', symObjAddr: 0x14A0, symBinAddr: 0x7A28, symSize: 0x1A8 }
+  - { offset: 0x64EA5, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager resetAllNumbers]', symObjAddr: 0x1648, symBinAddr: 0x7BD0, symSize: 0x18C }
+  - { offset: 0x64F09, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager loadRuleBook]', symObjAddr: 0x17D4, symBinAddr: 0x7D5C, symSize: 0x74 }
+  - { offset: 0x64F53, size: 0x8, addend: 0x0, symName: '___36-[APStoreReviewManager loadRuleBook]_block_invoke', symObjAddr: 0x1848, symBinAddr: 0x7DD0, symSize: 0xFC }
+  - { offset: 0x64FCC, size: 0x8, addend: 0x0, symName: '___36-[APStoreReviewManager loadRuleBook]_block_invoke_2', symObjAddr: 0x1944, symBinAddr: 0x7ECC, symSize: 0x1748 }
+  - { offset: 0x654B0, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager shouldUpdateData]', symObjAddr: 0x308C, symBinAddr: 0x9614, symSize: 0x4 }
+  - { offset: 0x654E6, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager isHitCountValid:]', symObjAddr: 0x3090, symBinAddr: 0x9618, symSize: 0x48 }
+  - { offset: 0x65547, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager numberForKey:]', symObjAddr: 0x30D8, symBinAddr: 0x9660, symSize: 0x6C }
+  - { offset: 0x6559D, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager setNumber:forKey:]', symObjAddr: 0x3144, symBinAddr: 0x96CC, symSize: 0x7C }
+  - { offset: 0x655EF, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager setNumberIfNotExist:forKey:]', symObjAddr: 0x31C0, symBinAddr: 0x9748, symSize: 0x7C }
+  - { offset: 0x65641, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager dealloc]', symObjAddr: 0x323C, symBinAddr: 0x97C4, symSize: 0x44 }
+  - { offset: 0x65675, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager applicationDidEnterBackground:]', symObjAddr: 0x3280, symBinAddr: 0x9808, symSize: 0x4 }
+  - { offset: 0x656B4, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager appWillTerminate:]', symObjAddr: 0x3284, symBinAddr: 0x980C, symSize: 0x4 }
+  - { offset: 0x656F3, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager crashFoundNotification:]', symObjAddr: 0x3288, symBinAddr: 0x9810, symSize: 0x8 }
+  - { offset: 0x65732, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager rateusNotification:]', symObjAddr: 0x3290, symBinAddr: 0x9818, symSize: 0x158 }
+  - { offset: 0x65800, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager zaSerialQueue]', symObjAddr: 0x33E8, symBinAddr: 0x9970, symSize: 0x8 }
+  - { offset: 0x65837, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager setZaSerialQueue:]', symObjAddr: 0x33F0, symBinAddr: 0x9978, symSize: 0x30 }
+  - { offset: 0x65878, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager enableRateUsAndReview]', symObjAddr: 0x3420, symBinAddr: 0x99A8, symSize: 0x8 }
+  - { offset: 0x658AF, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager setEnableRateUsAndReview:]', symObjAddr: 0x3428, symBinAddr: 0x99B0, symSize: 0x8 }
+  - { offset: 0x658EA, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager shouldPauseRateUsAndReview]', symObjAddr: 0x3430, symBinAddr: 0x99B8, symSize: 0x8 }
+  - { offset: 0x65921, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager setShouldPauseRateUsAndReview:]', symObjAddr: 0x3438, symBinAddr: 0x99C0, symSize: 0x8 }
+  - { offset: 0x6595C, size: 0x8, addend: 0x0, symName: '-[APStoreReviewManager .cxx_destruct]', symObjAddr: 0x3440, symBinAddr: 0x99C8, symSize: 0xC }
+  - { offset: 0x65EE6, size: 0x8, addend: 0x0, symName: '+[APRateUs listener]', symObjAddr: 0x0, symBinAddr: 0x99D4, symSize: 0x44 }
+  - { offset: 0x65EF4, size: 0x8, addend: 0x0, symName: '+[APRateUs listener]', symObjAddr: 0x0, symBinAddr: 0x99D4, symSize: 0x44 }
+  - { offset: 0x65F1E, size: 0x8, addend: 0x0, symName: _listener.listener, symObjAddr: 0x2468, symBinAddr: 0x130E8, symSize: 0x0 }
+  - { offset: 0x65F34, size: 0x8, addend: 0x0, symName: _listener.onceToken, symObjAddr: 0x2470, symBinAddr: 0x130F0, symSize: 0x0 }
+  - { offset: 0x65FC7, size: 0x8, addend: 0x0, symName: '+[APRateUs listener].cold.1', symObjAddr: 0x1BC, symBinAddr: 0x9BCC, symSize: 0x14 }
+  - { offset: 0x65FE3, size: 0x8, addend: 0x0, symName: '+[APRateUs listener].cold.1', symObjAddr: 0x1BC, symBinAddr: 0x9BCC, symSize: 0x14 }
+  - { offset: 0x65FF5, size: 0x8, addend: 0x0, symName: '___20+[APRateUs listener]_block_invoke', symObjAddr: 0x44, symBinAddr: 0x9A18, symSize: 0x74 }
+  - { offset: 0x6601C, size: 0x8, addend: 0x0, symName: '-[APRateUs appticsDidFinishLoad:]', symObjAddr: 0xB8, symBinAddr: 0x9A8C, symSize: 0x4C }
+  - { offset: 0x66057, size: 0x8, addend: 0x0, symName: '+[APRateUs enable:]', symObjAddr: 0x104, symBinAddr: 0x9AD8, symSize: 0x40 }
+  - { offset: 0x66096, size: 0x8, addend: 0x0, symName: '+[APRateUs storeReviewMasterReset]', symObjAddr: 0x144, symBinAddr: 0x9B18, symSize: 0x38 }
+  - { offset: 0x660C5, size: 0x8, addend: 0x0, symName: '+[APRateUs shouldPauseRateUsAndReview:]', symObjAddr: 0x17C, symBinAddr: 0x9B50, symSize: 0x40 }
+...

@@ -1,0 +1,172 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/appticts-0639-t/Library/Developer/Xcode/DerivedData/Apptics-dzrqlnnjyljckdcajdfczditujtu/Build/Intermediates.noindex/ArchiveIntermediates/AppticsNotificationContentExtension/InstallationBuildProductsLocation/Library/Frameworks/AppticsNotificationContentExtension.framework/AppticsNotificationContentExtension'
+relocations:
+  - { offset: 0x5BB7A, size: 0x8, addend: 0x0, symName: _AppticsNotificationContentExtensionVersionString, symObjAddr: 0x0, symBinAddr: 0xD460, symSize: 0x0 }
+  - { offset: 0x5BBAF, size: 0x8, addend: 0x0, symName: _AppticsNotificationContentExtensionVersionNumber, symObjAddr: 0x50, symBinAddr: 0xD4B0, symSize: 0x0 }
+  - { offset: 0x5BBEC, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension initWithViewController:]', symObjAddr: 0x0, symBinAddr: 0xE80, symSize: 0xA4 }
+  - { offset: 0x5BFD7, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension initWithViewController:]', symObjAddr: 0x0, symBinAddr: 0xE80, symSize: 0xA4 }
+  - { offset: 0x5C01E, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension setupUI]', symObjAddr: 0xA4, symBinAddr: 0xF24, symSize: 0x1690 }
+  - { offset: 0x5C225, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension viewDidLayoutSubviews]', symObjAddr: 0x1734, symBinAddr: 0x25B4, symSize: 0x2C }
+  - { offset: 0x5C259, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension didReceiveNotificationExtensionWithContent:contentHandler:]', symObjAddr: 0x1760, symBinAddr: 0x25E0, symSize: 0x878 }
+  - { offset: 0x5C363, size: 0x8, addend: 0x0, symName: '___92-[APNotificationContentExtension didReceiveNotificationExtensionWithContent:contentHandler:]_block_invoke', symObjAddr: 0x1FD8, symBinAddr: 0x2E58, symSize: 0x1D4 }
+  - { offset: 0x5C422, size: 0x8, addend: 0x0, symName: '___92-[APNotificationContentExtension didReceiveNotificationExtensionWithContent:contentHandler:]_block_invoke_2', symObjAddr: 0x21AC, symBinAddr: 0x302C, symSize: 0xC }
+  - { offset: 0x5C475, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x21B8, symBinAddr: 0x3038, symSize: 0x28 }
+  - { offset: 0x5C49E, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x21E0, symBinAddr: 0x3060, symSize: 0x28 }
+  - { offset: 0x5C4BD, size: 0x8, addend: 0x0, symName: '___92-[APNotificationContentExtension didReceiveNotificationExtensionWithContent:contentHandler:]_block_invoke.54', symObjAddr: 0x2208, symBinAddr: 0x3088, symSize: 0x190 }
+  - { offset: 0x5C588, size: 0x8, addend: 0x0, symName: '___92-[APNotificationContentExtension didReceiveNotificationExtensionWithContent:contentHandler:]_block_invoke_2.55', symObjAddr: 0x2398, symBinAddr: 0x3218, symSize: 0x34 }
+  - { offset: 0x5C5DB, size: 0x8, addend: 0x0, symName: '___92-[APNotificationContentExtension didReceiveNotificationExtensionWithContent:contentHandler:]_block_invoke.57', symObjAddr: 0x23CC, symBinAddr: 0x324C, symSize: 0x8C }
+  - { offset: 0x5C644, size: 0x8, addend: 0x0, symName: '___92-[APNotificationContentExtension didReceiveNotificationExtensionWithContent:contentHandler:]_block_invoke_2.58', symObjAddr: 0x2458, symBinAddr: 0x32D8, symSize: 0xC }
+  - { offset: 0x5C697, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x2464, symBinAddr: 0x32E4, symSize: 0x8 }
+  - { offset: 0x5C6BE, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x246C, symBinAddr: 0x32EC, symSize: 0x8 }
+  - { offset: 0x5C6DD, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension stopAutoScrollIfNeeded]', symObjAddr: 0x2474, symBinAddr: 0x32F4, symSize: 0x40 }
+  - { offset: 0x5C711, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension stopMessageCountdownIfNeeded]', symObjAddr: 0x24B4, symBinAddr: 0x3334, symSize: 0x40 }
+  - { offset: 0x5C745, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension renderBodyWithHTML:plainText:]', symObjAddr: 0x24F4, symBinAddr: 0x3374, symSize: 0x1E0 }
+  - { offset: 0x5C7BB, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension updateBodyTextViewHeight]', symObjAddr: 0x26D4, symBinAddr: 0x3554, symSize: 0x1AC }
+  - { offset: 0x5C864, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension updatePreferredContentSize]', symObjAddr: 0x2880, symBinAddr: 0x3700, symSize: 0x184 }
+  - { offset: 0x5C949, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension attributedStringFromHTML:]', symObjAddr: 0x2A04, symBinAddr: 0x3884, symSize: 0x1E0 }
+  - { offset: 0x5C9E7, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension applyCarouselImages:]', symObjAddr: 0x2BE4, symBinAddr: 0x3A64, symSize: 0x510 }
+  - { offset: 0x5CA81, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension layoutCarouselImageViews]', symObjAddr: 0x30F4, symBinAddr: 0x3F74, symSize: 0x170 }
+  - { offset: 0x5CAD7, size: 0x8, addend: 0x0, symName: '___58-[APNotificationContentExtension layoutCarouselImageViews]_block_invoke', symObjAddr: 0x3264, symBinAddr: 0x40E4, symSize: 0x18 }
+  - { offset: 0x5CB53, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension startAutoScrollIfNeeded]', symObjAddr: 0x327C, symBinAddr: 0x40FC, symSize: 0x110 }
+  - { offset: 0x5CBCE, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension handleAutoScrollTick]', symObjAddr: 0x338C, symBinAddr: 0x420C, symSize: 0x114 }
+  - { offset: 0x5CC35, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension handlePreviousButton]', symObjAddr: 0x34A0, symBinAddr: 0x4320, symSize: 0xF0 }
+  - { offset: 0x5CC9C, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension handleNextButton]', symObjAddr: 0x3590, symBinAddr: 0x4410, symSize: 0x11C }
+  - { offset: 0x5CD14, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension updateNavigationButtonsForPage:]', symObjAddr: 0x36AC, symBinAddr: 0x452C, symSize: 0x13C }
+  - { offset: 0x5CD6A, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension configureMessageTimer]', symObjAddr: 0x37E8, symBinAddr: 0x4668, symSize: 0xCC }
+  - { offset: 0x5CD9E, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension updateMessageCountdownLabel]', symObjAddr: 0x38B4, symBinAddr: 0x4734, symSize: 0x1F0 }
+  - { offset: 0x5CE58, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension loadImagesFromAttachments:completion:]', symObjAddr: 0x3AA4, symBinAddr: 0x4924, symSize: 0xCC }
+  - { offset: 0x5CEFA, size: 0x8, addend: 0x0, symName: '___71-[APNotificationContentExtension loadImagesFromAttachments:completion:]_block_invoke', symObjAddr: 0x3B70, symBinAddr: 0x49F0, symSize: 0x1EC }
+  - { offset: 0x5CFCD, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x3D5C, symBinAddr: 0x4BDC, symSize: 0x34 }
+  - { offset: 0x5CFF6, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension loadImagesFromURLs:completion:]', symObjAddr: 0x3D90, symBinAddr: 0x4C10, symSize: 0x188 }
+  - { offset: 0x5D0DE, size: 0x8, addend: 0x0, symName: '___64-[APNotificationContentExtension loadImagesFromURLs:completion:]_block_invoke', symObjAddr: 0x3F18, symBinAddr: 0x4D98, symSize: 0x10C }
+  - { offset: 0x5D18E, size: 0x8, addend: 0x0, symName: '___64-[APNotificationContentExtension loadImagesFromURLs:completion:]_block_invoke_2', symObjAddr: 0x4024, symBinAddr: 0x4EA4, symSize: 0x120 }
+  - { offset: 0x5D26E, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0x4144, symBinAddr: 0x4FC4, symSize: 0x30 }
+  - { offset: 0x5D297, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0x4174, symBinAddr: 0x4FF4, symSize: 0x30 }
+  - { offset: 0x5D2B6, size: 0x8, addend: 0x0, symName: '___64-[APNotificationContentExtension loadImagesFromURLs:completion:]_block_invoke.92', symObjAddr: 0x41A4, symBinAddr: 0x5024, symSize: 0x38 }
+  - { offset: 0x5D320, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension dictionaryValueForKey:fromDictionary:]', symObjAddr: 0x41DC, symBinAddr: 0x505C, symSize: 0xB4 }
+  - { offset: 0x5D387, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension stringValueForKey:fromDictionary:]', symObjAddr: 0x4290, symBinAddr: 0x5110, symSize: 0xB8 }
+  - { offset: 0x5D3EE, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension findStringForKey:inObject:]', symObjAddr: 0x4348, symBinAddr: 0x51C8, symSize: 0x378 }
+  - { offset: 0x5D511, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension addInfoDictionaryFromUserInfo:]', symObjAddr: 0x46C0, symBinAddr: 0x5540, symSize: 0xB0 }
+  - { offset: 0x5D56B, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension resolvedCarouselFromUserInfo:addInfo:]', symObjAddr: 0x4770, symBinAddr: 0x55F0, symSize: 0x194 }
+  - { offset: 0x5D627, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension imageURLsFromCarousel:userInfo:]', symObjAddr: 0x4904, symBinAddr: 0x5784, symSize: 0x5DC }
+  - { offset: 0x5D845, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension dictionaryFromJSONString:]', symObjAddr: 0x4EE0, symBinAddr: 0x5D60, symSize: 0x2E4 }
+  - { offset: 0x5D934, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension cleanedText:]', symObjAddr: 0x51C4, symBinAddr: 0x6044, symSize: 0xE0 }
+  - { offset: 0x5D98A, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension normalizedURLFromRawString:]', symObjAddr: 0x52A4, symBinAddr: 0x6124, symSize: 0x1D4 }
+  - { offset: 0x5D9F5, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension boolFromValue:defaultValue:]', symObjAddr: 0x5478, symBinAddr: 0x62F8, symSize: 0x78 }
+  - { offset: 0x5DA4B, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension positiveDoubleFromValue:defaultValue:]', symObjAddr: 0x54F0, symBinAddr: 0x6370, symSize: 0x88 }
+  - { offset: 0x5DAB2, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension epochSecondsFromValue:]', symObjAddr: 0x5578, symBinAddr: 0x63F8, symSize: 0xA4 }
+  - { offset: 0x5DB08, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension stringLooksLikeHTML:]', symObjAddr: 0x561C, symBinAddr: 0x649C, symSize: 0xA4 }
+  - { offset: 0x5DB4D, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension scrollViewDidEndDecelerating:]', symObjAddr: 0x56C0, symBinAddr: 0x6540, symSize: 0x118 }
+  - { offset: 0x5DBA3, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension scrollViewDidEndScrollingAnimation:]', symObjAddr: 0x57D8, symBinAddr: 0x6658, symSize: 0x4 }
+  - { offset: 0x5DBE4, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension scrollViewWillBeginDragging:]', symObjAddr: 0x57DC, symBinAddr: 0x665C, symSize: 0x70 }
+  - { offset: 0x5DC29, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension handleNonInteractiveTap:]', symObjAddr: 0x584C, symBinAddr: 0x66CC, symSize: 0x5C }
+  - { offset: 0x5DC6E, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension gestureRecognizer:shouldReceiveTouch:]', symObjAddr: 0x58A8, symBinAddr: 0x6728, symSize: 0x230 }
+  - { offset: 0x5DCFF, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension isTouchOnLinkInBodyTextView:]', symObjAddr: 0x5AD8, symBinAddr: 0x6958, symSize: 0x4E4 }
+  - { offset: 0x5DE3F, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension handleBodyTap:]', symObjAddr: 0x5FBC, symBinAddr: 0x6E3C, symSize: 0x6D0 }
+  - { offset: 0x5DFC2, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension handleCarouselTap:]', symObjAddr: 0x668C, symBinAddr: 0x750C, symSize: 0x5C }
+  - { offset: 0x5E007, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension performDefaultActionOrOpenFallbackURL:]', symObjAddr: 0x66E8, symBinAddr: 0x7568, symSize: 0xB8 }
+  - { offset: 0x5E05D, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension resolvedMessageClickActionURL]', symObjAddr: 0x67A0, symBinAddr: 0x7620, symSize: 0x1C0 }
+  - { offset: 0x5E0E8, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension textView:shouldInteractWithURL:inRange:interaction:]', symObjAddr: 0x6960, symBinAddr: 0x77E0, symSize: 0xA8 }
+  - { offset: 0x5E169, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:]', symObjAddr: 0x6A08, symBinAddr: 0x7888, symSize: 0x98 }
+  - { offset: 0x5E1C3, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension appIconImage]', symObjAddr: 0x6AA0, symBinAddr: 0x7920, symSize: 0x64 }
+  - { offset: 0x5E1FB, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension customAppLogo]', symObjAddr: 0x6B04, symBinAddr: 0x7984, symSize: 0x8 }
+  - { offset: 0x5E232, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension setCustomAppLogo:]', symObjAddr: 0x6B0C, symBinAddr: 0x798C, symSize: 0x30 }
+  - { offset: 0x5E273, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension viewController]', symObjAddr: 0x6B3C, symBinAddr: 0x79BC, symSize: 0x18 }
+  - { offset: 0x5E2AA, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension setViewController:]', symObjAddr: 0x6B54, symBinAddr: 0x79D4, symSize: 0xC }
+  - { offset: 0x5E2EB, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension contentTapGesture]', symObjAddr: 0x6B60, symBinAddr: 0x79E0, symSize: 0x8 }
+  - { offset: 0x5E322, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension setContentTapGesture:]', symObjAddr: 0x6B68, symBinAddr: 0x79E8, symSize: 0x30 }
+  - { offset: 0x5E363, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension carouselTapGesture]', symObjAddr: 0x6B98, symBinAddr: 0x7A18, symSize: 0x8 }
+  - { offset: 0x5E39A, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension setCarouselTapGesture:]', symObjAddr: 0x6BA0, symBinAddr: 0x7A20, symSize: 0x30 }
+  - { offset: 0x5E3DB, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension bodyTapGesture]', symObjAddr: 0x6BD0, symBinAddr: 0x7A50, symSize: 0x8 }
+  - { offset: 0x5E412, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension setBodyTapGesture:]', symObjAddr: 0x6BD8, symBinAddr: 0x7A58, symSize: 0x30 }
+  - { offset: 0x5E453, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension currentNotification]', symObjAddr: 0x6C08, symBinAddr: 0x7A88, symSize: 0x8 }
+  - { offset: 0x5E48A, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension setCurrentNotification:]', symObjAddr: 0x6C10, symBinAddr: 0x7A90, symSize: 0x30 }
+  - { offset: 0x5E4CB, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension appLogoImageView]', symObjAddr: 0x6C40, symBinAddr: 0x7AC0, symSize: 0x8 }
+  - { offset: 0x5E502, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension setAppLogoImageView:]', symObjAddr: 0x6C48, symBinAddr: 0x7AC8, symSize: 0x30 }
+  - { offset: 0x5E543, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension titleLabel]', symObjAddr: 0x6C78, symBinAddr: 0x7AF8, symSize: 0x8 }
+  - { offset: 0x5E57A, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension setTitleLabel:]', symObjAddr: 0x6C80, symBinAddr: 0x7B00, symSize: 0x30 }
+  - { offset: 0x5E5BB, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension bodyTextView]', symObjAddr: 0x6CB0, symBinAddr: 0x7B30, symSize: 0x8 }
+  - { offset: 0x5E5F2, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension setBodyTextView:]', symObjAddr: 0x6CB8, symBinAddr: 0x7B38, symSize: 0x30 }
+  - { offset: 0x5E633, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension bodyTextHeightConstraint]', symObjAddr: 0x6CE8, symBinAddr: 0x7B68, symSize: 0x8 }
+  - { offset: 0x5E66A, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension setBodyTextHeightConstraint:]', symObjAddr: 0x6CF0, symBinAddr: 0x7B70, symSize: 0x30 }
+  - { offset: 0x5E6AB, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension carouselScrollView]', symObjAddr: 0x6D20, symBinAddr: 0x7BA0, symSize: 0x8 }
+  - { offset: 0x5E6E2, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension setCarouselScrollView:]', symObjAddr: 0x6D28, symBinAddr: 0x7BA8, symSize: 0x30 }
+  - { offset: 0x5E723, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension pageControl]', symObjAddr: 0x6D58, symBinAddr: 0x7BD8, symSize: 0x8 }
+  - { offset: 0x5E75A, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension setPageControl:]', symObjAddr: 0x6D60, symBinAddr: 0x7BE0, symSize: 0x30 }
+  - { offset: 0x5E79B, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension carouselScrollHeightConstraint]', symObjAddr: 0x6D90, symBinAddr: 0x7C10, symSize: 0x8 }
+  - { offset: 0x5E7D2, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension setCarouselScrollHeightConstraint:]', symObjAddr: 0x6D98, symBinAddr: 0x7C18, symSize: 0x30 }
+  - { offset: 0x5E813, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension pageControlCollapsedHeightConstraint]', symObjAddr: 0x6DC8, symBinAddr: 0x7C48, symSize: 0x8 }
+  - { offset: 0x5E84A, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension setPageControlCollapsedHeightConstraint:]', symObjAddr: 0x6DD0, symBinAddr: 0x7C50, symSize: 0x30 }
+  - { offset: 0x5E88B, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension messageTimerLabel]', symObjAddr: 0x6E00, symBinAddr: 0x7C80, symSize: 0x8 }
+  - { offset: 0x5E8C2, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension setMessageTimerLabel:]', symObjAddr: 0x6E08, symBinAddr: 0x7C88, symSize: 0x30 }
+  - { offset: 0x5E903, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension carouselImages]', symObjAddr: 0x6E38, symBinAddr: 0x7CB8, symSize: 0x8 }
+  - { offset: 0x5E93A, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension setCarouselImages:]', symObjAddr: 0x6E40, symBinAddr: 0x7CC0, symSize: 0x30 }
+  - { offset: 0x5E97B, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension imageURLs]', symObjAddr: 0x6E70, symBinAddr: 0x7CF0, symSize: 0x8 }
+  - { offset: 0x5E9B2, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension setImageURLs:]', symObjAddr: 0x6E78, symBinAddr: 0x7CF8, symSize: 0x30 }
+  - { offset: 0x5E9F3, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension shouldAutoScroll]', symObjAddr: 0x6EA8, symBinAddr: 0x7D28, symSize: 0x8 }
+  - { offset: 0x5EA2A, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension setShouldAutoScroll:]', symObjAddr: 0x6EB0, symBinAddr: 0x7D30, symSize: 0x8 }
+  - { offset: 0x5EA65, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension autoScrollInterval]', symObjAddr: 0x6EB8, symBinAddr: 0x7D38, symSize: 0x8 }
+  - { offset: 0x5EA9A, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension setAutoScrollInterval:]', symObjAddr: 0x6EC0, symBinAddr: 0x7D40, symSize: 0x8 }
+  - { offset: 0x5EAD8, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension messageEndsAtEpochSeconds]', symObjAddr: 0x6EC8, symBinAddr: 0x7D48, symSize: 0x8 }
+  - { offset: 0x5EB0D, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension setMessageEndsAtEpochSeconds:]', symObjAddr: 0x6ED0, symBinAddr: 0x7D50, symSize: 0x8 }
+  - { offset: 0x5EB4B, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension autoScrollTimer]', symObjAddr: 0x6ED8, symBinAddr: 0x7D58, symSize: 0x8 }
+  - { offset: 0x5EB82, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension setAutoScrollTimer:]', symObjAddr: 0x6EE0, symBinAddr: 0x7D60, symSize: 0x30 }
+  - { offset: 0x5EBC3, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension messageCountdownTimer]', symObjAddr: 0x6F10, symBinAddr: 0x7D90, symSize: 0x8 }
+  - { offset: 0x5EBFA, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension setMessageCountdownTimer:]', symObjAddr: 0x6F18, symBinAddr: 0x7D98, symSize: 0x30 }
+  - { offset: 0x5EC3B, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension previousButton]', symObjAddr: 0x6F48, symBinAddr: 0x7DC8, symSize: 0x8 }
+  - { offset: 0x5EC72, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension setPreviousButton:]', symObjAddr: 0x6F50, symBinAddr: 0x7DD0, symSize: 0x30 }
+  - { offset: 0x5ECB3, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension nextButton]', symObjAddr: 0x6F80, symBinAddr: 0x7E00, symSize: 0x8 }
+  - { offset: 0x5ECEA, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension setNextButton:]', symObjAddr: 0x6F88, symBinAddr: 0x7E08, symSize: 0x30 }
+  - { offset: 0x5ED2B, size: 0x8, addend: 0x0, symName: '-[APNotificationContentExtension .cxx_destruct]', symObjAddr: 0x6FB8, symBinAddr: 0x7E38, symSize: 0x110 }
+  - { offset: 0x5F4F8, size: 0x8, addend: 0x0, symName: '+[MDRun runWithText:]', symObjAddr: 0x0, symBinAddr: 0x7F48, symSize: 0x4C }
+  - { offset: 0x5F655, size: 0x8, addend: 0x0, symName: '+[MDRun runWithText:]', symObjAddr: 0x0, symBinAddr: 0x7F48, symSize: 0x4C }
+  - { offset: 0x5F6A8, size: 0x8, addend: 0x0, symName: '-[MDRun inheritFrom:]', symObjAddr: 0x4C, symBinAddr: 0x7F94, symSize: 0xD4 }
+  - { offset: 0x5F6EB, size: 0x8, addend: 0x0, symName: '-[MDRun formatKey]', symObjAddr: 0x120, symBinAddr: 0x8068, symSize: 0x110 }
+  - { offset: 0x5F722, size: 0x8, addend: 0x0, symName: '-[MDRun copyWithZone:]', symObjAddr: 0x230, symBinAddr: 0x8178, symSize: 0x114 }
+  - { offset: 0x5F775, size: 0x8, addend: 0x0, symName: '-[MDRun text]', symObjAddr: 0x344, symBinAddr: 0x828C, symSize: 0x8 }
+  - { offset: 0x5F7AC, size: 0x8, addend: 0x0, symName: '-[MDRun setText:]', symObjAddr: 0x34C, symBinAddr: 0x8294, symSize: 0x8 }
+  - { offset: 0x5F7EB, size: 0x8, addend: 0x0, symName: '-[MDRun bold]', symObjAddr: 0x354, symBinAddr: 0x829C, symSize: 0x8 }
+  - { offset: 0x5F822, size: 0x8, addend: 0x0, symName: '-[MDRun setBold:]', symObjAddr: 0x35C, symBinAddr: 0x82A4, symSize: 0x8 }
+  - { offset: 0x5F85D, size: 0x8, addend: 0x0, symName: '-[MDRun italic]', symObjAddr: 0x364, symBinAddr: 0x82AC, symSize: 0x8 }
+  - { offset: 0x5F894, size: 0x8, addend: 0x0, symName: '-[MDRun setItalic:]', symObjAddr: 0x36C, symBinAddr: 0x82B4, symSize: 0x8 }
+  - { offset: 0x5F8CF, size: 0x8, addend: 0x0, symName: '-[MDRun underline]', symObjAddr: 0x374, symBinAddr: 0x82BC, symSize: 0x8 }
+  - { offset: 0x5F906, size: 0x8, addend: 0x0, symName: '-[MDRun setUnderline:]', symObjAddr: 0x37C, symBinAddr: 0x82C4, symSize: 0x8 }
+  - { offset: 0x5F941, size: 0x8, addend: 0x0, symName: '-[MDRun strike]', symObjAddr: 0x384, symBinAddr: 0x82CC, symSize: 0x8 }
+  - { offset: 0x5F978, size: 0x8, addend: 0x0, symName: '-[MDRun setStrike:]', symObjAddr: 0x38C, symBinAddr: 0x82D4, symSize: 0x8 }
+  - { offset: 0x5F9B3, size: 0x8, addend: 0x0, symName: '-[MDRun color]', symObjAddr: 0x394, symBinAddr: 0x82DC, symSize: 0x8 }
+  - { offset: 0x5F9EA, size: 0x8, addend: 0x0, symName: '-[MDRun setColor:]', symObjAddr: 0x39C, symBinAddr: 0x82E4, symSize: 0x8 }
+  - { offset: 0x5FA29, size: 0x8, addend: 0x0, symName: '-[MDRun linkHref]', symObjAddr: 0x3A4, symBinAddr: 0x82EC, symSize: 0x8 }
+  - { offset: 0x5FA60, size: 0x8, addend: 0x0, symName: '-[MDRun setLinkHref:]', symObjAddr: 0x3AC, symBinAddr: 0x82F4, symSize: 0x8 }
+  - { offset: 0x5FA9F, size: 0x8, addend: 0x0, symName: '-[MDRun isRaw]', symObjAddr: 0x3B4, symBinAddr: 0x82FC, symSize: 0x8 }
+  - { offset: 0x5FAD6, size: 0x8, addend: 0x0, symName: '-[MDRun setIsRaw:]', symObjAddr: 0x3BC, symBinAddr: 0x8304, symSize: 0x8 }
+  - { offset: 0x5FB11, size: 0x8, addend: 0x0, symName: '-[MDRun .cxx_destruct]', symObjAddr: 0x3C4, symBinAddr: 0x830C, symSize: 0x3C }
+  - { offset: 0x5FB44, size: 0x8, addend: 0x0, symName: '+[MarkdownConverter htmlFromMarkdown:]', symObjAddr: 0x400, symBinAddr: 0x8348, symSize: 0x164 }
+  - { offset: 0x5FB9B, size: 0x8, addend: 0x0, symName: '___38+[MarkdownConverter htmlFromMarkdown:]_block_invoke', symObjAddr: 0x564, symBinAddr: 0x84AC, symSize: 0xA8 }
+  - { offset: 0x5FBD6, size: 0x8, addend: 0x0, symName: '___38+[MarkdownConverter htmlFromMarkdown:]_block_invoke_2', symObjAddr: 0x60C, symBinAddr: 0x8554, symSize: 0xA8 }
+  - { offset: 0x5FC11, size: 0x8, addend: 0x0, symName: '___38+[MarkdownConverter htmlFromMarkdown:]_block_invoke_3', symObjAddr: 0x6B4, symBinAddr: 0x85FC, symSize: 0x6C }
+  - { offset: 0x5FC4C, size: 0x8, addend: 0x0, symName: '___38+[MarkdownConverter htmlFromMarkdown:]_block_invoke_4', symObjAddr: 0x720, symBinAddr: 0x8668, symSize: 0x6C }
+  - { offset: 0x5FC87, size: 0x8, addend: 0x0, symName: '___38+[MarkdownConverter htmlFromMarkdown:]_block_invoke_5', symObjAddr: 0x78C, symBinAddr: 0x86D4, symSize: 0x6C }
+  - { offset: 0x5FCC2, size: 0x8, addend: 0x0, symName: '___38+[MarkdownConverter htmlFromMarkdown:]_block_invoke_6', symObjAddr: 0x7F8, symBinAddr: 0x8740, symSize: 0x6C }
+  - { offset: 0x5FCFD, size: 0x8, addend: 0x0, symName: '___38+[MarkdownConverter htmlFromMarkdown:]_block_invoke_7', symObjAddr: 0x864, symBinAddr: 0x87AC, symSize: 0x6C }
+  - { offset: 0x5FD38, size: 0x8, addend: 0x0, symName: '+[MarkdownConverter markdownFromHTML:]', symObjAddr: 0x8D0, symBinAddr: 0x8818, symSize: 0xA8 }
+  - { offset: 0x5FD8F, size: 0x8, addend: 0x0, symName: '+[MarkdownConverter collectRuns:inherited:]', symObjAddr: 0x978, symBinAddr: 0x88C0, symSize: 0x78C }
+  - { offset: 0x5FFE1, size: 0x8, addend: 0x0, symName: '+[MarkdownConverter runsToMarkdown:]', symObjAddr: 0x1104, symBinAddr: 0x904C, symSize: 0x3EC }
+  - { offset: 0x600D0, size: 0x8, addend: 0x0, symName: '+[MarkdownConverter wrapText:run:]', symObjAddr: 0x14F0, symBinAddr: 0x9438, symSize: 0x208 }
+  - { offset: 0x60133, size: 0x8, addend: 0x0, symName: '+[MarkdownConverter regex:replace:with:]', symObjAddr: 0x16F8, symBinAddr: 0x9640, symSize: 0x2B4 }
+  - { offset: 0x6027D, size: 0x8, addend: 0x0, symName: '+[MarkdownConverter tagName:]', symObjAddr: 0x19AC, symBinAddr: 0x98F4, symSize: 0xE0 }
+  - { offset: 0x602E4, size: 0x8, addend: 0x0, symName: '+[MarkdownConverter innerHTMLOf:afterOffset:tagName:advanceTo:]', symObjAddr: 0x1A8C, symBinAddr: 0x99D4, symSize: 0x290 }
+  - { offset: 0x60402, size: 0x8, addend: 0x0, symName: '+[MarkdownConverter hexColorFromStyle:]', symObjAddr: 0x1D1C, symBinAddr: 0x9C64, symSize: 0x158 }
+  - { offset: 0x60472, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x1E74, symBinAddr: 0x9DBC, symSize: 0x10 }
+  - { offset: 0x60497, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x1E84, symBinAddr: 0x9DCC, symSize: 0x8 }
+  - { offset: 0x604B6, size: 0x8, addend: 0x0, symName: '___39+[MarkdownConverter hexColorFromStyle:]_block_invoke', symObjAddr: 0x1E8C, symBinAddr: 0x9DD4, symSize: 0x78 }
+  - { offset: 0x60509, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32r, symObjAddr: 0x1F04, symBinAddr: 0x9E4C, symSize: 0x10 }
+  - { offset: 0x60532, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32r, symObjAddr: 0x1F14, symBinAddr: 0x9E5C, symSize: 0xC }
+  - { offset: 0x60551, size: 0x8, addend: 0x0, symName: '___39+[MarkdownConverter hexColorFromStyle:]_block_invoke.164', symObjAddr: 0x1F20, symBinAddr: 0x9E68, symSize: 0x120 }
+  - { offset: 0x605A4, size: 0x8, addend: 0x0, symName: '+[MarkdownConverter hexColorFromFont:]', symObjAddr: 0x2040, symBinAddr: 0x9F88, symSize: 0x108 }
+  - { offset: 0x60613, size: 0x8, addend: 0x0, symName: '___38+[MarkdownConverter hexColorFromFont:]_block_invoke', symObjAddr: 0x2148, symBinAddr: 0xA090, symSize: 0x78 }
+  - { offset: 0x60666, size: 0x8, addend: 0x0, symName: '+[MarkdownConverter hrefFrom:]', symObjAddr: 0x21C0, symBinAddr: 0xA108, symSize: 0x108 }
+  - { offset: 0x606D5, size: 0x8, addend: 0x0, symName: '___30+[MarkdownConverter hrefFrom:]_block_invoke', symObjAddr: 0x22C8, symBinAddr: 0xA210, symSize: 0x78 }
+  - { offset: 0x60728, size: 0x8, addend: 0x0, symName: '+[MarkdownConverter decodeEntities:]', symObjAddr: 0x2340, symBinAddr: 0xA288, symSize: 0x90 }
+  - { offset: 0x6078F, size: 0x8, addend: 0x0, symName: '___36+[MarkdownConverter decodeEntities:]_block_invoke', symObjAddr: 0x23D0, symBinAddr: 0xA318, symSize: 0x6C }
+...

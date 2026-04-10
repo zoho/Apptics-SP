@@ -1,0 +1,45 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/appticts-0639-t/Library/Developer/Xcode/DerivedData/Apptics-dzrqlnnjyljckdcajdfczditujtu/Build/Intermediates.noindex/ArchiveIntermediates/AppticsScreenTracker/InstallationBuildProductsLocation/Library/Frameworks/AppticsScreenTracker.framework/AppticsScreenTracker'
+relocations:
+  - { offset: 0x5F0B2, size: 0x8, addend: 0x0, symName: _AppticsScreenTrackerVersionString, symObjAddr: 0x0, symBinAddr: 0x2AC8, symSize: 0x0 }
+  - { offset: 0x5F0E7, size: 0x8, addend: 0x0, symName: _AppticsScreenTrackerVersionNumber, symObjAddr: 0x48, symBinAddr: 0x2B10, symSize: 0x0 }
+  - { offset: 0x5F124, size: 0x8, addend: 0x0, symName: '+[APFlowTracker shared]', symObjAddr: 0x0, symBinAddr: 0xDA0, symSize: 0x44 }
+  - { offset: 0x5F137, size: 0x8, addend: 0x0, symName: '+[APFlowTracker shared]', symObjAddr: 0x0, symBinAddr: 0xDA0, symSize: 0x44 }
+  - { offset: 0x5F161, size: 0x8, addend: 0x0, symName: _shared.i, symObjAddr: 0x75E0, symBinAddr: 0x8588, symSize: 0x0 }
+  - { offset: 0x5F177, size: 0x8, addend: 0x0, symName: _shared.once, symObjAddr: 0x75E8, symBinAddr: 0x8590, symSize: 0x0 }
+  - { offset: 0x5F205, size: 0x8, addend: 0x0, symName: '+[UIViewController(Trackable) load]', symObjAddr: 0x2DC, symBinAddr: 0x107C, symSize: 0x28 }
+  - { offset: 0x5F22B, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x75F0, symBinAddr: 0x8598, symSize: 0x0 }
+  - { offset: 0x5F271, size: 0x8, addend: 0x0, symName: _kAPHasEnteredKey, symObjAddr: 0x17F8, symBinAddr: 0x8570, symSize: 0x0 }
+  - { offset: 0x5F28D, size: 0x8, addend: 0x0, symName: _kAPHasExitedKey, symObjAddr: 0x1800, symBinAddr: 0x8578, symSize: 0x0 }
+  - { offset: 0x5F2D3, size: 0x8, addend: 0x0, symName: '+[APFlowTracker shared].cold.1', symObjAddr: 0xB8C, symBinAddr: 0x20C4, symSize: 0x14 }
+  - { offset: 0x5F2EF, size: 0x8, addend: 0x0, symName: '+[APFlowTracker shared].cold.1', symObjAddr: 0xB8C, symBinAddr: 0x20C4, symSize: 0x14 }
+  - { offset: 0x5F301, size: 0x8, addend: 0x0, symName: '___23+[APFlowTracker shared]_block_invoke', symObjAddr: 0x44, symBinAddr: 0xDE4, symSize: 0x60 }
+  - { offset: 0x5F328, size: 0x8, addend: 0x0, symName: '-[APFlowTracker enter:]', symObjAddr: 0xA4, symBinAddr: 0xE44, symSize: 0x124 }
+  - { offset: 0x5F3BE, size: 0x8, addend: 0x0, symName: '-[APFlowTracker exit:]', symObjAddr: 0x1C8, symBinAddr: 0xF68, symSize: 0xD0 }
+  - { offset: 0x5F411, size: 0x8, addend: 0x0, symName: '-[APFlowTracker stack]', symObjAddr: 0x298, symBinAddr: 0x1038, symSize: 0x8 }
+  - { offset: 0x5F448, size: 0x8, addend: 0x0, symName: '-[APFlowTracker setStack:]', symObjAddr: 0x2A0, symBinAddr: 0x1040, symSize: 0x30 }
+  - { offset: 0x5F489, size: 0x8, addend: 0x0, symName: '-[APFlowTracker .cxx_destruct]', symObjAddr: 0x2D0, symBinAddr: 0x1070, symSize: 0xC }
+  - { offset: 0x5F4BC, size: 0x8, addend: 0x0, symName: '+[UIViewController(Trackable) load].cold.1', symObjAddr: 0xBA0, symBinAddr: 0x20D8, symSize: 0x14 }
+  - { offset: 0x5F4D8, size: 0x8, addend: 0x0, symName: '+[UIViewController(Trackable) load].cold.1', symObjAddr: 0xBA0, symBinAddr: 0x20D8, symSize: 0x14 }
+  - { offset: 0x5F4EA, size: 0x8, addend: 0x0, symName: '___35+[UIViewController(Trackable) load]_block_invoke', symObjAddr: 0x304, symBinAddr: 0x10A4, symSize: 0x80 }
+  - { offset: 0x5F5F8, size: 0x8, addend: 0x0, symName: _swizzleMethods, symObjAddr: 0x384, symBinAddr: 0x1124, symSize: 0xC8 }
+  - { offset: 0x5F7EA, size: 0x8, addend: 0x0, symName: '-[UIViewController(Trackable) findViewControllerName]', symObjAddr: 0x44C, symBinAddr: 0x11EC, symSize: 0xB8 }
+  - { offset: 0x5F860, size: 0x8, addend: 0x0, symName: '-[UIViewController(Trackable) ap_trackEnterIfNeeded:]', symObjAddr: 0x504, symBinAddr: 0x12A4, symSize: 0xE0 }
+  - { offset: 0x5F908, size: 0x8, addend: 0x0, symName: _ap_getBool, symObjAddr: 0x5E4, symBinAddr: 0x1384, symSize: 0x3C }
+  - { offset: 0x5F972, size: 0x8, addend: 0x0, symName: _ap_setBool, symObjAddr: 0x620, symBinAddr: 0x13C0, symSize: 0x70 }
+  - { offset: 0x5FA38, size: 0x8, addend: 0x0, symName: '-[UIViewController(Trackable) ap_trackExitIfNeeded:]', symObjAddr: 0x690, symBinAddr: 0x1430, symSize: 0xF0 }
+  - { offset: 0x5FAF6, size: 0x8, addend: 0x0, symName: '-[UIViewController(Trackable) ZAnalytics_viewDidAppear:]', symObjAddr: 0x780, symBinAddr: 0x1520, symSize: 0x8C }
+  - { offset: 0x5FB58, size: 0x8, addend: 0x0, symName: '-[UIViewController(Trackable) ZAnalytics_viewWillDisappear:]', symObjAddr: 0x80C, symBinAddr: 0x15AC, symSize: 0x8C }
+  - { offset: 0x5FBBA, size: 0x8, addend: 0x0, symName: '-[UIViewController(Trackable) ZAnalytics_viewWillAppear:]', symObjAddr: 0x898, symBinAddr: 0x1638, symSize: 0x8C }
+  - { offset: 0x5FC1C, size: 0x8, addend: 0x0, symName: '-[UIViewController(Trackable) ZAnalytics_viewDidDisappear:]', symObjAddr: 0x924, symBinAddr: 0x16C4, symSize: 0x8C }
+  - { offset: 0x5FC7E, size: 0x8, addend: 0x0, symName: '-[UIViewController(Trackable) isSystemViewController]', symObjAddr: 0x9B0, symBinAddr: 0x1750, symSize: 0x1DC }
+  - { offset: 0x5FE5C, size: 0x8, addend: 0x0, symName: '-[APScreentracker init]', symObjAddr: 0x0, symBinAddr: 0x192C, symSize: 0x34 }
+  - { offset: 0x5FE80, size: 0x8, addend: 0x0, symName: '-[APScreentracker init]', symObjAddr: 0x0, symBinAddr: 0x192C, symSize: 0x34 }
+  - { offset: 0x5FEB7, size: 0x8, addend: 0x0, symName: '+[APScreentracker trackViewEnter:]', symObjAddr: 0x34, symBinAddr: 0x1960, symSize: 0x1E0 }
+  - { offset: 0x5FF27, size: 0x8, addend: 0x0, symName: '+[APScreentracker trackViewExit:]', symObjAddr: 0x214, symBinAddr: 0x1B40, symSize: 0x104 }
+  - { offset: 0x5FF7A, size: 0x8, addend: 0x0, symName: '+[APScreentracker screenNameFilterUsingPredicate]', symObjAddr: 0x318, symBinAddr: 0x1C44, symSize: 0x38 }
+  - { offset: 0x5FFCD, size: 0x8, addend: 0x0, symName: '+[APScreentracker trackViewEnterWithScreenName:]', symObjAddr: 0x350, symBinAddr: 0x1C7C, symSize: 0x26C }
+  - { offset: 0x60051, size: 0x8, addend: 0x0, symName: '+[APScreentracker trackViewExitWithTimestamp:]', symObjAddr: 0x5BC, symBinAddr: 0x1EE8, symSize: 0x154 }
+  - { offset: 0x600B4, size: 0x8, addend: 0x0, symName: '+[APScreentracker screenNameForTimestamp:]', symObjAddr: 0x710, symBinAddr: 0x203C, symSize: 0x88 }
+...

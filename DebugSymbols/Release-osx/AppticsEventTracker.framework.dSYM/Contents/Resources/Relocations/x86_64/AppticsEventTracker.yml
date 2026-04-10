@@ -1,0 +1,136 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/appticts-0639-t/Library/Developer/Xcode/DerivedData/Apptics-Mac-ahqonfiqdzswbpgassejyjdpilmk/Build/Intermediates.noindex/ArchiveIntermediates/AppticsEventTracker/InstallationBuildProductsLocation/Library/Frameworks/AppticsEventTracker.framework/Versions/A/AppticsEventTracker'
+relocations:
+  - { offset: 0xD457C, size: 0x8, addend: 0x0, symName: _AppticsEventTrackerVersionString, symObjAddr: 0x0, symBinAddr: 0x5540, symSize: 0x0 }
+  - { offset: 0xD45B1, size: 0x8, addend: 0x0, symName: _AppticsEventTrackerVersionNumber, symObjAddr: 0x48, symBinAddr: 0x5588, symSize: 0x0 }
+  - { offset: 0xD45EE, size: 0x8, addend: 0x0, symName: '+[APEvent getInstance]', symObjAddr: 0x0, symBinAddr: 0xBE0, symSize: 0x35 }
+  - { offset: 0xD4612, size: 0x8, addend: 0x0, symName: _AP_EVENT_APP_INSTALL, symObjAddr: 0x6228, symBinAddr: 0x80E0, symSize: 0x0 }
+  - { offset: 0xD4628, size: 0x8, addend: 0x0, symName: _AP_EVENT_APP_UNINSTALL, symObjAddr: 0x6230, symBinAddr: 0x80E8, symSize: 0x0 }
+  - { offset: 0xD463E, size: 0x8, addend: 0x0, symName: _AP_EVENT_APP_UPDATE, symObjAddr: 0x6238, symBinAddr: 0x80F0, symSize: 0x0 }
+  - { offset: 0xD4654, size: 0x8, addend: 0x0, symName: _AP_EVENT_APP_CLEARDATA, symObjAddr: 0x6240, symBinAddr: 0x80F8, symSize: 0x0 }
+  - { offset: 0xD466A, size: 0x8, addend: 0x0, symName: _AP_EVENT_APP_OPEN, symObjAddr: 0x6248, symBinAddr: 0x8100, symSize: 0x0 }
+  - { offset: 0xD4680, size: 0x8, addend: 0x0, symName: _AP_EVENT_APP_FOREGROUND, symObjAddr: 0x6250, symBinAddr: 0x8108, symSize: 0x0 }
+  - { offset: 0xD4696, size: 0x8, addend: 0x0, symName: _AP_EVENT_APP_BACKGROUND, symObjAddr: 0x6258, symBinAddr: 0x8110, symSize: 0x0 }
+  - { offset: 0xD46AC, size: 0x8, addend: 0x0, symName: _AP_EVENT_APP_TERMINATE, symObjAddr: 0x6260, symBinAddr: 0x8118, symSize: 0x0 }
+  - { offset: 0xD46C2, size: 0x8, addend: 0x0, symName: _AP_EVENT_APP_OUT_OF_MEMORY, symObjAddr: 0x6268, symBinAddr: 0x8120, symSize: 0x0 }
+  - { offset: 0xD46D8, size: 0x8, addend: 0x0, symName: _AP_EVENT_APP_FIRST_OPEN, symObjAddr: 0x6270, symBinAddr: 0x8128, symSize: 0x0 }
+  - { offset: 0xD46EE, size: 0x8, addend: 0x0, symName: _AP_EVENT_APP_LAUNCHING, symObjAddr: 0x6278, symBinAddr: 0x8130, symSize: 0x0 }
+  - { offset: 0xD4704, size: 0x8, addend: 0x0, symName: _AP_EVENT_APP_RESIGN_ACTIVE, symObjAddr: 0x6280, symBinAddr: 0x8138, symSize: 0x0 }
+  - { offset: 0xD471A, size: 0x8, addend: 0x0, symName: _AP_EVENT_APP_WILL_CONNECT, symObjAddr: 0x6288, symBinAddr: 0x8140, symSize: 0x0 }
+  - { offset: 0xD4730, size: 0x8, addend: 0x0, symName: _AP_EVENT_DEEP_LINK_OPEN, symObjAddr: 0x6290, symBinAddr: 0x8148, symSize: 0x0 }
+  - { offset: 0xD4746, size: 0x8, addend: 0x0, symName: _AP_EVENT_DEEP_LINK_UPDATE, symObjAddr: 0x6298, symBinAddr: 0x8150, symSize: 0x0 }
+  - { offset: 0xD475C, size: 0x8, addend: 0x0, symName: _AP_EVENT_DEEP_LINK_FIRST_OPEN, symObjAddr: 0x62A0, symBinAddr: 0x8158, symSize: 0x0 }
+  - { offset: 0xD4772, size: 0x8, addend: 0x0, symName: _AP_EVENT_IN_APP_PURCHASE, symObjAddr: 0x62A8, symBinAddr: 0x8160, symSize: 0x0 }
+  - { offset: 0xD4788, size: 0x8, addend: 0x0, symName: _AP_EVENT_NOTIFICATION_AUTHORIZATION_STATUS, symObjAddr: 0x62B0, symBinAddr: 0x8168, symSize: 0x0 }
+  - { offset: 0xD479E, size: 0x8, addend: 0x0, symName: _AP_EVENT_NOTIFICATION_RECEIVE, symObjAddr: 0x62B8, symBinAddr: 0x8170, symSize: 0x0 }
+  - { offset: 0xD47B4, size: 0x8, addend: 0x0, symName: _AP_EVENT_NOTIFICATION_OPEN, symObjAddr: 0x62C0, symBinAddr: 0x8178, symSize: 0x0 }
+  - { offset: 0xD47CA, size: 0x8, addend: 0x0, symName: _AP_EVENT_NOTIFICATION_DISMISS, symObjAddr: 0x62C8, symBinAddr: 0x8180, symSize: 0x0 }
+  - { offset: 0xD47E0, size: 0x8, addend: 0x0, symName: _AP_EVENT_NOTIFICATION_FOREGROUND, symObjAddr: 0x62D0, symBinAddr: 0x8188, symSize: 0x0 }
+  - { offset: 0xD47F6, size: 0x8, addend: 0x0, symName: _AP_EVENT_SEARCH, symObjAddr: 0x62D8, symBinAddr: 0x8190, symSize: 0x0 }
+  - { offset: 0xD480C, size: 0x8, addend: 0x0, symName: _AP_EVENT_SHARE, symObjAddr: 0x62E0, symBinAddr: 0x8198, symSize: 0x0 }
+  - { offset: 0xD4822, size: 0x8, addend: 0x0, symName: _AP_EVENT_BATTERY_LOW, symObjAddr: 0x62E8, symBinAddr: 0x81A0, symSize: 0x0 }
+  - { offset: 0xD4838, size: 0x8, addend: 0x0, symName: _AP_EVENT_BATTERY_FULL, symObjAddr: 0x62F0, symBinAddr: 0x81A8, symSize: 0x0 }
+  - { offset: 0xD484E, size: 0x8, addend: 0x0, symName: _AP_EVENT_LOW_POWER_MODE_ON, symObjAddr: 0x62F8, symBinAddr: 0x81B0, symSize: 0x0 }
+  - { offset: 0xD4864, size: 0x8, addend: 0x0, symName: _AP_EVENT_LOW_POWER_MODE_OFF, symObjAddr: 0x6300, symBinAddr: 0x81B8, symSize: 0x0 }
+  - { offset: 0xD487A, size: 0x8, addend: 0x0, symName: _AP_EVENT_DYNAMIC_LINK_OPEN, symObjAddr: 0x6308, symBinAddr: 0x81C0, symSize: 0x0 }
+  - { offset: 0xD4890, size: 0x8, addend: 0x0, symName: _AP_EVENT_DYNAMIC_LINK_UPDATE, symObjAddr: 0x6310, symBinAddr: 0x81C8, symSize: 0x0 }
+  - { offset: 0xD48A6, size: 0x8, addend: 0x0, symName: _AP_EVENT_USER_SIGNUP, symObjAddr: 0x6318, symBinAddr: 0x81D0, symSize: 0x0 }
+  - { offset: 0xD48BC, size: 0x8, addend: 0x0, symName: _AP_EVENT_USER_LOGIN, symObjAddr: 0x6320, symBinAddr: 0x81D8, symSize: 0x0 }
+  - { offset: 0xD48D2, size: 0x8, addend: 0x0, symName: _AP_EVENT_USER_LOGOUT, symObjAddr: 0x6328, symBinAddr: 0x81E0, symSize: 0x0 }
+  - { offset: 0xD48E8, size: 0x8, addend: 0x0, symName: _AP_EVENT_OS_UNSUPPORTED, symObjAddr: 0x6330, symBinAddr: 0x81E8, symSize: 0x0 }
+  - { offset: 0xD48FE, size: 0x8, addend: 0x0, symName: _AP_EVENT_OS_UPDATE, symObjAddr: 0x6338, symBinAddr: 0x81F0, symSize: 0x0 }
+  - { offset: 0xD4914, size: 0x8, addend: 0x0, symName: _AP_EVENT_NETWORK_REACHABILITY_CHANGE, symObjAddr: 0x6340, symBinAddr: 0x81F8, symSize: 0x0 }
+  - { offset: 0xD492A, size: 0x8, addend: 0x0, symName: _AP_EVENT_NETWORK_BANDWIDTH_CHANGE, symObjAddr: 0x6348, symBinAddr: 0x8200, symSize: 0x0 }
+  - { offset: 0xD4940, size: 0x8, addend: 0x0, symName: _AP_EVENT_SWITCH_THEME_LIGHT, symObjAddr: 0x6350, symBinAddr: 0x8208, symSize: 0x0 }
+  - { offset: 0xD4956, size: 0x8, addend: 0x0, symName: _AP_EVENT_SWITCH_THEME_DARK, symObjAddr: 0x6358, symBinAddr: 0x8210, symSize: 0x0 }
+  - { offset: 0xD496C, size: 0x8, addend: 0x0, symName: _AP_EVENT_SWITCH_THEME_CUSTOM, symObjAddr: 0x6360, symBinAddr: 0x8218, symSize: 0x0 }
+  - { offset: 0xD4982, size: 0x8, addend: 0x0, symName: _AP_EVENT_SWITCH_ORIENTATION_LANDSCAPE, symObjAddr: 0x6368, symBinAddr: 0x8220, symSize: 0x0 }
+  - { offset: 0xD4998, size: 0x8, addend: 0x0, symName: _AP_EVENT_SWITCH_ORIENTATION_PORTRAIT, symObjAddr: 0x6370, symBinAddr: 0x8228, symSize: 0x0 }
+  - { offset: 0xD49AE, size: 0x8, addend: 0x0, symName: _AP_GROUP_OS, symObjAddr: 0x6378, symBinAddr: 0x8230, symSize: 0x0 }
+  - { offset: 0xD49C4, size: 0x8, addend: 0x0, symName: _AP_GROUP_OTHERS, symObjAddr: 0x6380, symBinAddr: 0x8238, symSize: 0x0 }
+  - { offset: 0xD49DA, size: 0x8, addend: 0x0, symName: _AP_GROUP_APPLICATION, symObjAddr: 0x6388, symBinAddr: 0x8240, symSize: 0x0 }
+  - { offset: 0xD49F0, size: 0x8, addend: 0x0, symName: _AP_GROUP_APP_LIFE_CYCLE, symObjAddr: 0x6390, symBinAddr: 0x8248, symSize: 0x0 }
+  - { offset: 0xD4A06, size: 0x8, addend: 0x0, symName: _AP_GROUP_USER_LIFE_CYCLE, symObjAddr: 0x6398, symBinAddr: 0x8250, symSize: 0x0 }
+  - { offset: 0xD4A10, size: 0x8, addend: 0x0, symName: '+[APEvent getInstance]', symObjAddr: 0x0, symBinAddr: 0xBE0, symSize: 0x35 }
+  - { offset: 0xD4A3A, size: 0x8, addend: 0x0, symName: _getInstance.getInstance, symObjAddr: 0x19B38, symBinAddr: 0x9EB8, symSize: 0x0 }
+  - { offset: 0xD4A50, size: 0x8, addend: 0x0, symName: _getInstance.onceToken, symObjAddr: 0x19B40, symBinAddr: 0x9EC0, symSize: 0x0 }
+  - { offset: 0xD4C42, size: 0x8, addend: 0x0, symName: '+[APEvent getInstance].cold.1', symObjAddr: 0x47EA, symBinAddr: 0x53CA, symSize: 0x18 }
+  - { offset: 0xD4C70, size: 0x8, addend: 0x0, symName: '___22+[APEvent getInstance]_block_invoke', symObjAddr: 0x35, symBinAddr: 0xC15, symSize: 0x343 }
+  - { offset: 0xD4F7A, size: 0x8, addend: 0x0, symName: '-[APEvent isDarkMode]', symObjAddr: 0x378, symBinAddr: 0xF58, symSize: 0x8 }
+  - { offset: 0xD4FAD, size: 0x8, addend: 0x0, symName: '-[APEvent didChangePowerMode:]', symObjAddr: 0x380, symBinAddr: 0xF60, symSize: 0x6 }
+  - { offset: 0xD4FE8, size: 0x8, addend: 0x0, symName: '-[APEvent orientationDidChangeNotification:]', symObjAddr: 0x386, symBinAddr: 0xF66, symSize: 0x6 }
+  - { offset: 0xD5023, size: 0x8, addend: 0x0, symName: '-[APEvent batteryLevelUpdate:]', symObjAddr: 0x38C, symBinAddr: 0xF6C, symSize: 0x278 }
+  - { offset: 0xD5238, size: 0x8, addend: 0x0, symName: '-[APEvent app_clear_dataNotification:]', symObjAddr: 0x604, symBinAddr: 0x11E4, symSize: 0x2A }
+  - { offset: 0xD5286, size: 0x8, addend: 0x0, symName: '-[APEvent appUpdateNotification:]', symObjAddr: 0x62E, symBinAddr: 0x120E, symSize: 0x2A }
+  - { offset: 0xD52D4, size: 0x8, addend: 0x0, symName: '-[APEvent userLogoutNotification:]', symObjAddr: 0x658, symBinAddr: 0x1238, symSize: 0x2A }
+  - { offset: 0xD5322, size: 0x8, addend: 0x0, symName: '-[APEvent userLoginNotification:]', symObjAddr: 0x682, symBinAddr: 0x1262, symSize: 0x2A }
+  - { offset: 0xD5372, size: 0x8, addend: 0x0, symName: '-[APEvent reachablityNotification:]', symObjAddr: 0x6AC, symBinAddr: 0x128C, symSize: 0x67 }
+  - { offset: 0xD53FC, size: 0x8, addend: 0x0, symName: '-[APEvent appOpenNotification:]', symObjAddr: 0x713, symBinAddr: 0x12F3, symSize: 0x2A }
+  - { offset: 0xD544C, size: 0x8, addend: 0x0, symName: '-[APEvent signupOpenNotification:]', symObjAddr: 0x73D, symBinAddr: 0x131D, symSize: 0x2A }
+  - { offset: 0xD549C, size: 0x8, addend: 0x0, symName: '-[APEvent applicationWillEnterForeground:]', symObjAddr: 0x767, symBinAddr: 0x1347, symSize: 0x2A }
+  - { offset: 0xD54EC, size: 0x8, addend: 0x0, symName: '-[APEvent appWillTerminate:]', symObjAddr: 0x791, symBinAddr: 0x1371, symSize: 0x2A }
+  - { offset: 0xD553C, size: 0x8, addend: 0x0, symName: '-[APEvent applicationDidBecomeActive:]', symObjAddr: 0x7BB, symBinAddr: 0x139B, symSize: 0x13F }
+  - { offset: 0xD5661, size: 0x8, addend: 0x0, symName: '-[APEvent applicationWillResignActive:]', symObjAddr: 0x8FA, symBinAddr: 0x14DA, symSize: 0x59 }
+  - { offset: 0xD56C8, size: 0x8, addend: 0x0, symName: '-[APEvent didRecieveMemoryWarning:]', symObjAddr: 0x953, symBinAddr: 0x1533, symSize: 0x59 }
+  - { offset: 0xD572F, size: 0x8, addend: 0x0, symName: '-[APEvent applicationDidEnterBackground:]', symObjAddr: 0x9AC, symBinAddr: 0x158C, symSize: 0x59 }
+  - { offset: 0xD5796, size: 0x8, addend: 0x0, symName: '-[APEvent applicationwillconnect:]', symObjAddr: 0xA05, symBinAddr: 0x15E5, symSize: 0x2A }
+  - { offset: 0xD57E6, size: 0x8, addend: 0x0, symName: '-[APEvent dealloc]', symObjAddr: 0xA2F, symBinAddr: 0x160F, symSize: 0x1B0 }
+  - { offset: 0xD59A0, size: 0x8, addend: 0x0, symName: '-[APEvent applicationDidFinishLaunching:]', symObjAddr: 0xBDF, symBinAddr: 0x17BF, symSize: 0x6 }
+  - { offset: 0xD59DD, size: 0x8, addend: 0x0, symName: '+[APEvent trackEvent:]', symObjAddr: 0xBE5, symBinAddr: 0x17C5, symSize: 0x6D }
+  - { offset: 0xD5A73, size: 0x8, addend: 0x0, symName: '+[APEvent trackEvent:withGroupName:]', symObjAddr: 0xC52, symBinAddr: 0x1832, symSize: 0x8F }
+  - { offset: 0xD5B4F, size: 0x8, addend: 0x0, symName: '+[APEvent trackEvent:withProperties:]', symObjAddr: 0xCE1, symBinAddr: 0x18C1, symSize: 0x8C }
+  - { offset: 0xD5C25, size: 0x8, addend: 0x0, symName: '+[APEvent trackEvent:andGroupName:withProperties:]', symObjAddr: 0xD6D, symBinAddr: 0x194D, symSize: 0x9B }
+  - { offset: 0xD5D3B, size: 0x8, addend: 0x0, symName: '+[APEvent startTimedEvent:]', symObjAddr: 0xE08, symBinAddr: 0x19E8, symSize: 0x6D }
+  - { offset: 0xD5DD1, size: 0x8, addend: 0x0, symName: '+[APEvent startTimedEvent:group:]', symObjAddr: 0xE75, symBinAddr: 0x1A55, symSize: 0x8C }
+  - { offset: 0xD5EA7, size: 0x8, addend: 0x0, symName: '+[APEvent startTimedEvent:group:andProperties:]', symObjAddr: 0xF01, symBinAddr: 0x1AE1, symSize: 0x9B }
+  - { offset: 0xD5FBD, size: 0x8, addend: 0x0, symName: '+[APEvent startTimedEventWithEventName:group:andProperties:]', symObjAddr: 0xF9C, symBinAddr: 0x1B7C, symSize: 0x450 }
+  - { offset: 0xD63FC, size: 0x8, addend: 0x0, symName: '+[APEvent endTimedEventWithEventName:group:andstartTime:]', symObjAddr: 0x13EC, symBinAddr: 0x1FCC, symSize: 0x6AC }
+  - { offset: 0xD6A92, size: 0x8, addend: 0x0, symName: '-[APEvent checkPropsAndsendTimedEventWithEvent:group:startTime:andProperties:]', symObjAddr: 0x1A98, symBinAddr: 0x2678, symSize: 0x135 }
+  - { offset: 0xD6C82, size: 0x8, addend: 0x0, symName: '___78-[APEvent checkPropsAndsendTimedEventWithEvent:group:startTime:andProperties:]_block_invoke', symObjAddr: 0x1BCD, symBinAddr: 0x27AD, symSize: 0x186 }
+  - { offset: 0xD6E21, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64s, symObjAddr: 0x1D53, symBinAddr: 0x2933, symSize: 0x3A }
+  - { offset: 0xD6E86, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s, symObjAddr: 0x1D8D, symBinAddr: 0x296D, symSize: 0x3A }
+  - { offset: 0xD6EE1, size: 0x8, addend: 0x0, symName: '+[APEvent endTimedEvent:]', symObjAddr: 0x1DC7, symBinAddr: 0x29A7, symSize: 0x6F }
+  - { offset: 0xD6F7D, size: 0x8, addend: 0x0, symName: '+[APEvent endTimedEvent:withGroup:]', symObjAddr: 0x1E36, symBinAddr: 0x2A16, symSize: 0x8C }
+  - { offset: 0xD7053, size: 0x8, addend: 0x0, symName: '+[APEvent addExtensionEventWithName:group:startTime:endTime:andProperties:isTimed:]', symObjAddr: 0x1EC2, symBinAddr: 0x2AA2, symSize: 0xE6 }
+  - { offset: 0xD71ED, size: 0x8, addend: 0x0, symName: '-[APEvent trackEvent:]', symObjAddr: 0x1FA8, symBinAddr: 0x2B88, symSize: 0x1A }
+  - { offset: 0xD725D, size: 0x8, addend: 0x0, symName: '-[APEvent trackEvent:group:]', symObjAddr: 0x1FC2, symBinAddr: 0x2BA2, symSize: 0x18 }
+  - { offset: 0xD72DE, size: 0x8, addend: 0x0, symName: '-[APEvent trackEvent:andGroupName:withProperties:]', symObjAddr: 0x1FDA, symBinAddr: 0x2BBA, symSize: 0x15 }
+  - { offset: 0xD7370, size: 0x8, addend: 0x0, symName: '-[APEvent trackEvent:withProperties:]', symObjAddr: 0x1FEF, symBinAddr: 0x2BCF, symSize: 0x1A }
+  - { offset: 0xD73F3, size: 0x8, addend: 0x0, symName: '-[APEvent startTimedEvent:]', symObjAddr: 0x2009, symBinAddr: 0x2BE9, symSize: 0x1D }
+  - { offset: 0xD7463, size: 0x8, addend: 0x0, symName: '-[APEvent startTimedEvent:group:]', symObjAddr: 0x2026, symBinAddr: 0x2C06, symSize: 0x1B }
+  - { offset: 0xD74E4, size: 0x8, addend: 0x0, symName: '-[APEvent startTimedEvent:group:andProperties:]', symObjAddr: 0x2041, symBinAddr: 0x2C21, symSize: 0x18 }
+  - { offset: 0xD7576, size: 0x8, addend: 0x0, symName: '-[APEvent endTimedEvent:withGroup:]', symObjAddr: 0x2059, symBinAddr: 0x2C39, symSize: 0x153 }
+  - { offset: 0xD76EC, size: 0x8, addend: 0x0, symName: '-[APEvent addExtensionEventWithName:group:startTime:endTime:andProperties:isTimed:]', symObjAddr: 0x21AC, symBinAddr: 0x2D8C, symSize: 0x25F }
+  - { offset: 0xD7994, size: 0x8, addend: 0x0, symName: '___83-[APEvent addExtensionEventWithName:group:startTime:endTime:andProperties:isTimed:]_block_invoke', symObjAddr: 0x240B, symBinAddr: 0x2FEB, symSize: 0x25 }
+  - { offset: 0xD7A15, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s, symObjAddr: 0x2430, symBinAddr: 0x3010, symSize: 0x33 }
+  - { offset: 0xD7A6E, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s, symObjAddr: 0x2463, symBinAddr: 0x3043, symSize: 0x33 }
+  - { offset: 0xD7ABD, size: 0x8, addend: 0x0, symName: '-[APEvent trackEvent:group:andProperties:isTimed:]', symObjAddr: 0x2496, symBinAddr: 0x3076, symSize: 0x421 }
+  - { offset: 0xD7E96, size: 0x8, addend: 0x0, symName: '___50-[APEvent trackEvent:group:andProperties:isTimed:]_block_invoke', symObjAddr: 0x28B7, symBinAddr: 0x3497, symSize: 0x10E }
+  - { offset: 0xD7FD8, size: 0x8, addend: 0x0, symName: '-[APEvent checkForDictonaryRegex:]', symObjAddr: 0x29C5, symBinAddr: 0x35A5, symSize: 0x42A }
+  - { offset: 0xD834A, size: 0x8, addend: 0x0, symName: '___34-[APEvent checkForDictonaryRegex:]_block_invoke', symObjAddr: 0x2DEF, symBinAddr: 0x39CF, symSize: 0x511 }
+  - { offset: 0xD88DD, size: 0x8, addend: 0x0, symName: '-[APEvent checkForWhiteSpaceInString:]', symObjAddr: 0x3300, symBinAddr: 0x3EE0, symSize: 0x23 }
+  - { offset: 0xD8948, size: 0x8, addend: 0x0, symName: '-[APEvent validateDictionary:]', symObjAddr: 0x3323, symBinAddr: 0x3F03, symSize: 0x417 }
+  - { offset: 0xD8B48, size: 0x8, addend: 0x0, symName: '-[APEvent checkJsonLengthofProps:]', symObjAddr: 0x373A, symBinAddr: 0x431A, symSize: 0x136 }
+  - { offset: 0xD8CC3, size: 0x8, addend: 0x0, symName: '-[APEvent changeValuesOf:result:]', symObjAddr: 0x3870, symBinAddr: 0x4450, symSize: 0x308 }
+  - { offset: 0xD8ED1, size: 0x8, addend: 0x0, symName: '-[APEvent eventGroupFilterUsingPredicate]', symObjAddr: 0x3B78, symBinAddr: 0x4758, symSize: 0x29 }
+  - { offset: 0xD8F2F, size: 0x8, addend: 0x0, symName: '-[APEvent filterString:]', symObjAddr: 0x3BA1, symBinAddr: 0x4781, symSize: 0xD1 }
+  - { offset: 0xD901A, size: 0x8, addend: 0x0, symName: '-[APEvent dictKeyvalueValidation:]', symObjAddr: 0x3C72, symBinAddr: 0x4852, symSize: 0x9A8 }
+  - { offset: 0xD979D, size: 0x8, addend: 0x0, symName: '-[APEvent events]', symObjAddr: 0x461A, symBinAddr: 0x51FA, symSize: 0xA }
+  - { offset: 0xD97D2, size: 0x8, addend: 0x0, symName: '-[APEvent setEvents:]', symObjAddr: 0x4624, symBinAddr: 0x5204, symSize: 0x28 }
+  - { offset: 0xD9834, size: 0x8, addend: 0x0, symName: '-[APEvent groups]', symObjAddr: 0x464C, symBinAddr: 0x522C, symSize: 0xA }
+  - { offset: 0xD9869, size: 0x8, addend: 0x0, symName: '-[APEvent setGroups:]', symObjAddr: 0x4656, symBinAddr: 0x5236, symSize: 0x28 }
+  - { offset: 0xD98CB, size: 0x8, addend: 0x0, symName: '-[APEvent events_Dict_Plist]', symObjAddr: 0x467E, symBinAddr: 0x525E, symSize: 0xA }
+  - { offset: 0xD9900, size: 0x8, addend: 0x0, symName: '-[APEvent setEvents_Dict_Plist:]', symObjAddr: 0x4688, symBinAddr: 0x5268, symSize: 0x28 }
+  - { offset: 0xD9962, size: 0x8, addend: 0x0, symName: '-[APEvent events_Dict]', symObjAddr: 0x46B0, symBinAddr: 0x5290, symSize: 0xA }
+  - { offset: 0xD9997, size: 0x8, addend: 0x0, symName: '-[APEvent setEvents_Dict:]', symObjAddr: 0x46BA, symBinAddr: 0x529A, symSize: 0x28 }
+  - { offset: 0xD99F9, size: 0x8, addend: 0x0, symName: '-[APEvent properties_dict]', symObjAddr: 0x46E2, symBinAddr: 0x52C2, symSize: 0xA }
+  - { offset: 0xD9A2E, size: 0x8, addend: 0x0, symName: '-[APEvent setProperties_dict:]', symObjAddr: 0x46EC, symBinAddr: 0x52CC, symSize: 0x28 }
+  - { offset: 0xD9A90, size: 0x8, addend: 0x0, symName: '-[APEvent zaSerialQueue]', symObjAddr: 0x4714, symBinAddr: 0x52F4, symSize: 0xA }
+  - { offset: 0xD9AC5, size: 0x8, addend: 0x0, symName: '-[APEvent setZaSerialQueue:]', symObjAddr: 0x471E, symBinAddr: 0x52FE, symSize: 0x28 }
+  - { offset: 0xD9B27, size: 0x8, addend: 0x0, symName: '-[APEvent notificationObserver]', symObjAddr: 0x4746, symBinAddr: 0x5326, symSize: 0xA }
+  - { offset: 0xD9B5C, size: 0x8, addend: 0x0, symName: '-[APEvent setNotificationObserver:]', symObjAddr: 0x4750, symBinAddr: 0x5330, symSize: 0x28 }
+  - { offset: 0xD9BBE, size: 0x8, addend: 0x0, symName: '-[APEvent lastKnownIsDarkMode]', symObjAddr: 0x4778, symBinAddr: 0x5358, symSize: 0xA }
+  - { offset: 0xD9BF3, size: 0x8, addend: 0x0, symName: '-[APEvent setLastKnownIsDarkMode:]', symObjAddr: 0x4782, symBinAddr: 0x5362, symSize: 0x9 }
+  - { offset: 0xD9C30, size: 0x8, addend: 0x0, symName: '-[APEvent .cxx_destruct]', symObjAddr: 0x478B, symBinAddr: 0x536B, symSize: 0x5F }
+...

@@ -1,0 +1,15 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/appticts-0639-t/Library/Developer/Xcode/DerivedData/Apptics-cxpubsfqsilsspatovygessidpsr/Build/Intermediates.noindex/ArchiveIntermediates/AppticsScreenTracker/InstallationBuildProductsLocation/Library/Frameworks/AppticsScreenTracker.framework/AppticsScreenTracker'
+relocations:
+  - { offset: 0x638F5, size: 0x8, addend: 0x0, symName: _AppticsScreenTrackerVersionString, symObjAddr: 0x0, symBinAddr: 0x1480, symSize: 0x0 }
+  - { offset: 0x6392A, size: 0x8, addend: 0x0, symName: _AppticsScreenTrackerVersionNumber, symObjAddr: 0x48, symBinAddr: 0x14C8, symSize: 0x0 }
+  - { offset: 0x63967, size: 0x8, addend: 0x0, symName: '-[APScreentracker init]', symObjAddr: 0x0, symBinAddr: 0xA78, symSize: 0x2F }
+  - { offset: 0x6398B, size: 0x8, addend: 0x0, symName: '-[APScreentracker init]', symObjAddr: 0x0, symBinAddr: 0xA78, symSize: 0x2F }
+  - { offset: 0x639C2, size: 0x8, addend: 0x0, symName: '+[APScreentracker trackViewEnter:]', symObjAddr: 0x2F, symBinAddr: 0xAA7, symSize: 0x261 }
+  - { offset: 0x63BC3, size: 0x8, addend: 0x0, symName: '+[APScreentracker trackViewExit:]', symObjAddr: 0x290, symBinAddr: 0xD08, symSize: 0x15A }
+  - { offset: 0x63D23, size: 0x8, addend: 0x0, symName: '+[APScreentracker screenNameFilterUsingPredicate]', symObjAddr: 0x3EA, symBinAddr: 0xE62, symSize: 0x29 }
+  - { offset: 0x63D7E, size: 0x8, addend: 0x0, symName: '+[APScreentracker trackViewEnterWithScreenName:]', symObjAddr: 0x413, symBinAddr: 0xE8B, symSize: 0x310 }
+  - { offset: 0x63FFE, size: 0x8, addend: 0x0, symName: '+[APScreentracker trackViewExitWithTimestamp:]', symObjAddr: 0x723, symBinAddr: 0x119B, symSize: 0x1DE }
+  - { offset: 0x641BA, size: 0x8, addend: 0x0, symName: '+[APScreentracker screenNameForTimestamp:]', symObjAddr: 0x901, symBinAddr: 0x1379, symSize: 0xA5 }
+...

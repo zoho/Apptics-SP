@@ -1,0 +1,98 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/appticts-0639-t/Library/Developer/Xcode/DerivedData/Apptics-Mac-ahqonfiqdzswbpgassejyjdpilmk/Build/Intermediates.noindex/ArchiveIntermediates/AppticsRemoteConfig/InstallationBuildProductsLocation/Library/Frameworks/AppticsRemoteConfig.framework/Versions/A/AppticsRemoteConfig'
+relocations:
+  - { offset: 0xD4232, size: 0x8, addend: 0x0, symName: _AppticsRemoteConfigVersionString, symObjAddr: 0x0, symBinAddr: 0x4270, symSize: 0x0 }
+  - { offset: 0xD4267, size: 0x8, addend: 0x0, symName: _AppticsRemoteConfigVersionNumber, symObjAddr: 0x48, symBinAddr: 0x42B8, symSize: 0x0 }
+  - { offset: 0xD42A4, size: 0x8, addend: 0x0, symName: '-[APRemoteConfigValue initWithValue:]', symObjAddr: 0x0, symBinAddr: 0xC80, symSize: 0x6C }
+  - { offset: 0xD435A, size: 0x8, addend: 0x0, symName: '-[APRemoteConfigValue initWithValue:]', symObjAddr: 0x0, symBinAddr: 0xC80, symSize: 0x6C }
+  - { offset: 0xD43EA, size: 0x8, addend: 0x0, symName: '-[APRemoteConfigValue numberValue]', symObjAddr: 0x6C, symBinAddr: 0xCEC, symSize: 0xFE }
+  - { offset: 0xD44F3, size: 0x8, addend: 0x0, symName: '-[APRemoteConfigValue dataValue]', symObjAddr: 0x16A, symBinAddr: 0xDEA, symSize: 0x8D }
+  - { offset: 0xD456E, size: 0x8, addend: 0x0, symName: '-[APRemoteConfigValue boolValue]', symObjAddr: 0x1F7, symBinAddr: 0xE77, symSize: 0x7D }
+  - { offset: 0xD45E9, size: 0x8, addend: 0x0, symName: '-[APRemoteConfigValue jsonValue]', symObjAddr: 0x274, symBinAddr: 0xEF4, symSize: 0x88 }
+  - { offset: 0xD4664, size: 0x8, addend: 0x0, symName: '-[APRemoteConfigValue stringValue]', symObjAddr: 0x2FC, symBinAddr: 0xF7C, symSize: 0xA }
+  - { offset: 0xD4699, size: 0x8, addend: 0x0, symName: '-[APRemoteConfigValue .cxx_destruct]', symObjAddr: 0x306, symBinAddr: 0xF86, symSize: 0x10 }
+  - { offset: 0xD472C, size: 0x8, addend: 0x0, symName: '+[APRemoteConfig shared]', symObjAddr: 0x0, symBinAddr: 0xF96, symSize: 0x35 }
+  - { offset: 0xD4772, size: 0x8, addend: 0x0, symName: '+[APRemoteConfig shared]', symObjAddr: 0x0, symBinAddr: 0xF96, symSize: 0x35 }
+  - { offset: 0xD479C, size: 0x8, addend: 0x0, symName: _shared.classInstance, symObjAddr: 0x13E80, symBinAddr: 0x7598, symSize: 0x0 }
+  - { offset: 0xD47B2, size: 0x8, addend: 0x0, symName: _shared.onceToken, symObjAddr: 0x13E88, symBinAddr: 0x75A0, symSize: 0x0 }
+  - { offset: 0xD4A42, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig UDKey_localContent:]', symObjAddr: 0x2A01, symBinAddr: 0x3997, symSize: 0x19 }
+  - { offset: 0xD4AB8, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig UDKey_lastLocalCommitID:]', symObjAddr: 0x2A1A, symBinAddr: 0x39B0, symSize: 0x19 }
+  - { offset: 0xD4B3F, size: 0x8, addend: 0x0, symName: _kAPRemoteConfigQueueKey, symObjAddr: 0x4B48, symBinAddr: 0x7588, symSize: 0x0 }
+  - { offset: 0xD4B8B, size: 0x8, addend: 0x0, symName: '+[APRemoteConfig shared].cold.1', symObjAddr: 0x30CD, symBinAddr: 0x409B, symSize: 0x18 }
+  - { offset: 0xD4BB9, size: 0x8, addend: 0x0, symName: '___24+[APRemoteConfig shared]_block_invoke', symObjAddr: 0x35, symBinAddr: 0xFCB, symSize: 0x173 }
+  - { offset: 0xD4D4A, size: 0x8, addend: 0x0, symName: '___24+[APRemoteConfig shared]_block_invoke_2', symObjAddr: 0x1A8, symBinAddr: 0x113E, symSize: 0x125 }
+  - { offset: 0xD4E18, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig appticsDidFinishLoad:]', symObjAddr: 0x2CD, symBinAddr: 0x1263, symSize: 0x64 }
+  - { offset: 0xD4E8B, size: 0x8, addend: 0x0, symName: '+[APRemoteConfig enable:]', symObjAddr: 0x331, symBinAddr: 0x12C7, symSize: 0x51 }
+  - { offset: 0xD4EF6, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig setRcInfo:]', symObjAddr: 0x382, symBinAddr: 0x1318, symSize: 0xCC }
+  - { offset: 0xD4FE2, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig enableRemoteConfig:]', symObjAddr: 0x44E, symBinAddr: 0x13E4, symSize: 0x7A }
+  - { offset: 0xD5063, size: 0x8, addend: 0x0, symName: '___37-[APRemoteConfig enableRemoteConfig:]_block_invoke', symObjAddr: 0x4C8, symBinAddr: 0x145E, symSize: 0xB2 }
+  - { offset: 0xD5105, size: 0x8, addend: 0x0, symName: '___37-[APRemoteConfig enableRemoteConfig:]_block_invoke_2', symObjAddr: 0x57A, symBinAddr: 0x1510, symSize: 0xBA }
+  - { offset: 0xD51DA, size: 0x8, addend: 0x0, symName: '___37-[APRemoteConfig enableRemoteConfig:]_block_invoke_3', symObjAddr: 0x634, symBinAddr: 0x15CA, symSize: 0x6A }
+  - { offset: 0xD5259, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x69E, symBinAddr: 0x1634, symSize: 0x25 }
+  - { offset: 0xD529A, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x6C3, symBinAddr: 0x1659, symSize: 0x25 }
+  - { offset: 0xD52D1, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x6E8, symBinAddr: 0x167E, symSize: 0xF }
+  - { offset: 0xD5304, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x6F7, symBinAddr: 0x168D, symSize: 0xF }
+  - { offset: 0xD532F, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig updateRemoteConfigWithData:withCompletionHandler:]', symObjAddr: 0x706, symBinAddr: 0x169C, symSize: 0xD5 }
+  - { offset: 0xD5450, size: 0x8, addend: 0x0, symName: '___67-[APRemoteConfig updateRemoteConfigWithData:withCompletionHandler:]_block_invoke', symObjAddr: 0x7DB, symBinAddr: 0x1771, symSize: 0x3BD }
+  - { offset: 0xD5791, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b, symObjAddr: 0xB98, symBinAddr: 0x1B2E, symSize: 0x44 }
+  - { offset: 0xD57D2, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0xBDC, symBinAddr: 0x1B72, symSize: 0x2C }
+  - { offset: 0xD5815, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig getStringValue:coldFetch:fallbackWithOfflineValue:]', symObjAddr: 0xC08, symBinAddr: 0x1B9E, symSize: 0x183 }
+  - { offset: 0xD59DD, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0xD8B, symBinAddr: 0x1D21, symSize: 0x16 }
+  - { offset: 0xD5A02, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0xDA1, symBinAddr: 0x1D37, symSize: 0xF }
+  - { offset: 0xD5A2D, size: 0x8, addend: 0x0, symName: '___68-[APRemoteConfig getStringValue:coldFetch:fallbackWithOfflineValue:]_block_invoke', symObjAddr: 0xDB0, symBinAddr: 0x1D46, symSize: 0x43D }
+  - { offset: 0xD5D37, size: 0x8, addend: 0x0, symName: '___68-[APRemoteConfig getStringValue:coldFetch:fallbackWithOfflineValue:]_block_invoke_2', symObjAddr: 0x11ED, symBinAddr: 0x2183, symSize: 0x11B }
+  - { offset: 0xD5E16, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56r, symObjAddr: 0x1308, symBinAddr: 0x229E, symSize: 0x4B }
+  - { offset: 0xD5E63, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56r, symObjAddr: 0x1353, symBinAddr: 0x22E9, symSize: 0x3A }
+  - { offset: 0xD5EA6, size: 0x8, addend: 0x0, symName: '___68-[APRemoteConfig getStringValue:coldFetch:fallbackWithOfflineValue:]_block_invoke_2.375', symObjAddr: 0x138D, symBinAddr: 0x2323, symSize: 0x11B }
+  - { offset: 0xD5F85, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig getValue:]', symObjAddr: 0x14A8, symBinAddr: 0x243E, symSize: 0x109 }
+  - { offset: 0xD607F, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig fetchRemoteConfigWithCompletion:]', symObjAddr: 0x15B1, symBinAddr: 0x2547, symSize: 0xB5 }
+  - { offset: 0xD614A, size: 0x8, addend: 0x0, symName: '___50-[APRemoteConfig fetchRemoteConfigWithCompletion:]_block_invoke', symObjAddr: 0x1666, symBinAddr: 0x25FC, symSize: 0x101 }
+  - { offset: 0xD6214, size: 0x8, addend: 0x0, symName: '___50-[APRemoteConfig fetchRemoteConfigWithCompletion:]_block_invoke_2', symObjAddr: 0x1767, symBinAddr: 0x26FD, symSize: 0x20 }
+  - { offset: 0xD628D, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x1787, symBinAddr: 0x271D, symSize: 0x30 }
+  - { offset: 0xD62C2, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig activateFetched]', symObjAddr: 0x17B7, symBinAddr: 0x274D, symSize: 0x158 }
+  - { offset: 0xD640B, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig fetchAndActivate]', symObjAddr: 0x190F, symBinAddr: 0x28A5, symSize: 0x4C }
+  - { offset: 0xD645B, size: 0x8, addend: 0x0, symName: '___34-[APRemoteConfig fetchAndActivate]_block_invoke', symObjAddr: 0x195B, symBinAddr: 0x28F1, symSize: 0x1E }
+  - { offset: 0xD64BA, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig setCurrentLocation:]', symObjAddr: 0x1979, symBinAddr: 0x290F, symSize: 0x6D }
+  - { offset: 0xD6550, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig objectForKeyedSubscript:]', symObjAddr: 0x19E6, symBinAddr: 0x297C, symSize: 0x1A2 }
+  - { offset: 0xD6708, size: 0x8, addend: 0x0, symName: '___42-[APRemoteConfig objectForKeyedSubscript:]_block_invoke', symObjAddr: 0x1B88, symBinAddr: 0x2B1E, symSize: 0x4B }
+  - { offset: 0xD67A3, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig getValueForKey:]', symObjAddr: 0x1BD3, symBinAddr: 0x2B69, symSize: 0xE1C }
+  - { offset: 0xD7029, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig configValueForKey:]', symObjAddr: 0x29EF, symBinAddr: 0x3985, symSize: 0x12 }
+  - { offset: 0xD708B, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig addCustomCriteria:value:]', symObjAddr: 0x2A33, symBinAddr: 0x39C9, symSize: 0xD5 }
+  - { offset: 0xD71AF, size: 0x8, addend: 0x0, symName: '___42-[APRemoteConfig addCustomCriteria:value:]_block_invoke', symObjAddr: 0x2B08, symBinAddr: 0x3A9E, symSize: 0x15C }
+  - { offset: 0xD72EF, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0x2C64, symBinAddr: 0x3BFA, symSize: 0x2C }
+  - { offset: 0xD733C, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig fetchObjectFromArray:matchKey:forValue:]', symObjAddr: 0x2C90, symBinAddr: 0x3C26, symSize: 0xFC }
+  - { offset: 0xD7494, size: 0x8, addend: 0x0, symName: '___57-[APRemoteConfig fetchObjectFromArray:matchKey:forValue:]_block_invoke', symObjAddr: 0x2D8C, symBinAddr: 0x3D22, symSize: 0x5D }
+  - { offset: 0xD753E, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig remoteConfigNotification:]', symObjAddr: 0x2DE9, symBinAddr: 0x3D7F, symSize: 0x51 }
+  - { offset: 0xD75C6, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig lastFetchTime]', symObjAddr: 0x2E3A, symBinAddr: 0x3DD0, symSize: 0xA }
+  - { offset: 0xD75FB, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig lastFetchStatus]', symObjAddr: 0x2E44, symBinAddr: 0x3DDA, symSize: 0xA }
+  - { offset: 0xD7630, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig enableRemoteConfig]', symObjAddr: 0x2E4E, symBinAddr: 0x3DE4, symSize: 0x9 }
+  - { offset: 0xD7665, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig setEnableRemoteConfig:]', symObjAddr: 0x2E57, symBinAddr: 0x3DED, symSize: 0x9 }
+  - { offset: 0xD76A2, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig serialDispatchQueue]', symObjAddr: 0x2E60, symBinAddr: 0x3DF6, symSize: 0xA }
+  - { offset: 0xD76D7, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig setSerialDispatchQueue:]', symObjAddr: 0x2E6A, symBinAddr: 0x3E00, symSize: 0x28 }
+  - { offset: 0xD7739, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig tmpRcInfo]', symObjAddr: 0x2E92, symBinAddr: 0x3E28, symSize: 0xA }
+  - { offset: 0xD776E, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig setTmpRcInfo:]', symObjAddr: 0x2E9C, symBinAddr: 0x3E32, symSize: 0x28 }
+  - { offset: 0xD77D0, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig tmpVersions]', symObjAddr: 0x2EC4, symBinAddr: 0x3E5A, symSize: 0xA }
+  - { offset: 0xD7805, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig setTmpVersions:]', symObjAddr: 0x2ECE, symBinAddr: 0x3E64, symSize: 0x28 }
+  - { offset: 0xD7867, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig rcInfo]', symObjAddr: 0x2EF6, symBinAddr: 0x3E8C, symSize: 0xA }
+  - { offset: 0xD789C, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig versions]', symObjAddr: 0x2F00, symBinAddr: 0x3E96, symSize: 0xA }
+  - { offset: 0xD78D1, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig setVersions:]', symObjAddr: 0x2F0A, symBinAddr: 0x3EA0, symSize: 0x28 }
+  - { offset: 0xD7933, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig allParameters]', symObjAddr: 0x2F32, symBinAddr: 0x3EC8, symSize: 0xA }
+  - { offset: 0xD7968, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig setAllParameters:]', symObjAddr: 0x2F3C, symBinAddr: 0x3ED2, symSize: 0x28 }
+  - { offset: 0xD79CA, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig allConditions]', symObjAddr: 0x2F64, symBinAddr: 0x3EFA, symSize: 0xA }
+  - { offset: 0xD79FF, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig setAllConditions:]', symObjAddr: 0x2F6E, symBinAddr: 0x3F04, symSize: 0x28 }
+  - { offset: 0xD7A61, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig memCache]', symObjAddr: 0x2F96, symBinAddr: 0x3F2C, symSize: 0xA }
+  - { offset: 0xD7A96, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig setMemCache:]', symObjAddr: 0x2FA0, symBinAddr: 0x3F36, symSize: 0x28 }
+  - { offset: 0xD7AF8, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig customCriterias]', symObjAddr: 0x2FC8, symBinAddr: 0x3F5E, symSize: 0xA }
+  - { offset: 0xD7B2D, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig setCustomCriterias:]', symObjAddr: 0x2FD2, symBinAddr: 0x3F68, symSize: 0x28 }
+  - { offset: 0xD7B8F, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig defaultCriteriaKeys]', symObjAddr: 0x2FFA, symBinAddr: 0x3F90, symSize: 0xA }
+  - { offset: 0xD7BC4, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig setDefaultCriteriaKeys:]', symObjAddr: 0x3004, symBinAddr: 0x3F9A, symSize: 0x28 }
+  - { offset: 0xD7C26, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig lastFetchedTime]', symObjAddr: 0x302C, symBinAddr: 0x3FC2, symSize: 0xB }
+  - { offset: 0xD7C5B, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig setLastFetchedTime:]', symObjAddr: 0x3037, symBinAddr: 0x3FCD, symSize: 0xB }
+  - { offset: 0xD7C98, size: 0x8, addend: 0x0, symName: '-[APRemoteConfig .cxx_destruct]', symObjAddr: 0x3042, symBinAddr: 0x3FD8, symSize: 0x8B }
+  - { offset: 0xD86B2, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load]', symObjAddr: 0x0, symBinAddr: 0x4063, symSize: 0x16 }
+  - { offset: 0xD86C0, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load]', symObjAddr: 0x0, symBinAddr: 0x4063, symSize: 0x16 }
+  - { offset: 0xD86E6, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x2A98, symBinAddr: 0x75A8, symSize: 0x0 }
+  - { offset: 0xD8763, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load].cold.1', symObjAddr: 0x38, symBinAddr: 0x40B3, symSize: 0x18 }
+  - { offset: 0xD8791, size: 0x8, addend: 0x0, symName: '___27+[Analytics(Listener) load]_block_invoke', symObjAddr: 0x16, symBinAddr: 0x4079, symSize: 0x22 }
+...

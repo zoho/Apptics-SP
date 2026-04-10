@@ -1,0 +1,261 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/appticts-0639-t/Library/Developer/Xcode/DerivedData/Apptics-Mac-ahqonfiqdzswbpgassejyjdpilmk/Build/Intermediates.noindex/ArchiveIntermediates/AppticsFeedbackKit/InstallationBuildProductsLocation/Library/Frameworks/AppticsFeedbackKit.framework/Versions/A/AppticsFeedbackKit'
+relocations:
+  - { offset: 0xD07EA, size: 0x8, addend: 0x0, symName: _AppticsFeedbackKitVersionString, symObjAddr: 0x0, symBinAddr: 0xB9A8, symSize: 0x0 }
+  - { offset: 0xD081F, size: 0x8, addend: 0x0, symName: _AppticsFeedbackKitVersionNumber, symObjAddr: 0x48, symBinAddr: 0xB9F0, symSize: 0x0 }
+  - { offset: 0xD085C, size: 0x8, addend: 0x0, symName: '+[FKCustomHandlerManager sharedHandlerManager]', symObjAddr: 0x0, symBinAddr: 0xE20, symSize: 0x44 }
+  - { offset: 0xD087B, size: 0x8, addend: 0x0, symName: _sharedHandler, symObjAddr: 0x3D78, symBinAddr: 0x15DF8, symSize: 0x0 }
+  - { offset: 0xD08F2, size: 0x8, addend: 0x0, symName: _onceHandlerToken, symObjAddr: 0x3D80, symBinAddr: 0x15E00, symSize: 0x0 }
+  - { offset: 0xD093F, size: 0x8, addend: 0x0, symName: '+[FKCustomHandlerManager sharedHandlerManager]', symObjAddr: 0x0, symBinAddr: 0xE20, symSize: 0x44 }
+  - { offset: 0xD098D, size: 0x8, addend: 0x0, symName: '+[FKCustomHandlerManager sharedHandlerManager].cold.1', symObjAddr: 0x79C, symBinAddr: 0x94C8, symSize: 0x14 }
+  - { offset: 0xD09A9, size: 0x8, addend: 0x0, symName: '+[FKCustomHandlerManager sharedHandlerManager].cold.1', symObjAddr: 0x79C, symBinAddr: 0x94C8, symSize: 0x14 }
+  - { offset: 0xD09BB, size: 0x8, addend: 0x0, symName: '___46+[FKCustomHandlerManager sharedHandlerManager]_block_invoke', symObjAddr: 0x44, symBinAddr: 0xE64, symSize: 0x4C }
+  - { offset: 0xD09E2, size: 0x8, addend: 0x0, symName: '+[FKCustomHandlerManager setCustomHandler:]', symObjAddr: 0x90, symBinAddr: 0xEB0, symSize: 0x54 }
+  - { offset: 0xD0A21, size: 0x8, addend: 0x0, symName: '+[FKCustomHandlerManager feedbackScreenWillOpen:]', symObjAddr: 0xE4, symBinAddr: 0xF04, symSize: 0xB0 }
+  - { offset: 0xD0A60, size: 0x8, addend: 0x0, symName: '+[FKCustomHandlerManager feedbackScreenWillClose]', symObjAddr: 0x194, symBinAddr: 0xFB4, symSize: 0xA0 }
+  - { offset: 0xD0A8F, size: 0x8, addend: 0x0, symName: '+[FKCustomHandlerManager sendFeedbackBegan]', symObjAddr: 0x234, symBinAddr: 0x1054, symSize: 0xA0 }
+  - { offset: 0xD0ABE, size: 0x8, addend: 0x0, symName: '+[FKCustomHandlerManager sendFeedbackEndWithSuccess]', symObjAddr: 0x2D4, symBinAddr: 0x10F4, symSize: 0xA4 }
+  - { offset: 0xD0B0F, size: 0x8, addend: 0x0, symName: '___52+[FKCustomHandlerManager sendFeedbackEndWithSuccess]_block_invoke', symObjAddr: 0x378, symBinAddr: 0x1198, symSize: 0x4 }
+  - { offset: 0xD0B36, size: 0x8, addend: 0x0, symName: '+[FKCustomHandlerManager sendFeedbackEndWithFailure]', symObjAddr: 0x37C, symBinAddr: 0x119C, symSize: 0xA4 }
+  - { offset: 0xD0B73, size: 0x8, addend: 0x0, symName: '___52+[FKCustomHandlerManager sendFeedbackEndWithFailure]_block_invoke', symObjAddr: 0x420, symBinAddr: 0x1240, symSize: 0x4 }
+  - { offset: 0xD0B9A, size: 0x8, addend: 0x0, symName: '+[FKCustomHandlerManager sendFeedbackEndWithReportBugActive]', symObjAddr: 0x424, symBinAddr: 0x1244, symSize: 0xA4 }
+  - { offset: 0xD0BD7, size: 0x8, addend: 0x0, symName: '___60+[FKCustomHandlerManager sendFeedbackEndWithReportBugActive]_block_invoke', symObjAddr: 0x4C8, symBinAddr: 0x12E8, symSize: 0x4 }
+  - { offset: 0xD0BFE, size: 0x8, addend: 0x0, symName: '+[FKCustomHandlerManager setFeedbackTag]', symObjAddr: 0x4CC, symBinAddr: 0x12EC, symSize: 0xAC }
+  - { offset: 0xD0C31, size: 0x8, addend: 0x0, symName: '+[FKCustomHandlerManager sendReportBegan]', symObjAddr: 0x578, symBinAddr: 0x1398, symSize: 0xA0 }
+  - { offset: 0xD0C60, size: 0x8, addend: 0x0, symName: '+[FKCustomHandlerManager sendReportEndWithSuccess]', symObjAddr: 0x618, symBinAddr: 0x1438, symSize: 0xA0 }
+  - { offset: 0xD0C8F, size: 0x8, addend: 0x0, symName: '+[FKCustomHandlerManager sendReportEndWithFailure]', symObjAddr: 0x6B8, symBinAddr: 0x14D8, symSize: 0xA0 }
+  - { offset: 0xD0CBE, size: 0x8, addend: 0x0, symName: '-[FKCustomHandlerManager sharedCustomHandler]', symObjAddr: 0x758, symBinAddr: 0x1578, symSize: 0x8 }
+  - { offset: 0xD0CF5, size: 0x8, addend: 0x0, symName: '-[FKCustomHandlerManager setSharedCustomHandler:]', symObjAddr: 0x760, symBinAddr: 0x1580, symSize: 0x30 }
+  - { offset: 0xD0D36, size: 0x8, addend: 0x0, symName: '-[FKCustomHandlerManager .cxx_destruct]', symObjAddr: 0x790, symBinAddr: 0x15B0, symSize: 0xC }
+  - { offset: 0xD0F47, size: 0x8, addend: 0x0, symName: '-[ZAAttachmentUploadOperation initWithFeedbackId:withAttachmentId:userID:anonID:]', symObjAddr: 0x0, symBinAddr: 0x15BC, symSize: 0x128 }
+  - { offset: 0xD1073, size: 0x8, addend: 0x0, symName: '-[ZAAttachmentUploadOperation initWithFeedbackId:withAttachmentId:userID:anonID:]', symObjAddr: 0x0, symBinAddr: 0x15BC, symSize: 0x128 }
+  - { offset: 0xD10EA, size: 0x8, addend: 0x0, symName: '-[ZAAttachmentUploadOperation initWithFeedbackId:withLogFilePath:userID:anonID:]', symObjAddr: 0x128, symBinAddr: 0x16E4, symSize: 0x128 }
+  - { offset: 0xD1161, size: 0x8, addend: 0x0, symName: '-[ZAAttachmentUploadOperation dealloc]', symObjAddr: 0x250, symBinAddr: 0x180C, symSize: 0x7C }
+  - { offset: 0xD1194, size: 0x8, addend: 0x0, symName: '-[ZAAttachmentUploadOperation main]', symObjAddr: 0x2CC, symBinAddr: 0x1888, symSize: 0x64 }
+  - { offset: 0xD11C7, size: 0x8, addend: 0x0, symName: '___35-[ZAAttachmentUploadOperation main]_block_invoke', symObjAddr: 0x330, symBinAddr: 0x18EC, symSize: 0xA8 }
+  - { offset: 0xD1259, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x3D8, symBinAddr: 0x1994, symSize: 0x8 }
+  - { offset: 0xD1280, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x3E0, symBinAddr: 0x199C, symSize: 0x8 }
+  - { offset: 0xD129F, size: 0x8, addend: 0x0, symName: '___35-[ZAAttachmentUploadOperation main]_block_invoke.260', symObjAddr: 0x3E8, symBinAddr: 0x19A4, symSize: 0x6C }
+  - { offset: 0xD12EC, size: 0x8, addend: 0x0, symName: '-[ZAAttachmentUploadOperation uploadLogFile]', symObjAddr: 0x454, symBinAddr: 0x1A10, symSize: 0x74 }
+  - { offset: 0xD131F, size: 0x8, addend: 0x0, symName: '___44-[ZAAttachmentUploadOperation uploadLogFile]_block_invoke', symObjAddr: 0x4C8, symBinAddr: 0x1A84, symSize: 0x8F8 }
+  - { offset: 0xD136D, size: 0x8, addend: 0x0, symName: '___44-[ZAAttachmentUploadOperation uploadLogFile]_block_invoke', symObjAddr: 0x4C8, symBinAddr: 0x1A84, symSize: 0x8F8 }
+  - { offset: 0xD1537, size: 0x8, addend: 0x0, symName: '___44-[ZAAttachmentUploadOperation uploadLogFile]_block_invoke_2', symObjAddr: 0xDC0, symBinAddr: 0x237C, symSize: 0x1F8 }
+  - { offset: 0xD1631, size: 0x8, addend: 0x0, symName: '___44-[ZAAttachmentUploadOperation uploadLogFile]_block_invoke_3', symObjAddr: 0xFB8, symBinAddr: 0x2574, symSize: 0xF0 }
+  - { offset: 0xD1680, size: 0x8, addend: 0x0, symName: '-[ZAAttachmentUploadOperation uploadImage]', symObjAddr: 0x10A8, symBinAddr: 0x2664, symSize: 0xA8 }
+  - { offset: 0xD16CA, size: 0x8, addend: 0x0, symName: '___42-[ZAAttachmentUploadOperation uploadImage]_block_invoke', symObjAddr: 0x1150, symBinAddr: 0x270C, symSize: 0x868 }
+  - { offset: 0xD1719, size: 0x8, addend: 0x0, symName: '___42-[ZAAttachmentUploadOperation uploadImage]_block_invoke', symObjAddr: 0x1150, symBinAddr: 0x270C, symSize: 0x868 }
+  - { offset: 0xD18CE, size: 0x8, addend: 0x0, symName: '___42-[ZAAttachmentUploadOperation uploadImage]_block_invoke_2', symObjAddr: 0x19B8, symBinAddr: 0x2F74, symSize: 0x158 }
+  - { offset: 0xD19B5, size: 0x8, addend: 0x0, symName: '___42-[ZAAttachmentUploadOperation uploadImage]_block_invoke_3', symObjAddr: 0x1B10, symBinAddr: 0x30CC, symSize: 0x16C }
+  - { offset: 0xD1A08, size: 0x8, addend: 0x0, symName: '-[ZAAttachmentUploadOperation parseData:withSuccess:]', symObjAddr: 0x1C7C, symBinAddr: 0x3238, symSize: 0xE8 }
+  - { offset: 0xD1A83, size: 0x8, addend: 0x0, symName: '-[ZAAttachmentUploadOperation type]', symObjAddr: 0x1D64, symBinAddr: 0x3320, symSize: 0x10 }
+  - { offset: 0xD1ABA, size: 0x8, addend: 0x0, symName: '-[ZAAttachmentUploadOperation setType:]', symObjAddr: 0x1D74, symBinAddr: 0x3330, symSize: 0xC }
+  - { offset: 0xD1AF9, size: 0x8, addend: 0x0, symName: '-[ZAAttachmentUploadOperation attachmentId]', symObjAddr: 0x1D80, symBinAddr: 0x333C, symSize: 0x10 }
+  - { offset: 0xD1B30, size: 0x8, addend: 0x0, symName: '-[ZAAttachmentUploadOperation setAttachmentId:]', symObjAddr: 0x1D90, symBinAddr: 0x334C, symSize: 0xC }
+  - { offset: 0xD1B6F, size: 0x8, addend: 0x0, symName: '-[ZAAttachmentUploadOperation feedbackId]', symObjAddr: 0x1D9C, symBinAddr: 0x3358, symSize: 0x10 }
+  - { offset: 0xD1BA6, size: 0x8, addend: 0x0, symName: '-[ZAAttachmentUploadOperation setFeedbackId:]', symObjAddr: 0x1DAC, symBinAddr: 0x3368, symSize: 0xC }
+  - { offset: 0xD1BE5, size: 0x8, addend: 0x0, symName: '-[ZAAttachmentUploadOperation logFilePath]', symObjAddr: 0x1DB8, symBinAddr: 0x3374, symSize: 0x10 }
+  - { offset: 0xD1C1C, size: 0x8, addend: 0x0, symName: '-[ZAAttachmentUploadOperation setLogFilePath:]', symObjAddr: 0x1DC8, symBinAddr: 0x3384, symSize: 0xC }
+  - { offset: 0xD1C5B, size: 0x8, addend: 0x0, symName: '-[ZAAttachmentUploadOperation currentIndex]', symObjAddr: 0x1DD4, symBinAddr: 0x3390, symSize: 0x10 }
+  - { offset: 0xD1C92, size: 0x8, addend: 0x0, symName: '-[ZAAttachmentUploadOperation setCurrentIndex:]', symObjAddr: 0x1DE4, symBinAddr: 0x33A0, symSize: 0x10 }
+  - { offset: 0xD1CCF, size: 0x8, addend: 0x0, symName: '-[ZAAttachmentUploadOperation totalCount]', symObjAddr: 0x1DF4, symBinAddr: 0x33B0, symSize: 0x10 }
+  - { offset: 0xD1D06, size: 0x8, addend: 0x0, symName: '-[ZAAttachmentUploadOperation setTotalCount:]', symObjAddr: 0x1E04, symBinAddr: 0x33C0, symSize: 0x10 }
+  - { offset: 0xD1D43, size: 0x8, addend: 0x0, symName: '-[ZAAttachmentUploadOperation aaaUtil]', symObjAddr: 0x1E14, symBinAddr: 0x33D0, symSize: 0x20 }
+  - { offset: 0xD1D7A, size: 0x8, addend: 0x0, symName: '-[ZAAttachmentUploadOperation setAaaUtil:]', symObjAddr: 0x1E34, symBinAddr: 0x33F0, symSize: 0x14 }
+  - { offset: 0xD1DBB, size: 0x8, addend: 0x0, symName: '-[ZAAttachmentUploadOperation .cxx_destruct]', symObjAddr: 0x1E48, symBinAddr: 0x3404, symSize: 0x78 }
+  - { offset: 0xD2348, size: 0x8, addend: 0x0, symName: '-[FeedbackKit anonymStatus]', symObjAddr: 0x0, symBinAddr: 0x347C, symSize: 0x8 }
+  - { offset: 0xD2362, size: 0x8, addend: 0x0, symName: _bSuccessNotification, symObjAddr: 0x660, symBinAddr: 0x15DB0, symSize: 0x0 }
+  - { offset: 0xD2382, size: 0x8, addend: 0x0, symName: _bFailureNotification, symObjAddr: 0x668, symBinAddr: 0x15DB8, symSize: 0x0 }
+  - { offset: 0xD2398, size: 0x8, addend: 0x0, symName: _bClosedScreenNotification, symObjAddr: 0x670, symBinAddr: 0x15DC0, symSize: 0x0 }
+  - { offset: 0xD23AE, size: 0x8, addend: 0x0, symName: _bImageUploadSuccessNotification, symObjAddr: 0x678, symBinAddr: 0x15DC8, symSize: 0x0 }
+  - { offset: 0xD23C4, size: 0x8, addend: 0x0, symName: _bLogUploadSuccessNotification, symObjAddr: 0x680, symBinAddr: 0x15DD0, symSize: 0x0 }
+  - { offset: 0xD23DA, size: 0x8, addend: 0x0, symName: _bAllImagesUploadSuccessNotification, symObjAddr: 0x688, symBinAddr: 0x15DD8, symSize: 0x0 }
+  - { offset: 0xD23F0, size: 0x8, addend: 0x0, symName: _bImageUploadFailureNotification, symObjAddr: 0x690, symBinAddr: 0x15DE0, symSize: 0x0 }
+  - { offset: 0xD2406, size: 0x8, addend: 0x0, symName: _bLogUploadFailureNotification, symObjAddr: 0x698, symBinAddr: 0x15DE8, symSize: 0x0 }
+  - { offset: 0xD241C, size: 0x8, addend: 0x0, symName: _shakeCount, symObjAddr: 0x7970, symBinAddr: 0x15E30, symSize: 0x0 }
+  - { offset: 0xD2439, size: 0x8, addend: 0x0, symName: _shouldDetectShake, symObjAddr: 0x7978, symBinAddr: 0x15E38, symSize: 0x0 }
+  - { offset: 0xD28BE, size: 0x8, addend: 0x0, symName: '-[FeedbackKit anonymStatus]', symObjAddr: 0x0, symBinAddr: 0x347C, symSize: 0x8 }
+  - { offset: 0xD28F5, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setAnonymStatus:]', symObjAddr: 0x8, symBinAddr: 0x3484, symSize: 0x8 }
+  - { offset: 0xD2930, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setTransparencyStatus]', symObjAddr: 0x10, symBinAddr: 0x348C, symSize: 0x8 }
+  - { offset: 0xD2967, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setSetTransparencyStatus:]', symObjAddr: 0x18, symBinAddr: 0x3494, symSize: 0x8 }
+  - { offset: 0xD29A2, size: 0x8, addend: 0x0, symName: '-[FeedbackKit enableAnonymousSender]', symObjAddr: 0x20, symBinAddr: 0x349C, symSize: 0x8 }
+  - { offset: 0xD29D9, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setEnableAnonymousSender:]', symObjAddr: 0x28, symBinAddr: 0x34A4, symSize: 0x8 }
+  - { offset: 0xD2A14, size: 0x8, addend: 0x0, symName: '-[FeedbackKit maskText]', symObjAddr: 0x30, symBinAddr: 0x34AC, symSize: 0x8 }
+  - { offset: 0xD2A4B, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setMaskText:]', symObjAddr: 0x38, symBinAddr: 0x34B4, symSize: 0x8 }
+  - { offset: 0xD2A86, size: 0x8, addend: 0x0, symName: '-[FeedbackKit arrayOfimages]', symObjAddr: 0x40, symBinAddr: 0x34BC, symSize: 0x8 }
+  - { offset: 0xD2ABD, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setArrayOfimages:]', symObjAddr: 0x48, symBinAddr: 0x34C4, symSize: 0x30 }
+  - { offset: 0xD2AFE, size: 0x8, addend: 0x0, symName: '-[FeedbackKit feedback_KitType]', symObjAddr: 0x78, symBinAddr: 0x34F4, symSize: 0xC }
+  - { offset: 0xD2B35, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setFeedback_KitType:]', symObjAddr: 0x84, symBinAddr: 0x3500, symSize: 0x8 }
+  - { offset: 0xD2B74, size: 0x8, addend: 0x0, symName: '-[FeedbackKit feedback_KitScreenCancel]', symObjAddr: 0x8C, symBinAddr: 0x3508, symSize: 0xC }
+  - { offset: 0xD2BAB, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setFeedback_KitScreenCancel:]', symObjAddr: 0x98, symBinAddr: 0x3514, symSize: 0x8 }
+  - { offset: 0xD2BEA, size: 0x8, addend: 0x0, symName: '-[FeedbackKit closeQuartz_Window]', symObjAddr: 0xA0, symBinAddr: 0x351C, symSize: 0xC }
+  - { offset: 0xD2C22, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setCloseQuartz_Window:]', symObjAddr: 0xAC, symBinAddr: 0x3528, symSize: 0x8 }
+  - { offset: 0xD2C62, size: 0x8, addend: 0x0, symName: '-[FeedbackKit freezeQuartz_recordOption]', symObjAddr: 0xB4, symBinAddr: 0x3530, symSize: 0xC }
+  - { offset: 0xD2C9A, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setFreezeQuartz_recordOption:]', symObjAddr: 0xC0, symBinAddr: 0x353C, symSize: 0x8 }
+  - { offset: 0xD2CDA, size: 0x8, addend: 0x0, symName: '-[FeedbackKit flagForRecordSent]', symObjAddr: 0xC8, symBinAddr: 0x3544, symSize: 0xC }
+  - { offset: 0xD2D12, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setFlagForRecordSent:]', symObjAddr: 0xD4, symBinAddr: 0x3550, symSize: 0x8 }
+  - { offset: 0xD2D52, size: 0x8, addend: 0x0, symName: '-[FeedbackKit quartzIDStr]', symObjAddr: 0xDC, symBinAddr: 0x3558, symSize: 0xC }
+  - { offset: 0xD2D8A, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setQuartzIDStr:]', symObjAddr: 0xE8, symBinAddr: 0x3564, symSize: 0x8 }
+  - { offset: 0xD2DCA, size: 0x8, addend: 0x0, symName: '-[FeedbackKit quartzdepartment]', symObjAddr: 0xF0, symBinAddr: 0x356C, symSize: 0xC }
+  - { offset: 0xD2E02, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setQuartzdepartment:]', symObjAddr: 0xFC, symBinAddr: 0x3578, symSize: 0x8 }
+  - { offset: 0xD2E42, size: 0x8, addend: 0x0, symName: '-[FeedbackKit quartzdomain]', symObjAddr: 0x104, symBinAddr: 0x3580, symSize: 0xC }
+  - { offset: 0xD2E7A, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setQuartzdomain:]', symObjAddr: 0x110, symBinAddr: 0x358C, symSize: 0x8 }
+  - { offset: 0xD2EBA, size: 0x8, addend: 0x0, symName: '-[FeedbackKit quartzworkspace]', symObjAddr: 0x118, symBinAddr: 0x3594, symSize: 0xC }
+  - { offset: 0xD2EF2, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setQuartzworkspace:]', symObjAddr: 0x124, symBinAddr: 0x35A0, symSize: 0x8 }
+  - { offset: 0xD2F32, size: 0x8, addend: 0x0, symName: '-[FeedbackKit emailAddress]', symObjAddr: 0x12C, symBinAddr: 0x35A8, symSize: 0x8 }
+  - { offset: 0xD2F6A, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setEmailAddress:]', symObjAddr: 0x134, symBinAddr: 0x35B0, symSize: 0x30 }
+  - { offset: 0xD2FAC, size: 0x8, addend: 0x0, symName: '-[FeedbackKit baseUrl]', symObjAddr: 0x164, symBinAddr: 0x35E0, symSize: 0x8 }
+  - { offset: 0xD2FE4, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setBaseUrl:]', symObjAddr: 0x16C, symBinAddr: 0x35E8, symSize: 0x30 }
+  - { offset: 0xD3026, size: 0x8, addend: 0x0, symName: '-[FeedbackKit sessionStartTime]', symObjAddr: 0x19C, symBinAddr: 0x3618, symSize: 0x8 }
+  - { offset: 0xD305E, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setSessionStartTime:]', symObjAddr: 0x1A4, symBinAddr: 0x3620, symSize: 0x30 }
+  - { offset: 0xD30A0, size: 0x8, addend: 0x0, symName: '-[FeedbackKit reviewAndSendFeedback]', symObjAddr: 0x1D4, symBinAddr: 0x3650, symSize: 0x8 }
+  - { offset: 0xD30D8, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setReviewAndSendFeedback:]', symObjAddr: 0x1DC, symBinAddr: 0x3658, symSize: 0x8 }
+  - { offset: 0xD3114, size: 0x8, addend: 0x0, symName: '-[FeedbackKit diagnoInfo]', symObjAddr: 0x1E4, symBinAddr: 0x3660, symSize: 0x8 }
+  - { offset: 0xD314C, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setDiagnoInfo:]', symObjAddr: 0x1EC, symBinAddr: 0x3668, symSize: 0x30 }
+  - { offset: 0xD318E, size: 0x8, addend: 0x0, symName: '-[FeedbackKit feedbackDiagosticInfo]', symObjAddr: 0x21C, symBinAddr: 0x3698, symSize: 0x8 }
+  - { offset: 0xD31C6, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setFeedbackDiagosticInfo:]', symObjAddr: 0x224, symBinAddr: 0x36A0, symSize: 0x30 }
+  - { offset: 0xD3208, size: 0x8, addend: 0x0, symName: '-[FeedbackKit networkReachableStatus]', symObjAddr: 0x254, symBinAddr: 0x36D0, symSize: 0x8 }
+  - { offset: 0xD3240, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setNetworkReachableStatus:]', symObjAddr: 0x25C, symBinAddr: 0x36D8, symSize: 0x30 }
+  - { offset: 0xD3282, size: 0x8, addend: 0x0, symName: '-[FeedbackKit toAddress]', symObjAddr: 0x28C, symBinAddr: 0x3708, symSize: 0x8 }
+  - { offset: 0xD32B9, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setToAddress:]', symObjAddr: 0x294, symBinAddr: 0x3710, symSize: 0x30 }
+  - { offset: 0xD32FA, size: 0x8, addend: 0x0, symName: '-[FeedbackKit extensionAppGroup]', symObjAddr: 0x2C4, symBinAddr: 0x3740, symSize: 0x8 }
+  - { offset: 0xD3331, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setExtensionAppGroup:]', symObjAddr: 0x2CC, symBinAddr: 0x3748, symSize: 0x30 }
+  - { offset: 0xD3372, size: 0x8, addend: 0x0, symName: '-[FeedbackKit isReachable]', symObjAddr: 0x2FC, symBinAddr: 0x3778, symSize: 0x8 }
+  - { offset: 0xD33A9, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setIsReachable:]', symObjAddr: 0x304, symBinAddr: 0x3780, symSize: 0x8 }
+  - { offset: 0xD33E4, size: 0x8, addend: 0x0, symName: '-[FeedbackKit messageBody]', symObjAddr: 0x30C, symBinAddr: 0x3788, symSize: 0x8 }
+  - { offset: 0xD341B, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setMessageBody:]', symObjAddr: 0x314, symBinAddr: 0x3790, symSize: 0x30 }
+  - { offset: 0xD345C, size: 0x8, addend: 0x0, symName: '-[FeedbackKit networkReachableVia]', symObjAddr: 0x344, symBinAddr: 0x37C0, symSize: 0x8 }
+  - { offset: 0xD3493, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setNetworkReachableVia:]', symObjAddr: 0x34C, symBinAddr: 0x37C8, symSize: 0x8 }
+  - { offset: 0xD34D0, size: 0x8, addend: 0x0, symName: '-[FeedbackKit jproxyURL]', symObjAddr: 0x354, symBinAddr: 0x37D0, symSize: 0x8 }
+  - { offset: 0xD3507, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setJproxyURL:]', symObjAddr: 0x35C, symBinAddr: 0x37D8, symSize: 0x30 }
+  - { offset: 0xD3548, size: 0x8, addend: 0x0, symName: '-[FeedbackKit isEmailIdCompulsory]', symObjAddr: 0x38C, symBinAddr: 0x3808, symSize: 0x8 }
+  - { offset: 0xD357F, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setIsEmailIdCompulsory:]', symObjAddr: 0x394, symBinAddr: 0x3810, symSize: 0x8 }
+  - { offset: 0xD35BA, size: 0x8, addend: 0x0, symName: '-[FeedbackKit isSwitchedOn]', symObjAddr: 0x39C, symBinAddr: 0x3818, symSize: 0xC }
+  - { offset: 0xD35F1, size: 0x8, addend: 0x0, symName: '-[FeedbackKit isScreenShotSwitchedOn]', symObjAddr: 0x3A8, symBinAddr: 0x3824, symSize: 0xC }
+  - { offset: 0xD3628, size: 0x8, addend: 0x0, symName: '-[FeedbackKit maxToleranceLimit]', symObjAddr: 0x3B4, symBinAddr: 0x3830, symSize: 0x8 }
+  - { offset: 0xD365F, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setMaxToleranceLimit:]', symObjAddr: 0x3BC, symBinAddr: 0x3838, symSize: 0x8 }
+  - { offset: 0xD369C, size: 0x8, addend: 0x0, symName: '-[FeedbackKit shouldGetLogs]', symObjAddr: 0x3C4, symBinAddr: 0x3840, symSize: 0x8 }
+  - { offset: 0xD36D3, size: 0x8, addend: 0x0, symName: '-[FeedbackKit setShouldGetLogs:]', symObjAddr: 0x3CC, symBinAddr: 0x3848, symSize: 0x8 }
+  - { offset: 0xD370E, size: 0x8, addend: 0x0, symName: '-[FeedbackKit .cxx_destruct]', symObjAddr: 0x3D4, symBinAddr: 0x3850, symSize: 0x108 }
+  - { offset: 0xD379A, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load]', symObjAddr: 0x0, symBinAddr: 0x3958, symSize: 0x28 }
+  - { offset: 0xD37A8, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load]', symObjAddr: 0x0, symBinAddr: 0x3958, symSize: 0x28 }
+  - { offset: 0xD37CE, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x31F8, symBinAddr: 0x15E08, symSize: 0x0 }
+  - { offset: 0xD3852, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load].cold.1', symObjAddr: 0x5C, symBinAddr: 0x94DC, symSize: 0x14 }
+  - { offset: 0xD386E, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load].cold.1', symObjAddr: 0x5C, symBinAddr: 0x94DC, symSize: 0x14 }
+  - { offset: 0xD3880, size: 0x8, addend: 0x0, symName: '___27+[Analytics(Listener) load]_block_invoke', symObjAddr: 0x28, symBinAddr: 0x3980, symSize: 0x30 }
+  - { offset: 0xD3935, size: 0x8, addend: 0x0, symName: '___27+[Analytics(Listener) load]_block_invoke_2', symObjAddr: 0x58, symBinAddr: 0x39B0, symSize: 0x4 }
+  - { offset: 0xD3A9E, size: 0x8, addend: 0x0, symName: '+[FeedbackKitMacOS listener]', symObjAddr: 0x0, symBinAddr: 0x39B4, symSize: 0x44 }
+  - { offset: 0xD3AB1, size: 0x8, addend: 0x0, symName: '+[FeedbackKitMacOS listener]', symObjAddr: 0x0, symBinAddr: 0x39B4, symSize: 0x44 }
+  - { offset: 0xD3ADB, size: 0x8, addend: 0x0, symName: _listener.listener, symObjAddr: 0x6818, symBinAddr: 0x15E10, symSize: 0x0 }
+  - { offset: 0xD3AF1, size: 0x8, addend: 0x0, symName: _listener.onceToken, symObjAddr: 0x6820, symBinAddr: 0x15E18, symSize: 0x0 }
+  - { offset: 0xD3CE0, size: 0x8, addend: 0x0, symName: '+[FeedbackKitMacOS listener].cold.1', symObjAddr: 0x698, symBinAddr: 0x94F0, symSize: 0x14 }
+  - { offset: 0xD3CFC, size: 0x8, addend: 0x0, symName: '+[FeedbackKitMacOS listener].cold.1', symObjAddr: 0x698, symBinAddr: 0x94F0, symSize: 0x14 }
+  - { offset: 0xD3D0E, size: 0x8, addend: 0x0, symName: '___28+[FeedbackKitMacOS listener]_block_invoke', symObjAddr: 0x44, symBinAddr: 0x39F8, symSize: 0xAC }
+  - { offset: 0xD3D35, size: 0x8, addend: 0x0, symName: '___28+[FeedbackKitMacOS listener]_block_invoke_2', symObjAddr: 0xF0, symBinAddr: 0x3AA4, symSize: 0x10 }
+  - { offset: 0xD3D6C, size: 0x8, addend: 0x0, symName: '-[FeedbackKitMacOS init]', symObjAddr: 0x100, symBinAddr: 0x3AB4, symSize: 0x50 }
+  - { offset: 0xD3DA3, size: 0x8, addend: 0x0, symName: '-[FeedbackKitMacOS startListeners]', symObjAddr: 0x150, symBinAddr: 0x3B04, symSize: 0x68 }
+  - { offset: 0xD3DD6, size: 0x8, addend: 0x0, symName: '-[FeedbackKitMacOS setReachable:]', symObjAddr: 0x1B8, symBinAddr: 0x3B6C, symSize: 0x60 }
+  - { offset: 0xD3E19, size: 0x8, addend: 0x0, symName: '+[FeedbackKitMacOS setDiagnosticInfoObject:]', symObjAddr: 0x218, symBinAddr: 0x3BCC, symSize: 0x94 }
+  - { offset: 0xD3E58, size: 0x8, addend: 0x0, symName: '+[FeedbackKitMacOS setDiagnosticInfo:]', symObjAddr: 0x2AC, symBinAddr: 0x3C60, symSize: 0x68 }
+  - { offset: 0xD3E97, size: 0x8, addend: 0x0, symName: '+[FeedbackKitMacOS enableAnonymousUserAlert:]', symObjAddr: 0x314, symBinAddr: 0x3CC8, symSize: 0x40 }
+  - { offset: 0xD3ED6, size: 0x8, addend: 0x0, symName: '+[FeedbackKitMacOS getLocalizableStringForKey:]', symObjAddr: 0x354, symBinAddr: 0x3D08, symSize: 0xAC }
+  - { offset: 0xD3F1D, size: 0x8, addend: 0x0, symName: '+[FeedbackKitMacOS setSenderEmailAddress:]', symObjAddr: 0x400, symBinAddr: 0x3DB4, symSize: 0x54 }
+  - { offset: 0xD3F5C, size: 0x8, addend: 0x0, symName: '+[FeedbackKitMacOS setFromEmailAddress:]', symObjAddr: 0x454, symBinAddr: 0x3E08, symSize: 0x54 }
+  - { offset: 0xD3F9B, size: 0x8, addend: 0x0, symName: '-[FeedbackKitMacOS emailAddress]', symObjAddr: 0x4A8, symBinAddr: 0x3E5C, symSize: 0x8 }
+  - { offset: 0xD3FD2, size: 0x8, addend: 0x0, symName: '-[FeedbackKitMacOS setEmailAddress:]', symObjAddr: 0x4B0, symBinAddr: 0x3E64, symSize: 0x30 }
+  - { offset: 0xD4013, size: 0x8, addend: 0x0, symName: '-[FeedbackKitMacOS anonymStatus]', symObjAddr: 0x4E0, symBinAddr: 0x3E94, symSize: 0x8 }
+  - { offset: 0xD404A, size: 0x8, addend: 0x0, symName: '-[FeedbackKitMacOS setAnonymStatus:]', symObjAddr: 0x4E8, symBinAddr: 0x3E9C, symSize: 0x8 }
+  - { offset: 0xD4085, size: 0x8, addend: 0x0, symName: '-[FeedbackKitMacOS arrayOfimages]', symObjAddr: 0x4F0, symBinAddr: 0x3EA4, symSize: 0x8 }
+  - { offset: 0xD40BC, size: 0x8, addend: 0x0, symName: '-[FeedbackKitMacOS setArrayOfimages:]', symObjAddr: 0x4F8, symBinAddr: 0x3EAC, symSize: 0x30 }
+  - { offset: 0xD40FD, size: 0x8, addend: 0x0, symName: '-[FeedbackKitMacOS feedback_KitType]', symObjAddr: 0x528, symBinAddr: 0x3EDC, symSize: 0xC }
+  - { offset: 0xD4134, size: 0x8, addend: 0x0, symName: '-[FeedbackKitMacOS setFeedback_KitType:]', symObjAddr: 0x534, symBinAddr: 0x3EE8, symSize: 0x8 }
+  - { offset: 0xD4173, size: 0x8, addend: 0x0, symName: '-[FeedbackKitMacOS feedbackDiagosticInfo]', symObjAddr: 0x53C, symBinAddr: 0x3EF0, symSize: 0x8 }
+  - { offset: 0xD41AA, size: 0x8, addend: 0x0, symName: '-[FeedbackKitMacOS setFeedbackDiagosticInfo:]', symObjAddr: 0x544, symBinAddr: 0x3EF8, symSize: 0x30 }
+  - { offset: 0xD41EB, size: 0x8, addend: 0x0, symName: '-[FeedbackKitMacOS diagnoInfo]', symObjAddr: 0x574, symBinAddr: 0x3F28, symSize: 0x8 }
+  - { offset: 0xD4222, size: 0x8, addend: 0x0, symName: '-[FeedbackKitMacOS setDiagnoInfo:]', symObjAddr: 0x57C, symBinAddr: 0x3F30, symSize: 0x30 }
+  - { offset: 0xD4263, size: 0x8, addend: 0x0, symName: '-[FeedbackKitMacOS baseUrl]', symObjAddr: 0x5AC, symBinAddr: 0x3F60, symSize: 0x8 }
+  - { offset: 0xD429A, size: 0x8, addend: 0x0, symName: '-[FeedbackKitMacOS setBaseUrl:]', symObjAddr: 0x5B4, symBinAddr: 0x3F68, symSize: 0x30 }
+  - { offset: 0xD42DB, size: 0x8, addend: 0x0, symName: '-[FeedbackKitMacOS networkReachableStatus]', symObjAddr: 0x5E4, symBinAddr: 0x3F98, symSize: 0x8 }
+  - { offset: 0xD4312, size: 0x8, addend: 0x0, symName: '-[FeedbackKitMacOS setNetworkReachableStatus:]', symObjAddr: 0x5EC, symBinAddr: 0x3FA0, symSize: 0x30 }
+  - { offset: 0xD4353, size: 0x8, addend: 0x0, symName: '-[FeedbackKitMacOS isReachable]', symObjAddr: 0x61C, symBinAddr: 0x3FD0, symSize: 0x8 }
+  - { offset: 0xD438A, size: 0x8, addend: 0x0, symName: '-[FeedbackKitMacOS setIsReachable:]', symObjAddr: 0x624, symBinAddr: 0x3FD8, symSize: 0x8 }
+  - { offset: 0xD43C5, size: 0x8, addend: 0x0, symName: '-[FeedbackKitMacOS .cxx_destruct]', symObjAddr: 0x62C, symBinAddr: 0x3FE0, symSize: 0x6C }
+  - { offset: 0xD4595, size: 0x8, addend: 0x0, symName: '+[ZABugNetworkManager sharedManager]', symObjAddr: 0x0, symBinAddr: 0x404C, symSize: 0x88 }
+  - { offset: 0xD45A8, size: 0x8, addend: 0x0, symName: '+[ZABugNetworkManager sharedManager]', symObjAddr: 0x0, symBinAddr: 0x404C, symSize: 0x88 }
+  - { offset: 0xD45D2, size: 0x8, addend: 0x0, symName: _sharedManager.sharedManger, symObjAddr: 0x16A20, symBinAddr: 0x15E20, symSize: 0x0 }
+  - { offset: 0xD45E8, size: 0x8, addend: 0x0, symName: _sharedManager.onceToken, symObjAddr: 0x16A28, symBinAddr: 0x15E28, symSize: 0x0 }
+  - { offset: 0xD4708, size: 0x8, addend: 0x0, symName: '___36+[ZABugNetworkManager sharedManager]_block_invoke', symObjAddr: 0x88, symBinAddr: 0x40D4, symSize: 0x104 }
+  - { offset: 0xD4747, size: 0x8, addend: 0x0, symName: '-[ZABugNetworkManager getTimeinLong]', symObjAddr: 0x18C, symBinAddr: 0x41D8, symSize: 0x54 }
+  - { offset: 0xD479A, size: 0x8, addend: 0x0, symName: '-[ZABugNetworkManager setNewDefaultParams]', symObjAddr: 0x1E0, symBinAddr: 0x422C, symSize: 0x6C }
+  - { offset: 0xD47DD, size: 0x8, addend: 0x0, symName: '-[ZABugNetworkManager getAuthindicatorForUserID:anonID:]', symObjAddr: 0x24C, symBinAddr: 0x4298, symSize: 0x148 }
+  - { offset: 0xD4864, size: 0x8, addend: 0x0, symName: '-[ZABugNetworkManager setIdentificationParams:userID:anonID:]', symObjAddr: 0x394, symBinAddr: 0x43E0, symSize: 0x370 }
+  - { offset: 0xD4985, size: 0x8, addend: 0x0, symName: '-[ZABugNetworkManager logUploadSuccessNotification:]', symObjAddr: 0x704, symBinAddr: 0x4750, symSize: 0xA4 }
+  - { offset: 0xD4A07, size: 0x8, addend: 0x0, symName: '-[ZABugNetworkManager imageUploadSuccessNotification:]', symObjAddr: 0x7A8, symBinAddr: 0x47F4, symSize: 0x27C }
+  - { offset: 0xD4B2C, size: 0x8, addend: 0x0, symName: '-[ZABugNetworkManager checkAndRemoveFeedbackDir:]', symObjAddr: 0xA24, symBinAddr: 0x4A70, symSize: 0xA4 }
+  - { offset: 0xD4B8F, size: 0x8, addend: 0x0, symName: '-[ZABugNetworkManager copyCustomLogs:withLogDirPath:]', symObjAddr: 0xAC8, symBinAddr: 0x4B14, symSize: 0x264 }
+  - { offset: 0xD4C69, size: 0x8, addend: 0x0, symName: '___53-[ZABugNetworkManager copyCustomLogs:withLogDirPath:]_block_invoke', symObjAddr: 0xD2C, symBinAddr: 0x4D78, symSize: 0xF8 }
+  - { offset: 0xD4D67, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56r, symObjAddr: 0xE24, symBinAddr: 0x4E70, symSize: 0x44 }
+  - { offset: 0xD4D90, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56r, symObjAddr: 0xE68, symBinAddr: 0x4EB4, symSize: 0x3C }
+  - { offset: 0xD4DAF, size: 0x8, addend: 0x0, symName: '-[ZABugNetworkManager uploadCustomLogs:withLogDirPath:userID:anonID:]', symObjAddr: 0xEA4, symBinAddr: 0x4EF0, symSize: 0x1C8 }
+  - { offset: 0xD4E67, size: 0x8, addend: 0x0, symName: '___69-[ZABugNetworkManager uploadCustomLogs:withLogDirPath:userID:anonID:]_block_invoke', symObjAddr: 0x106C, symBinAddr: 0x50B8, symSize: 0xF0 }
+  - { offset: 0xD4F80, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64s72r, symObjAddr: 0x115C, symBinAddr: 0x51A8, symSize: 0x54 }
+  - { offset: 0xD4FA9, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s72r, symObjAddr: 0x11B0, symBinAddr: 0x51FC, symSize: 0x4C }
+  - { offset: 0xD4FC8, size: 0x8, addend: 0x0, symName: '-[ZABugNetworkManager uploadAttachmentsForFeedback:]', symObjAddr: 0x11FC, symBinAddr: 0x5248, symSize: 0x3F4 }
+  - { offset: 0xD50CC, size: 0x8, addend: 0x0, symName: '___52-[ZABugNetworkManager uploadAttachmentsForFeedback:]_block_invoke', symObjAddr: 0x15F0, symBinAddr: 0x563C, symSize: 0x60 }
+  - { offset: 0xD515E, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40r, symObjAddr: 0x1650, symBinAddr: 0x569C, symSize: 0x34 }
+  - { offset: 0xD5187, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40r, symObjAddr: 0x1684, symBinAddr: 0x56D0, symSize: 0x2C }
+  - { offset: 0xD51A6, size: 0x8, addend: 0x0, symName: '___52-[ZABugNetworkManager uploadAttachmentsForFeedback:]_block_invoke.311', symObjAddr: 0x16B0, symBinAddr: 0x56FC, symSize: 0x128 }
+  - { offset: 0xD52E7, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64s72r80r88r, symObjAddr: 0x17D8, symBinAddr: 0x5824, symSize: 0x74 }
+  - { offset: 0xD5310, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s72r80r88r, symObjAddr: 0x184C, symBinAddr: 0x5898, symSize: 0x64 }
+  - { offset: 0xD532F, size: 0x8, addend: 0x0, symName: '-[ZABugNetworkManager sendFeedback:withImages:ScreenName:email:attachLog:attachDignoInfo:actionType:feedbackType:tag:onSuccess:onFailure:]', symObjAddr: 0x18B0, symBinAddr: 0x58FC, symSize: 0x258 }
+  - { offset: 0xD544A, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x1B08, symBinAddr: 0x5B54, symSize: 0x10 }
+  - { offset: 0xD546F, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x1B18, symBinAddr: 0x5B64, symSize: 0x8 }
+  - { offset: 0xD548E, size: 0x8, addend: 0x0, symName: '___138-[ZABugNetworkManager sendFeedback:withImages:ScreenName:email:attachLog:attachDignoInfo:actionType:feedbackType:tag:onSuccess:onFailure:]_block_invoke', symObjAddr: 0x1B20, symBinAddr: 0x5B6C, symSize: 0xC5C }
+  - { offset: 0xD57E8, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_.362, symObjAddr: 0x277C, symBinAddr: 0x67C8, symSize: 0xC }
+  - { offset: 0xD5811, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_.363, symObjAddr: 0x2788, symBinAddr: 0x67D4, symSize: 0x8 }
+  - { offset: 0xD5830, size: 0x8, addend: 0x0, symName: '___138-[ZABugNetworkManager sendFeedback:withImages:ScreenName:email:attachLog:attachDignoInfo:actionType:feedbackType:tag:onSuccess:onFailure:]_block_invoke.364', symObjAddr: 0x2790, symBinAddr: 0x67DC, symSize: 0x1C8 }
+  - { offset: 0xD59CF, size: 0x8, addend: 0x0, symName: '___138-[ZABugNetworkManager sendFeedback:withImages:ScreenName:email:attachLog:attachDignoInfo:actionType:feedbackType:tag:onSuccess:onFailure:]_block_invoke_2', symObjAddr: 0x2958, symBinAddr: 0x69A4, symSize: 0x1104 }
+  - { offset: 0xD5F2B, size: 0x8, addend: 0x0, symName: '___138-[ZABugNetworkManager sendFeedback:withImages:ScreenName:email:attachLog:attachDignoInfo:actionType:feedbackType:tag:onSuccess:onFailure:]_block_invoke_3', symObjAddr: 0x3A5C, symBinAddr: 0x7AA8, symSize: 0x444 }
+  - { offset: 0xD6137, size: 0x8, addend: 0x0, symName: '___138-[ZABugNetworkManager sendFeedback:withImages:ScreenName:email:attachLog:attachDignoInfo:actionType:feedbackType:tag:onSuccess:onFailure:]_block_invoke_4', symObjAddr: 0x3EA0, symBinAddr: 0x7EEC, symSize: 0x490 }
+  - { offset: 0xD630D, size: 0x8, addend: 0x0, symName: '___138-[ZABugNetworkManager sendFeedback:withImages:ScreenName:email:attachLog:attachDignoInfo:actionType:feedbackType:tag:onSuccess:onFailure:]_block_invoke_5', symObjAddr: 0x4330, symBinAddr: 0x837C, symSize: 0xC4 }
+  - { offset: 0xD63A4, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48r56r, symObjAddr: 0x43F4, symBinAddr: 0x8440, symSize: 0x4C }
+  - { offset: 0xD63CD, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48r56r, symObjAddr: 0x4440, symBinAddr: 0x848C, symSize: 0x40 }
+  - { offset: 0xD63EC, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64b72b80r88r96r, symObjAddr: 0x4480, symBinAddr: 0x84CC, symSize: 0x8C }
+  - { offset: 0xD6415, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s72s80r88r96r, symObjAddr: 0x450C, symBinAddr: 0x8558, symSize: 0x6C }
+  - { offset: 0xD6434, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64b72b80r88r96r104r, symObjAddr: 0x4578, symBinAddr: 0x85C4, symSize: 0x9C }
+  - { offset: 0xD645D, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s72s80r88r96r104r, symObjAddr: 0x4614, symBinAddr: 0x8660, symSize: 0x78 }
+  - { offset: 0xD647C, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64s72s80s88s96s104s112b120b128r136r144r152r, symObjAddr: 0x468C, symBinAddr: 0x86D8, symSize: 0xCC }
+  - { offset: 0xD64A5, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s72s80s88s96s104s112s120s128r136r144r152r, symObjAddr: 0x4758, symBinAddr: 0x87A4, symSize: 0xA8 }
+  - { offset: 0xD64C4, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64s72s80s88s96s104b112b120r128r136r144r, symObjAddr: 0x4800, symBinAddr: 0x884C, symSize: 0xC4 }
+  - { offset: 0xD64ED, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s72s80s88s96s104s112s120r128r136r144r, symObjAddr: 0x48C4, symBinAddr: 0x8910, symSize: 0xA0 }
+  - { offset: 0xD650C, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64s72b80b88r96r, symObjAddr: 0x4964, symBinAddr: 0x89B0, symSize: 0x84 }
+  - { offset: 0xD6535, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s72s80s88r96r, symObjAddr: 0x49E8, symBinAddr: 0x8A34, symSize: 0x68 }
+  - { offset: 0xD6554, size: 0x8, addend: 0x0, symName: '-[ZABugNetworkManager parseData:withSuccess:aaaUtil:]', symObjAddr: 0x4A50, symBinAddr: 0x8A9C, symSize: 0x124 }
+  - { offset: 0xD662B, size: 0x8, addend: 0x0, symName: '-[ZABugNetworkManager processError:aaaUtil:]', symObjAddr: 0x4B74, symBinAddr: 0x8BC0, symSize: 0x18C }
+  - { offset: 0xD6695, size: 0x8, addend: 0x0, symName: '-[ZABugNetworkManager newImageName]', symObjAddr: 0x4D00, symBinAddr: 0x8D4C, symSize: 0x40 }
+  - { offset: 0xD676A, size: 0x8, addend: 0x0, symName: '-[ZABugNetworkManager encodeURLParams:]', symObjAddr: 0x4D40, symBinAddr: 0x8D8C, symSize: 0x74 }
+  - { offset: 0xD67AF, size: 0x8, addend: 0x0, symName: '-[ZABugNetworkManager beginBackgroundUpdateTask]', symObjAddr: 0x4DB4, symBinAddr: 0x8E00, symSize: 0x4 }
+  - { offset: 0xD67DF, size: 0x8, addend: 0x0, symName: '-[ZABugNetworkManager endBackgroundUpdateTask]', symObjAddr: 0x4DB8, symBinAddr: 0x8E04, symSize: 0x4 }
+  - { offset: 0xD680F, size: 0x8, addend: 0x0, symName: '-[ZABugNetworkManager operationQueue]', symObjAddr: 0x4DBC, symBinAddr: 0x8E08, symSize: 0x8 }
+  - { offset: 0xD6846, size: 0x8, addend: 0x0, symName: '-[ZABugNetworkManager setOperationQueue:]', symObjAddr: 0x4DC4, symBinAddr: 0x8E10, symSize: 0x30 }
+  - { offset: 0xD6887, size: 0x8, addend: 0x0, symName: '-[ZABugNetworkManager .cxx_destruct]', symObjAddr: 0x4DF4, symBinAddr: 0x8E40, symSize: 0xC }
+  - { offset: 0xD7774, size: 0x8, addend: 0x0, symName: '-[FeedbackDiagosticInfo initWithSegments:]', symObjAddr: 0x0, symBinAddr: 0x8E4C, symSize: 0x6C }
+  - { offset: 0xD7862, size: 0x8, addend: 0x0, symName: '-[FeedbackDiagosticInfo initWithSegments:]', symObjAddr: 0x0, symBinAddr: 0x8E4C, symSize: 0x6C }
+  - { offset: 0xD78A9, size: 0x8, addend: 0x0, symName: '-[FeedbackDiagosticInfo jsonify]', symObjAddr: 0x6C, symBinAddr: 0x8EB8, symSize: 0x270 }
+  - { offset: 0xD7954, size: 0x8, addend: 0x0, symName: '-[FeedbackDiagosticInfo segments]', symObjAddr: 0x2DC, symBinAddr: 0x9128, symSize: 0x8 }
+  - { offset: 0xD798B, size: 0x8, addend: 0x0, symName: '-[FeedbackDiagosticInfo setSegments:]', symObjAddr: 0x2E4, symBinAddr: 0x9130, symSize: 0x30 }
+  - { offset: 0xD79CC, size: 0x8, addend: 0x0, symName: '-[FeedbackDiagosticInfo .cxx_destruct]', symObjAddr: 0x314, symBinAddr: 0x9160, symSize: 0xC }
+  - { offset: 0xD79FF, size: 0x8, addend: 0x0, symName: '-[Segment initWithTitle:properties:]', symObjAddr: 0x320, symBinAddr: 0x916C, symSize: 0x94 }
+  - { offset: 0xD7A56, size: 0x8, addend: 0x0, symName: '-[Segment title]', symObjAddr: 0x3B4, symBinAddr: 0x9200, symSize: 0x8 }
+  - { offset: 0xD7A8D, size: 0x8, addend: 0x0, symName: '-[Segment setTitle:]', symObjAddr: 0x3BC, symBinAddr: 0x9208, symSize: 0x30 }
+  - { offset: 0xD7ACE, size: 0x8, addend: 0x0, symName: '-[Segment properties]', symObjAddr: 0x3EC, symBinAddr: 0x9238, symSize: 0x8 }
+  - { offset: 0xD7B05, size: 0x8, addend: 0x0, symName: '-[Segment setProperties:]', symObjAddr: 0x3F4, symBinAddr: 0x9240, symSize: 0x30 }
+  - { offset: 0xD7B46, size: 0x8, addend: 0x0, symName: '-[Segment .cxx_destruct]', symObjAddr: 0x424, symBinAddr: 0x9270, symSize: 0x30 }
+  - { offset: 0xD7B79, size: 0x8, addend: 0x0, symName: '-[Property initWithName:status:]', symObjAddr: 0x454, symBinAddr: 0x92A0, symSize: 0x94 }
+  - { offset: 0xD7BD0, size: 0x8, addend: 0x0, symName: '-[Property jsonify]', symObjAddr: 0x4E8, symBinAddr: 0x9334, symSize: 0xF4 }
+  - { offset: 0xD7C45, size: 0x8, addend: 0x0, symName: '-[Property name]', symObjAddr: 0x5DC, symBinAddr: 0x9428, symSize: 0x8 }
+  - { offset: 0xD7C7C, size: 0x8, addend: 0x0, symName: '-[Property setName:]', symObjAddr: 0x5E4, symBinAddr: 0x9430, symSize: 0x30 }
+  - { offset: 0xD7CBD, size: 0x8, addend: 0x0, symName: '-[Property status]', symObjAddr: 0x614, symBinAddr: 0x9460, symSize: 0x8 }
+  - { offset: 0xD7CF4, size: 0x8, addend: 0x0, symName: '-[Property setStatus:]', symObjAddr: 0x61C, symBinAddr: 0x9468, symSize: 0x30 }
+  - { offset: 0xD7D35, size: 0x8, addend: 0x0, symName: '-[Property .cxx_destruct]', symObjAddr: 0x64C, symBinAddr: 0x9498, symSize: 0x30 }
+...

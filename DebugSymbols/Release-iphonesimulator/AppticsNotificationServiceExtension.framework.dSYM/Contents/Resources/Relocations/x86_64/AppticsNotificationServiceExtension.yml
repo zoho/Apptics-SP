@@ -1,0 +1,109 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/appticts-0639-t/Library/Developer/Xcode/DerivedData/Apptics-dzrqlnnjyljckdcajdfczditujtu/Build/Intermediates.noindex/ArchiveIntermediates/AppticsNotificationServiceExtension/InstallationBuildProductsLocation/Library/Frameworks/AppticsNotificationServiceExtension.framework/AppticsNotificationServiceExtension'
+relocations:
+  - { offset: 0x5D0F7, size: 0x8, addend: 0x0, symName: _AppticsNotificationServiceExtensionVersionString, symObjAddr: 0x0, symBinAddr: 0x8DC0, symSize: 0x0 }
+  - { offset: 0x5D12C, size: 0x8, addend: 0x0, symName: _AppticsNotificationServiceExtensionVersionNumber, symObjAddr: 0x50, symBinAddr: 0x8E10, symSize: 0x0 }
+  - { offset: 0x5D169, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension setRequest:]', symObjAddr: 0x0, symBinAddr: 0xE40, symSize: 0x192 }
+  - { offset: 0x5D2F6, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension setRequest:]', symObjAddr: 0x0, symBinAddr: 0xE40, symSize: 0x192 }
+  - { offset: 0x5D479, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension isNotificationFromApptics:]', symObjAddr: 0x192, symBinAddr: 0xFD2, symSize: 0xA0 }
+  - { offset: 0x5D52D, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension getAdditionalPayload]', symObjAddr: 0x232, symBinAddr: 0x1072, symSize: 0x8F }
+  - { offset: 0x5D5A8, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension didReceiveNotificationExtensionWithContent:contentHandler:]', symObjAddr: 0x2C1, symBinAddr: 0x1101, symSize: 0x11B }
+  - { offset: 0x5D736, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension createActionForButton:]', symObjAddr: 0x3DC, symBinAddr: 0x121C, symSize: 0x307 }
+  - { offset: 0x5DABA, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension existingCategories]', symObjAddr: 0x6E3, symBinAddr: 0x1523, symSize: 0x148 }
+  - { offset: 0x5DC18, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x82B, symBinAddr: 0x166B, symSize: 0x16 }
+  - { offset: 0x5DC3D, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x841, symBinAddr: 0x1681, symSize: 0xF }
+  - { offset: 0x5DC68, size: 0x8, addend: 0x0, symName: '___49-[APPushNotificationExtension existingCategories]_block_invoke', symObjAddr: 0x850, symBinAddr: 0x1690, symSize: 0x41 }
+  - { offset: 0x5DD04, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40r, symObjAddr: 0x891, symBinAddr: 0x16D1, symSize: 0x30 }
+  - { offset: 0x5DD39, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40r, symObjAddr: 0x8C1, symBinAddr: 0x1701, symSize: 0x27 }
+  - { offset: 0x5DD64, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension populateNotificationContent:withContentHandler:]', symObjAddr: 0x8E8, symBinAddr: 0x1728, symSize: 0x7D }
+  - { offset: 0x5DE36, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension addActionButtons:request:withMutableNotificationContent:]', symObjAddr: 0x965, symBinAddr: 0x17A5, symSize: 0xB59 }
+  - { offset: 0x5E76F, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension constructNotificatio:]', symObjAddr: 0x14BE, symBinAddr: 0x22FE, symSize: 0x65F }
+  - { offset: 0x5ED5B, size: 0x8, addend: 0x0, symName: '___52-[APPushNotificationExtension constructNotificatio:]_block_invoke', symObjAddr: 0x1B1D, symBinAddr: 0x295D, symSize: 0x161 }
+  - { offset: 0x5EEE0, size: 0x8, addend: 0x0, symName: '___52-[APPushNotificationExtension constructNotificatio:]_block_invoke_2', symObjAddr: 0x1C7E, symBinAddr: 0x2ABE, symSize: 0xDC }
+  - { offset: 0x5EFBC, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x1D5A, symBinAddr: 0x2B9A, symSize: 0xF }
+  - { offset: 0x5EFEF, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x1D69, symBinAddr: 0x2BA9, symSize: 0xF }
+  - { offset: 0x5F01A, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x1D78, symBinAddr: 0x2BB8, symSize: 0x25 }
+  - { offset: 0x5F05B, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x1D9D, symBinAddr: 0x2BDD, symSize: 0x25 }
+  - { offset: 0x5F092, size: 0x8, addend: 0x0, symName: '___52-[APPushNotificationExtension constructNotificatio:]_block_invoke.227', symObjAddr: 0x1DC2, symBinAddr: 0x2C02, symSize: 0xDC }
+  - { offset: 0x5F16E, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension fileExtensionForResponse:]', symObjAddr: 0x1E9E, symBinAddr: 0x2CDE, symSize: 0x152 }
+  - { offset: 0x5F2A5, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension loadAttachmentForURL:completionHandler:]', symObjAddr: 0x1FF0, symBinAddr: 0x2E30, symSize: 0x191 }
+  - { offset: 0x5F40B, size: 0x8, addend: 0x0, symName: '___70-[APPushNotificationExtension loadAttachmentForURL:completionHandler:]_block_invoke', symObjAddr: 0x2181, symBinAddr: 0x2FC1, symSize: 0x208 }
+  - { offset: 0x5F689, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b48r, symObjAddr: 0x2389, symBinAddr: 0x31C9, symSize: 0x42 }
+  - { offset: 0x5F6BE, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48r, symObjAddr: 0x23CB, symBinAddr: 0x320B, symSize: 0x33 }
+  - { offset: 0x5F6F5, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension loadAttachmentsForURLs:completionHandler:]', symObjAddr: 0x23FE, symBinAddr: 0x323E, symSize: 0x80 }
+  - { offset: 0x5F7E1, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension loadAttachmentAtIndex:urls:collectedAttachments:completionHandler:]', symObjAddr: 0x247E, symBinAddr: 0x32BE, symSize: 0x17B }
+  - { offset: 0x5F9C8, size: 0x8, addend: 0x0, symName: '___97-[APPushNotificationExtension loadAttachmentAtIndex:urls:collectedAttachments:completionHandler:]_block_invoke', symObjAddr: 0x25F9, symBinAddr: 0x3439, symSize: 0x4C }
+  - { offset: 0x5FA77, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56b, symObjAddr: 0x2645, symBinAddr: 0x3485, symSize: 0x4B }
+  - { offset: 0x5FAC4, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s, symObjAddr: 0x2690, symBinAddr: 0x34D0, symSize: 0x33 }
+  - { offset: 0x5FB13, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension carouselImageURLsFromPayload:]', symObjAddr: 0x26C3, symBinAddr: 0x3503, symSize: 0xA52 }
+  - { offset: 0x60213, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension normalizedURLFromRawString:]', symObjAddr: 0x3115, symBinAddr: 0x3F55, symSize: 0x2CB }
+  - { offset: 0x604AC, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension plainTextFromHTMLString:]', symObjAddr: 0x33E0, symBinAddr: 0x4220, symSize: 0x29F }
+  - { offset: 0x60707, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension normalizedBannerText:]', symObjAddr: 0x367F, symBinAddr: 0x44BF, symSize: 0x30F }
+  - { offset: 0x60963, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension stripHTMLTags:]', symObjAddr: 0x398E, symBinAddr: 0x47CE, symSize: 0x157 }
+  - { offset: 0x60AB8, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension deliverNotification]', symObjAddr: 0x3AE5, symBinAddr: 0x4925, symSize: 0x9D }
+  - { offset: 0x60B50, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension parseBodyString:]', symObjAddr: 0x3B82, symBinAddr: 0x49C2, symSize: 0x355 }
+  - { offset: 0x60E1C, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension getSharedDefaults]', symObjAddr: 0x3ED7, symBinAddr: 0x4D17, symSize: 0xD8 }
+  - { offset: 0x60EF4, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension findValueForKey:inDictionary:]', symObjAddr: 0x3FAF, symBinAddr: 0x4DEF, symSize: 0x3BB }
+  - { offset: 0x61143, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension getTimeinLong]', symObjAddr: 0x436A, symBinAddr: 0x51AA, symSize: 0x69 }
+  - { offset: 0x611C5, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension appGroup]', symObjAddr: 0x43D3, symBinAddr: 0x5213, symSize: 0xA }
+  - { offset: 0x611FA, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension setAppGroup:]', symObjAddr: 0x43DD, symBinAddr: 0x521D, symSize: 0x28 }
+  - { offset: 0x6125C, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension contentHandler]', symObjAddr: 0x4405, symBinAddr: 0x5245, symSize: 0xA }
+  - { offset: 0x61291, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension setContentHandler:]', symObjAddr: 0x440F, symBinAddr: 0x524F, symSize: 0xF }
+  - { offset: 0x612D0, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension bestAttemptContent]', symObjAddr: 0x441E, symBinAddr: 0x525E, symSize: 0xA }
+  - { offset: 0x61305, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension setBestAttemptContent:]', symObjAddr: 0x4428, symBinAddr: 0x5268, symSize: 0x28 }
+  - { offset: 0x61367, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension addInfo]', symObjAddr: 0x4450, symBinAddr: 0x5290, symSize: 0xA }
+  - { offset: 0x6139C, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension setAddInfo:]', symObjAddr: 0x445A, symBinAddr: 0x529A, symSize: 0x28 }
+  - { offset: 0x613FE, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension request]', symObjAddr: 0x4482, symBinAddr: 0x52C2, symSize: 0xA }
+  - { offset: 0x61433, size: 0x8, addend: 0x0, symName: '-[APPushNotificationExtension .cxx_destruct]', symObjAddr: 0x448C, symBinAddr: 0x52CC, symSize: 0x49 }
+  - { offset: 0x619B7, size: 0x8, addend: 0x0, symName: '+[MDRun runWithText:]', symObjAddr: 0x0, symBinAddr: 0x5315, symSize: 0x4D }
+  - { offset: 0x61B14, size: 0x8, addend: 0x0, symName: '+[MDRun runWithText:]', symObjAddr: 0x0, symBinAddr: 0x5315, symSize: 0x4D }
+  - { offset: 0x61BA4, size: 0x8, addend: 0x0, symName: '-[MDRun inheritFrom:]', symObjAddr: 0x4D, symBinAddr: 0x5362, symSize: 0x114 }
+  - { offset: 0x61D1E, size: 0x8, addend: 0x0, symName: '-[MDRun formatKey]', symObjAddr: 0x161, symBinAddr: 0x5476, symSize: 0x15B }
+  - { offset: 0x61E16, size: 0x8, addend: 0x0, symName: '-[MDRun copyWithZone:]', symObjAddr: 0x2BC, symBinAddr: 0x55D1, symSize: 0x15B }
+  - { offset: 0x61FCD, size: 0x8, addend: 0x0, symName: '-[MDRun text]', symObjAddr: 0x417, symBinAddr: 0x572C, symSize: 0xA }
+  - { offset: 0x62002, size: 0x8, addend: 0x0, symName: '-[MDRun setText:]', symObjAddr: 0x421, symBinAddr: 0x5736, symSize: 0xF }
+  - { offset: 0x62041, size: 0x8, addend: 0x0, symName: '-[MDRun bold]', symObjAddr: 0x430, symBinAddr: 0x5745, symSize: 0x9 }
+  - { offset: 0x62076, size: 0x8, addend: 0x0, symName: '-[MDRun setBold:]', symObjAddr: 0x439, symBinAddr: 0x574E, symSize: 0x9 }
+  - { offset: 0x620B3, size: 0x8, addend: 0x0, symName: '-[MDRun italic]', symObjAddr: 0x442, symBinAddr: 0x5757, symSize: 0x9 }
+  - { offset: 0x620E8, size: 0x8, addend: 0x0, symName: '-[MDRun setItalic:]', symObjAddr: 0x44B, symBinAddr: 0x5760, symSize: 0x9 }
+  - { offset: 0x62125, size: 0x8, addend: 0x0, symName: '-[MDRun underline]', symObjAddr: 0x454, symBinAddr: 0x5769, symSize: 0x9 }
+  - { offset: 0x6215A, size: 0x8, addend: 0x0, symName: '-[MDRun setUnderline:]', symObjAddr: 0x45D, symBinAddr: 0x5772, symSize: 0x9 }
+  - { offset: 0x62197, size: 0x8, addend: 0x0, symName: '-[MDRun strike]', symObjAddr: 0x466, symBinAddr: 0x577B, symSize: 0x9 }
+  - { offset: 0x621CC, size: 0x8, addend: 0x0, symName: '-[MDRun setStrike:]', symObjAddr: 0x46F, symBinAddr: 0x5784, symSize: 0x9 }
+  - { offset: 0x62209, size: 0x8, addend: 0x0, symName: '-[MDRun color]', symObjAddr: 0x478, symBinAddr: 0x578D, symSize: 0xA }
+  - { offset: 0x6223E, size: 0x8, addend: 0x0, symName: '-[MDRun setColor:]', symObjAddr: 0x482, symBinAddr: 0x5797, symSize: 0xF }
+  - { offset: 0x6227D, size: 0x8, addend: 0x0, symName: '-[MDRun linkHref]', symObjAddr: 0x491, symBinAddr: 0x57A6, symSize: 0xA }
+  - { offset: 0x622B2, size: 0x8, addend: 0x0, symName: '-[MDRun setLinkHref:]', symObjAddr: 0x49B, symBinAddr: 0x57B0, symSize: 0xF }
+  - { offset: 0x622F1, size: 0x8, addend: 0x0, symName: '-[MDRun isRaw]', symObjAddr: 0x4AA, symBinAddr: 0x57BF, symSize: 0x9 }
+  - { offset: 0x62326, size: 0x8, addend: 0x0, symName: '-[MDRun setIsRaw:]', symObjAddr: 0x4B3, symBinAddr: 0x57C8, symSize: 0x9 }
+  - { offset: 0x62363, size: 0x8, addend: 0x0, symName: '-[MDRun .cxx_destruct]', symObjAddr: 0x4BC, symBinAddr: 0x57D1, symSize: 0x33 }
+  - { offset: 0x62396, size: 0x8, addend: 0x0, symName: '+[MarkdownConverter htmlFromMarkdown:]', symObjAddr: 0x4EF, symBinAddr: 0x5804, symSize: 0x190 }
+  - { offset: 0x6257B, size: 0x8, addend: 0x0, symName: '___38+[MarkdownConverter htmlFromMarkdown:]_block_invoke', symObjAddr: 0x67F, symBinAddr: 0x5994, symSize: 0xB9 }
+  - { offset: 0x6262B, size: 0x8, addend: 0x0, symName: '___38+[MarkdownConverter htmlFromMarkdown:]_block_invoke_2', symObjAddr: 0x738, symBinAddr: 0x5A4D, symSize: 0xB9 }
+  - { offset: 0x626DB, size: 0x8, addend: 0x0, symName: '___38+[MarkdownConverter htmlFromMarkdown:]_block_invoke_3', symObjAddr: 0x7F1, symBinAddr: 0x5B06, symSize: 0x74 }
+  - { offset: 0x62742, size: 0x8, addend: 0x0, symName: '___38+[MarkdownConverter htmlFromMarkdown:]_block_invoke_4', symObjAddr: 0x865, symBinAddr: 0x5B7A, symSize: 0x74 }
+  - { offset: 0x627A9, size: 0x8, addend: 0x0, symName: '___38+[MarkdownConverter htmlFromMarkdown:]_block_invoke_5', symObjAddr: 0x8D9, symBinAddr: 0x5BEE, symSize: 0x74 }
+  - { offset: 0x62810, size: 0x8, addend: 0x0, symName: '___38+[MarkdownConverter htmlFromMarkdown:]_block_invoke_6', symObjAddr: 0x94D, symBinAddr: 0x5C62, symSize: 0x74 }
+  - { offset: 0x62877, size: 0x8, addend: 0x0, symName: '___38+[MarkdownConverter htmlFromMarkdown:]_block_invoke_7', symObjAddr: 0x9C1, symBinAddr: 0x5CD6, symSize: 0x74 }
+  - { offset: 0x628DE, size: 0x8, addend: 0x0, symName: '+[MarkdownConverter markdownFromHTML:]', symObjAddr: 0xA35, symBinAddr: 0x5D4A, symSize: 0xC1 }
+  - { offset: 0x629B2, size: 0x8, addend: 0x0, symName: '+[MarkdownConverter collectRuns:inherited:]', symObjAddr: 0xAF6, symBinAddr: 0x5E0B, symSize: 0xB26 }
+  - { offset: 0x632A3, size: 0x8, addend: 0x0, symName: '+[MarkdownConverter runsToMarkdown:]', symObjAddr: 0x161C, symBinAddr: 0x6931, symSize: 0x655 }
+  - { offset: 0x63745, size: 0x8, addend: 0x0, symName: '+[MarkdownConverter wrapText:run:]', symObjAddr: 0x1C71, symBinAddr: 0x6F86, symSize: 0x296 }
+  - { offset: 0x639D5, size: 0x8, addend: 0x0, symName: '+[MarkdownConverter regex:replace:with:]', symObjAddr: 0x1F07, symBinAddr: 0x721C, symSize: 0x3F8 }
+  - { offset: 0x63D2F, size: 0x8, addend: 0x0, symName: '+[MarkdownConverter tagName:]', symObjAddr: 0x22FF, symBinAddr: 0x7614, symSize: 0xF8 }
+  - { offset: 0x63E60, size: 0x8, addend: 0x0, symName: '+[MarkdownConverter innerHTMLOf:afterOffset:tagName:advanceTo:]', symObjAddr: 0x23F7, symBinAddr: 0x770C, symSize: 0x340 }
+  - { offset: 0x641D6, size: 0x8, addend: 0x0, symName: '+[MarkdownConverter hexColorFromStyle:]', symObjAddr: 0x2737, symBinAddr: 0x7A4C, symSize: 0x185 }
+  - { offset: 0x642FD, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x28BC, symBinAddr: 0x7BD1, symSize: 0x16 }
+  - { offset: 0x64322, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x28D2, symBinAddr: 0x7BE7, symSize: 0xF }
+  - { offset: 0x6434D, size: 0x8, addend: 0x0, symName: '___39+[MarkdownConverter hexColorFromStyle:]_block_invoke', symObjAddr: 0x28E1, symBinAddr: 0x7BF6, symSize: 0x8D }
+  - { offset: 0x643ED, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32r, symObjAddr: 0x296E, symBinAddr: 0x7C83, symSize: 0x17 }
+  - { offset: 0x64416, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32r, symObjAddr: 0x2985, symBinAddr: 0x7C9A, symSize: 0x13 }
+  - { offset: 0x64435, size: 0x8, addend: 0x0, symName: '___39+[MarkdownConverter hexColorFromStyle:]_block_invoke.274', symObjAddr: 0x2998, symBinAddr: 0x7CAD, symSize: 0x141 }
+  - { offset: 0x6456B, size: 0x8, addend: 0x0, symName: '+[MarkdownConverter hexColorFromFont:]', symObjAddr: 0x2AD9, symBinAddr: 0x7DEE, symSize: 0x124 }
+  - { offset: 0x6466F, size: 0x8, addend: 0x0, symName: '___38+[MarkdownConverter hexColorFromFont:]_block_invoke', symObjAddr: 0x2BFD, symBinAddr: 0x7F12, symSize: 0x8D }
+  - { offset: 0x6470F, size: 0x8, addend: 0x0, symName: '+[MarkdownConverter hrefFrom:]', symObjAddr: 0x2C8A, symBinAddr: 0x7F9F, symSize: 0x124 }
+  - { offset: 0x64813, size: 0x8, addend: 0x0, symName: '___30+[MarkdownConverter hrefFrom:]_block_invoke', symObjAddr: 0x2DAE, symBinAddr: 0x80C3, symSize: 0x8D }
+  - { offset: 0x648B3, size: 0x8, addend: 0x0, symName: '+[MarkdownConverter decodeEntities:]', symObjAddr: 0x2E3B, symBinAddr: 0x8150, symSize: 0xAF }
+  - { offset: 0x64992, size: 0x8, addend: 0x0, symName: '___36+[MarkdownConverter decodeEntities:]_block_invoke', symObjAddr: 0x2EEA, symBinAddr: 0x81FF, symSize: 0x92 }
+...
