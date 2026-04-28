@@ -1,0 +1,136 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/jai-13322/Library/Developer/Xcode/DerivedData/Apptics-ccjyicllufnqkefyezduqrwtelwr/Build/Intermediates.noindex/ArchiveIntermediates/AppticsInAppUpdate/InstallationBuildProductsLocation/Library/Frameworks/AppticsInAppUpdate.framework/Versions/A/AppticsInAppUpdate'
+relocations:
+  - { offset: 0x1101A4, size: 0x8, addend: 0x0, symName: _AppticsInAppUpdateVersionString, symObjAddr: 0x0, symBinAddr: 0x8810, symSize: 0x0 }
+  - { offset: 0x1101D9, size: 0x8, addend: 0x0, symName: _AppticsInAppUpdateVersionNumber, symObjAddr: 0x48, symBinAddr: 0x8858, symSize: 0x0 }
+  - { offset: 0x110216, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load]', symObjAddr: 0x0, symBinAddr: 0xDF0, symSize: 0x16 }
+  - { offset: 0x110224, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load]', symObjAddr: 0x0, symBinAddr: 0xDF0, symSize: 0x16 }
+  - { offset: 0x11024A, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x2C68, symBinAddr: 0xD3B8, symSize: 0x0 }
+  - { offset: 0x1102C7, size: 0x8, addend: 0x0, symName: '+[Analytics(Listener) load].cold.1', symObjAddr: 0x38, symBinAddr: 0x860F, symSize: 0x18 }
+  - { offset: 0x1102F5, size: 0x8, addend: 0x0, symName: '___27+[Analytics(Listener) load]_block_invoke', symObjAddr: 0x16, symBinAddr: 0xE06, symSize: 0x22 }
+  - { offset: 0x110407, size: 0x8, addend: 0x0, symName: '-[AppUpdateWindow init]', symObjAddr: 0x0, symBinAddr: 0xE28, symSize: 0xCA }
+  - { offset: 0x110421, size: 0x8, addend: 0x0, symName: _alertOSXcurrentWindow, symObjAddr: 0x24C98, symBinAddr: 0xD3D0, symSize: 0x0 }
+  - { offset: 0x11043C, size: 0x8, addend: 0x0, symName: _alertOnWindow, symObjAddr: 0x24CA0, symBinAddr: 0xD3D8, symSize: 0x0 }
+  - { offset: 0x110457, size: 0x8, addend: 0x0, symName: _apCurrentWindow, symObjAddr: 0x24CA8, symBinAddr: 0xD3E0, symSize: 0x0 }
+  - { offset: 0x110461, size: 0x8, addend: 0x0, symName: '+[APAppUpdateManager sharedManager]', symObjAddr: 0x615, symBinAddr: 0x143D, symSize: 0x63 }
+  - { offset: 0x11048B, size: 0x8, addend: 0x0, symName: _sharedManager.sharedManger, symObjAddr: 0x24CB0, symBinAddr: 0xD3C0, symSize: 0x0 }
+  - { offset: 0x1104A1, size: 0x8, addend: 0x0, symName: _sharedManager.onceToken, symObjAddr: 0x24CB8, symBinAddr: 0xD3C8, symSize: 0x0 }
+  - { offset: 0x1106FB, size: 0x8, addend: 0x0, symName: '-[AppUpdateWindow init]', symObjAddr: 0x0, symBinAddr: 0xE28, symSize: 0xCA }
+  - { offset: 0x110780, size: 0x8, addend: 0x0, symName: '-[AppUpdateWindow pointInside:withEvent:]', symObjAddr: 0xCA, symBinAddr: 0xEF2, symSize: 0x105 }
+  - { offset: 0x1108B4, size: 0x8, addend: 0x0, symName: '-[AppUpdateWindow views]', symObjAddr: 0x1CF, symBinAddr: 0xFF7, symSize: 0x11 }
+  - { offset: 0x1108E9, size: 0x8, addend: 0x0, symName: '-[AppUpdateWindow setViews:]', symObjAddr: 0x1E0, symBinAddr: 0x1008, symSize: 0x14 }
+  - { offset: 0x11092A, size: 0x8, addend: 0x0, symName: '-[AppUpdateWindow .cxx_destruct]', symObjAddr: 0x1F4, symBinAddr: 0x101C, symSize: 0x13 }
+  - { offset: 0x11095D, size: 0x8, addend: 0x0, symName: '-[AlertPresentOnWindow init]', symObjAddr: 0x207, symBinAddr: 0x102F, symSize: 0xCA }
+  - { offset: 0x1109E2, size: 0x8, addend: 0x0, symName: '-[AlertPresentOnWindow pointInside:withEvent:]', symObjAddr: 0x2D1, symBinAddr: 0x10F9, symSize: 0x105 }
+  - { offset: 0x110B16, size: 0x8, addend: 0x0, symName: '-[AlertPresentOnWindow views]', symObjAddr: 0x3D6, symBinAddr: 0x11FE, symSize: 0x11 }
+  - { offset: 0x110B4B, size: 0x8, addend: 0x0, symName: '-[AlertPresentOnWindow setViews:]', symObjAddr: 0x3E7, symBinAddr: 0x120F, symSize: 0x14 }
+  - { offset: 0x110B8C, size: 0x8, addend: 0x0, symName: '-[AlertPresentOnWindow .cxx_destruct]', symObjAddr: 0x3FB, symBinAddr: 0x1223, symSize: 0x13 }
+  - { offset: 0x110BBF, size: 0x8, addend: 0x0, symName: '-[OSXAlertWindow init]', symObjAddr: 0x40E, symBinAddr: 0x1236, symSize: 0xCA }
+  - { offset: 0x110C44, size: 0x8, addend: 0x0, symName: '-[OSXAlertWindow pointInside:withEvent:]', symObjAddr: 0x4D8, symBinAddr: 0x1300, symSize: 0x105 }
+  - { offset: 0x110D78, size: 0x8, addend: 0x0, symName: '-[OSXAlertWindow views]', symObjAddr: 0x5DD, symBinAddr: 0x1405, symSize: 0x11 }
+  - { offset: 0x110DAD, size: 0x8, addend: 0x0, symName: '-[OSXAlertWindow setViews:]', symObjAddr: 0x5EE, symBinAddr: 0x1416, symSize: 0x14 }
+  - { offset: 0x110DEE, size: 0x8, addend: 0x0, symName: '-[OSXAlertWindow .cxx_destruct]', symObjAddr: 0x602, symBinAddr: 0x142A, symSize: 0x13 }
+  - { offset: 0x110E61, size: 0x8, addend: 0x0, symName: '___35+[APAppUpdateManager sharedManager]_block_invoke', symObjAddr: 0x678, symBinAddr: 0x14A0, symSize: 0x13D }
+  - { offset: 0x110F8E, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager appUpdateNotification:]', symObjAddr: 0x7B5, symBinAddr: 0x15DD, symSize: 0x10C }
+  - { offset: 0x111134, size: 0x8, addend: 0x0, symName: '___44-[APAppUpdateManager appUpdateNotification:]_block_invoke', symObjAddr: 0x8C1, symBinAddr: 0x16E9, symSize: 0x16 }
+  - { offset: 0x11117F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x8D7, symBinAddr: 0x16FF, symSize: 0xF }
+  - { offset: 0x1111B2, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x8E6, symBinAddr: 0x170E, symSize: 0xF }
+  - { offset: 0x1111DD, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager sceneWillEnterForeground:]', symObjAddr: 0x8F5, symBinAddr: 0x171D, symSize: 0x6 }
+  - { offset: 0x111218, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager applicationDidBecomeActive:]', symObjAddr: 0x8FB, symBinAddr: 0x1723, symSize: 0x25F }
+  - { offset: 0x111473, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager updateStatsWithAction:AndUpdateId:previousAppVersion:previousAppReleaseVersion:]', symObjAddr: 0xB5A, symBinAddr: 0x1982, symSize: 0x238 }
+  - { offset: 0x11171D, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager updateStatsWithAction:AndUpdateId:]', symObjAddr: 0xD92, symBinAddr: 0x1BBA, symSize: 0x1FD }
+  - { offset: 0x11196B, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager checkForUpdateAvailability]', symObjAddr: 0xF8F, symBinAddr: 0x1DB7, symSize: 0x8E }
+  - { offset: 0x111A07, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager handleOfffline:with:]', symObjAddr: 0x101D, symBinAddr: 0x1E45, symSize: 0xEB }
+  - { offset: 0x111B29, size: 0x8, addend: 0x0, symName: '___42-[APAppUpdateManager handleOfffline:with:]_block_invoke', symObjAddr: 0x1108, symBinAddr: 0x1F30, symSize: 0x98 }
+  - { offset: 0x111C42, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b, symObjAddr: 0x11A0, symBinAddr: 0x1FC8, symSize: 0x44 }
+  - { offset: 0x111C83, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0x11E4, symBinAddr: 0x200C, symSize: 0x2C }
+  - { offset: 0x111CC6, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager showOnWindow:]', symObjAddr: 0x1210, symBinAddr: 0x2038, symSize: 0x15F }
+  - { offset: 0x111DE8, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager updateTheUI:with:]', symObjAddr: 0x136F, symBinAddr: 0x2197, symSize: 0x1003 }
+  - { offset: 0x112A45, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x2372, symBinAddr: 0x319A, symSize: 0x16 }
+  - { offset: 0x112A6A, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x2388, symBinAddr: 0x31B0, symSize: 0xF }
+  - { offset: 0x112A95, size: 0x8, addend: 0x0, symName: '___39-[APAppUpdateManager updateTheUI:with:]_block_invoke', symObjAddr: 0x2397, symBinAddr: 0x31BF, symSize: 0x247 }
+  - { offset: 0x112C7A, size: 0x8, addend: 0x0, symName: '___39-[APAppUpdateManager updateTheUI:with:]_block_invoke_2', symObjAddr: 0x25DE, symBinAddr: 0x3406, symSize: 0x6B2 }
+  - { offset: 0x1130FE, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64s72r80r, symObjAddr: 0x2C90, symBinAddr: 0x3AB8, symSize: 0x6B }
+  - { offset: 0x113163, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s72r80r, symObjAddr: 0x2CFB, symBinAddr: 0x3B23, symSize: 0x56 }
+  - { offset: 0x1131BE, size: 0x8, addend: 0x0, symName: '___39-[APAppUpdateManager updateTheUI:with:]_block_invoke.524', symObjAddr: 0x2D51, symBinAddr: 0x3B79, symSize: 0x5F6 }
+  - { offset: 0x1135CE, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64s72s80s88r96r, symObjAddr: 0x3347, symBinAddr: 0x416F, symSize: 0x79 }
+  - { offset: 0x11364B, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s72s80s88r96r, symObjAddr: 0x33C0, symBinAddr: 0x41E8, symSize: 0x64 }
+  - { offset: 0x1136BE, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager createAlertView:description:]', symObjAddr: 0x3424, symBinAddr: 0x424C, symSize: 0x1F }
+  - { offset: 0x113733, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager addUpdateAction:withStoreUrl:title:]', symObjAddr: 0x3443, symBinAddr: 0x426B, symSize: 0x1BA }
+  - { offset: 0x1138E1, size: 0x8, addend: 0x0, symName: '___57-[APAppUpdateManager addUpdateAction:withStoreUrl:title:]_block_invoke', symObjAddr: 0x35FD, symBinAddr: 0x4425, symSize: 0x9C }
+  - { offset: 0x1139A7, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0x3699, symBinAddr: 0x44C1, symSize: 0x2C }
+  - { offset: 0x1139F4, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager addRemindLaterAction:withReminder:title:updateKey:]', symObjAddr: 0x36C5, symBinAddr: 0x44ED, symSize: 0x1F2 }
+  - { offset: 0x113BFC, size: 0x8, addend: 0x0, symName: '___72-[APAppUpdateManager addRemindLaterAction:withReminder:title:updateKey:]_block_invoke', symObjAddr: 0x38B7, symBinAddr: 0x46DF, symSize: 0x86 }
+  - { offset: 0x113CCD, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s, symObjAddr: 0x393D, symBinAddr: 0x4765, symSize: 0x33 }
+  - { offset: 0x113D26, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s, symObjAddr: 0x3970, symBinAddr: 0x4798, symSize: 0x33 }
+  - { offset: 0x113D75, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager addSkipAction:title:updateKey:]', symObjAddr: 0x39A3, symBinAddr: 0x47CB, symSize: 0x1B6 }
+  - { offset: 0x113F23, size: 0x8, addend: 0x0, symName: '___52-[APAppUpdateManager addSkipAction:title:updateKey:]_block_invoke', symObjAddr: 0x3B59, symBinAddr: 0x4981, symSize: 0x82 }
+  - { offset: 0x113FE3, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager addContinueAction:title:updateKey:]', symObjAddr: 0x3BDB, symBinAddr: 0x4A03, symSize: 0x1B6 }
+  - { offset: 0x114191, size: 0x8, addend: 0x0, symName: '___56-[APAppUpdateManager addContinueAction:title:updateKey:]_block_invoke', symObjAddr: 0x3D91, symBinAddr: 0x4BB9, symSize: 0x74 }
+  - { offset: 0x114245, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager addSoftwareUpdateAction:title:updateKey:]', symObjAddr: 0x3E05, symBinAddr: 0x4C2D, symSize: 0x1A1 }
+  - { offset: 0x1143D0, size: 0x8, addend: 0x0, symName: '___62-[APAppUpdateManager addSoftwareUpdateAction:title:updateKey:]_block_invoke', symObjAddr: 0x3FA6, symBinAddr: 0x4DCE, symSize: 0xAC }
+  - { offset: 0x114496, size: 0x8, addend: 0x0, symName: '___62-[APAppUpdateManager addSoftwareUpdateAction:title:updateKey:]_block_invoke_2', symObjAddr: 0x4052, symBinAddr: 0x4E7A, symSize: 0x6 }
+  - { offset: 0x1144CC, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x4058, symBinAddr: 0x4E80, symSize: 0x25 }
+  - { offset: 0x11450D, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x407D, symBinAddr: 0x4EA5, symSize: 0x25 }
+  - { offset: 0x114544, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager buttonAction:]', symObjAddr: 0x40A2, symBinAddr: 0x4ECA, symSize: 0x6 }
+  - { offset: 0x114581, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager launchAppStore:]', symObjAddr: 0x40A8, symBinAddr: 0x4ED0, symSize: 0x89 }
+  - { offset: 0x11461D, size: 0x8, addend: 0x0, symName: '___37-[APAppUpdateManager launchAppStore:]_block_invoke', symObjAddr: 0x4131, symBinAddr: 0x4F59, symSize: 0xCA }
+  - { offset: 0x1146FA, size: 0x8, addend: 0x0, symName: '___37-[APAppUpdateManager launchAppStore:]_block_invoke_2', symObjAddr: 0x41FB, symBinAddr: 0x5023, symSize: 0x6 }
+  - { offset: 0x114730, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager connectToItunes]', symObjAddr: 0x4201, symBinAddr: 0x5029, symSize: 0x19C }
+  - { offset: 0x1148D6, size: 0x8, addend: 0x0, symName: '___37-[APAppUpdateManager connectToItunes]_block_invoke', symObjAddr: 0x439D, symBinAddr: 0x51C5, symSize: 0x1F5 }
+  - { offset: 0x114B12, size: 0x8, addend: 0x0, symName: '___37-[APAppUpdateManager connectToItunes]_block_invoke_2', symObjAddr: 0x4592, symBinAddr: 0x53BA, symSize: 0x88 }
+  - { offset: 0x114BC2, size: 0x8, addend: 0x0, symName: '___37-[APAppUpdateManager connectToItunes]_block_invoke_3', symObjAddr: 0x461A, symBinAddr: 0x5442, symSize: 0x6 }
+  - { offset: 0x114BF8, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager resetReminders]', symObjAddr: 0x4620, symBinAddr: 0x5448, symSize: 0x43 }
+  - { offset: 0x114C48, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager remindMeIn:forUpdate:]', symObjAddr: 0x4663, symBinAddr: 0x548B, symSize: 0x342 }
+  - { offset: 0x114FAA, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager shouldConvertToForceForAnUpdate:forceAfter:]', symObjAddr: 0x49A5, symBinAddr: 0x57CD, symSize: 0x160 }
+  - { offset: 0x115150, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager shouldRemindForUpdate:]', symObjAddr: 0x4B05, symBinAddr: 0x592D, symSize: 0x124 }
+  - { offset: 0x1152E8, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager resetSkipUpdate]', symObjAddr: 0x4C29, symBinAddr: 0x5A51, symSize: 0x20 }
+  - { offset: 0x115324, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager shouldSkipThisUpdate:]', symObjAddr: 0x4C49, symBinAddr: 0x5A71, symSize: 0xF9 }
+  - { offset: 0x11547C, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager skipThisUpdate:]', symObjAddr: 0x4D42, symBinAddr: 0x5B6A, symSize: 0xF5 }
+  - { offset: 0x115571, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager presentAlertViewOnViewController:title:description:updateiId:reminder:storeurl:updateKey:reminderTitle:updateTitle:ignoreTitle:]', symObjAddr: 0x4E37, symBinAddr: 0x5C5F, symSize: 0x7C2 }
+  - { offset: 0x115CAD, size: 0x8, addend: 0x0, symName: '___149-[APAppUpdateManager presentAlertViewOnViewController:title:description:updateiId:reminder:storeurl:updateKey:reminderTitle:updateTitle:ignoreTitle:]_block_invoke', symObjAddr: 0x55F9, symBinAddr: 0x6421, symSize: 0x70 }
+  - { offset: 0x115D3F, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager createalertWindowOnViewcontroller:]', symObjAddr: 0x5669, symBinAddr: 0x6491, symSize: 0x1B1 }
+  - { offset: 0x115E8D, size: 0x8, addend: 0x0, symName: '___56-[APAppUpdateManager createalertWindowOnViewcontroller:]_block_invoke', symObjAddr: 0x581A, symBinAddr: 0x6642, symSize: 0x70 }
+  - { offset: 0x115F1F, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager addViewControllerToTheWindow:updateDetails:localeInfo:updateiId:reminder:storeurl:updateKey:alertOption:]', symObjAddr: 0x588A, symBinAddr: 0x66B2, symSize: 0x41C }
+  - { offset: 0x1163AD, size: 0x8, addend: 0x0, symName: '___126-[APAppUpdateManager addViewControllerToTheWindow:updateDetails:localeInfo:updateiId:reminder:storeurl:updateKey:alertOption:]_block_invoke', symObjAddr: 0x5CA6, symBinAddr: 0x6ACE, symSize: 0x5E }
+  - { offset: 0x116442, size: 0x8, addend: 0x0, symName: '___126-[APAppUpdateManager addViewControllerToTheWindow:updateDetails:localeInfo:updateiId:reminder:storeurl:updateKey:alertOption:]_block_invoke.670', symObjAddr: 0x5D04, symBinAddr: 0x6B2C, symSize: 0x46 }
+  - { offset: 0x1164DC, size: 0x8, addend: 0x0, symName: '___126-[APAppUpdateManager addViewControllerToTheWindow:updateDetails:localeInfo:updateiId:reminder:storeurl:updateKey:alertOption:]_block_invoke.673', symObjAddr: 0x5D4A, symBinAddr: 0x6B72, symSize: 0x42 }
+  - { offset: 0x116565, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager createCurrentWindow:localeInfo:updateiId:reminder:storeurl:updateKey:with:]', symObjAddr: 0x5D8C, symBinAddr: 0x6BB4, symSize: 0x2FF }
+  - { offset: 0x116848, size: 0x8, addend: 0x0, symName: '___96-[APAppUpdateManager createCurrentWindow:localeInfo:updateiId:reminder:storeurl:updateKey:with:]_block_invoke', symObjAddr: 0x608B, symBinAddr: 0x6EB3, symSize: 0xA2 }
+  - { offset: 0x1168AF, size: 0x8, addend: 0x0, symName: '___96-[APAppUpdateManager createCurrentWindow:localeInfo:updateiId:reminder:storeurl:updateKey:with:]_block_invoke_2', symObjAddr: 0x612D, symBinAddr: 0x6F55, symSize: 0x3A }
+  - { offset: 0x11695F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64s72s, symObjAddr: 0x6167, symBinAddr: 0x6F8F, symSize: 0x41 }
+  - { offset: 0x1169D0, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s72s, symObjAddr: 0x61A8, symBinAddr: 0x6FD0, symSize: 0x41 }
+  - { offset: 0x116A37, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager viewcontrollerDelegateActions:updateiId:reminder:storeurl:updateKey:]', symObjAddr: 0x61E9, symBinAddr: 0x7011, symSize: 0x2B4 }
+  - { offset: 0x116D28, size: 0x8, addend: 0x0, symName: '___90-[APAppUpdateManager viewcontrollerDelegateActions:updateiId:reminder:storeurl:updateKey:]_block_invoke', symObjAddr: 0x649D, symBinAddr: 0x72C5, symSize: 0x6C }
+  - { offset: 0x116DC9, size: 0x8, addend: 0x0, symName: '___90-[APAppUpdateManager viewcontrollerDelegateActions:updateiId:reminder:storeurl:updateKey:]_block_invoke_2', symObjAddr: 0x6509, symBinAddr: 0x7331, symSize: 0x54 }
+  - { offset: 0x116E6F, size: 0x8, addend: 0x0, symName: '___90-[APAppUpdateManager viewcontrollerDelegateActions:updateiId:reminder:storeurl:updateKey:]_block_invoke_3', symObjAddr: 0x655D, symBinAddr: 0x7385, symSize: 0x50 }
+  - { offset: 0x116F04, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager presentCustomViewControllerWithUpdateDetails:localeInfo:updateiId:reminder:storeurl:alertOption:updateKey:with:]', symObjAddr: 0x65AD, symBinAddr: 0x73D5, symSize: 0x494 }
+  - { offset: 0x1173E3, size: 0x8, addend: 0x0, symName: '___133-[APAppUpdateManager presentCustomViewControllerWithUpdateDetails:localeInfo:updateiId:reminder:storeurl:alertOption:updateKey:with:]_block_invoke', symObjAddr: 0x6A41, symBinAddr: 0x7869, symSize: 0xA2 }
+  - { offset: 0x11744A, size: 0x8, addend: 0x0, symName: '___133-[APAppUpdateManager presentCustomViewControllerWithUpdateDetails:localeInfo:updateiId:reminder:storeurl:alertOption:updateKey:with:]_block_invoke_2', symObjAddr: 0x6AE3, symBinAddr: 0x790B, symSize: 0x3A }
+  - { offset: 0x1174FA, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager updateCurrentWindow]', symObjAddr: 0x6B1D, symBinAddr: 0x7945, symSize: 0x42 }
+  - { offset: 0x11753D, size: 0x8, addend: 0x0, symName: '___41-[APAppUpdateManager updateCurrentWindow]_block_invoke', symObjAddr: 0x6B5F, symBinAddr: 0x7987, symSize: 0xA2 }
+  - { offset: 0x1175A4, size: 0x8, addend: 0x0, symName: '___41-[APAppUpdateManager updateCurrentWindow]_block_invoke_2', symObjAddr: 0x6C01, symBinAddr: 0x7A29, symSize: 0x3B }
+  - { offset: 0x1175F9, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager closeNativeCurrentWindow]', symObjAddr: 0x6C3C, symBinAddr: 0x7A64, symSize: 0x42 }
+  - { offset: 0x11763C, size: 0x8, addend: 0x0, symName: '___46-[APAppUpdateManager closeNativeCurrentWindow]_block_invoke', symObjAddr: 0x6C7E, symBinAddr: 0x7AA6, symSize: 0x6 }
+  - { offset: 0x117665, size: 0x8, addend: 0x0, symName: '___46-[APAppUpdateManager closeNativeCurrentWindow]_block_invoke_2', symObjAddr: 0x6C84, symBinAddr: 0x7AAC, symSize: 0x3B }
+  - { offset: 0x1176BA, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager setAppUpdateAction:updateInfo:]', symObjAddr: 0x6CBF, symBinAddr: 0x7AE7, symSize: 0x2C5 }
+  - { offset: 0x11799A, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager sendStats:event:]', symObjAddr: 0x6F84, symBinAddr: 0x7DAC, symSize: 0x2C4 }
+  - { offset: 0x117C7A, size: 0x8, addend: 0x0, symName: '+[APAppUpdateManager checkForAppUpdatesWithCompletion:]', symObjAddr: 0x7248, symBinAddr: 0x8070, symSize: 0x6D }
+  - { offset: 0x117D10, size: 0x8, addend: 0x0, symName: '+[APAppUpdateManager checkForUpdateAvailability:with:]', symObjAddr: 0x72B5, symBinAddr: 0x80DD, symSize: 0x154 }
+  - { offset: 0x117E96, size: 0x8, addend: 0x0, symName: '+[APAppUpdateManager checkAndShowVersionAlert:]', symObjAddr: 0x7409, symBinAddr: 0x8231, symSize: 0x14E }
+  - { offset: 0x117FEE, size: 0x8, addend: 0x0, symName: '___47+[APAppUpdateManager checkAndShowVersionAlert:]_block_invoke', symObjAddr: 0x7557, symBinAddr: 0x837F, symSize: 0xDE }
+  - { offset: 0x118115, size: 0x8, addend: 0x0, symName: '+[APAppUpdateManager setAppUpdateAction:updateInfo:]', symObjAddr: 0x7635, symBinAddr: 0x845D, symSize: 0x7B }
+  - { offset: 0x1181C3, size: 0x8, addend: 0x0, symName: '+[APAppUpdateManager sendStatsForUpdate:event:]', symObjAddr: 0x76B0, symBinAddr: 0x84D8, symSize: 0x7B }
+  - { offset: 0x118271, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager updateInfo]', symObjAddr: 0x772B, symBinAddr: 0x8553, symSize: 0xA }
+  - { offset: 0x1182A6, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager setUpdateInfo:]', symObjAddr: 0x7735, symBinAddr: 0x855D, symSize: 0x11 }
+  - { offset: 0x1182E7, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager updateResponseHandler]', symObjAddr: 0x7746, symBinAddr: 0x856E, symSize: 0xA }
+  - { offset: 0x11831C, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager setUpdateResponseHandler:]', symObjAddr: 0x7750, symBinAddr: 0x8578, symSize: 0xF }
+  - { offset: 0x11835B, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager containerViewController]', symObjAddr: 0x775F, symBinAddr: 0x8587, symSize: 0xA }
+  - { offset: 0x118390, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager setContainerViewController:]', symObjAddr: 0x7769, symBinAddr: 0x8591, symSize: 0x11 }
+  - { offset: 0x1183D1, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager shouldRespond]', symObjAddr: 0x777A, symBinAddr: 0x85A2, symSize: 0x9 }
+  - { offset: 0x118406, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager setShouldRespond:]', symObjAddr: 0x7783, symBinAddr: 0x85AB, symSize: 0x9 }
+  - { offset: 0x118443, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager gotResponse]', symObjAddr: 0x778C, symBinAddr: 0x85B4, symSize: 0x9 }
+  - { offset: 0x118478, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager setGotResponse:]', symObjAddr: 0x7795, symBinAddr: 0x85BD, symSize: 0x9 }
+  - { offset: 0x1184B5, size: 0x8, addend: 0x0, symName: '-[APAppUpdateManager .cxx_destruct]', symObjAddr: 0x779E, symBinAddr: 0x85C6, symSize: 0x49 }
+...
